@@ -24,7 +24,7 @@ In the working copy root, run the following command for the local devserver:
 
 .. code-block:: bash
 
-  env SITEURL=http://localhost:8000 make devserver
+  env SITEURL=http://localhost:8000 make devserver [PORT=8000]
 
 Branch convention
 =================
