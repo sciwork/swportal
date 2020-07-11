@@ -31,7 +31,7 @@
       <div style="height: 72px">
         <a id="brand_logo" class="hidden flex md:flex lg:flex justify-center items-center no-underline hover:no-underline" href="{{ SITEURL }}/">
           <img class="inline h-10 w-10 mr-2 mt-1" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/android-chrome-192x192.png"/>
-          <h2 class="text-white">Sciwork</h3>
+          <h2 class="text-white">Sciwork</h2>
         </a>
       </div>
 
@@ -107,64 +107,62 @@
 
 <script>
   var header = document.getElementById('header')
-  var brand_logo = document.getElementById('brand_logo')
-	var nav_content = document.getElementById('nav_content');
-	var nav_toggle = document.getElementById('nav_toggle');
+  var header_bg = 'rgba(0, 0, 0, 0.9)';
+  var brand_logo = document.getElementById('brand_logo');
+  var nav_content = document.getElementById('nav_content');
+  var nav_toggle = document.getElementById('nav_toggle');
   var nav_icon = document.getElementById('nav_icon');
+  var cover_bg = document.getElementById('cover-bg');
 
-	document.addEventListener('scroll', function() {
-    if (window.scrollY > 10) {
-      header.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
-    } else {
-	    header.style.backgroundColor = '';
+  document.addEventListener("DOMContentLoaded", function(event) {
+    if (typeof(cover_bg) == 'undefined' || cover_bg == null) {
+      header.style.backgroundColor = header_bg;
     }
-	});
+  });
 
-	document.onclick = function(e) {
-	  var target = (e && e.target) || (event && event.srcElement);
+  document.addEventListener('scroll', function() {
+    if (typeof(cover_bg) != 'undefined' && cover_bg != null) {
+      if (window.scrollY > 10) {
+        header.style.backgroundColor = header_bg;
+      } else {
+        header.style.backgroundColor = '';
+      }
+    }
+  });
 
-	  // Nav Menu
-	  if (!checkParent(target, nav_content)) {
-		  // click NOT on the menu
-		  if (checkParent(target, nav_toggle)) {
-		    // click on the link
-		    if (nav_content.classList.contains('hidden')) {
+  document.onclick = function(e) {
+    var target = (e && e.target) || (event && event.srcElement);
+
+    if (!checkParent(target, nav_content)) {
+      if (checkParent(target, nav_toggle)) {
+        if (nav_content.classList.contains('hidden')) {
           nav_icon.classList.add('open');
-			    nav_content.classList.remove('hidden');
+          nav_content.classList.remove('hidden');
           brand_logo.classList.remove('hidden');
-          header.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+          header.style.backgroundColor = header_bg;
           document.body.classList.add('overflow-hidden');
-		    } else {
+        } else {
           nav_icon.classList.remove('open');
           nav_content.classList.add('hidden');
           brand_logo.classList.add('hidden');
           document.body.classList.remove('overflow-hidden');
-          if (window.scrollY <= 10) {
+          if (typeof(cover_bg) != 'undefined' && cover_bg != null && window.scrollY <= 10) {
             header.style.backgroundColor = '';
           }
         }
-		  } else {
-		    // click both outside link and outside menu, hide menu
-        nav_icon.classList.remove('open');
-		    nav_content.classList.add('hidden');
-        brand_logo.classList.add('hidden');
-        document.body.classList.remove('overflow-hidden');
-        if (window.scrollY <= 10) {
-          header.style.backgroundColor = '';
-        }
-		  }
-	  }
-	}
+      }
+    }
+  }
 
-	function checkParent(t, elm) {
-	  while (t.parentNode) {
-		  if ( t == elm ) {
+  function checkParent(t, elm) {
+    while (t.parentNode) {
+      if ( t == elm ) {
         return true;
       }
-		  t = t.parentNode;
-	  }
-	  return false;
-	}
+      t = t.parentNode;
+    }
+    return false;
+  }
 </script>
 
 </body>

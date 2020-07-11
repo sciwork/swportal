@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block html_lang %}{{ page.lang }}{% endblock %}
-{% block title %}{{ page.title }}{% endblock %}
+{% set cover_text = page.title %}
+{% block title %}{{ SITENAME }} - {{ cover_text }}{% endblock %}
 
 {% block extra_head %}
   <!-- Primary Meta Tags -->

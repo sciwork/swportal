@@ -15,8 +15,21 @@ DEFAULT_LANG = 'en'
 
 MENUITEMS = (
     ('Home', '/'),
+    ('Blog', 'blog.html'),
     ('About', 'about.html'),
 )
+
+
+ARCHIVES_SAVE_AS = ''
+ARTICLE_URL = '{category}/{date:%Y}/{slug}.html'
+ARTICLE_SAVE_AS = '{category}/{date:%Y}/{slug}.html'
+AUTHORS_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+CATEGORY_SAVE_AS = '{slug}.html'
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
