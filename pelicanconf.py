@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = 'Sciwork Team'
 SITENAME = 'Sciwork'
-SITEURL = ''
+SITEURL = os.environ.get('SITEURL', '')
 
 PATH = 'content'
 THEME = 'theme'
