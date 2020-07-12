@@ -17,7 +17,7 @@ DEFAULT_LANG = 'en'
 
 MENUITEMS = (
     ('Home', '/'),
-    ('Blog', 'blog.html'),
+    #('Blog', 'blog.html'),
     ('About', 'about.html'),
 )
 
