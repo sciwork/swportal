@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = 'Sciwork Team'
-SITENAME = 'Sciwork'
+SITENAME = 'sciwork'
 SITEURL = os.environ.get('SITEURL', '')
 
 PATH = 'content'
