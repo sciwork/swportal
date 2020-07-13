@@ -22,6 +22,8 @@ a { @apply text-red-600 underline; }
 
 li { @apply list-inside list-disc; }
 
+p { @apply my-4; }
+
 @tailwind components;
 /* purgecss end ignore */
 
