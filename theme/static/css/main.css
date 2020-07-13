@@ -630,6 +630,9 @@ a { --text-opacity: 1; color: #e53e3e; color: rgba(229, 62, 62, var(--text-opaci
 li { list-style-position: inside; list-style-type: disc;
 }
 
+p { margin-top: 1rem; margin-bottom: 1rem;
+}
+
 .container {
   width: 100%;
 }
