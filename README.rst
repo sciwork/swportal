@@ -29,11 +29,17 @@ In the working copy root, run the following command for the local devserver:
 Branch convention
 =================
 
-The `master` branch is automatically deployed to the official website.
+The `master` branch is deployed to the official website https://sciwork.dev and
+https://swportal.netlify.app.
 
-The `develop` branch is automatically deployed to the under development website.
+The `develop` branch is deployed to the under development
+https://develop--swportal.netlify.app.
 
-Other branches will not be deployed.
+Other branches are deployed to https://{{branch}--swportal.netlify.app.  Replace
+/ in the branch name with -.
+
+Pull requests are deployed to
+https://deploy-preview-{id}--swportal.netlify.app.  ``{id}`` is the PR ID.
 
 Changes for improvement
 -----------------------
