@@ -5,32 +5,21 @@ Home
 :url:
 :save_as: index.html
 
-Computational sciences are critically important as information technology has
-blended in every aspect of human activities.  Proficiently speaking programming
-languages is a prerequisite for conducting most research and engineering work,
-and as practitioners observe, the simple task evolves into a hierarchy of
-skills that take years to acquire.  To properly use computers for science or
-engineering, the problem is two-fold.  We need a thorough understanding of the
-problem to solve, and simultaneously we need to master computer programming to
-deliver reliable solution.  It is overly challenging since either of both is
-already complicated.
+Sciwork is a community for researchers and engineers to share and discuss
+computer code for scientific, numerical, and engineering work.  We believe in
+the power of openness, and use open source as a means to advance software
+development for computational sciences.
 
-Sciwork would like to get involved in the global effort to solve the issue of
-code development entangling with science and engineering.  There will be
-sprints, hands-on tutorials, and technical talks in the conference.  Attendees
-are expected to be in different levels of code development.  We will work
-together for good and open computational sciences.
+As information technology blending in every aspect of human activities,
+proficient use of programming languages is a prerequisite for conducting most
+research and engineering work.  As the practitioners observed, the work evolved
+into a hierarchy of skills that take years to acquire.  We need a thorough
+understanding of the problem to solve as well as the mastery of computer
+programming to deliver reliable solution.  It is overly challenging since
+either of both is already complicated.  Sciwork would like to get involved in
+the global effort to solve the issue of code development entangling with
+science and engineering.
 
-Areas of topics
-===============
-
-* Array processing
-* Mathematical and numerical libraries
-* Geometry and visualization
-* Physics, chemistry, and their applications
-* Other science and engineering
-* C++, Python, and other programming languages
-* Compiler, development environment, and software engineering
-* High-performance computing, parallel computing, distributed computing, and
-  concurrent computing
-* Cloud, networking, and storage
+Our activities include but are not limited to coding sprints, hands-on
+tutorials, and technical talks and conferences, on-line or off-line.  You are
+welcome to `join us <about.html>`__!
