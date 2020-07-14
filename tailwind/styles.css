@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'Yanone Kaffeesatz';
   src:
-		local('Yanone Kaffeesatz Regular'),
+    local('Yanone Kaffeesatz Regular'),
     local('YanoneKaffeesatz-Regular'),
     url('../fonts/Yanone_Kaffeesatz_400.woff') format('woff'),
     url('../fonts/Yanone_Kaffeesatz_400.woff2') format('woff2');
@@ -21,6 +21,8 @@ h6 { @apply text-xl;  }
 a { @apply text-red-600 underline; }
 
 li { @apply list-inside list-disc; }
+
+p { @apply my-4; }
 
 @tailwind components;
 /* purgecss end ignore */

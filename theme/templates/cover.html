@@ -1,32 +1,32 @@
 {% if output_file != 'index.html' %}
   <div class="container mx-auto max-w-6xl" style="height: 200px">
-    <canvas id="cover-bkg" class="absolute left-0 object-cover w-full" style="height: 200px"></canvas>
+    <canvas id="cover-bg" class="absolute left-0 object-cover w-full" style="height: 200px"></canvas>
     <div class="w-full text-center justify-center items-center relative flex flex-col">
-      <h2 class="mt-12 pt-10 text-white border-b-2 rounded-sm border-red-700">{{ page.title }}</h2>
+      <h2 class="mt-12 pt-10 text-white border-b-2 rounded-sm border-red-700">{{ cover_text }}</h2>
     </div>
   </div>
 {% else %}
   <div class="container mx-auto max-w-6xl" style="height: 400px">
-    <canvas id="cover-bkg" class="absolute left-0 object-cover w-full" style="height: 400px"></canvas>
+    <canvas id="cover-bg" class="absolute left-0 object-cover w-full" style="height: 400px"></canvas>
     <div class="w-full text-center justify-center items-center relative flex flex-col">
       <div>
         <img class="mt-24 h-40 w-40" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/android-chrome-512x512.png"/>
       </div>
       <p class="text-white py-10 text-3xl md:text-4xl lg:text-5xl" style="font-family: 'Yanone Kaffeesatz'">
-        Science, code, and open source.
+        science, code, and open source.
       </p>
     </div>
   </div>
 {% endif %}
 
 <script type="text/javascript">
-  var c = document.getElementById("cover-bkg");
+  var c = document.getElementById("cover-bg");
   var ctx = c.getContext("2d");
 
   // canvas settings
   var min_width = 1920;
   var font_size = 12;
-  char_list = ["0", "1", ""]
+  char_list = ["𝜕", "𝛼", "𝜀", "𝜉", "𝜂", "𝜋", "𝜌", "𝜙", ""]
   var drops = [];
   c.height = c.parentElement.clientHeight;
   c.width = window.innerWidth > min_width ? window.innerWidth : min_width;

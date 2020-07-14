@@ -1,8 +1,7 @@
-{% extends "index.html" %}
+{% if category == "blog" %}
+  {% set tpl = "blog.html" %}
+{% else %}
+  {% set tpl = "index.html" %}
+{% endif %}
 
-{% block title %}{{ SITENAME }} - {{ category }} category{% endblock %}
-
-{% block content_title %}
-<h2>Articles in the {{ category }} category</h2>
-{% endblock %}
-
+{% extends tpl %}
