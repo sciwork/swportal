@@ -10,7 +10,6 @@ Contact us
 
 * Twitter: https://twitter.com/sciwork
 * Discord: https://discord.gg/6MAkFrD
-* Telegram group (online chatroom): https://t.me/sciwork2020
 * Email: contact@sciwork.dev
 
 Related links
