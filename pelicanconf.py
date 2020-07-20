@@ -18,6 +18,7 @@ DEFAULT_LANG = 'en'
 MENUITEMS = (
     ('Home', '/'),
     #('Blog', 'blog.html'),
+    ('Sprint', 'sprint/index.html'),
     ('About', 'about.html'),
 )
 
