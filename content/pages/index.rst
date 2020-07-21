@@ -1,5 +1,5 @@
 ====
-Home
+home
 ====
 
 :url:
@@ -20,6 +20,6 @@ either of both is already complicated.  Sciwork would like to get involved in
 the global effort to solve the issue of code development entangling with
 science and engineering.
 
-Our activities include but are not limited to coding sprints, hands-on
-tutorials, and technical talks and conferences, on-line or off-line.  You are
-welcome to `join us <about.html>`__!
+Our activities include but are not limited to `coding sprints <sprint>`__,
+hands-on tutorials, and technical talks and conferences, on-line or off-line.
+You are welcome to `join us <about.html>`__!
