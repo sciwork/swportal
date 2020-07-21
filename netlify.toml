@@ -1,0 +1,7 @@
+[build]
+publish = "output"
+command = "env SITEURL=$DEPLOY_PRIME_URL make deploy"
+
+
+[context.production.environment]
+command = "env SITEURL=$URL make deploy"
