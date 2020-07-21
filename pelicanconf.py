@@ -16,10 +16,10 @@ TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = 'en'
 
 MENUITEMS = (
-    ('Home', '/'),
+    ('home', '/'),
     #('Blog', 'blog.html'),
-    ('Sprint', '/sprint/'),
-    ('About', '/about.html'),
+    ('sprint', '/sprint/'),
+    ('about', '/about.html'),
 )
 
 
