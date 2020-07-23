@@ -16,15 +16,15 @@ TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = 'en'
 
 MENUITEMS = (
-    ('home', '/'),
-    #('Blog', 'blog.html'),
-    ('sprint', '/sprint/'),
-    ('about', '/about.html'),
+    ('home', ''),
+    #('Blog', 'blog'),
+    ('sprint', 'sprint'),
+    ('about', 'about'),
 )
 
 
 ARCHIVES_SAVE_AS = ''
-ARTICLE_URL = '{category}/{date:%Y}/{slug}.html'
+ARTICLE_URL = '{category}/{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = '{category}/{date:%Y}/{slug}.html'
 AUTHORS_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''

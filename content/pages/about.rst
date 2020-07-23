@@ -2,7 +2,7 @@
 about
 =====
 
-:url:
+:url: about
 :save_as: about.html
 
 Contact us
