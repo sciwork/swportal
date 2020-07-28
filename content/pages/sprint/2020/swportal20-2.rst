@@ -1,13 +1,13 @@
-========================
-Swsprint: Sciwork portal
-========================
+=======================
+swportal 2020 sprint #2
+=======================
 
 :date: 2020-07-27 10:00
 :url: sprint/2020/swportal20-2
 :save_as: sprint/2020/swportal20-2.html
 
-Swsprint: Sciwork Portal 20-2
-=============================
+swportal 2020 sprint #2
+=======================
 
 Sciwork Portal (swportal) is the future website planned to serve at
 http://sciwork.dev/, to replace the current "sciwork 2020 conference"
