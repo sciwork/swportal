@@ -3,5 +3,5 @@ publish = "output"
 command = "env SITEURL=$DEPLOY_PRIME_URL make deploy"
 
 
-[context.production.environment]
+[context.production]
 command = "env SITEURL=$URL make deploy"
