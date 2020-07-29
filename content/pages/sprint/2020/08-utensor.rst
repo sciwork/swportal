@@ -3,7 +3,7 @@ Scisprint 2020 August: uTensor
 ==============================
 
 :date: 2020-07-19 12:00
-:url:
+:url: sprint/2020/08-utensor
 :save_as: sprint/2020/08-utensor.html
 
 Scisprint 2020 August: uTensor
