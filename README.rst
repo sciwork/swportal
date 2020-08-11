@@ -29,14 +29,14 @@ In the working copy root, run the following command for the local devserver:
 Branch convention
 =================
 
-The `master` branch is deployed to the official website https://sciwork.dev and
-https://swportal.netlify.app.
+The ``master`` branch is deployed to the official website https://sciwork.dev
+and https://swportal.netlify.app.
 
-The `develop` branch is deployed to the under development
+The ``develop`` branch is deployed to the under development
 https://develop--swportal.netlify.app.
 
 Other branches are deployed to https://{branch}--swportal.netlify.app.  Replace
-/ in the branch name with -.
+``/`` in the branch name with ``-``.
 
 Pull requests are deployed to
 https://deploy-preview-{id}--swportal.netlify.app.  ``{id}`` is the PR ID.
@@ -45,25 +45,25 @@ Changes for improvement
 -----------------------
 
 To add contents or website features, create a branch named like
-`feature/your-addition`.
+``feature/your-addition``.
 
 New blog entries
 ----------------
 
 To add a new blog entry, the branch name should be
-`feature/blog/entry-name`.
+``feature/blog/entry-name``.
 
 New event entries
 -----------------
 
 To add a new evnet entry, the branch name should be
-`feature/event/entry-name`.
+``feature/event/entry-name``.
 
 Bugfix
 ------
 
 If you want to fix bugs or typographical errors, create a branch named like
-`bugfix/your-fix`.
+``bugfix/your-fix``.
 
 Writing content
 ===============

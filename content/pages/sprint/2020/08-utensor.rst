@@ -19,13 +19,11 @@ The project repository is at https://utensor.ai/. We cordially invite everyone
 who’s interested in machine learning and edge computing to join us hacking
 uTensor.
 
-.. Sponsor information here
-
 Registration
 ------------
 
-Registration page is in progress and will be announced soon.  The number of
-participants will have a limit of 25.
+Please visit https://sciwork.kktix.cc/events/scisprint20aug to sign up.  Seats
+are limited to 25.
 
 Date & time
 -----------
@@ -42,13 +40,27 @@ Agenda
   <https://github.com/uTensor/utensor-helloworld>`__
 * **2:45pm -- 4:30pm**:
   Custom Graph Engine (Python) & Runtime Operators (C++)
-* **after 4:30pm**:
+* **4:30pm --**:
   Free time for networking, dinner, after party
+
+Sponsors
+--------
+
+.. |meetjobs_logo| image:: https://meet.jobs/static/media/logo_meetjobs_standard_white.bd5c1195.svg
+  :width: 100
+
+Meet.jobs
+_________
+
+`Meet.jobs <https://meet.jobs/>`__ is a social job platform focusing on
+international (and professional) talents and career opportunities.
 
 Venue
 -----
 
 Treerful 小樹屋 (市民中山): https://www.treerful.com/space/182
+
+Address: `臺北市中山區中山北路一段33巷16號1樓 <https://goo.gl/maps/ca3bTh26gwSSFC5x8>`__
 
 .. (`google map <https://goo.gl/maps/ca3bTh26gwSSFC5x8>`__)
 
@@ -65,5 +77,6 @@ Treerful 小樹屋 (市民中山): https://www.treerful.com/space/182
 Other
 -----
 
-* Staff and contact: `Yung-Yu <https://twitter.com/yungyuc>`__, Shiashia, Neil
+* Discord: https://discord.gg/6MAkFrD
+* Twitter: `@sciwork <https://twitter.com/sciwork>`__
 * HackMD note: https://hackmd.io/KIMXhgILRliOFAt6RvhLTQ
