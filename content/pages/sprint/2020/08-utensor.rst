@@ -43,6 +43,25 @@ Agenda
 * **4:30pm --**:
   Free time for networking, dinner, after party
 
+Software Requirements
+---------------------
+
+The audience are expected to bring their own computers.  The software
+requirements are:
+
+* Python 3.5 and above.  The development tool chain is moving toward
+  `TensorFlow 2.0 <https://www.tensorflow.org/install>`__, which does not
+  support Python below 3.5.
+* Unix(-like) or `Docker <https://docs.docker.com/docker-for-windows/>`__ if
+  running on Windows.  uTensor does not fully support Windows yet and may not
+  build on it.
+
+The development team will guide the audience to set up the development
+environment.  But is is not practical to take every configuration into account.
+We would love to hear your opinions about setting up the environment.  Please
+join the ``#utensor`` channel on our discord server
+(https://discord.gg/6MAkFrD).  If you need help or have questions, let us know.
+
 Sponsors
 --------
 
