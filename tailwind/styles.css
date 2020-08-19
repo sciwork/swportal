@@ -27,6 +27,10 @@ h6:hover .headerlink {
   @apply visible;
 }
 .headerlink { @apply pl-1 text-lg invisible no-underline; }
+:target {
+    padding-top: 88px;
+    margin-top: -88px;
+}
 
 a { @apply text-red-600 underline; }
 

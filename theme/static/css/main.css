@@ -635,6 +635,11 @@ h6:hover .headerlink {
 .headerlink { padding-left: 0.25rem; font-size: 1.125rem; visibility: hidden; text-decoration: none;
 }
 
+:target {
+  padding-top: 88px;
+  margin-top: -88px;
+}
+
 a { --text-opacity: 1; color: #e53e3e; color: rgba(229, 62, 62, var(--text-opacity)); text-decoration: underline;
 }
 
