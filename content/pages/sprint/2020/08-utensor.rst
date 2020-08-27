@@ -59,8 +59,9 @@ requirements are:
 The development team will guide the audience to set up the development
 environment.  But is is not practical to take every configuration into account.
 We would love to hear your opinions about setting up the environment.  Please
-join the ``#utensor`` channel on our discord server
-(https://discord.gg/6MAkFrD).  If you need help or have questions, let us know.
+join the ``#utensor`` channel on our `discord server
+<https://discord.gg/YVtXYSs>`__.  If you need help or have questions, let us
+know.
 
 Sponsors
 --------
@@ -96,6 +97,8 @@ Address: `臺北市中山區中山北路一段33巷16號1樓 <https://goo.gl/map
 Other
 -----
 
-* Discord: https://discord.gg/6MAkFrD
+* Discord: https://discord.gg/YVtXYSs
 * Twitter: `@sciwork <https://twitter.com/sciwork>`__
 * HackMD note: https://hackmd.io/KIMXhgILRliOFAt6RvhLTQ
+* Slides (work in progress before the event):
+  https://docs.google.com/presentation/d/1CMLlQlAmCMIVNB_GndFSQksGXedwH6lHl0f9wavIhnk
