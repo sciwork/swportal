@@ -15,7 +15,7 @@ and an offline tool that handles most of the model translation work. This repo
 holds the core runtime and some example implementations of operators, memory
 managers/schedulers, and more, and the size of the core runtime is only ~2KB!
 
-The project repository is at https://utensor.ai/. We cordially invite everyone
+The project repository is at http://utensor.ai/. We cordially invite everyone
 who’s interested in machine learning and edge computing to join us hacking
 uTensor.
 
