@@ -13,6 +13,7 @@ hosted by sciwork.
 Scisprint 2020
 ==============
 
+* `Scisprint 2020 September: pip/pypa/packaging <{filename}2020/09-pip.rst>`__
 * `Scisprint 2020 August: uTensor <{filename}2020/08-utensor.rst>`__
 
 Sciwork portal
