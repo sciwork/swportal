@@ -15,17 +15,14 @@ The Python Packaging Authority (PyPA) is a working group that maintains a core s
 
 * Warehouse (web interface to `pypi.org <https://pypi.org/>`__ )
 * `pip <https://github.com/pypa/pip/>`__
-* `setuptools <https://github.com/pypa/setuptools/>`__ 
+* `setuptools <https://github.com/pypa/setuptools/>`__
 * `virtualenv <https://github.com/pypa/virtualenv>`__
 * `pipenv <https://github.com/pypa/pipenv>`__
 
 Registration
 ------------
 
-TBA
-
-.. Please visit https://sciwork.kktix.cc/events/scisprint20sep to sign up.  Seats
-  are limited to 15.
+Please visit https://sciwork.kktix.cc/events/scisprint20sep to sign up.
 
 Date & time
 -----------
@@ -43,7 +40,7 @@ Agenda
 Software Requirements
 ---------------------
 
-TBA
+Your computer needs to have a working Python installation or be capable of install a Python runtime.
 
 .. Sponsors
 .. --------
@@ -53,7 +50,7 @@ Venue
 
 國立交通大學光復校區 浩然圖書館 B1-殷之浩紀念空間 (`藝文空間 <https://goo.gl/maps/DDuMUcghPuwTx79R8>`__ 斜對面)
 
-Address: `新竹市東區大學路1001號 <https://goo.gl/maps/bwbyk5p8MqLxUN9N8>`__ 
+Address: `新竹市東區大學路1001號 <https://goo.gl/maps/bwbyk5p8MqLxUN9N8>`__
 
 .. (`google map <https://goo.gl/maps/bwbyk5p8MqLxUN9N8>`__)
 
@@ -72,4 +69,4 @@ Other
 
 * Discord: https://discord.gg/GrZPvn6
 * Twitter: `@sciwork <https://twitter.com/sciwork>`__
-* HackMD note: https://hackmd.io/Tpwb0_jlR6Gk_v_GpuJBow
+* HackMD note: https://hackmd.io/@sciwork/sprint-20sep-pip
