@@ -48,7 +48,7 @@ installing or building the following dependencies:
 2. Python 3.7
 3. Cmake 3.15.4+
 4. numpy
-5. pybind11 (recommended build and install locally, otherwise cmake may not find pybind11)
+5. pybind11
 6. `modmesh <https://github.com/solvcon/modmesh>`_
 
 .. Sponsors
