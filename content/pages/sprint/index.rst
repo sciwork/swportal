@@ -2,7 +2,7 @@
 sprint
 ======
 
-:date: 2020-07-19 12:00
+:date: 2021-4-17 15:47
 :url:
 :save_as: sprint/index.html
 
@@ -16,6 +16,7 @@ Scisprint 2020
 * `Scisprint 2020 October: turgon <{filename}2020/10-turgon.rst>`__
 * `Scisprint 2020 September: pip/pypa/packaging <{filename}2020/09-pip.rst>`__
 * `Scisprint 2020 August: uTensor <{filename}2020/08-utensor.rst>`__
+* `Scisprint 2021 May: solvcon devenv <{filename}2021/05-devenv.rst>`__
 
 Sciwork portal
 ==============
