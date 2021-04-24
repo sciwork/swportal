@@ -2,7 +2,7 @@
 Scisprint 2021 May: solvcon devenv
 ==================================
 
-:date: 2021-4-17 15:47
+:date: 2021-4-24 11:12
 :url: sprint/2021/05-devenv
 :save_as: sprint/2021/05-devenv.html
 
@@ -32,7 +32,8 @@ dependency management and alignment for the runtime among developers.
 Registration
 ------------
 
-TBD
+Please RSVP at:
+https://taichung-py.kktix.cc/events/meetup-202105-startingfromsource
 
 Date & time
 -----------
