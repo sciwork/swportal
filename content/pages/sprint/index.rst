@@ -10,13 +10,17 @@ Sciwork hosts coding sprints for open-source projects for scientific,
 numerical, and engineering applications.  This page lists the sprints that
 hosted by sciwork.
 
+Scisprint 2021
+==============
+
+* `Scisprint 2021 May: solvcon devenv <{filename}2021/05-devenv.rst>`__
+
 Scisprint 2020
 ==============
 
 * `Scisprint 2020 October: turgon <{filename}2020/10-turgon.rst>`__
 * `Scisprint 2020 September: pip/pypa/packaging <{filename}2020/09-pip.rst>`__
 * `Scisprint 2020 August: uTensor <{filename}2020/08-utensor.rst>`__
-* `Scisprint 2021 May: solvcon devenv <{filename}2021/05-devenv.rst>`__
 
 Sciwork portal
 ==============
