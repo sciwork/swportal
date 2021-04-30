@@ -13,6 +13,8 @@ hosted by sciwork.
 Scisprint 2021
 ==============
 
+.. [DO NOT PUBLISH BEFORE FINALIZATION] * `Scisprint 2021 End of May: solvcon devenv <{filename}2021/05end-devenv.rst>`__
+
 * `Scisprint 2021 May: solvcon devenv <{filename}2021/05-devenv.rst>`__
 
 Scisprint 2020
