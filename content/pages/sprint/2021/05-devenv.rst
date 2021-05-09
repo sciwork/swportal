@@ -2,7 +2,7 @@
 Scisprint 2021 May: solvcon devenv
 ==================================
 
-:date: 2021-4-24 11:12
+:date: 2021-5-8 16:13
 :url: sprint/2021/05-devenv
 :save_as: sprint/2021/05-devenv.html
 
@@ -86,3 +86,26 @@ Contact us
 * Discord: https://discord.gg/P9U7PFv
 * Twitter: `@sciwork <https://twitter.com/sciwork>`__
 * Github discussion: https://github.com/solvcon/devenv/discussions
+
+Epilogue
+--------
+
+Thank everyone who attended the talk and sprint today.  We hope you enjoy the code!
+
+.. figure:: {attach}scde20210508_full_view.jpeg
+  :width: 100%
+  :align: center
+
+Also thank `Taichungpy <https://www.facebook.com/groups/780250978715991/>`__
+for their help and support for the event:
+
+.. figure:: {attach}scde20210508_host.jpeg
+  :align: center
+  :width: 50%
+
+and the speakers `Chun-Hsu <github.com/j8xixo12>`__ and `Chester
+<github.com/chestercheng>`__ for thier contributions:
+
+.. figure:: {attach}scde20210508_speakers.jpeg
+  :align: center
+  :width: 50%
