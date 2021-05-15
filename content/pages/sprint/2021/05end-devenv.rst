@@ -1,13 +1,18 @@
-=========================================
-Scisprint 2021 End of May: solvcon devenv
-=========================================
+=====================================================================
+(Cancelled due to COVID-19) Scisprint 2021 End of May: solvcon devenv
+=====================================================================
 
-:date: 2021-4-30 17:05
+:date: 2021-05-15 10:02
 :url: sprint/2021/05end-devenv
 :save_as: sprint/2021/05end-devenv.html
 
-Scisprint 2021 End of May: solvcon devenv
-=========================================
+(Cancelled due to COVID-19) Scisprint 2021 End of May: solvcon devenv
+=====================================================================
+
+.. warning::
+
+  The event is cancelled because of the escalated COVID-19 situation in Taiwan.
+  New schedule will be made after the health concerns are removed.
 
 We cordially invite you to join the short sprint for the development
 environment for `solvcon <https://solvcon.net/>`_ projects.  solvcon_ is a host
