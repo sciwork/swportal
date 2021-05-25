@@ -13,6 +13,9 @@ hosted by sciwork.
 Scisprint 2021
 ==============
 
+* `Scisprint 2021 Early of June: solvcon devenv
+  <{filename}2021/06early-devenv.rst>`__
+
 * `(Cancelled due to COVID-19) Scisprint 2021 End of May: solvcon devenv
   <{filename}2021/05end-devenv.rst>`__
 
