@@ -32,7 +32,7 @@ dependency management and alignment for the runtime among developers.
 Registration
 ------------
 
-Please RSVP at:
+Please join `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_ on the day of sprint !!
 
 Date & time
 -----------
@@ -52,7 +52,7 @@ Requirements
 We will need you to have a laptop or a VM running either MacOS or Linux.  At
 the moment the project does not yet support Windows.
 
-This time we hold the sprint on the `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_
+This time we hold the sprint on the gather.town_
 and suggest to use laptop or personal computer instead of mobile device
 such like iPad or iPhone etc...
 
