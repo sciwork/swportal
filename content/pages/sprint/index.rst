@@ -16,6 +16,9 @@ Scisprint 2021
 * `Scisprint 2021 Early July: solvcon devenv
   <{filename}2021/07early-devenv.rst>`__
 
+* `Scisprint 2021 Early July: Python ZH TW Doc
+  <{filename}2021/07early-pycht.rst>`__
+
 * `Scisprint 2021 Early of June: solvcon devenv
   <{filename}2021/06early-devenv.rst>`__
 
