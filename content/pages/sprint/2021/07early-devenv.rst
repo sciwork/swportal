@@ -1,13 +1,13 @@
-=====================================================================
-Scisprint 2021 Early of July: solvcon devenv
-=====================================================================
+=========================================
+Scisprint 2021 Early July: solvcon devenv
+=========================================
 
 :date: 2021-06-21 22:40
 :url: sprint/2021/07early-devenv
 :save_as: sprint/2021/07early-devenv.html
 
-Scisprint 2021 Early of July: solvcon devenv
-=====================================================================
+Scisprint 2021 Early July: solvcon devenv
+=========================================
 
 We cordially invite you to join the short sprint for the development
 environment for `solvcon <https://solvcon.net/>`_ projects.  solvcon_ is a host
@@ -32,7 +32,8 @@ dependency management and alignment for the runtime among developers.
 Registration
 ------------
 
-Please join `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_ on the day of sprint !!
+Please join `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_
+on the day of sprint !!
 
 Date & time
 -----------
@@ -42,9 +43,9 @@ Date & time
 Agenda
 ------
 
-If a application, that is **reliable** and easy to maintain, then
-it must be well **tested**, more test case coverd more reliablilty,
-therefore we will add many test case in this sprint!!
+A system needs to be well tested before it is reliable and easy to maintain.
+In this sprint we will improve the reliability of devenv by adding more test
+cases!
 
 * **19:00 -- 19:30**: Opening, introduction for devenv and solvcon
 * **19:30 -- 20:30**: Add more **test cases!!**
@@ -53,12 +54,12 @@ therefore we will add many test case in this sprint!!
 Requirements
 ------------
 
-We will need you to have a laptop or a VM running either MacOS or Linux.  At
-the moment the project does not yet support Windows.
+You will need a laptop or VM running either MacOS or Linux.  At the moment the
+project does not yet support Windows.
 
-This time we hold the sprint on the gather.town_
-and suggest to use laptop or personal computer instead of mobile device
-such like iPad or iPhone etc...
+We hold the sprint on the gather.town_. Connection from a laptop or desktop is
+recommended. Mobile devices (iPad, iPhone, etc.) do not perform well with
+gather.town_.
 
 .. Sponsors
 .. --------
