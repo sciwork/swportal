@@ -1,13 +1,13 @@
-============================================
-Scisprint 2021 End of August: solvcon devenv
-============================================
+=====================
+Scisprint 2021 August
+=====================
 
 :date: 2021-07-25 14:15
-:url: sprint/2021/08end-devenv
-:save_as: sprint/2021/08end-devenv.html
+:url: sprint/2021/08
+:save_as: sprint/2021/08.html
 
-Scisprint 2021 End of August: solvcon devenv
-============================================
+Scisprint 2021 August
+=====================
 
 We cordially invite you to join the short sprint for the development
 environment for `solvcon <https://solvcon.net/>`_ projects.  solvcon_ is a host
@@ -33,7 +33,7 @@ Registration
 ------------
 
 Please join `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_
-on the day of sprint !!
+on the day of sprint!!
 
 Date & time
 -----------

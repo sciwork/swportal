@@ -2,7 +2,7 @@
 sprint
 ======
 
-:date: 2021-05-15 10:02
+:date: 2021-07-30 21:14
 :url:
 :save_as: sprint/index.html
 
@@ -13,8 +13,7 @@ hosted by sciwork.
 Scisprint 2021
 ==============
 
-* `Scisprint 2021 End of August: solvcon devenv
-  <{filename}2021/08end-devenv.rst>`__
+* `Scisprint 2021 August <{filename}2021/08.rst>`__
 
 * `Scisprint 2021 Early July: solvcon devenv
   <{filename}2021/07early-devenv.rst>`__
