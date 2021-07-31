@@ -2,38 +2,30 @@
 Scisprint 2021 August
 =====================
 
-:date: 2021-07-25 14:15
+:date: 2021-07-31 11:58
 :url: sprint/2021/08
 :save_as: sprint/2021/08.html
 
 Scisprint 2021 August
 =====================
 
-We cordially invite you to join the short sprint for the development
-environment for `solvcon <https://solvcon.net/>`_ projects.  solvcon_ is a host
-of projects focusing on numerically solving the governing equations of
-transient phenomena.
+Scisprint is an event gathering people who want to write code for specific
+projects.  In the August event, there are the following projects:
 
-The development environment, i.e., devenv (see `the github page
-<https://github.com/solvcon/devenv>`__), is also a solvcon project, but has a
-much broader scope that includes the infrastructure for developing code for
-numerical calculations, which are the foundation of computational sciences and
-mathematics.  The real-world applications, including physics, mechanics,
-semiconductor, finance, machine learning, etc., will be built with it.
-
-Numerical calculations require writing high-performance code.  The complex
-implementations call for tremendous amount of code to be written and it is not
-possible to do it all by a single team.  External dependencies are necessary.
-However, because of the requirements of accuracy and performance, the
-dependencies are usually at the source level.  Building dependencies from
-source is the norm.  The project devenv is made to help the source-level
-dependency management and alignment for the runtime among developers.
+* SOLVCON development environment (devenv) https://github.com/solvcon/devenv:
+  This project is a set of (Bourne again) shell scripts to align the
+  environment for developing `SOLVCON <https://github.com/solvcon>`__ and
+  related projects in (Ubuntu) Linux and macOS.
+* Automation bot for sciwork discord server https://discord.gg/6MAkFrD .  There
+  is not an automated flow for sciwork events.  The event data are added and
+  maintained manually through https://github.com/sciwork/swportal, the
+  repository of the community web site https://sciwork.dev/ .
 
 Registration
 ------------
 
-Please join `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_
-on the day of sprint!!
+Sign up by following the directive at the wiki page:
+https://github.com/sciwork/swportal/wiki/2021-August-sprint-sign-up-page .
 
 Date & time
 -----------
@@ -43,11 +35,20 @@ Date & time
 Agenda
 ------
 
-**TBD**
+Please join `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_
+on the day of sprint!!
 
-* **19:00 -- 19:30**: Opening, introduction for devenv and solvcon
-* **19:30 -- 20:30**: **TBD**
-* **20:30 -- 21:00**: Discussion
+* **19:00 -- 19:30**: Project introduction and discussions
+* **19:30 -- 20:30**: Coding hour
+* **20:30 -- 21:00**: Summary and plan for next steps
+
+Introduction to sciwork discord bot
++++++++++++++++++++++++++++++++++++
+
+* Self-introduction: 2min
+* Idea Sharing: 5min
+* Concept Demo: 5min
+* Discussion: 15min
 
 Requirements
 ------------
@@ -70,6 +71,6 @@ At gather.town_, sciwork
 Contact us
 ----------
 
-* Discord: https://discord.gg/P9U7PFv
+* Discord: https://discord.gg/6MAkFrD
 * Twitter: `@sciwork <https://twitter.com/sciwork>`__
 * Github discussion: https://github.com/solvcon/devenv/discussions
