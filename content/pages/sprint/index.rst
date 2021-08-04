@@ -13,6 +13,8 @@ hosted by sciwork.
 Scisprint 2021
 ==============
 
+* `Scisprint 2021 Mid August: Python ZH TW Doc <{filename}2021/08mid-pycht.rst>`__
+* `Scisprint 2021 August <{filename}2021/08.rst>`__
 * `Scisprint 2021 Early July: solvcon devenv
   <{filename}2021/07early-devenv.rst>`__
 
