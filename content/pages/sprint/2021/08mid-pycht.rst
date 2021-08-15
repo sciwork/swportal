@@ -37,6 +37,11 @@ The agenda:
 We are working on the 3.9 branch of the document:
 https://github.com/python/python-docs-zh-tw/tree/3.9.
 
+Meeting Minutes
+---------------
+
+Meeting minutes were at hackmd: https://hackmd.io/@sciwork/HyHIACNeK .
+
 Registration
 ------------
 

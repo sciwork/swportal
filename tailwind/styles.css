@@ -34,7 +34,9 @@ h6:hover .headerlink {
 
 a { @apply text-red-600 underline; }
 
-li { @apply list-inside list-disc; }
+ol, ul { padding-left: 1em; }
+
+li { @apply list-outside list-disc; }
 
 p { @apply my-4; }
 
