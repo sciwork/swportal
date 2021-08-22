@@ -20,6 +20,12 @@ projects.  In the August event, there are the following projects:
   is not an automated flow for sciwork events.  The event data are added and
   maintained manually through https://github.com/sciwork/swportal, the
   repository of the community web site https://sciwork.dev/ .
+* Python-C/C++ Bindgen https://hackmd.io/@vy0m6Zc7Q0WJ0aMT6NdBzw/rySh6Lket:
+  This project aim to automatically generate C/C++ structure memory layout at
+  compile-time (setup.py) and used in Python to align binary data back
+  to C/C++ struct field value. For example, to use C++: `((struct foo *) buffer)->bar`
+  in Python like: `foo.align(buf)[0]->bar`.
+
 
 Registration
 ------------
