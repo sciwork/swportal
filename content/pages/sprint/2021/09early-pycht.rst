@@ -39,7 +39,7 @@ on the day of sprint!!
 Date & time
 -----------
 
-5th September, Saturday, 2021, 14:30 -- 16:30
+5th September, Sunday, 2021, 14:30 -- 16:30
 
 Agenda
 ------
