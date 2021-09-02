@@ -1,0 +1,73 @@
+=================================================
+Scisprint 2021 Early September: Python ZH TW Doc
+=================================================
+
+:date: 2021-09-05 14:30
+:url: sprint/2021/09early-pycht
+:save_as: sprint/2021/09early-pycht.html
+
+Scisprint 2021 Early September: Python ZH TW Doc
+=================================================
+
+This is the third sprint for translating `Python official
+document <https://docs.python.org/3/>`__ from English to traditional Chinese
+(Taiwan; ZH TW locale).
+
+The agenda:
+
+* Review and discuss about the previous `action items <https://hackmd.io/@sciwork/HyHIACNeK#Action-Items>`_.
+* **Pin-down roles & responsibilities**: We're in the process of restarting this project and seeking
+  succeeding coordinator(s) and more reviewers. Need to make sure members are on the track.
+* **Improve reviewing process**: Build workflow to accelerate reviewing process.
+* **Improve glossary**: Unify how terminology is translated and expand the current glossary.
+* **Automation and CI**: Establish pipelines for checking build errors and automating tedious tasks.
+
+We are working on the 3.9 branch of the document:
+https://github.com/python/python-docs-zh-tw/tree/3.9.
+
+Meeting Minutes
+---------------
+
+Meeting minutes were at hackmd: https://hackmd.io/@sciwork/rJySLvTWY.
+
+Registration
+------------
+
+Please join `gather.town <https://gather.town/app/yLTe8mBDb8pogMOX/sciwork>`_
+on the day of sprint!!
+
+Date & time
+-----------
+
+5th September, Sunday, 2021, 14:30 -- 16:30
+
+Agenda
+------
+
+* **14:00 -- 14:30**: Gathering
+* **14:30 -- 15:00**: Review progress of the action items listed in the previous sprint
+* **15:00 -- 16:30**: Discuss about the improvement of review, glossary, and automation
+
+Requirements
+------------
+
+A laptop or desktop to access gather.town_.  Mobile devices are known to have
+issues.
+
+Read the README of https://github.com/python/python-docs-zh-tw/tree/3.9.
+
+.. Sponsors
+.. --------
+
+Venue
+-----
+
+sciwork gather.town_.
+
+Contact us
+----------
+
+* Project telegram: https://t.me/PyDocTW
+* (sciwork) discord: https://discord.gg/RcAF6tDe7r
+* (sciwork) twitter: `@sciwork <https://twitter.com/sciwork>`__
+
