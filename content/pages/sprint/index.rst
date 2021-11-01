@@ -12,6 +12,8 @@ hosted by sciwork.
 
 Scisprint 2021
 ==============
+* `Scisprint 2021 Late November: Python ZH TW Doc
+  <{filename}2021/11late-pycht.rst>`__
 
 * `Scisprint 2021 Early September: Python ZH TW Doc
   <{filename}2021/09early-pycht.rst>`__
