@@ -1,13 +1,13 @@
-=================================================
-Scisprint 2021 Late November: Python ZH TW Doc
-=================================================
+=======================================================
+(Online) Scisprint 2021 Late November: Python ZH TW Doc
+=======================================================
 
-:date: 2021-11-01 22:28
+:date: 2021-11-03 23:55
 :url: sprint/2021/11late-pycht
 :save_as: sprint/2021/11late-pycht.html
 
-Scisprint 2021 Late November: Python ZH TW Doc
-=================================================
+(Online) Scisprint 2021 Late November: Python ZH TW Doc
+=======================================================
 
 This is the fourth sprint for translating `Python official
 document <https://docs.python.org/3/>`__ from English to traditional Chinese
