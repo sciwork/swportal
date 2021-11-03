@@ -2,7 +2,7 @@
 sprint
 ======
 
-:date: 2021-07-30 21:14
+:date: 2021-11-03 20:43
 :url:
 :save_as: sprint/index.html
 
@@ -12,6 +12,11 @@ hosted by sciwork.
 
 Scisprint 2021
 ==============
+
+* `Scisprint 2021 Late November in Taipei <{filename}2021/11late-taipei.rst>`__
+
+* `Scisprint 2021 Early September: Python ZH TW Doc
+  <{filename}2021/09early-pycht.rst>`__
 
 * `Scisprint 2021 Early September: Python ZH TW Doc
   <{filename}2021/09early-pycht.rst>`__
