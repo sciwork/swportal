@@ -9,12 +9,14 @@ Scisprint 2021 Late November in Taipei
 Scisprint 2021 Late November in Taipei
 ======================================
 
-We cordially invite you to join the short sprint for the development
-environment for `solvcon <https://solvcon.net/>`_ projects.  solvcon_ is a host
-of projects focusing on numerically solving the governing equations of
-transient phenomena.
+We cordially invite you to join the short sprint for `solvcon
+<https://solvcon.net/>`_ projects.  solvcon_ is a host of projects focusing on
+numerically solving the governing equations of transient phenomena.
 
-This event will focus on two projects:
+solvcon projects
+----------------
+
+This event will focus on two projects in solvcon:
 
 * The development environment `devenv <https://github.com/solvcon/devenv>`__.
   It supports the development of other solvcon projects by providing an
@@ -34,10 +36,24 @@ This event will focus on two projects:
   space-time conservation element and solution element (CESE) method
   <https://yyc.solvcon.net/en/latest/cese/index.html>`__.
 
+swportal
+--------
+
+In addition to solvcon projects, we will also spend time to improve the
+`sciwork website <https://sciwork.dev>`__: https://github.com/sciwork/swportal.
+
 Registration
 ------------
 
-Go to our discord channel https://discord.gg/P9U7PFv and tell us.
+Add your name in the `sprint notes <https://hackmd.io/@sciwork/r1Q6c9lvK>`_ and
+Go to our discord channel https://discord.gg/P9U7PFv to say hi to us.
+
+The event is free, but you need to make at least an order (for coffee or
+something) at Old Major Coffee (where we meet this time).  Make two orders, if
+you can.
+
+Please sign up using a name that we can identify you, and introduce yourself
+when you show up.
 
 Date & time
 -----------
@@ -82,3 +98,4 @@ Contact us
 ----------
 
 * Discord: https://discord.gg/P9U7PFv
+* Sprint notes: https://hackmd.io/@sciwork/r1Q6c9lvK
