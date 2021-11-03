@@ -18,9 +18,6 @@ Scisprint 2021
 * `Scisprint 2021 Early September: Python ZH TW Doc
   <{filename}2021/09early-pycht.rst>`__
 
-* `Scisprint 2021 Early September: Python ZH TW Doc
-  <{filename}2021/09early-pycht.rst>`__
-
 * `Scisprint 2021 Late August <{filename}2021/08.rst>`__
 
 * `Scisprint 2021 Mid August: Python ZH TW Doc <{filename}2021/08mid-pycht.rst>`__
