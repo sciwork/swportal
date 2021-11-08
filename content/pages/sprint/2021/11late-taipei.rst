@@ -11,7 +11,10 @@ Scisprint 2021 Late November in Taipei
 
 We cordially invite you to join the short sprint for `solvcon
 <https://solvcon.net/>`_ projects.  solvcon_ is a host of projects focusing on
-numerically solving the governing equations of transient phenomena. The 2 projects we share are partions of solvcon_ and we would assume you have no domain knowledge of equation solving. Anyone who have some fundamental unix and program skill are welcomed
+numerically solving the governing equations of transient phenomena.  There will
+be two projects in solvcon_ and we will not assume you to have the domain
+knowledge.  Anyone who have fundamental skills in Unix programming are
+welcomed.
 
 solvcon projects
 ----------------
