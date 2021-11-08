@@ -13,8 +13,7 @@ We cordially invite you to join the short sprint for `solvcon
 <https://solvcon.net/>`_ projects.  solvcon_ is a host of projects focusing on
 numerically solving the governing equations of transient phenomena.  There will
 be two projects in solvcon_ and we will not assume you to have the domain
-knowledge.  Anyone who have fundamental skills in Unix programming are
-welcomed.
+knowledge.  We welcome everyone having basic skills in Unix programming.
 
 solvcon projects
 ----------------
