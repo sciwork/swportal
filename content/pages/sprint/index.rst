@@ -10,6 +10,12 @@ Sciwork hosts coding sprints for open-source projects for scientific,
 numerical, and engineering applications.  This page lists the sprints that
 hosted by sciwork.
 
+Scisprint 2022
+==============
+* `Scisprint 2022 Early January: Python ZH TW Doc
+  <{filename}2022/01early-pycht.rst>`__
+
+
 Scisprint 2021
 ==============
 

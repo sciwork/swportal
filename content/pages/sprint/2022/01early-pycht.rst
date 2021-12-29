@@ -1,0 +1,71 @@
+=================================================
+Scisprint 2022 Early January: Python ZH TW Doc
+=================================================
+
+:date: 2022-01-09 14:30
+:url: sprint/2022/01early-pycht
+:save_as: sprint/2022/01early-pycht.html
+
+Scisprint 2022 Early January: Python ZH TW Doc
+=================================================
+
+This is the fifth sprint for translating `Python official
+document <https://docs.python.org/3/>`__ from English to traditional Chinese
+(Taiwan; ZH TW locale).
+
+The agenda:
+
+* Review and discuss about the previous `action items <https://hackmd.io/iwuK9RNcSdyGmfKLxx748w#Agenda>`_.
+* **Share translation workflow**: Help each other to be on the same page as translator
+* **Improve glossary**: Discuss workflow to review and expand the current glossary.
+* Sequence of Sprint Host
+
+We are working on the 3.10 branch of the document:
+https://github.com/python/python-docs-zh-tw/tree/3.10.
+
+Meeting Minutes
+---------------
+
+Meeting minutes were at hackmd: https://hackmd.io/0OrAr_PNSJmkkbhN4hZpPg.
+
+Registration
+------------
+
+We'll meet at the Exit 2 of MRT Yuanshan Station(Red Line) at 14:10 or we could meet on Ground Floor of MingLun Social Housing at 14:20
+
+Date & time
+-----------
+
+9th January, Sunday, 2022, 14:30 -- 16:30
+
+Agenda
+------
+
+* **14:00 -- 14:30**: Gathering
+* **14:30 -- 15:00**: Review progress of the action items listed in the previous sprint
+* **15:00 -- 16:30**: Share workflow of translation and discuss about the flow to expand glossary
+
+Requirements
+------------
+
+A laptop to get your hands on. Some snacks if you like. Stay healthy!
+
+Read the README of https://github.com/python/python-docs-zh-tw/tree/3.10.
+
+.. Sponsors
+.. --------
+
+Venue
+-----
+
+Small Meetingroom, 2F, MingLun Social Housing
+`Map <https://www.google.com/maps/place/103%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B5285%E8%99%9F/@25.0715917,121.5204557,17.22z/data=!4m8!1m2!2m1!1sminglun+social+housing!3m4!1s0x3442a9494c9f5e5d:0x85154e9902371e0f!8m2!3d25.0732147!4d121.5200947>`_
+
+
+Contact us
+----------
+
+* Project telegram: https://t.me/PyDocTW
+* (sciwork) discord: https://discord.gg/RcAF6tDe7r
+* (sciwork) twitter: `@sciwork <https://twitter.com/sciwork>`__
+
