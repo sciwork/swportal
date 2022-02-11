@@ -13,6 +13,7 @@ We cordially invite you to join the Scisprint 2022 February in Hsinchu (at a
 `cozy cafe <Venue>`__).  We will be using 2 hours to discuss and code for the
 following projects:
 
+* Python 官方說明文件臺灣繁體中文翻譯計畫: https://github.com/python/python-docs-zh-tw
 * modmesh: https://github.com/solvcon/modmesh
 * devenv: https://github.com/solvcon/devenv
 * the sciwork website: https://github.com/sciwork/swportal
