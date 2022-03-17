@@ -21,7 +21,7 @@ If you want to join and bring your projects, please `Contact us`_.
 Meeting Minutes and Registration
 --------------------------------
 
-Add your name to the sprint note: `link needed <https://youtu.be/dQw4w9WgXcQ>`_.
+Add your name to the sprint note: https://hackmd.io/@sciwork/HJ_gzk-Gq .
 
 Date & time
 -----------
