@@ -10,7 +10,7 @@ Scisprint 2022 April in Taipei
 ==================================
 
 We cordially invite you to join the Scisprint 2022 April in Taipei (at a
-`cozy cafe <#venue>`__).  We will be using 4 hours to discuss and code for the
+`cozy meeting room <#venue>`__).  We will be using 4 hours to discuss and code for the
 following projects:
 
 * Python 官方說明文件臺灣繁體中文翻譯計畫: https://github.com/python/python-docs-zh-tw
