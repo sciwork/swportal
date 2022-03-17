@@ -41,11 +41,11 @@ Venue
 
 `小樹屋｜香楠 703 <https://goo.gl/maps/8B2SaG4SynCK82es9>`__
 
-Address: No. 58, Section 1, Minsheng E Rd, Zhongshan District, Taipei City, Taiwan 104
-(臺北市中山區民生東路一段58號7樓-703房)
-
-Transportation: Metro Shuanglian Station Exit 1, walk ~7 mins(along Minsheng W Rd, then Minsheng E Rd).
-(捷運雙連站 1 號出口，步行 7 分鐘(沿民生西路，至民生東路)。)
+| Address: No. 58, Section 1, Minsheng E Rd, Zhongshan District, Taipei City, Taiwan 104
+| 	地址: 臺北市中山區民生東路一段58號7樓-703房
+|
+| Transportation: Metro Shuanglian Station Exit 1, walk along Minsheng W Rd, then Minsheng E Rd (about 7 mins).
+| 	交通: 捷運雙連站 1 號出口，沿民生西路、民生東路步行，約 7 分鐘。
 
 .. raw:: html
 
