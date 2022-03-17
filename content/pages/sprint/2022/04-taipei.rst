@@ -28,10 +28,17 @@ Date & time
 
 9th April, Saturday, 2022, 14:00 -- 18:00
 
+Fee
+---
+
+| Attendees will pay for the venue fee (2280 NTD) together.
+|	Note that we have 17 people last sprint :)
+
 Requirements
 ------------
 
-A laptop to get your hands on. Some snacks if you like. Stay healthy!
+| A laptop to get your hands on. Some snacks if you like. Stay healthy!
+|	Check out the `Fee`_, too.
 
 .. Sponsors
 .. --------
