@@ -33,12 +33,14 @@ Fee
 
 | Attendees will pay for the venue fee (2280 NTD) together.
 |	Note that we have 17 people last sprint :)
+|
 
 Requirements
 ------------
 
 | A laptop to get your hands on. Some snacks if you like. Stay healthy!
 |	Check out the `Fee`_, too.
+|
 
 .. Sponsors
 .. --------
@@ -53,6 +55,7 @@ Venue
 |
 | Transportation: Metro Shuanglian Station Exit 1, walk along Minsheng W Rd, then Minsheng E Rd (about 7 mins).
 | 	交通: 捷運雙連站 1 號出口，沿民生西路、民生東路步行，約 7 分鐘。
+|
 
 .. raw:: html
 
