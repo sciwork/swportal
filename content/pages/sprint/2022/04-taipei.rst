@@ -48,7 +48,7 @@ Requirements
 Venue
 -----
 
-`小樹屋｜香楠 703 <https://goo.gl/maps/8B2SaG4SynCK82es9>`__
+`小樹屋｜香楠 703 <https://thehapp.com/space/336>`__
 
 | Address: No. 58, Section 1, Minsheng E Rd, Zhongshan District, Taipei City, Taiwan 104
 | 	地址: 臺北市中山區民生東路一段58號7樓-703房
