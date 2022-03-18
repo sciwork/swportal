@@ -2,7 +2,7 @@
 sprint
 ======
 
-:date: 2022-02-10 18:00
+:date: 2022-03-08 20:00
 :url:
 :save_as: sprint/index.html
 
@@ -12,6 +12,9 @@ hosted by sciwork.
 
 Scisprint 2022
 ==============
+
+* `Scisprint 2022 April in Taipei
+  <{filename}2022/04-taipei.rst>`__
 
 * `Scisprint 2022 February in Hsinchu
   <{filename}2022/02-hsinchu.rst>`__
