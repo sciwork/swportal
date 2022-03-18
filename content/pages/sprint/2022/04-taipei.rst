@@ -32,7 +32,7 @@ Cost Sharing
 ------------
 
 | Attendees will pay for the venue fee (2280 NTD) together.
-|	Note that we have 17 people last sprint :)
+|	Note that we have 17 people in the last sprint :)
 |
 
 Requirements
