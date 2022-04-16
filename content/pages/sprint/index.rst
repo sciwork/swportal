@@ -13,6 +13,9 @@ hosted by sciwork.
 Scisprint 2022
 ==============
 
+* `Scisprint 2022 May in NYCU with Career Panel
+  <{filename}2022/05-nycu-career.rst>`__
+
 * `Scisprint 2022 April in Taipei
   <{filename}2022/04-taipei.rst>`__
 
