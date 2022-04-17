@@ -48,7 +48,7 @@ Add your name to the sprint note: https://hackmd.io/@sciwork/S10lSZO4q/edit .
 Agenda
 ------
 
-Date: 13th May, Saturday, 2022
+Date: 13th May, Friday, 2022
 
 - 15:20 - 15:30 Opening and introducing panelists 開場座談員介紹
 - 15:30 - 16:20 Panel discussion 座談
