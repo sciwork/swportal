@@ -11,7 +11,7 @@ Open, Free, and Balanced Software Career: a Panel Discussion
 
 You are cordially invited to the sciwork joint event of career panel and project
 sprint.  It will feature the discussions with experienced software developers in
-the vibrant industries.  The panelists will provide insightful information and
+the vibrant industries.  The Panelists_ will provide insightful information and
 hands-on experience for how professional software development works globally and
 locally.  Your questions are also welcomed.
 
@@ -31,7 +31,7 @@ are available at https://discord.gg/6MAkFrD .
 ----------------------------------
 
 誠摯邀請你來參加 sciwork 職涯座談與專案衝刺 (sprint) 二合一活動。\
-我們將邀請資歷豐富的專業人士，依據本地化的視角提供全球性的軟體產業經驗。\
+我們將邀請資歷豐富的專業人士 (見 Panelists_)，依據本地化的視角提供全球性的軟體產業經驗。\
 希望能夠幫助你進入科技領域，也歡迎你前來提問。軟體是現代文明的發展中心，也是重要的投資。\
 在決定踏入相關領域之前，最好能夠儘早了解個人的適性與發展方向。
 
@@ -39,6 +39,26 @@ are available at https://discord.gg/6MAkFrD .
 你可以選擇參加其中一個活動，或者兩個都參加。\
 請在活動的 hackmd 文件 (`Sign Up`_) 中登記你的名字 (本名或任何稱呼均可) 與聯絡方式。\
 也可以在 https://discord.gg/6MAkFrD 與我們線上討論。
+
+Panelists
+---------
+
+Yuren Ju (https://www.linkedin.com/in/yurenju/) is a passionate software
+developer spending many years in exciting frontend technology and open source,
+and currently an engineering manager at Perpetual Protocol (https://perp.com), a
+Decentralized Finance (DeFi) company.
+
+Dr. Shu-Hsi Lin (https://www.linkedin.com/in/shu-hsi-lin-48262b54/) is working
+for data-centric applications and focusing on building the engineering culture.
+He is currently leading a data engineering team in the smart manufacturing area
+at Micron.
+
+Moderator
+---------
+
+Dr. Yung-Yu Chen (https://www.linkedin.com/in/yungyuc/) is a R&D engineer
+developing software for numerical and technical applications.  He is currently
+working on mask synthesis at Synopsys and teaching a course at NYCU.
 
 Sign Up
 -------
