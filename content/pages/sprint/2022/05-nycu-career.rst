@@ -96,6 +96,7 @@ If you want to join and bring your projects, please `Contact us`_.  Please
 follow the links for what are required for each of the projects:
 
 * modmesh: https://github.com/solvcon/modmesh
+* devenv: https://github.com/solvcon/devenv
 
 .. Sponsors
 .. --------
