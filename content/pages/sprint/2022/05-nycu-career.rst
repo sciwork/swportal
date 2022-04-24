@@ -22,10 +22,10 @@ development.  As individuals, a key question is whether or not a career in
 software is a suitable one, and if it is, how to pursue it?  We will discuss
 these questions from different facets.
 
-After the panel discussions we will have the usually sprints for some coding
-projects.  You can join both the panel and the sprint or either of them.  Put
-your name and contact in the hackmd document (`Sign Up`_).  Online discussions
-are available at https://discord.gg/6MAkFrD .
+After the panel discussions we will have the usual sprints.  You can join both
+the panel and the sprint or either of them.  Put your name and contact in the
+hackmd document (`Sign Up`_).  Online discussions are available at
+https://discord.gg/6MAkFrD .
 
 座談會：開放、自由與平衡的軟體職涯
 ----------------------------------
@@ -53,6 +53,9 @@ for data-centric applications and focusing on building the engineering culture.
 He is currently leading a data engineering team in the smart manufacturing area
 at Micron.
 
+See also Jobs_ for the job openings at the companies.  Feel free to bring your
+questions to the event.
+
 Moderator
 ---------
 
@@ -76,6 +79,15 @@ Date: 13th May, Friday, 2022
 - 16:40 - 18:00 Break (dinner time) 晚餐休息時間
 - 18:00 - 20:00 Project sprint 專案衝刺
 - 20:00 End of event 活動結束
+
+Jobs
+----
+
+* Perpetual Protocol Job Openings: https://jobs.perp.fi/
+* 台灣美光 `Data Engineer, Smart MFG & AI
+  <https://www.104.com.tw/job/7ag8f?jobsource=jolist_a_relevance>`__
+* 台灣美光 `SR Data Engineer, Smart MFG & AI
+  <https://www.104.com.tw/job/6s7d4?jobsource=jolist_a_relevance>`__
 
 Sprint Projects and Requirements
 --------------------------------
