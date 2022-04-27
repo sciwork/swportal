@@ -67,20 +67,21 @@ Perks
 -----
 
 To every attendee of the career panel, our sponsor `Droidtown
-<https://www.droidtown.co/>`__ will provide a coupon code of their CV-Scanner
-for one month of full-function trial.
+<https://www.droidtown.co/>`__ will provide a coupon code of their product
+`CV-Scanner <https://cvscanner.droidtown.co>`_ for one month of full-function
+trial.
 
-`CV-Scanner <https://cvscanner.droidtown.co>`__ is implemented with insights
-from professional HR and opinions from Tech. Company's high-end managers. It
-uses NLP AI to parse your autobiography and give suggestions to help compose an
-informative autobiography. The items CV-Scanner checks are the
-**most-want-to-know** information to HR and programming team leaders. Our research
-shows that experienced manager tend to ignored template-based texts for they
-cannot see the candidates' narrative logic from the texts. Unlike most template
+`CV-Scanner`_ is implemented with insights from professional HR and opinions
+from Tech. Company's high-end managers. It uses NLP AI to parse your
+autobiography and give suggestions to help compose an informative
+autobiography. The items CV-Scanner checks are the **most-want-to-know**
+information to HR and programming team leaders. Our research shows that
+experienced manager tend to ignored template-based texts for they cannot see
+the candidates' narrative logic from the texts. Unlike most template
 CV/Autobiography tools that erase one's writing style, CV-Scanner keeps job
 seekers' writing style to help the HR identify talents with better sense.
 
-`CV-Scanner <https://cvscanner.droidtown.co>`__
+`CV-Scanner`_
 是在實地參訪人資主管的專業洞見和科技公司高階經理對召募人員的想法後，\
 實作而成的寫作輔助平台。\
 自然語言處理 AI
