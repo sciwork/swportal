@@ -63,6 +63,35 @@ Dr. Yung-Yu Chen (https://www.linkedin.com/in/yungyuc/) is a R&D engineer
 developing software for numerical and technical applications.  He is currently
 working on mask synthesis at Synopsys and teaching a course at NYCU.
 
+Perk
+----
+
+To every attendee of the career panel, our sponsor `Droidtown
+<https://www.droidtown.co/>`__ will provide a coupon code of their CV-Scanner
+for one month of full-function trial.
+
+`CV-Scanner <https://cvscanner.droidtown.co>`__ is implemented with insights
+from professional HR and opinions from Tech. Company's high-end managers. It
+uses NLP AI to parse your autobiography and give suggestions to help compose an
+informative autobiography. The items CV-Scanner checks are the
+**most-want-to-know** information to HR and programming team leaders. Our research
+shows that experienced manager tend to ignored template-based texts for they
+cannot see the candidates' narrative logic from the texts. Unlike most template
+CV/Autobiography tools that erase one's writing style, CV-Scanner keeps job
+seekers' writing style to help the HR identify talents with better sense.
+
+`CV-Scanner <https://cvscanner.droidtown.co>`__
+是在實地參訪人資主管的專業洞見和科技公司高階經理對召募人員的想法後，\
+實作而成的寫作輔助平台。\
+自然語言處理 AI
+將自動解析您的自傳內容並給予建議以便輔助求職者編寫更完整且豐富的自傳內容。\
+CV-Scanner 的解析功能，\
+將會檢查人資部門以及軟體工程部門主管\ **最想看**\ 的項目，並給予建議。\
+我們的研究中發現有經驗的經理人傾向略過明顯基於範本的自傳，\
+因為千篇一律的範本使他們無法從文字中確認求職者的敘事邏輯是否清楚。\
+因此，和大部份履歷/自傳範本不同的是，\
+CV-Scanner 保留您的撰寫風格以供用人單位辨別求職者是否具備清晰思維。
+
 Sign Up
 -------
 
