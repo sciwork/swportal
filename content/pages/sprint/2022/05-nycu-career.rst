@@ -63,8 +63,8 @@ Dr. Yung-Yu Chen (https://www.linkedin.com/in/yungyuc/) is a R&D engineer
 developing software for numerical and technical applications.  He is currently
 working on mask synthesis at Synopsys and teaching a course at NYCU.
 
-Perk
-----
+Perks
+-----
 
 To every attendee of the career panel, our sponsor `Droidtown
 <https://www.droidtown.co/>`__ will provide a coupon code of their CV-Scanner
