@@ -98,6 +98,13 @@ Sign Up
 
 Add your name to the sprint note: https://hackmd.io/@sciwork/S10lSZO4q/edit .
 
+Outbreak Update
+---------------
+
+There is recently a wave of COVID-19 outbreak in Taiwan.  The organizing team
+is monitoring the development and will follow the CDC directives.  If
+necessary, we may move the event online and update the access information here.
+
 Agenda
 ------
 
