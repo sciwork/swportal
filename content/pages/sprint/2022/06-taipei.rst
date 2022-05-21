@@ -17,9 +17,9 @@ To join the sprint, please bring your laptop and sign up in the `sprint note
 should be added in the `sprint note <#sprint-note>`__ too.  Please `contact us
 <#contact-us>`__ if you have any questions.
 
-Scisprint is an event providing space for people to work on open source project
-together.  We welcome any subjects that may interest the attendees, and
-especially encourage code for science, engineering, and technology, which
+Scisprint is an event providing space for people to work on open source
+projects together.  We welcome any subjects that may interest the attendees,
+and especially encourage code for science, engineering, and technology, which
 demand more critical discussions than other applications of computer
 programming.
 
