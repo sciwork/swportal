@@ -13,6 +13,9 @@ hosted by sciwork.
 Scisprint 2022
 ==============
 
+* `Scisprint 2022 July in Taipei
+  <{filename}2022/07-taipei.rst>`__
+
 * `Scisprint 2022 June in Taipei
   <{filename}2022/06-taipei.rst>`__
 
