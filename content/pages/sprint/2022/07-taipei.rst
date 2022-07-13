@@ -2,7 +2,7 @@
 Scisprint 2022 July in Taipei
 =============================
 
-:date: 2022-06-13 19:36
+:date: 2022-07-13 19:49
 :url: sprint/2022/07-taipei
 :save_as: sprint/2022/07-taipei.html
 
@@ -17,6 +17,8 @@ To join the sprint, please bring your laptop and sign up in the `sprint note
 should be added in the `sprint note <#sprint-note>`__ too.  Please `contact us
 <#contact-us>`__ if you have any questions.
 
+**Please sign up by 7/20 with your name.**
+
 Scisprint is an event providing space for people to work on open source
 projects together.  We welcome any subjects that may interest the attendees,
 and especially encourage code for science, engineering, and technology, which
@@ -26,17 +28,31 @@ programming.
 Cost sharing
 ------------
 
-TBD
+This occurrence is free.
 
 Venue
 -----
 
-TBD
+`台大次震宇宙館 Rm 307 <https://lecospa.ntu.edu.tw>`__ .  Please see the `sprint
+note <#sprint-note>`__ for the access of the venue.
+
+.. raw:: html
+
+  <div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1162.6903190403807!2d121.53660768876628!3d25.022387907642923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa27fb964d21%3A0xcb55bd1e87dde64f!2z5Y-w5aSn5qyh6ZyH5a6H5a6Z6aSo!5e0!3m2!1szh-TW!2stw!4v1657713133306!5m2!1szh-TW!2stw"
+      style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+      loading="lazy">
+    </iframe>
+  </div>
 
 Sprint note
 -----------
 
-https://hackmd.io/@sciwork/scisprint-202207-taipei .
+https://hackmd.io/@sciwork/scisprint-202207-taipei
 
 .. raw:: html
 
