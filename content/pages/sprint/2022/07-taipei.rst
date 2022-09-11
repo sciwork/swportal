@@ -63,3 +63,17 @@ Contact us
 
 * Discord: https://discord.gg/6MAkFrD
 * Email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
+
+Example to show the rendering issue of nested list
+
+#. `Intel Xeon Platinum 9282
+   <https://en.wikichip.org/wiki/intel/xeon_platinum/9282>`__
+
+   #. 56 cores
+   #. 77MB L3 cache memory
+
+#. `AMD EPYC 7H12
+   <https://www.amd.com/en/products/cpu/amd-epyc-7h12>`__
+
+   #. 64 cores
+   #. 256MB L3 cache memory
