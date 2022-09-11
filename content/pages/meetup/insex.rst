@@ -6,3 +6,20 @@ meetup
 :url:
 :save_as: meetup/index.html
 
+| Meetups are to be added.
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
