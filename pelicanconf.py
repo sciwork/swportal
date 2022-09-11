@@ -19,7 +19,8 @@ MENUITEMS = (
     ('home', ''),
     #('Blog', 'blog'),
     ('sprint', 'sprint'),
-    ('about', 'about'),
+    ('meetup', 'meetup'),
+    ('about', 'about'),    
 )
 
 
