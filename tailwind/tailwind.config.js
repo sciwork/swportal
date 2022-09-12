@@ -1,5 +1,6 @@
 module.exports = {
   prefix: '',
+  content: ['./theme/templates/*.html'],
   important: false,
   separator: ':',
   theme: {

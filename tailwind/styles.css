@@ -36,7 +36,13 @@ a { @apply text-red-600 underline; }
 
 ol, ul { padding-left: 1em; }
 
-li { @apply list-outside list-disc; }
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
 
 p { @apply my-4; }
 
