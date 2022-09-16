@@ -9,6 +9,8 @@ Sciwork Meetup October 2022 in NYCU
 Sciwork Meetup October 2022 in NYCU
 ============================================================
 
+Date: 14th October, Friday, 2022
+
 Computers have eaten the world but it did not come from vacuum. We rely so heavily on computer 
 programming because the software developed solves so many problems. The versatile applications 
 are the reason that everyone is encouraged to learn programming.
@@ -41,9 +43,9 @@ Joe has a lot of experience in both technical development and community, and has
 Moderator
 ---------
 
-Dr. Yung-Yu Chen (https://www.linkedin.com/in/yungyuc/) is a R&D engineer
-developing software for numerical and technical applications.  He is currently
-working on mask synthesis at Synopsys and teaching a course at NYCU.
+Yung-Yu Chen (https://www.linkedin.com/in/yungyuc/) is a R&D engineer developing
+software for numerical and technical applications.  He is currently working on
+mask synthesis at Synopsys and teaching a course at NYCU.
 
 
 Sign Up
@@ -54,8 +56,6 @@ Add your name to the sprint note: https://hackmd.io/@sciwork/meetup-2210 .
 
 Agenda
 ------
-
-Date: 14th October, Friday, 2022
 
 - 13:30 – 13:50 Attendee Arrival
 - 13:50 – 14:00 Opening and Introducing panelists
