@@ -31,14 +31,42 @@ hackmd document (`Sign Up`_). Online discussions are available at https://discor
 Panelists
 ---------
 
-Dr. Shuen-Huei “Drake” Guan (https://www.linkedin.com/in/drakeguan/) is an expert in streaming and computer graphics. 
-He is currently the Chief Technology Officer of KKStream, a leading company in cloud streaming, AI, and data analytics. 
-Drake is enthusiastic about technology, and spends a lot of time in the communities of Taipei Video Tech and PyCon Taiwan to share what he thinks about and promote technical development.
+Dr. Shuen-Huei “Drake” Guan (https://www.linkedin.com/in/drakeguan/) is an
+expert in streaming and computer graphics. He is currently the Chief Technology
+Officer of KKStream_, a leading company in cloud streaming, AI, and data
+analytics. Drake is enthusiastic about technology, and spends a lot of time in
+the communities of Taipei Video Tech and PyCon Taiwan to share what he thinks
+about and promote technical development.
 
-Chun-Yu “Joe” Tseng (https://www.linkedin.com/in/excusemejoe/) is a VP of Berry AI, a company offering advanced computer vision and AI technologies to help fast food chains grow and perform. 
-Joe is also a Python lover and expert of devops and AI products. He leads teams to provide solutions for real-world problems, which are oftentimes edible. 
-Joe has a lot of experience in both technical development and community, and has served as the chairperson of PyCon Taiwan in 2020.
+Chun-Yu “Joe” Tseng (https://www.linkedin.com/in/excusemejoe/) is a VP of `Berry
+AI`_, a company offering advanced computer vision and AI technologies to help
+fast food chains grow and perform. Joe is also a Python lover and expert of
+devops and AI products. He leads teams to provide solutions for real-world
+problems, which are oftentimes edible. Joe has a lot of experience in both
+technical development and community, and has served as the chairperson of PyCon
+Taiwan in 2020.
 
+KKStream
+........
+
+`KKStream <https://www.kkstream.com/>`__ is Asia’s leading streaming technology
+solution provider and consulting firm founded in 2016. KKStream dedicates itself
+to empowering global media broadcasters and enterprises to transcend their
+existing business boundaries with media streaming technologies. 
+
+Berry AI
+........
+
+`Berry AI <https://www.berry-ai.com>`__ is an AI startup based in Taipei and
+USA. We use computer vision to help fast food chains collect data and improve
+operations. Our team consists of a group of enthusiastic AI and software
+engineers from well-known academic institutions and large technology companies
+around the world. We’re backed by Flytech Technology, a Taiwan-listed company
+with 38 years of experience building industrial computers for large enterprise
+deployments, and provides us with stable funding and customer relationships.
+Today, Berry AI is working with multiple global top-10 fast food chains. Our
+team and business are both expanding rapidly. For more information, please visit
+berry-ai.com.
 
 Moderator
 ---------
