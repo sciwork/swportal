@@ -3,7 +3,7 @@ sprint
 ======
 
 :date: 2022-03-08 20:00
-:url:
+:url: sprint
 :save_as: sprint/index.html
 
 Sciwork hosts coding sprints for open-source projects for scientific,

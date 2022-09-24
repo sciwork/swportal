@@ -78,3 +78,12 @@ Scisprint
 To add a new Scisprint event, save the pages into
 ``content/pages/sprint/{date:%Y}`` directory,
 and the URL should be ``sprint/{date:%Y}/{slug}``.
+
+Generate Sitemap
+-----------------
+
+In order to generate sitemap.xml smoothly, some modifications are necessary:
+
+1. Make sure that env variable ``SITEURL`` has existed.
+2. Make sure that each .rst has ``:url:`` and ``:save_as:`` parameters.
+3. each time you run ``pelican content`` or ``make html``, ``sitemap.xml`` will be generated automatically. 
