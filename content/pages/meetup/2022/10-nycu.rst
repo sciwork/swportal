@@ -79,7 +79,7 @@ mask synthesis at Synopsys and teaching a course at NYCU.
 Sign Up
 -------
 
-Add your name to the sprint note: https://hackmd.io/@sciwork/meetup-2210 .
+Fill in the google form to sign up:  https://forms.gle/WR21v8aqq8sJKJL96 .
 
 
 Agenda
@@ -89,9 +89,8 @@ Agenda
 - 13:50 – 14:00 Opening and Introducing panelists
 - 14:00 – 15:30 Career Panel
 - 15:30 – 16:00 Refreshment
-- 16:00 – 18:00 Project Sprint
-- 18:00 – 19:00 Project Presentation
-- 19:00 End of Event / Off for Dinner
+- 16:00 – 18:00 Project Sprint 
+- 18:00 End of Event / Off for Dinner
 
 
 Sprint Projects and Requirements
