@@ -24,9 +24,10 @@ Sciwork hosted `a panel discussion in May <https://sciwork.dev/sprint/2022/05-ny
 The panel discussion in this meetup will feature the same theme, but bring new perspectives from 
 different Panelists_.
 
-You can join both the panel and the sprint or either of them. Put your name and contact in the 
-hackmd document (`Sign Up`_). Online discussions are available at https://discord.gg/6MAkFrD .
-
+You can join both the panel and the sprint or either of them.
+See `Sign Up`_, and more information is available in the hackmd note:
+https://hackmd.io/@sciwork/meetup-2210 .
+Go to https://discord.gg/6MAkFrD to discuss with us online.
 
 Panelists
 ---------
