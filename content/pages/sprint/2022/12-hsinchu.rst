@@ -23,22 +23,21 @@ and especially encourage code for science, engineering, and technology, which
 demand more critical discussions than other applications of computer
 programming.
 
-In this sprint, we provide a `Sprint Training room <#Sprint Training room>`__ 
-for the newcomers/less experienced developers to get prepared to contribute in the open-source projects.
+In this sprint, we provide a `Sprint Training Room <#Sprint-Training-Room>`__ for the newcomers/less experienced developers to get prepared to contribute in the open-source projects.
 
 We would like to provide a supportive and friendly environment for all attendees to support more developers
 to join in the open-source communities. 
 
 
-Sprint Training room
+Sprint Training Room
 --------------------
 
 If you uaually felt frustrated with starting to contribute in an open-source project or have no idea how to deal with it, 
-now it is a great time to join `Sprint Training room <https://hackmd.io/XRFfX0zeQGqFedKfi6eqTg#Sprint-Training-room>`__.
+now it is a great time to join `Sprint Training Room <https://hackmd.io/XRFfX0zeQGqFedKfi6eqTg#Sprint-Training-room>`__.
 You will learn some git/GitHub skills which is commonly used in contributing workflow, which is an important 
 entry point to start your open-source path.
 
-For more information, you could check out in `Sprint Training room <https://hackmd.io/XRFfX0zeQGqFedKfi6eqTg#Sprint-Training-room>`__.
+For more information, you could check out in `Sprint Training Room <https://hackmd.io/XRFfX0zeQGqFedKfi6eqTg#Sprint-Training-room>`__.
 If you have any questions, feel free to join `Discord <https://discord.gg/6MAkFrD>`__ and interact with us.
 
 Cost sharing
