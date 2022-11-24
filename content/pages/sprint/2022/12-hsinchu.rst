@@ -38,8 +38,8 @@ now it is a great time to join `Sprint Training room <https://hackmd.io/XRFfX0ze
 You will learn some git/GitHub skills which is commonly used in contributing workflow, which is an important 
 entry point to start your open-source path.
 
-For more information, you could check out in `Sprint Training room <https://hackmd.io/XRFfX0zeQGqFedKfi6eqTg#Sprint-Training-room>`__
-If you have any questions, feel free to join `Discord server <https://discord.gg/6MAkFrD>`__ to interact with us.
+For more information, you could check out in `Sprint Training room <https://hackmd.io/XRFfX0zeQGqFedKfi6eqTg#Sprint-Training-room>`__.
+If you have any questions, feel free to join `Discord <https://discord.gg/6MAkFrD>`__ and interact with us.
 
 Cost sharing
 ------------
