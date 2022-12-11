@@ -21,6 +21,7 @@ MENUITEMS = (
     ('sprint', 'sprint'),
     ('meetup', 'meetup'),
     ('about', 'about'),    
+    ('project', 'project'),
 )
 
 
