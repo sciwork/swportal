@@ -20,6 +20,7 @@ MENUITEMS = (
     #('Blog', 'blog'),
     ('sprint', 'sprint'),
     ('meetup', 'meetup'),
+    ('project', 'project'),
     ('about', 'about'),    
 )
 
