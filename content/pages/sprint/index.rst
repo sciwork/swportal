@@ -10,6 +10,12 @@ Sciwork hosts coding sprints for open-source projects for scientific,
 numerical, and engineering applications.  This page lists the sprints that
 hosted by sciwork.
 
+Scisprint 2023
+==============
+
+* `Scisprint 2023 February in Taipei
+  <{filename}2023/02-taipei.rst>`__
+
 Scisprint 2022
 ==============
 
