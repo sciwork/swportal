@@ -13,7 +13,7 @@ hosted by sciwork.
 Scisprint 2023
 ==============
 
-* `Scisprint 2023 February in Taipei
+* `Scisprint 2023 February at Amazon Taipei
   <{filename}2023/02-taipei.rst>`__
 
 Scisprint 2022
