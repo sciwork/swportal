@@ -37,7 +37,7 @@ introduce some interesting topics about it.
 
 This training room will be like a workshop. There are some hands-on practices for you to get familiar with the course. Let's have fun with Mosky!
 
-For more information, you could check it out in `Project list <#Project-list>`__.
+For more information, you could check it out in `project list <#Project-List>`__.
 If you have any questions, feel free to join `Discord <https://discord.gg/6MAkFrD>`__ and interact with us.
 
 Sign Up
@@ -60,7 +60,7 @@ Venue
   </div>
 
 
-Project list
+Project List
 ------------
 
 https://hackmd.io/@sciwork/BJkd6Blts
