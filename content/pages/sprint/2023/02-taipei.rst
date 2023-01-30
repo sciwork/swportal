@@ -42,7 +42,7 @@ If you have any questions, feel free to join `Discord <https://discord.gg/6MAkFr
 
 Sign Up
 ------------
-`Please register at kktix <https://sciwork.kktix.cc/events/scisprint-202202-taipei>`__ .
+`Please register at kktix <https://sciwork.kktix.cc/events/scisprint-202302-taipei>`__ .
 
 
 Venue
