@@ -6,7 +6,7 @@ Scisprint 2023 March at Hsinchu
 :url: sprint/2023/03-hsinchu
 :save_as: sprint/2023/03-hsinchu.html
 
-Scisprint 2023 March at Hsinchu
+Scisprint 2023 March in Hsinchu
 ========================================
 
 * Date: 11th March, Saturday, 2023
