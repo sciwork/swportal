@@ -13,6 +13,9 @@ hosted by sciwork.
 Scisprint 2023
 ==============
 
+* `Scisprint 2023 March in Hsinchu
+  <{filename}2023/03-hsinchu.rst>`__
+
 * `Scisprint 2023 February at Amazon Taipei
   <{filename}2023/02-taipei.rst>`__
 
