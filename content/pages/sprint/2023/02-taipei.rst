@@ -69,6 +69,24 @@ https://hackmd.io/@sciwork/BJkd6Blts
 
   <iframe width="100%" height="500" src="https://hackmd.io/@sciwork/BJkd6Blts" frameborder="0"></iframe>
 
+Event Album
+------------
+
+https://flic.kr/s/aHBqjArLL7
+
+.. raw:: html
+
+  <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/sciwork/albums/72177720305939446" title="Scisprint 2023 February">
+    <img src="https://live.staticflickr.com/65535/52682729722_345427cd12_z.jpg" width="640" height="480" alt="Scisprint 2023 February">
+  </a>
+  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+Blog
+------
+
+https://medium.com/sciwork/scisprint-2023-february-in-taipei-e565f2d19b1a
+
+
 Contact us
 ----------
 
