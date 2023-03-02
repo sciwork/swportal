@@ -10,7 +10,7 @@ Scisprint 2023 February at Amazon Taipei
 ========================================
 
 Thanks everyone for your enthutiastic participation in our February scisprint.
-A huge thanks to our sponsor Amazon for providing a great venue. We enjoy the time we shared in Amazon, hope to see you soon!
+Huge thanks to our sponsor Amazon for providing a great venue. We enjoy the time we shared in Amazon, hope to see you soon!
 
 https://medium.com/sciwork/scisprint-2023-february-in-taipei-e565f2d19b1a
 
