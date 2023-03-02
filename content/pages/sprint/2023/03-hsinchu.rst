@@ -12,8 +12,7 @@ Scisprint 2023 March in Hsinchu
 * Date: 11th March, Saturday, 2023
 * Time: 10:00 -- 17:00 (7 hours)
 
-To join the sprint, please bring your laptop and sign up in the `sprint note
-<#sprint-note>`__.  You are also very welcome to bring your project, which
+To join the sprint, please bring your laptop and `sign up at kktix <https://sciwork.kktix.cc/events/scisprint-202303-hsinchu>`__.  You are also very welcome to bring your project, which
 should be added in the `sprint note <#sprint-note>`__ too.  Please `contact us
 <#contact-us>`__ if you have any questions.
 
@@ -38,18 +37,18 @@ introduce some interesting topics about it.
 
 This training room will be like a workshop. There are some hands-on practices for you to get familiar with the course. Let's have fun with Mosky!
 
-For more information, you could check it out in `project list <#Project-List>`__.
+For more information, you could check it out in `project list <https://hackmd.io/@sciwork/scisprint-2303#Projects>`__.
 If you have any questions, feel free to join `Discord <https://discord.gg/6MAkFrD>`__ and interact with us.
 
-Cost sharing
+Sign Up
 ------------
 
-This occurrence is free.
+`Please register at kktix <https://sciwork.kktix.cc/events/scisprint-202303-hsinchu>`__ .
 
 Venue
 -----
 
-`國立清華大學第三綜合大樓 A區 5樓 <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__. Please see the `sprint
+`國家理論科學研究中心 (國立清華大學第三綜合大樓 A 區 5 樓) <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__. Please see the `sprint
 note <#sprint-note>`__ for the access of the venue.
 
 .. raw:: html
@@ -60,6 +59,7 @@ note <#sprint-note>`__ for the access of the venue.
       allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
+
 
 Sprint note
 -----------
