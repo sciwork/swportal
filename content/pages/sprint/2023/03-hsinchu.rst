@@ -48,7 +48,7 @@ Sign Up
 Venue
 -----
 
-`國家理論科學研究中心 (國立清華大學第三綜合大樓 A 區 5 樓) <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__. Please see the `sprint
+`前沿理論及計算研究中心 (國立清華大學第三綜合大樓 A 區 5 樓) <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__. Please see the `sprint
 note <#sprint-note>`__ for the access of the venue.
 
 .. raw:: html
