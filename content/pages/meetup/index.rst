@@ -6,15 +6,8 @@ meetup
 :url: meetup
 :save_as: meetup/index.html
 
-Coming soon!
-============
+meetup 2023
+==============
 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
+* `Meetup 2023 March at NYCU
+  <{filename}2023/03-nycu.rst>`__
