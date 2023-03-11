@@ -27,7 +27,7 @@ to join in the open-source communities.
 Venue
 -----
 
-`國立陽明交通大學 工程三館 3 樓 329 室 <https://goo.gl/maps/TgDYwohB3CBmQgww9>`__.
+`國立陽明交通大學 工程三館 3 樓 329 室 (Room 343, Engineering Building 3, NYCU) <https://goo.gl/maps/TgDYwohB3CBmQgww9>`__.
 
 .. raw:: html
 
