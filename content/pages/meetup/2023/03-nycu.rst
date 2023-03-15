@@ -37,6 +37,15 @@ Venue
     </iframe>
   </div>
 
+Meetup note
+-----------
+
+https://hackmd.io/@sciwork/meetup-nycu-2303
+
+.. raw:: html
+
+  <iframe width="100%" height="500" src="https://hackmd.io/@sciwork/meetup-nycu-2303" frameborder="0"></iframe>
+
 Contact us
 ----------
 
