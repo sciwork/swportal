@@ -12,7 +12,7 @@ Scisprint 2023 April in Hsinchu
 * Date: 15th April, Saturday, 2023
 * Time: 10:00 -- 17:00 (7 hours)
 
-To join the sprint, please bring your laptop and `sign up at kktix <#>`__.  You are also very welcome to bring your project, which
+To join the sprint, please bring your laptop and `sign up <#sign-up>`__.  You are also very welcome to bring your project, which
 should be added in the `sprint note <#sprint-note>`__ too.  Please `contact us
 <#contact-us>`__ if you have any questions.
 
@@ -22,7 +22,7 @@ and especially encourage code for science, engineering, and technology, which
 demand more critical discussions than other applications of computer
 programming.
 
-In this sprint, we provide a `Training Room <#Training-Room>`__ for the newcomers/less experienced developers to get prepared to contribute in the open-source projects.
+In this sprint, we provide a `Training Room <#training-room>`__ for the newcomers/less experienced developers to get prepared to contribute in the open-source projects.
 
 We would like to provide a supportive and friendly environment for all attendees to support more developers
 to join in the open-source communities. 
@@ -43,13 +43,14 @@ If you have any questions, feel free to join `Discord <https://discord.gg/6MAkFr
 Sign Up
 ------------
 
-`Please register at kktix <#>`__ .
+TBD
 
 Venue
 -----
 
-`前沿理論及計算研究中心 (國立清華大學第三綜合大樓 A 區 5 樓) <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__. Please see the `sprint
-note <#sprint-note>`__ for the access of the venue.
+`前沿理論及計算研究中心 (國立清華大學第三綜合大樓 A 區 5 樓) <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__. Please see the `sprint note <#sprint-note>`__ for the access of the venue.
+
+`Center for Theory and Computation (Rm. P518, 3rd General Building, National Tsing Hua University) <https://goo.gl/maps/4i2K2XvJqw2J42pv5>`__.
 
 .. raw:: html
 
