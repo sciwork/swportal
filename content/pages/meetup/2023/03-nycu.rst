@@ -11,6 +11,7 @@ Meetup 2023 March in NYCU
 
 * Date: March 15th, 22th and 29st, 2023
 * Time: 18:30 -- 21:30 (3 hours)
+* `Meetup note <#meetup-note>`__
 
 To join the meetup, please bring your laptop. You are also very welcome to bring your project. Please `contact us
 <#contact-us>`__ if you have any questions.
