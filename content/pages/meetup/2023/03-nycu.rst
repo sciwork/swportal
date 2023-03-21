@@ -11,6 +11,7 @@ Meetup 2023 March in NYCU
 
 * Date: March 15th, 22th and 29st, 2023
 * Time: 18:30 -- 21:30 (3 hours)
+* `Meetup note <#meetup-note>`__
 
 To join the meetup, please bring your laptop. You are also very welcome to bring your project. Please `contact us
 <#contact-us>`__ if you have any questions.
@@ -24,6 +25,24 @@ programming.
 We would like to provide a supportive and friendly environment for all attendees to support more developers
 to join in the open-source communities. 
 
+Topic Discussion
+-------------------
+
+We invite all attendees to suggest topics for the upcoming meetups, which will 
+feature approximately three 10-minute topics, and we welcome 
+suggestions from attendees. To list a few, the topic may be about Modmesh, NSD, 
+and NSD project, among others.
+
+Agenda 22nd March 2023
+-----------------------
+
+- 18:30-19:30 Disscussion.
+- 19:30-19:40 Topic discussion: Projection method. (EN)
+- 19:40-19:50 Topic discussion: Euler solver. (Chu-Hsu)
+- 19:50-20:00 Topic discussion: Camera. (TY)
+- 20:00-20:10 Scisprint recruitment. (Jenny)
+- 20:10- Discussion.
+
 Venue
 -----
 
@@ -36,6 +55,15 @@ Venue
       style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
+
+Meetup note
+-----------
+
+https://hackmd.io/@sciwork/meetup-nycu-2303
+
+.. raw:: html
+
+  <iframe width="100%" height="500" src="https://hackmd.io/@sciwork/meetup-nycu-2303" frameborder="0"></iframe>
 
 Contact us
 ----------

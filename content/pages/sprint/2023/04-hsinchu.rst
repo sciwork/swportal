@@ -43,7 +43,7 @@ If you have any questions, feel free to join `Discord <https://discord.gg/6MAkFr
 Sign Up
 ------------
 
-TBD
+`Please register at kktix <https://sciwork.kktix.cc/events/scisprint-202304-hsinchu>`__ .
 
 Venue
 -----
