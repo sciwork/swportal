@@ -11,6 +11,7 @@ Meetup 2023 March in NYCU
 
 * Date: March 15th, 22th and 29st, 2023
 * Time: 18:30 -- 21:30 (3 hours)
+* `Meetup note <#meetup-note>`__
 
 To join the meetup, please bring your laptop. You are also very welcome to bring your project. Please `contact us
 <#contact-us>`__ if you have any questions.
@@ -36,6 +37,15 @@ Venue
       style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
+
+Meetup note
+-----------
+
+https://hackmd.io/@sciwork/meetup-nycu-2303
+
+.. raw:: html
+
+  <iframe width="100%" height="500" src="https://hackmd.io/@sciwork/meetup-nycu-2303" frameborder="0"></iframe>
 
 Contact us
 ----------
