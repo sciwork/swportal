@@ -9,6 +9,23 @@ Scisprint 2023 April in Hsinchu
 Scisprint 2023 April in Hsinchu
 ========================================
 
+The April scisprint ended successfully. Thanks all of you for your enthutiastic participation. Also, huge 
+thanks to our sponsor CTC (Center for Theory and Computation, NTHU) for providing a great venue. 
+We have a great time in CTC, hope to see you soon!
+
+https://medium.com/sciwork/scisprint-2023-april-in-hsinchu-88ccc200bbcf
+
+Event Album
+------------
+.. raw:: html
+
+  <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/sciwork/albums/72177720307721724" title="Scisprint 2023 April">
+    <img src="https://live.staticflickr.com/65535/52838576141_b5e0a663a7_z.jpg" width="640" height="480" alt="Scisprint 2023 April"/></a>
+  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+|
+|
+
 * Date: 15th April, Saturday, 2023
 * Time: 10:00 -- 17:00 (7 hours)
 
