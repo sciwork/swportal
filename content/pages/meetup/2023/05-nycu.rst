@@ -41,11 +41,11 @@ Venue
 Meetup note
 -----------
 
-https://hackmd.io/@sciwork/meetup-nycu-2304
+https://hackmd.io/@sciwork/meetup-nycu-2305
 
 .. raw:: html
 
-  <iframe width="100%" height="500" src="https://hackmd.io/@sciwork/meetup-nycu-2304" frameborder="0"></iframe>
+  <iframe width="100%" height="500" src="https://hackmd.io/@sciwork/meetup-nycu-2305" frameborder="0"></iframe>
 
 Contact us
 ----------
