@@ -9,7 +9,7 @@ meetup
 meetup 2023
 ==============
 
-* `Meetup 2023 July 05th at NYCU
+* `Meetup 2023 July 5th at NYCU
   <{filename}2023/0705-nycu.rst>`__
 
 * `Meetup 2023 June 28th at NYCU
