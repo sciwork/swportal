@@ -6,14 +6,13 @@ Meetup 2023 July 12th in NYCU
 :url: meetup/2023/0712-nycu
 :save_as: meetup/2023/0712-nycu.html
 
-Meetup 2023 July 12th in NYCU
-========================================
+Date
+-----
 
 * Date: July 12th, 2023
 * Time: 18:30 -- 21:30 (3 hours)
 
-To join the meetup, please bring your laptop. You are also very welcome to bring your project. Please `contact us
-<#contact-us>`__ if you have any questions.
+|
 
 Agenda
 --------
@@ -24,7 +23,7 @@ Agenda
 
 |
 
-Introduction
+About Meetup
 ------------
 
 Meetup is an event providing space for people to work on open source
@@ -33,8 +32,11 @@ and especially encourage code for science, engineering, and technology, which
 demand more critical discussions than other applications of computer
 programming.
 
-We would like to provide a supportive and friendly environment for all attendees to support more developers
-to join in the open-source communities. 
+We would like to provide a supportive and friendly environment for all 
+attendees to support more developers to join in the open-source communities. 
+
+To join the meetup, please bring your laptop. You are also very welcome to 
+bring your project. Please `contact us <#contact-us>`__ if you have any questions.
 
 Subjects
 ------------------

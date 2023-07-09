@@ -12,6 +12,24 @@ Meetup 2023 July 5th in NYCU
 * Date: July 5th, 2023
 * Time: 18:30 -- 21:30 (3 hours)
 
+Thanks all of attendees for your enthusiastic participation. We hope you found the event 
+informative, inspiring, and a valuable investment of your time. Your participation and 
+engagement drive us forward. We look forward to more exciting events and opportunities 
+to connect with all of you in the future.
+
+
+Event Album
+------------
+.. raw:: html
+
+  <a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/sciwork/albums/72177720309638031" title="Meetup 2023 July 12th">
+    <img src="https://live.staticflickr.com/65535/53033121510_98c1b26507_z.jpg" width="640" height="480" alt="Meetup 2023 July 12th"/>
+  </a>
+  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+|
+|
+
 To join the meetup, please bring your laptop. You are also very welcome to bring your project. Please `contact us
 <#contact-us>`__ if you have any questions.
 
