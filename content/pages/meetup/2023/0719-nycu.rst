@@ -66,5 +66,5 @@ Venue
 Contact us
 ----------
 
-* Discord: https://discord.gg/G3cccnGfMe
+* Discord: https://discord.gg/6MAkFrD
 * Email: `contact@sciwork.dev (subject: I want to lead a project in meetup) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
