@@ -45,7 +45,7 @@ Subjects
 Sign up
 ------------
 
-The event is free. Please register on `sign up <https://sciwork.kktix.cc/events/meetup-20230726>`__.
+The event is free. Please register on `kktix <https://sciwork.kktix.cc/events/meetup-20230726>`__.
 
 |
 
@@ -61,7 +61,7 @@ programming.
 We would like to provide a supportive and friendly environment for all 
 attendees to support more developers to join in the open-source communities. 
 
-To join the meetup, please bring your laptop. You are also very welcome to 
+To join the meetup, please bring your laptop and `sign up <#sign-up>`__. You are also very welcome to 
 bring your project. Please `contact us <#contact-us>`__ if you have any questions.
 
 |
