@@ -18,29 +18,46 @@ Agenda
 --------
 
 * 18:30-19:30 Free discussion
-* 19:40-20:10 Subject (sharing): Physical Therapy Assessment with AI - Depth Camera for Mobility Analysis
-* 20:10-21:30 Subject (discussion): Preparations for August scisprint  
+* 19:40-20:10 Physical Therapy Assessment with AI - Depth Camera for Mobility Analysis
+* 20:10-20:30 sciwork grand project (Yung-Yu)
+* 20:30-21:30 Preparational meeting for August scisprint  
 
 |
 
 Subjects
 ------------------
 
-* **Sharing: Physical Therapy Assessment with AI - Depth Camera for Mobility Analysis**
+Physical Therapy Assessment with AI - Depth Camera for Mobility Analysis
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    Speaker : Nian-Cheng - A graduate student in NYCU Institute of Artificial Intelligence Innovation.
+Speaker : Nian-Cheng - A graduate student in NYCU Institute of Artificial Intelligence Innovation.
     
-    In this topic, I leveraged data from depth cameras for AI model data processing and introduces the essential tools I utilized for this purpose.
+In this topic, I leveraged data from depth cameras for AI model data processing and introduces the essential tools I utilized for this purpose.
 
-* **Discussion: Preparations for August scisprint**
+sciwork grand project
++++++++++++++++++++++
 
-    Additionally, we will discuss the following items for preparing August scisprint. 
+Host: Yung-Yu
 
-    * Task arrangement for volunteers
-    * Promotion plan for August scisprint
-    * Preparations for career conversation
+In the past years sciwork communit is using the portal site https://sciwork.dev/
+to organize the events, including meetups and sprints.  The light-weight system
+is easy to use for programmers and very effective.  However, the portal is a
+static website that cannot automatically organize all information.  That is why
+github, netlify, hackmd, and kktix are involved in the workflow.
 
-|
+More IT experts are joining the community.  It is time to discuss whether we
+want to upgrade the website.  In this session I would like to propose a project
+to upgrade the portal web page to a portal web app.  It will be a significant
+endeavor and named the sciwork grand project.
+
+Preparational meeting for August scisprint
+++++++++++++++++++++++++++++++++++++++++++
+
+Additionally, we will discuss the following items for preparing August scisprint. 
+
+* Task arrangement for volunteers
+* Promotion plan for August scisprint
+* Preparations for career conversation
 
 Sign up
 ------------
