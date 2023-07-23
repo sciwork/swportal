@@ -6,6 +6,27 @@ Meetup 2023 July 26th in NYCU
 :url: meetup/2023/0726-nycu
 :save_as: meetup/2023/0726-nycu.html
 
+.. role:: red
+    :class: red
+
+.. raw:: html
+
+    <style>
+
+    .red {
+        color:red;
+    }
+
+    </style>
+
+:red:`Cancellation Announcement`
+--------------------------------
+Sorry, due to the typhoon, we have to cancel this week's meetup.
+
+Please follow the Discord `meetup channel <https://discord.gg/wtEkBQfBtg>`__ for more information about next week's meetup.
+
+|
+
 Date
 -----
 
