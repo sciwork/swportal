@@ -2,13 +2,12 @@
 Scisprint 2023 August in Hsinchu
 ========================================
 
-:date: 2023-07-19 19:04
+:date: 2023-07-28 14:30
 :url: sprint/2023/08-hsinchu
 :save_as: sprint/2023/08-hsinchu.html
 
-Scisprint 2023 August in Hsinchu
-========================================
-
+Date
+-----
 
 * Date: 12th August, Saturday, 2023
 * Time: 10:00 -- 17:00 (7 hours)
@@ -18,25 +17,25 @@ Scisprint 2023 August in Hsinchu
 Agneda 
 -------
 
-* 10:00-10:30 報到（確認報名資訊）
+* 10:00-10:30 Arrival and Seating (Confirmation of registration information)
 
-* 10:30-11:00 專案介紹  
+* 10:30-11:00 Project Introduction 
 
-* 11:00-12:00 Coding session 1
+* 11:00-12:00 Coding Session 1
 
-* 12:00-13:20 午餐時間 & 小組討論 1
+* 12:00-13:20 Lunch Break & Group Discussion 1
 
-* 13:30-14:20 Coding session 2
+* 13:30-14:20 Coding Session 2
 
-* 14:20-14:30 小組討論 2
+* 14:20-14:30 Group Discussion 2
 
-* 14:30-15:20 Coding session 3
+* 14:30-15:20 Coding Session 3
 
-* 15:20-15:30 小組討論 3
+* 15:20-15:30 Group Discussion 3
 
-* 15:30-16:30 最後衝刺
+* 15:30-16:30 Final Sprint
 
-* 16:30-17:00 活動進度分享 & Closing
+* 16:30-17:00 Project Summary & Closing
 
 |
 
@@ -165,13 +164,6 @@ Venue
   </div>
 
 |
-
-About the sciwork
-------------------
-
-Sciwork is a community for researchers and engineers to share and discuss computer code for 
-scientific, numerical, and engineering work. We believe in the power of openness, and use 
-open source as a means to advance software development for computational sciences.
 
 Contact us
 ----------
