@@ -2,7 +2,7 @@
 Meetup 2023 August 2th in NYCU
 ========================================
 
-:date: 2023-07-28 16:30
+:date: 2023-07-30 14:00
 :url: meetup/2023/0802-nycu
 :save_as: meetup/2023/0802-nycu.html
 
@@ -18,7 +18,7 @@ Agenda
 --------
 
 * 18:30-19:30 Free discussion
-* 19:40-20:10 Terry will sharing something
+* 19:40-20:10 Cloud Native Course Project Sharing: I’m Uber
 * 20:10-21:30 Preparational meeting for August scisprint  
 
 |
@@ -26,12 +26,16 @@ Agenda
 Subjects
 ------------------
 
-Terry's sharing topic
+Cloud Native Course Project Sharing: I’m Uber
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Speaker : Terry Chan - A graduate student in the field of Biomedical Engineering at NYCU. His research interests include bioinformatics, IoT applications, and software system development.
+Speaker : Terry Chan - A graduate student in the field of Biomedical Engineering at NYCU. 
+His research interests include bioinformatics, IoT applications, and software system development.
     
-Simply introduction about Terry's subject.
+'I'm Uber' is an Uber Clone project specifically designed to support people working at 
+the Hsinchu Science and Industrial Park. Our team has implemented it as a web app. Terry 
+will share the experiences during development, as well as the challenges he encountered.
+
 
 
 Preparational meeting for August scisprint
@@ -42,6 +46,9 @@ Additionally, we will discuss the following items for preparing August scisprint
 * Task arrangement for volunteers
 * Promotion plan for August scisprint
 * Preparations for career conversation
+
+Please check `August sciprint <https://sciwork.dev/sprint/2023/08-hsinchu>`__ and `kktix <https://sciwork.kktix.cc/events/scisprint-202308-hsinchu>`__ 
+for more information.
 
 Sign up
 ------------
