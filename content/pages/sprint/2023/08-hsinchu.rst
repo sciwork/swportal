@@ -113,7 +113,7 @@ conversation** pass for this event. On the registration form, select **I want to
 career conversation** and kindly fill up some relevant questions to give us an initial 
 understanding of your background.
 
-【Career conversation QAs】
+Career conversation QAs
 +++++++++++++++++++++++++++++
 
  | Q: How is it conducted? 
