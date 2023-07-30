@@ -9,6 +9,9 @@ meetup
 meetup 2023
 ==============
 
+* `Meetup 2023 August 9th at NYCU
+  <{filename}2023/0809-nycu.rst>`__
+
 * `PyDoc Meetup 2023 August 5th at GoFreight Office
   <{filename}2023/0805-pydoc.rst>`__
 
