@@ -46,10 +46,8 @@ contribute to sciwork.
 Sign up
 ------------
 
-TBD
-
-.. The event is free. Please register on `kktix
-.. <https://sciwork.kktix.cc/events/meetup-20230809>`__.
+The event is free. Please register on `kktix
+<https://sciwork.kktix.cc/events/meetup-20230809>`__.
 
 |
 
