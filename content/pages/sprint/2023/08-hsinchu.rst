@@ -6,6 +6,28 @@ Scisprint 2023 August in Hsinchu
 :url: sprint/2023/08-hsinchu
 :save_as: sprint/2023/08-hsinchu.html
 
+The August sprint concluded on a positive note. Many thanks to **CTC (Center 
+for Theory and Computation, NTHU)** for providing the great venue, as well as 
+to all the participants who joined us. Your generous support and active engagement 
+played an important role in creating a vibrant and inspiring environment. We look 
+forward to meeting you again soon!
+
+Event Album
+------------
+
+.. raw:: html
+
+  <a data-flickr-embed="true" data-footer="true" 
+    href="https://www.flickr.com/photos/sciwork/albums/72177720310488272" 
+    title="Scisprint 2023 August">
+    <img src="https://live.staticflickr.com/65535/53116545547_e1d3c8a28d_z.jpg" 
+    width="640" height="480" alt="Scisprint 2023 August"/>
+  </a>
+  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+|
+|
+
 Date
 -----
 
