@@ -6,6 +6,29 @@ PyDoc Translation Meetup 2023 August 5th
 :url: meetup/2023/0805-pydoc
 :save_as: meetup/2023/0805-pydoc.html
 
+The PyDoc Translation Meetup ends successfully. Many thanks to **GoFreight** for 
+providing the great venue, as well as to all the participants who joined us. 
+Your generous support and active engagement played an important role in creating a 
+vibrant and inspiring atmosphere. We look forward to meeting you in the near future!
+
+Event Album
+------------
+
+https://flic.kr/s/aHBqjAR5Rf
+
+.. raw:: html
+
+  <a data-flickr-embed="true" data-footer="true" 
+    href="https://www.flickr.com/photos/sciwork/albums/72177720310487872" 
+    title="PyDoc Translation Meetup 2023 August 5th">
+      <img src="https://live.staticflickr.com/65535/53117111971_d38f14efd1_z.jpg" 
+      width="640" height="480" alt="PyDoc Translation Meetup 2023 August 5th"/>
+  </a>
+  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+|
+|
+
 Date
 -----
 
