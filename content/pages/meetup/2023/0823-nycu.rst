@@ -1,5 +1,5 @@
 ========================================
-Meetup 2023 August 23th in NYCU
+Meetup 2023 August 23rd in NYCU
 ========================================
 
 :date: 2023-08-18 11:00
@@ -9,7 +9,7 @@ Meetup 2023 August 23th in NYCU
 Date
 -----
 
-* Date: August 23th, 2023
+* Date: August 23rd, 2023
 * Time: 18:30 -- 21:30 (3 hours)
 
 |
@@ -29,7 +29,7 @@ Subjects
 API first for beginners
 +++++++++++++++++++++++++
 
-Speaker : Shu Hsi - A data engineer and currently leads a team for data engineering at Micron. 
+Speaker : `Shu-Hsi <https://www.linkedin.com/in/shu-hsi-lin-48262b54/>`__ - A data engineer and currently leads a team for data engineering at Micron. 
 He also has contributed to the sciwork community as a core organizer.
  
 The sharing will start with what is API and discover the game-changing "API First" methodology 
