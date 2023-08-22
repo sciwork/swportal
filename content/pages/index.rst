@@ -5,7 +5,7 @@ home
 :url:
 :save_as: index.html
 
-Sciwork is a community for researchers and engineers to share and discuss
+The sciwork is a community for researchers and engineers to share and discuss
 computer code for scientific, numerical, and engineering work.  We believe in
 the power of openness, and use open source as a means to advance software
 development for computational sciences.
@@ -21,5 +21,5 @@ the global effort to solve the issue of code development entangling with
 science and engineering.
 
 Our activities include but are not limited to `coding sprints <sprint>`__,
-hands-on tutorials, and technical talks and conferences, on-line or off-line.
+hands-on tutorials, and technical talks and `conferences <https://conf.sciwork.dev/>`__ (ex, sciwork 2023), on-line or off-line.
 You are welcome to `join us <about.html>`__!
