@@ -78,7 +78,49 @@ Toolkit for solving partial differential equations and analysis of the results.
 
 |
 
-(TBD)
+sciwork portal
+^^^^^^^^^^^^^^^
+
+Sciwork Portal is a project for maintaining our official website – Sciwork.dev, which was 
+built by Pelican with tailwindCSS, and deployed by Netfliy.
+
+- **Project Link:** `Github <https://github.com/sciwork/swportal>`__
+- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester)
+
+|
+
+pyLiteracy
+^^^^^^^^^^^
+
+Mandarin LocativePeriodic-zai [在] and Repetitive-zai [再] parser based on syntactical 
+context. 
+
+- **Project Link:** `Github <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
+
+|
+
+uTensor
+^^^^^^^^
+
+uTensor is an extremely lightweight machine learning inference framework built on TensorFlow 
+and optimized for Arm targets. It consists of a runtime library and an offline tool that handles 
+most of the model translation work. This repo holds the core runtime and some example implementations 
+of operators, memory managers/schedulers, and more, and the size of the core runtime is only ~2KB!
+
+- **Project Link:** `Github <https://github.com/uTensor/uTensor>`__
+- **Project Contact:** Dboy(discord: @dboyliao#1295)
+
+
+|
+
+pydoccht
+^^^^^^^^^
+
+Python Official Documentation Taiwan Traditional Chinese Translation Project.
+
+- **Project Link:** `Github <https://github.com/python/python-docs-zh-tw>`__
+- **Project Contact:** Matt Wang (@mattwang44), Josix (@Josix#3800)
 
 |
 
