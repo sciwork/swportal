@@ -147,7 +147,13 @@ and kindly fill up some relevant questions to give us an initial understanding o
 Career Conversation Agneda
 +++++++++++++++++++++++++++
 
-(TBD)
+* 11:00-11:30 Career Conversation 1
+
+* 11:30-12:00 Career Conversation 2
+
+* 13:30-14:00 Career Conversation 3
+
+* 14:00-14:30 Career Conversation 4
 
 |
 
