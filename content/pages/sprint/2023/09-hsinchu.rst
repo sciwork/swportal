@@ -127,33 +127,22 @@ Python Official Documentation Taiwan Traditional Chinese Translation Project.
 Career Conversation
 --------------------
 
-Career conversation provides a chance to have relaxed discussions with experienced software 
-industry professionals. If you have career-related questions or seek guidance, sign up for 
-this opportunity. Hope to help you gain self-awareness, determine your career direction, 
-and set goals effectively.
+Looking to stand out in the fiercely competitive job market? Want to build a robust professional 
+network that can open up endless career opportunities for you?
 
-To `register <#sign-up>`__ for a career conversation, please purchase the **Dining Ticket + Career 
-conversation** pass for this event. On the registration form, select **I want to join the 
-career conversation** and kindly fill up some relevant questions to give us an initial 
-understanding of your background. We only release four tickets for career conversation.
+The Career Conversation event will teach you how to utilize the power of LinkedIn, the 
+indispensable career development platform. You'll learn how to establish and maintain valuable 
+professional connections. We'll also share insights on creating a captivating personal brand that 
+will that captures the attention of potential employers or partners. This session is appropriate 
+for professionals at all career stages, whether you're new to the job market, actively seeking a 
+new position or simply looking to increase your visibility within your industry. We cordially 
+invite you to to join us for our Career Conversation Event! LinkedIn is guaranteed to add immense value 
+to your career.
 
-Career conversation QAs
-+++++++++++++++++++++++++++++
-
- | Q: How is it conducted? 
- | A: It will be a one-on-one conversation, lasting for 30 minutes. There are three time slots available: 11:00-11:30; 11:30-12:00; 13:30-14:00. 
-
-|
-
- | Q: Who can sign up?
- | A: Anyone who wants to talk about career-related matters is welcome to sign up.
-
-|
-
- | Q: What preparations are needed before the conversation? 
- | A: You only need to assist in filling out the relevant questions in the registration form. Just come with a relaxed and open mindset on the day of the event.
-
-|
+We release 4 career conversation tickets in September scisprint. To `register for a career 
+conversation <#sign-up>`__, please purchase the **Dining Ticket + Career conversation** pass 
+for this event. On the registration form, select **'I want to join the career conversation'** 
+and kindly fill up some relevant questions to give us an initial understanding of your background.
 
 Career Conversation Agneda
 +++++++++++++++++++++++++++
