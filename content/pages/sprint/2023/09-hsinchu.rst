@@ -135,7 +135,7 @@ algebra. All the critical calculation are come with CPU and GPU dedicated implem
 fully usage of computer resource.
 
 - **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
-- **Project Contact:** Dboy(discord: @dboyliao#1295)
+- **Project Contact:** Lin Chang Teng (discord: @jeffry1829#0568), Ke Hsu (discord: @kjjjjjjjjj1104#5128)
 
 |
 
