@@ -117,7 +117,7 @@ of operators, memory managers/schedulers, and more, and the size of the core run
 pydoccht
 ^^^^^^^^^
 
-Python Official Documentation Taiwan Traditional Chinese Translation Project.
+The Traditional Chinese (zh_TW) translation project of the Python official documents.
 
 - **Project Link:** `Github <https://github.com/python/python-docs-zh-tw>`__
 - **Project Contact:** Matt Wang (@mattwang44), Josix (@Josix#3800)
