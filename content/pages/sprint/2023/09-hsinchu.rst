@@ -124,6 +124,21 @@ Python Official Documentation Taiwan Traditional Chinese Translation Project.
 
 |
 
+Cytnx
+^^^^^^
+
+Cytnx is a scientific library which aims to provide similar experience as using numpy/scipy/pytorch.
+
+Thus, although Cytnx is written in C++, there's python binding for users familiar wtih python. On the 
+other hand, it aims to provides many efficient methods to manipulate tensors, tensor networks, linear 
+algebra. All the critical calculation are come with CPU and GPU dedicated implementations to achieve 
+fully usage of computer resource.
+
+- **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
+- **Project Contact:** Dboy(discord: @dboyliao#1295)
+
+|
+
 Career Conversation
 --------------------
 
