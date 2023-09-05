@@ -97,7 +97,7 @@ Cytnx
 ------
 
 - **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
-- **Project Contact:** Dboy(discord: @dboyliao#1295)
+- **Project Contact:** Lin Chang Teng (discord: @jeffry1829#0568), Ke Hsu (discord: @kjjjjjjjjj1104#5128)
 
 Cytnx is a scientific library which aims to provide similar experience as using numpy/scipy/pytorch.
 
