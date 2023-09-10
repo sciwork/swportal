@@ -6,7 +6,6 @@ Meetup 2023 September 20th in NYCU
 :url: meetup/2023/0920-nycu
 :save_as: meetup/2023/0920-nycu.html
 
-(DRAFT)
 
 Date
 -----
