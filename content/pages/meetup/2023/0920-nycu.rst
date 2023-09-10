@@ -18,6 +18,7 @@ Date
 Agenda
 --------
 
+* 18:30-19:00 check in and icebreaking
 * 19:00―19:10 presentation: what are the things
 * 19:10―19:30 presentation: how to get things done
 * 19:30―19:45 discussion: things you have done
