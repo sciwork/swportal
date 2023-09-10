@@ -38,12 +38,6 @@ Speaker:
 Yung-Yu - Engineer from Synopsis and enthusiastist of numerical code. He is also 
 the leader and founder of PyCon and sciwork.
 
-Training assistants: 
-Chun-Hsu - WiFi firmware engineer from Mediatek.Inc and developer of `modmesh <https://github.com/solvcon/modmesh>`_. 
-Chester - Software engineer in test from SiFive and developer of `swportal <https://github.com/sciwork/swportal>`_ 
-and `swconf <https://github.com/sciwork/swconf>`_.
-Steve - SDK engineer from Clounix and volunteer of `sciwork <https://sciwork.dev/>`_.
-
 In this training, Yung-Yu will talk about practical practices that are applied to general 
 scenario, from your research to your career. You will be trained on how to work 
 out unknown things and improve your skills in framing problems and conducting these tasks.
