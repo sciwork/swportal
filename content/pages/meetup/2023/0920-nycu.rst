@@ -36,8 +36,14 @@ Training: do unknown things
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Speaker: 
-Yung-Yu - Engineer from Synopsis and enthusiastist of numerical code. He is also 
-the leader and founder of PyCon and sciwork.
+Yung-Yu - A numerical analyst and HPC software architect.  He has experience in
+different application domains, including computational fluid dynamics (CFD) and
+computational lithography.  Yung-Yu is currently `working
+<https://www.linkedin.com/in/yungyuc/>`__ as a technologist of OPC at Synopsys,
+and spending some time `teaching
+<https://yyc.solvcon.net/en/latest/nsd/index.html>`__ software development for
+engineering at NYCU.  He has contributed to the Python community for many years
+and is a PSF fellow.
 
 In this training, Yung-Yu will talk about practical practices that are applied to general 
 scenario, from your research to your career. You will be trained on how to work 
