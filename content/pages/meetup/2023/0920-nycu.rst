@@ -25,6 +25,7 @@ Agenda
 * 19:45―20:00 case study: sciwork meetup
 * 20:00―20:15 discussion: analyze the things you want to do
 * 20:15―20:30 hands-on: make the plan and review
+* 20:30-21:30 meeting: free discussion/ prepare September scisprint
 
 |
 
@@ -42,7 +43,7 @@ In this training, Yung-Yu will talk about practical practices that are applied t
 scenario, from your research to your career. You will be trained on how to work 
 out unknown things and improve your skills in framing problems and conducting these tasks.
 
-Preparational meeting for September scisprint
+Meeting: Prepare September scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
 Additionally, we will discuss the following items for preparing September scisprint. 
