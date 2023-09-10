@@ -18,14 +18,9 @@ Date
 Agenda
 --------
 
-* 18:30-19:00 Check in and icebreaking
-* 19:00―19:10 Presentation: what are the things
-* 19:10―19:30 Presentation: how to get things done
-* 19:30―19:45 Discussion: things you have done
-* 19:45―20:00 Case study: sciwork meetup
-* 20:00―20:15 Discussion: analyze the things you want to do
-* 20:15―20:30 Hands-on: make the plan and review
-* 20:30-21:30 Meeting: prepare September scisprint/ Free discussion 
+* 18:30-19:00 Checking in
+* 19:00-20:30 Training
+* 20:30-21:30 Meeting/ Free discussion
 
 |
 
