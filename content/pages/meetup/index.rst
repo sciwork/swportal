@@ -12,6 +12,9 @@ meetup 2023
 * `Meetup 2023 September 20th at NYCU (do-unknown-things training)
   <{filename}2023/0920-nycu.rst>`__
 
+* `Meetup 2023 September 13th at NYCU
+  <{filename}2023/0913-nycu.rst>`__
+
 * `Meetup 2023 September 6th at NYCU
   <{filename}2023/0906-nycu.rst>`__
 
