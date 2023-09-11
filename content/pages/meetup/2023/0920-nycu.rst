@@ -44,6 +44,14 @@ In this training, Yung-Yu will talk about practical practices that are applied t
 scenario, from your research to your career. You will be trained on how to work 
 out unknown things and improve your skills in framing problems and conducting these tasks.
 
+**Time table for the training**
+
+* 19:00-19:30 Presentation: how to get things done
+* 19:30-19:45 Discussion: things you have done
+* 19:45-20:00 Case study: sciwork meetup
+* 20:00-20:15 Discussion: analyze the things you want to do
+* 20:15-20:30 Hands-on: make the plan and review
+
 Meeting: prepare September scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
