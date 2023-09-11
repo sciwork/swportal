@@ -44,6 +44,8 @@ Additionally, we will discuss the following items for preparing September scispr
 * Task arrangement for volunteers
 * Promotion plan for September scisprint
 
+Please check `September scisprint <https://sciwork.dev/sprint/2023/09-hsinchu>`__ and `kktix <https://sciwork.kktix.cc/events/scisprint-202309-hsinchu>`__ for more information.
+
 |
 
 Sign up
