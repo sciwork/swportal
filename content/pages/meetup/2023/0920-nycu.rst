@@ -30,7 +30,22 @@ Subjects
 Training: do unknown things
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Speaker: 
+**Introduction to the training**
+
+In this training, Yung-Yu will talk about practical practices that are applied to general 
+scenario, from your research to your career. You will be trained on how to work 
+out unknown things and improve your skills in framing problems and conducting these tasks.
+
+**Time table**
+
+* 19:00-19:30 Presentation: how to get things done
+* 19:30-19:45 Discussion: things you have done
+* 19:45-20:00 Case study: sciwork meetup
+* 20:00-20:15 Discussion: analyze the things you want to do
+* 20:15-20:30 Hands-on: make the plan and review
+
+**Introduction to the trainer**
+
 Yung-Yu - A numerical analyst and HPC software architect.  He has experience in
 different application domains, including computational fluid dynamics (CFD) and
 computational lithography.  Yung-Yu is currently `working
@@ -39,18 +54,6 @@ and spending some time `teaching
 <https://yyc.solvcon.net/en/latest/nsd/index.html>`__ software development for
 engineering at NYCU.  He has contributed to the Python community for many years
 and is a PSF fellow.
-
-In this training, Yung-Yu will talk about practical practices that are applied to general 
-scenario, from your research to your career. You will be trained on how to work 
-out unknown things and improve your skills in framing problems and conducting these tasks.
-
-**Time table for the training**
-
-* 19:00-19:30 Presentation: how to get things done
-* 19:30-19:45 Discussion: things you have done
-* 19:45-20:00 Case study: sciwork meetup
-* 20:00-20:15 Discussion: analyze the things you want to do
-* 20:15-20:30 Hands-on: make the plan and review
 
 Meeting: prepare September scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
