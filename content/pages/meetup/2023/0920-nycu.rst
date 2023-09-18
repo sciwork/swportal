@@ -55,13 +55,13 @@ and spending some time `teaching
 engineering at NYCU.  He has contributed to the Python community for many years
 and is a PSF fellow.
 
-Meeting: prepare September scisprint
+Meeting: prepare October scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-Additionally, we will discuss the following items for preparing September scisprint. 
+Additionally, we will discuss the following items to prepare October scisprint.
 
-* Task arrangement for volunteers
-* Promotion plan for September scisprint
+* Review September scisprint
+* Prepare for October scisprint
 
 |
 
