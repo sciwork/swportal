@@ -9,8 +9,8 @@ meetup
 meetup 2023
 ==============
 
-* `PyDoc Meetup 2023 October 21st at GoFreight Office
-  <{filename}2023/1021-pydoc.rst>`__
+* `PyDoc Meetup 2023 October 22nd at GoFreight Office
+  <{filename}2023/1022-pydoc.rst>`__
 
 * `Meetup 2023 September 27th at NYCU
   <{filename}2023/0927-nycu.rst>`__

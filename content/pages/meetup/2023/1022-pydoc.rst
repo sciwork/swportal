@@ -1,15 +1,15 @@
 ==========================================
-PyDoc Translation Meetup 2023 October 21st
+PyDoc Translation Meetup 2023 October 22nd
 ==========================================
 
-:date: 2023-10-21 09:30
-:url: meetup/2023/1021-pydoc
-:save_as: meetup/2023/1021-pydoc.html
+:date: 2023-10-22 09:30
+:url: meetup/2023/1022-pydoc
+:save_as: meetup/2023/1022-pydoc.html
 
 Date
 -----
 
-* Date: October 21st, 2023
+* Date: October 22nd, 2023
 * Time: 09:30 ~ 12:00 (2.5 hours)
 
 |
