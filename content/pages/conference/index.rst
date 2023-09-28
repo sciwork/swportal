@@ -15,4 +15,4 @@ to scientific computing and high-performance computing, we also emphasize data m
 process, analytics, and visualization.
 
 - Date: December 9-10, 2023
-- Location: Hsinchu, Taiwan
+- Location: Location: Microelectronics and Information Research Center, NYCU, Hsinchu, Taiwan
