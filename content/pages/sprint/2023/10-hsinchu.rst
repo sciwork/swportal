@@ -80,17 +80,6 @@ Toolkit for solving partial differential equations and analysis of the results.
 
 |
 
-sciwork portal
-^^^^^^^^^^^^^^^
-
-Sciwork Portal is a project for maintaining our official website – Sciwork.dev, which was 
-built by Pelican with tailwindCSS, and deployed by Netfliy.
-
-- **Project Link:** `Github <https://github.com/sciwork/swportal>`__
-- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester)
-
-|
-
 pyLiteracy
 ^^^^^^^^^^^
 
@@ -113,7 +102,6 @@ of operators, memory managers/schedulers, and more, and the size of the core run
 - **Project Link:** `Github <https://github.com/uTensor/uTensor>`__
 - **Project Contact:** Dboy(discord: @dboyliao#1295)
 
-
 |
 
 pydoccht
@@ -126,18 +114,14 @@ The Traditional Chinese (zh_TW) translation project of the Python official docum
 
 |
 
-Cytnx
-^^^^^^
+sciwork portal
+^^^^^^^^^^^^^^^
 
-Cytnx is a scientific library which aims to provide similar experience as using numpy/scipy/pytorch.
+Sciwork Portal is a project for maintaining our official website – Sciwork.dev, which was 
+built by Pelican with tailwindCSS, and deployed by Netfliy.
 
-Thus, although Cytnx is written in C++, there's python binding for users familiar wtih python. On the 
-other hand, it aims to provides many efficient methods to manipulate tensors, tensor networks, linear 
-algebra. All the critical calculation are come with CPU and GPU dedicated implementations to achieve 
-fully usage of computer resource.
-
-- **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
-- **Project Contact:** Lin Chang Teng (discord: @jeffry1829#0568), Ke Hsu (discord: @kjjjjjjjjj1104#5128)
+- **Project Link:** `Github <https://github.com/sciwork/swportal>`__
+- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester)
 
 |
 
