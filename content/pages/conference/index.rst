@@ -6,10 +6,10 @@ Conference
 :url: conference
 :save_as: conference/index.html
 
-sicwork 2023
+sciwork 2023
 ================================================
     
-`sciwrok 2023 <https://conf.sciwork.dev>`__ is to provide a physical venue to showcase how programming languages are 
+`sciwork 2023 <https://conf.sciwork.dev>`__ is to provide a physical venue to showcase how programming languages are 
 used for scientific and engineering applications and their best practices. In addition 
 to scientific computing and high-performance computing, we also emphasize data management, 
 process, analytics, and visualization.
