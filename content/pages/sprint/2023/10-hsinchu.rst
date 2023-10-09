@@ -91,6 +91,19 @@ context.
 
 |
 
+uTensor
+^^^^^^^^
+
+uTensor is an extremely lightweight machine learning inference framework built on TensorFlow 
+and optimized for Arm targets. It consists of a runtime library and an offline tool that handles 
+most of the model translation work. This repo holds the core runtime and some example implementations 
+of operators, memory managers/schedulers, and more, and the size of the core runtime is only ~2KB!
+
+- **Project Link:** `Github <https://github.com/uTensor/uTensor>`__
+- **Project Contact:** Dboy(discord: @dboyliao#1295)
+
+|
+
 Career Conversation
 --------------------
 
