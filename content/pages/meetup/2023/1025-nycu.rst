@@ -19,7 +19,7 @@ Agenda
 
 * 18:30-19:30 Free discussion
 * 19:30-20:00 PyLiteracy: A Linguistics-Based Grammar Checking Method
-* 20:00-21:30 Meeting: prepare October scisprint
+* 20:00-21:30 Meeting: prepare November scisprint
 
 |
 
@@ -44,7 +44,7 @@ Additionally, we will discuss the following items to prepare November scisprint.
 
 * Task arrangement for volunteers
 * Promotion plan for November scisprint
-* Review the result of October
+* Review the result of October scisprint
 
 |
 
