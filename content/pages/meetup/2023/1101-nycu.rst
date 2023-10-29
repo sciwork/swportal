@@ -53,10 +53,11 @@ Sign up
 ------------
 
 The event is free. Please register on `discord event
-<https://discordapp.com/channels/730297880140578906/1007075707400237067/1163004717165723648>`__.
+<https://discordapp.com/channels/730297880140578906/1007075707400237067/1167808481588420729>`__.
 Click the green check mark to participate the meetup.
 
-If you are using the discord app, you can find all recent sciwork event at the top of the left sidebar.
+If you are using the discord app, you can find this event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
+All recent sciwork event at the top of the left sidebar.
 
 |
 
