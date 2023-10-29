@@ -51,7 +51,7 @@ facilitate discussions and exchanges among people in the fields of science, nume
 computation, and engineering. Participants, regardless of experience level, can gain valuable 
 development insights in this event.
 
-This event includes a `hacking session <#hacking-session>`__ and `career conversation <#career-conversation>`__.
+.. This event includes a `hacking session <#hacking-session>`__ and `career conversation <#career-conversation>`__.
 
 We would like to provide a supportive and friendly environment for all attendees to support more developers
 to join in the open-source communities. 
@@ -112,44 +112,10 @@ The Traditional Chinese (zh_TW) translation project of the Python official docum
 
 |
 
-Career Conversation
---------------------
-
-Looking to stand out in the fiercely competitive job market? Want to build a robust professional 
-network that can open up endless career opportunities for you?
-
-Our upcoming event will teach you how to harness the power of LinkedIn, the indispensable platform 
-for career development. You'll learn how to establish and maintain valuable professional connections. 
-Additionally, we'll share insights on crafting a captivating personal brand that captures the attention 
-of potential employers or partners. This event is suitable for professionals at all career stages, 
-whether you're a newcomer to the job market, actively seeking new positions, or simply looking to 
-enhance your visibility within your industry. We cordially invite you to join our career-sharing event! 
-LinkedIn is guaranteed to bring immense value to your career.
-
-
-We release 4 career conversation tickets in October scisprint. To `register for a career conversation <#sign-up>`__, please purchase the **Dining Ticket + Career conversation**. 
-On the registration form, select **I want to join the career conversation** and kindly fill up some 
-relevant questions to give us an initial understanding of your background.
-
-Career Conversation Agneda
-+++++++++++++++++++++++++++
-
-* 11:00-11:30 Career Conversation 1
-
-* 11:30-12:00 Career Conversation 2
-
-* 13:30-14:00 Career Conversation 3
-
-* 14:00-14:30 Career Conversation 4
-
-|
-
 Sign Up
 ------------
 
-.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202310-hsinchu>`__.
-
-Coming soon.
+Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202311-hsinchu>`__.
 
 Venue
 -----
