@@ -147,9 +147,7 @@ Career Conversation Agneda
 Sign Up
 ------------
 
-.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202310-hsinchu>`__.
-
-Coming soon.
+Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202311-hsinchu>`__.
 
 Venue
 -----
