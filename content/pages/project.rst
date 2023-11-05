@@ -133,8 +133,21 @@ Network, Bond, Symmetry etc. There are some physics algorithms that have been im
 There are still many scientific libraries and physics applications being developed. Welcome to join us to contribute 
 to Cytnx.
 
-
 |
+
+Commitizen-Tools
+------------------
+
+- **Project Link:** `Github <https://github.com/commitizen-tools/commitizen>`__
+- **Project Contact:** Wei Lee (discord: @clleew#6749)
+
+Commitizen-tools allows teams to effectively implement version control that conforms to the specified rules. 
+It uses interactive forms to create commit messages that meet conventional commits rules. It also bumps versions 
+automatically using Semantic Versioning and generates a changelog using Keep a Changelog.
+
+In addition, you can also customize your own rules to suit your team. Commitizen-tools is a widely used tool in 
+many communities. We still have a lot of issues to fix and develop. Welcome to join us. 
+
 
 **You can join the Discord group to discuss the project.**
 
