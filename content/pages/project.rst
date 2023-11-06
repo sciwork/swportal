@@ -73,7 +73,7 @@ sciwork portal
 ----------------
 
 - **Project Link:** `Github <https://github.com/sciwork/swportal>`__
-- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester)
+- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester), Wuxian (discord: @5x9527)
 
 Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican 
 with tailwindCSS, and deployed by Netfliy. We create the promotional pages for meetup and sprint events. Our 
