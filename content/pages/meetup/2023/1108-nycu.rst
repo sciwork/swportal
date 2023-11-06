@@ -17,16 +17,29 @@ Date
 Agenda
 --------
 
-* 18:30-19:30 Free discussion
-* 19:30-20:30 Discussion: Sciwork activity process automation
-* 20:30-21:30 Meeting: prepare November scisprint
+There are two sessions taking place simultaneously from 19:00 to 20:30. Please see `Subjects <#subjects>`__ for more information.
+
+* 18:30-19:00 Free discussion
+* 19:00-20:30 Session1: Review nsd term project
+* 19:00-20:30 Session2: Sciwork activity process automation discussion
+* 20:30-21:30 Free discussion
 
 |
 
 Subjects
 ------------------
 
-Discussion: Sciwork activity process automation
+Session1: Review nsd term project
++++++++++++++++++++++++++++++++++++
+
+If you are the students who have partitipated in numerical software development course in NYCU, you can join this 
+meetup to review your term project. This time will be mainly focused on student term project discussions. At the 
+same time, others are welcome to discuss and give feedback.
+
+During 7:00pm ~ 8:30pm, there are 6 time slots of 15 minutes to discuss of your projects. Please sign up at 
+`Calender <https://calendar.app.google/eyp6vYiEWwStdd5f7>`__.
+
+Session2: Sciwork activity process automation discussion
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Meetup events are important within the Sciwork community, serving as hubs for discussions and knowledges sharing. 
@@ -36,15 +49,16 @@ the power of CI/CD and cutting-edge IT skills to enhance the Sciwork event exper
 If you have a passion for Sciwork events, are interesting in CI/CD practices, and have keen interest in process 
 automation, we extend a warm welcome to join us for this enlightening discussion.
 
-Meeting: prepare November scisprint
-++++++++++++++++++++++++++++++++++++++++++++++++
+November scisprint
+-----------------------------------------
 
-Additionally, we will discuss the following items to prepare November scisprint.
+In addition to the meetup, sciwork is also holding the scisprint at National Tsing Hua University.
 
-* Task arrangement for volunteers
-* Promotion plan for November scisprint
+Scisprint is a monthly coding sprint. It would like to facilitate discussions and exchanges among 
+people in the fields of science, numerical computation, and engineering. You are also welcome to 
+bring your project and discuss it.
 
-Please check `November scisprint <https://sciwork.dev/sprint/2023/11-hsinchu>`__ for more information.
+explore more about the scisprint and projects: `November scisprint <https://sciwork.dev/sprint/2023/11-hsinchu>`__ .
 
 Sign up the November scisprint at `kktix <https://sciwork.kktix.cc/events/scisprint-202311-hsinchu>`__ .
 
@@ -53,12 +67,14 @@ Sign up the November scisprint at `kktix <https://sciwork.kktix.cc/events/scispr
 Sign up
 ------------
 
-The event is free. Please register on `discord event
+The meetup is free. Please register on `discord event
 <https://discordapp.com/channels/730297880140578906/1007075707400237067/1169299435185000528>`__.
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find this event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
 All recent sciwork event at the top of the left sidebar.
+
+If you want to join the `Review nsd term project <#session1-review-nsd-term-project>`__. Please also sign up at `Calender <https://calendar.app.google/eyp6vYiEWwStdd5f7>`__.
 
 |
 
