@@ -1,5 +1,5 @@
 ========================================
-Meetup 2023 November 29nd in NYCU
+Meetup 2023 November 29th in NYCU
 ========================================
 
 :date: 2023-11-24 22:00
@@ -9,7 +9,7 @@ Meetup 2023 November 29nd in NYCU
 Date
 -----
 
-* Date: November 29nd, 2023
+* Date: November 29th, 2023
 * Time: 18:30 -- 21:30 (3 hours)
 
 |
