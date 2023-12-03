@@ -27,7 +27,7 @@ modmesh
         </span>
     </p>
 
-- **Repository Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Repository Link:** `GitHub <https://github.com/solvcon/modmesh>`__
 - **Leader:** `Yung-Yu Chen <https://twitter.com/yungyuc>`__
 
 modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
@@ -58,7 +58,7 @@ Python Official Documents Translation (zh_TW)
         </span>
     </p>
 
-- **Repository Link:** `Github <https://github.com/python/python-docs-zh-tw>`__
+- **Repository Link:** `GitHub <https://github.com/python/python-docs-zh-tw>`__
 - **Leader:** `Matt Wang <https://github.com/mattwang44>`__ & `Josix Wang <https://github.com/josix>`__
 
 Python has become a programming language that everyone knows. There are many learning communities. Our 
@@ -72,7 +72,7 @@ translated at the same time. Wellcome to join us.
 sciwork portal
 ----------------
 
-- **Project Link:** `Github <https://github.com/sciwork/swportal>`__
+- **Project Link:** `GitHub <https://github.com/sciwork/swportal>`__
 - **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester), Wuxian (discord: @5x9527)
 
 Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican 
@@ -88,7 +88,7 @@ presentation and visual experience. Welcome to join us if you are interested in 
 pyLiteracy
 ------------
 
-- **Project Link:** `Github <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
 - **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
 
 pyLiteracy is originally used to check whether Mandarin LocativePeriodic-zai [在] and Repetitive-zai 
@@ -103,7 +103,7 @@ lot of materials to prepare and features to develop. Welcome to join us.
 uTensor
 --------
 
-- **Project Link:** `Github <https://github.com/uTensor/uTensor>`__
+- **Project Link:** `GitHub <https://github.com/uTensor/uTensor>`__
 - **Project Contact:** Dboy(discord: @dboyliao#1295)
 
 uTensor is an extremely lightweight machine learning inference framework built on TensorFlow and optimized 
@@ -119,7 +119,7 @@ machine learning, we are also actively developing the above functions. Welcome t
 Cytnx
 ------
 
-- **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
+- **Project Link:** `GitHub <https://github.com/Cytnx-dev/Cytnx>`__
 - **Project Contact:** Lin Chang Teng (discord: @jeffry1829#0568), Ke Hsu (discord: @kjjjjjjjjj1104#5128)
 
 Cytnx (pronounced as sci-tens) is a tensor network library designed for classical/quantum physics simulations. 
@@ -138,7 +138,7 @@ to Cytnx.
 Commitizen-Tools
 ------------------
 
-- **Project Link:** `Github <https://github.com/commitizen-tools/commitizen>`__
+- **Project Link:** `GitHub <https://github.com/commitizen-tools/commitizen>`__
 - **Project Contact:** Wei Lee (discord: @clleew#6749)
 
 Commitizen-tools allows teams to effectively implement version control that conforms to the specified rules. 
