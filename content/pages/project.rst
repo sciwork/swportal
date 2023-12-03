@@ -61,13 +61,12 @@ Python Official Documents Translation (zh_TW)
 - **Repository Link:** `GitHub <https://github.com/python/python-docs-zh-tw>`__
 - **Leader:** `Matt Wang <https://github.com/mattwang44>`__ & `Josix Wang <https://github.com/josix>`__
 
-Python has become a programming language that everyone knows. There are many learning communities. Our 
-mission is to make Python's knowledge accessible to the Traditional Chinese community. We're proud to 
-announce that we've already translated 31.01% of Python 3.12 official documentation.
-
-Our team regularly organizes translation meetups to maintain a steady progress of translation. In our 
-recent meetup, we completed the translation of the string module page. There are many documents being 
-translated at the same time. Wellcome to join us.
+We are a passionate and dedicated volunteer group committed to bridging the language gap in the Python community. 
+Our primary mission is to make Python's official documentation accessible to the Traditional Chinese audience by 
+providing accurate and comprehensive translations. Whether you are a seasoned Python developer or a language expert, 
+we welcome individuals who are enthusiastic about Python and passionate about making knowledge accessible to all. 
+Come join us in our monthly meetups where we share insights, discuss translation challenges, and build a collaborative 
+community together!
 
 sciwork portal
 ----------------
