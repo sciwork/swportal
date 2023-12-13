@@ -9,6 +9,9 @@ meetup
 meetup 2023
 ==============
 
+* `Meetup 2023 December 13th at NYCU
+  <{filename}2023/1213-nycu.rst>`__
+
 * `Meetup 2023 December 6th at NYCU
   <{filename}2023/1206-nycu.rst>`__
 
