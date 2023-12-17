@@ -31,11 +31,11 @@ modmesh
 - **Leader:** `Yung-Yu Chen <https://twitter.com/yungyuc>`__
 
 modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
-both programming languages for efficient PDE solving. We use Qt to visualize the computation results 
-to make you understand your PDE solution. We recently tried to add Gmsh to load the custom mesh to solve 
-the PDE problem. 
+both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation 
+results to give you a better understanding of your PDE solution. modmesh also supports mesh visualization, 
+currently in the Gmsh mesh file format. We have recently made efforts to improve the modmesh UI/UX.
 
-Modmesh is designed to run on Windows, Linux, and macOS. Everyone can use or contribute to modmesh.
+The design allows it to run on Windows, Linux, and MacOS. Everyone can use or contribute to modmesh.
 
 
 Python Official Documents Translation (zh_TW)
