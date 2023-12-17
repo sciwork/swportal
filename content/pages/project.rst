@@ -90,12 +90,17 @@ pyLiteracy
 - **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
 - **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
 
-pyLiteracy is originally used to check whether Mandarin LocativePeriodic-zai [在] and Repetitive-zai 
-[再] are used correctly or not. We use the Loki model to parse the structure of the sentence,and then 
-check whether the word is used correctly or not.
-
-It is now possible to check many different grammars. In order to check more grammar, we still have a 
-lot of materials to prepare and features to develop. Welcome to join us.
+Common errors such as the misuse of synonyms and homophones are prevalent for both native and 
+non-native Taiwan Mandarin users. This issue is indirectly attributed to the fact that large language 
+models (LLMs) trained on data primarily sourced from the internet struggle to play a reliable role in 
+Mandarin grammar checking tasks. Moreover, the token-by-token and linear training process of the LLMs 
+cannot provide valid knowledge based on a thorough understanding of the non-linear structure of human 
+language. However, from a linguistic perspective, training a model solely based on a mass amount of data 
+is not the most direct solution. In reality, such errors are directly related to the non-linear structures 
+of word classes and phrase structures. By analyzing and simplifying the structures of correct usages into 
+code instructions, a linguistics-based model can effectively grasp the use of language in a manner similar 
+to human native speakers. This enables the model to accomplish efficient Mandarin grammar checking tasks 
+with minimal resources.
 
 |
 
