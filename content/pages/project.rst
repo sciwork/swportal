@@ -110,10 +110,10 @@ uTensor
 - **Project Link:** `GitHub <https://github.com/uTensor/uTensor>`__
 - **Project Contact:** Dboy(discord: @dboyliao#1295)
 
-uTensor is an extremely lightweight machine learning inference framework built on TensorFlow and optimized 
-for Arm targets. It simplifies model deployment by seamlessly converting TensorFlow-trained models into efficient 
-C++ files that can be used to infer on the embedding device.The core engine minimizes the usage of RAM ensuring 
-optimal system performance.
+uTensor is an extremely lightweight machine learning inference framework built on C++11. It simplifies model 
+deployment by seamlessly converting TensorFlow-trained models into efficient C++ files that can be used to infer 
+on the embedding device and integrate with optimized libraries such as CMSIS-NN by ARM with ease. Compared with 
+the binary files, C++ source code will provide greater flexibility to modify the trained model for the embedding engineers. 
 
 We provide the defaults for tensors, operators, and memory allocation. Just like the booming development of 
 machine learning, we are also actively developing the above functions. Welcome to join us.
