@@ -152,6 +152,7 @@ automatically using Semantic Versioning and generates a changelog using Keep a C
 In addition, you can also customize your own rules to suit your team. Commitizen-tools is a widely used tool in 
 many communities. We still have a lot of issues to fix and develop. Welcome to join us. 
 
+|
 
 **You can join the Discord group to discuss the project.**
 
