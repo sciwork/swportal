@@ -16,3 +16,9 @@ process, analytics, and visualization.
 
 - Date: December 9-10, 2023
 - Location: Microelectronics and Information Research Center, NYCU, Hsinchu, Taiwan
+
+
+report
+=================
+
+The event has concluded, and we appreciate everyone who participated! Feel free to review the report `here </conference/2023/report.html>`__!
