@@ -20,4 +20,5 @@ process, analytics, and visualization.
 
 report
 =================
-The event is finished and thanks for everyone joining! Please check out the report `here </conference/report.html>`__!
+
+The event has concluded, and we appreciate everyone who participated! Feel free to review the report `here </conference/2023/report.html>`__!

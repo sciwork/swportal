@@ -3,8 +3,8 @@ Sciwork 2023 Conference Report
 ========================================
 
 :date: 2023-12-24 00:00
-:url: conference/report
-:save_as: conference/report.html
+:url: conference/2023/report
+:save_as: conference/2023/report.html
 
 First conference for scientific programming
 ===============================================================
@@ -35,14 +35,20 @@ We will also upload the recordings once they are processed.
             grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
             grid-template-rows: repeat(2, 1fr);    /* Two rows with equal height */
             gap: 10px;                             /* Optional gap between grid items */
-            height: 100vh;                         /* Adjust the height as needed */
+            height: 100%;                         /* Adjust the height as needed */
         }
 
         .grid-item {
             text-align: center;
             align-items: center;
             justify-content: center;
-        }   
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
     <div class="grid-container">
         <div class="grid-item">
@@ -83,7 +89,7 @@ Although the rewards are huge, it does take a lot of effort to get into the busi
 
 
 
-.. figure:: https://github.com/sciwork/swportal/assets/18013815/c55d5183-0989-4521-a013-6115c3278800
+.. figure:: {attach}talk-in-a-snapshot.png
     :alt: Talks in a snapshot
     :width: 800
 
@@ -124,7 +130,12 @@ A conference cannot be a good one without the social time. Code can be written a
             grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
             grid-template-rows: repeat(1, 1fr);    /* Two rows with equal height */
             gap: 10px;                             /* Optional gap between grid items */
-            height: 50vh;                         /* Adjust the height as needed */
+            height: 100%;                         /* Adjust the height as needed */
+        }
+        @media (max-width: 768px) {
+            .grid-container2 {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
     <div class="grid-container2">
