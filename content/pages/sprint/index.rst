@@ -10,6 +10,24 @@ Sciwork hosts coding sprints for open-source projects for scientific,
 numerical, and engineering applications.  This page lists the sprints that
 hosted by sciwork.
 
+Scisprint 2024
+==============
+
+* `(Tentative) Scisprint 2024 May in Hsinchu
+  <{filename}2024/05-hsinchu.rst>`__
+
+* `(Tentative) Scisprint 2024 April in Hsinchu
+  <{filename}2024/04-hsinchu.rst>`__
+
+* `(Tentative) Scisprint 2024 March in Hsinchu
+  <{filename}2024/03-hsinchu.rst>`__
+
+* `(Tentative) Scisprint 2024 February in Hsinchu
+  <{filename}2024/02-hsinchu.rst>`__
+
+* `Scisprint 2024 January in Hsinchu
+  <{filename}2024/01-hsinchu.rst>`__
+
 Scisprint 2023
 ==============
 
