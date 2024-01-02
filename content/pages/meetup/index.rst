@@ -6,6 +6,12 @@ meetup
 :url: meetup
 :save_as: meetup/index.html
 
+meetup 2024
+==============
+
+* `Meetup 2024 January 3rd at NYCU
+  <{filename}2024/0103-nycu.rst>`__
+
 meetup 2023
 ==============
 
