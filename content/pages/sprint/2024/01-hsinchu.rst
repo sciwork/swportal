@@ -67,14 +67,44 @@ in scisprint. Refer to `project list <#project-list>`__ below for more details.
 Project List
 +++++++++++++
 
-TBD
+pyLiteracy
+^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
+
+Common errors such as the misuse of synonyms and homophones are prevalent for both native and 
+non-native Taiwan Mandarin users. This issue is indirectly attributed to the fact that large language 
+models (LLMs) trained on data primarily sourced from the internet struggle to play a reliable role in 
+Mandarin grammar checking tasks. Moreover, the token-by-token and linear training process of the LLMs 
+cannot provide valid knowledge based on a thorough understanding of the non-linear structure of human 
+language. However, from a linguistic perspective, training a model solely based on a mass amount of data 
+is not the most direct solution. In reality, such errors are directly related to the non-linear structures 
+of word classes and phrase structures. By analyzing and simplifying the structures of correct usages into 
+code instructions, a linguistics-based model can effectively grasp the use of language in a manner similar 
+to human native speakers. This enables the model to accomplish efficient Mandarin grammar checking tasks 
+with minimal resources.
+
+uTensor
+^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/uTensor/uTensor>`__
+- **Project Contact:** Dboy(discord: @dboyliao#1295)
+
+uTensor is an extremely lightweight machine learning inference framework built on C++11. It simplifies model 
+deployment by seamlessly converting TensorFlow-trained models into efficient C++ files that can be used to infer 
+on the embedding device and integrate with optimized libraries such as CMSIS-NN by ARM with ease. Compared with 
+the binary files, C++ source code will provide greater flexibility to modify the trained model for the embedding engineers. 
+
+We provide the defaults for tensors, operators, and memory allocation. Just like the booming development of 
+machine learning, we are also actively developing the above functions. Welcome to join us.
+
+|
 
 Sign Up
 ------------
 
-TBD
-
-.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202311-hsinchu>`__.
+Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202401-hsinchu>`__.
 
 Venue
 -----
