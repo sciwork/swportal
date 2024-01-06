@@ -9,7 +9,7 @@
 Date
 -----
 
-* Date: 20th January, Saturday, 2023
+* Date: 20th January, Saturday, 2024
 * Time: 10:00 -- 17:00 (7 hours)
 
 |

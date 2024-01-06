@@ -9,7 +9,7 @@
 Date
 -----
 
-* Date: 18th May, Saturday, 2023
+* Date: 18th May, Saturday, 2024
 * Time: 10:00 -- 17:00 (7 hours)
 
 |
