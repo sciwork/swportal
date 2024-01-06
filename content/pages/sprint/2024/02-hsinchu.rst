@@ -2,7 +2,7 @@
 (Tentative) Scisprint 2024 February in Hsinchu
 ==============================================
 
-:date: 2023-12-24 21:57
+:date: 2024-12-24 21:57
 :url: sprint/2024/02-hsinchu
 :save_as: sprint/2024/02-hsinchu.html
 
