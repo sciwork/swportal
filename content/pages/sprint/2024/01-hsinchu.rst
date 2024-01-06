@@ -2,14 +2,14 @@
 Scisprint 2024 January in Hsinchu
 ========================================
 
-:date: 2023-12-24 21:52
+:date: 2024-12-24 21:52
 :url: sprint/2024/01-hsinchu
 :save_as: sprint/2024/01-hsinchu.html
 
 Date
 -----
 
-* Date: 27th January, Saturday, 2023
+* Date: 27th January, Saturday, 2024
 * Time: 10:00 -- 17:00 (7 hours)
 
 |
@@ -67,6 +67,20 @@ in scisprint. Refer to `project list <#project-list>`__ below for more details.
 Project List
 +++++++++++++
 
+modmesh
+^^^^^^^^^
+
+- **Related Subjects:** Python, C++, PDE
+- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
+
+modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
+both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation 
+results to give you a better understanding of your PDE solution. modmesh also supports mesh visualization, 
+currently in the Gmsh mesh file format. We have recently made efforts to improve the modmesh UI/UX.
+
+The design allows it to run on Windows, Linux, and MacOS. Everyone can use or contribute to modmesh.
+
 pyLiteracy
 ^^^^^^^^^^^
 
@@ -112,6 +126,8 @@ Venue
 `前沿理論及計算研究中心 (國立清華大學第三綜合大樓 A 區 5 樓) <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__.
 
 `Center for Theory and Computation (Rm. P518, 3rd General Building, National Tsing Hua University) <https://goo.gl/maps/4i2K2XvJqw2J42pv5>`__.
+
+We will provide more detailed instructions on how to get to the venue in the event notification email.
 
 .. raw:: html
 
