@@ -2,14 +2,14 @@
 (Tentative) Scisprint 2024 May in Hsinchu
 =========================================
 
-:date: 2023-12-24 21:59
+:date: 2024-12-24 21:59
 :url: sprint/2024/05-hsinchu
 :save_as: sprint/2024/05-hsinchu.html
 
 Date
 -----
 
-* Date: 18th May, Saturday, 2023
+* Date: 18th May, Saturday, 2024
 * Time: 10:00 -- 17:00 (7 hours)
 
 |
