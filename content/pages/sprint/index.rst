@@ -22,6 +22,9 @@ Scisprint 2024
 * `(Tentative) Scisprint 2024 March in Hsinchu
   <{filename}2024/03-hsinchu.rst>`__
 
+* `(Tentative) Seminar 2024 March in Kaohsiung
+  <{filename}2024/03-Kaohsiung.rst>`__
+
 * `(Tentative) Scisprint 2024 February in Hsinchu
   <{filename}2024/02-hsinchu.rst>`__
 
