@@ -1,10 +1,8 @@
 {% extends "base.html" %}
-{% set cover_text = "Blog" %}
+{% set cover_text = "blog" %}
 {% block title %}{{ SITENAME }} - {{ cover_text }}{% endblock %}
 
 {% block content %}
-  {% include 'cover.html' %}
-
   <div class="container mx-auto max-w-6xl p-10">
     <div class="flex flex-row flex-wrap -mx-2">
       {% for article in articles_page.object_list %}
@@ -15,7 +13,7 @@
             </div>
 
             <div class="mt-2">
-              <a class="text-gray-800 no-underline hover:no-underline" href="#">
+              <a class="text-gray-800 no-underline hover:no-underline" href="{{ article.url }}">
                 <h3>{{ article.title }}</h3>
               </a>
 
@@ -25,9 +23,9 @@
             </div>
 
             <div class="flex justify-between items-center mt-4">
-              <a class="text-blue-600 hover:underline" href="#">Read more</a>
+              <a class="text-blue-600 hover:underline" href="{{ article.url }}">Read more</a>
               <div>
-                <div class="flex items-center" href="#">
+                <div class="flex items-center">
                   <h6 class="text-gray-600 mx-2">By</h6>
                   <h5 class="text-gray-600">{{ article.author }}</h5>
                 </div>

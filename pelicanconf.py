@@ -17,12 +17,12 @@ DEFAULT_LANG = 'en'
 
 MENUITEMS = (
     ('home', ''),
-    #('Blog', 'blog'),
+    ('blog', 'blog'),
     ('sprint', 'sprint'),
     ('meetup', 'meetup'),
     ('conference', 'conference'),
     ('project', 'project'),
-    ('about', 'about'),    
+    ('about', 'about'),
 )
 
 
