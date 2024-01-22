@@ -1,37 +1,78 @@
-========================================
-202312 review
-========================================
+================================================================
+sciwork December 2023 review: weekly meetup and Taipei scisprint
+================================================================
 
 :date: 2024-01-06
 :author: Ming-Jie Kuo
 :category: blog
 
+In December 2023, sciwork hosted two event series, the weekly meetup and the
+monthly Scisprint.
 
-中文
-====
+Weekly Meetup
+-------------
+A lot of students from National Yang Ming Chiao Tung University joined the
+December meetups to discuss the courses they took and project development. We
+did preparational work for sciwork 2023 conference and the December Taipei
+scisprint. We also discussed how to automate the flow for organizing sciwork
+events and the website deployment.
 
-在 2023 年 12 月間，sciwork 籌辦了兩組活動，分別是每個禮拜三的 meetup 和每個月一次的 scisprint。
+Taipei Scisprint
+----------------
+It has been a while since the last time we held an event outside Taipei. It is
+encouraging that the December Taipei Scisprint attracted five new friends. It’s
+the first time RockLeon hosted a scisprint, and he did an excellent job at the
+new venue.
 
-12 月的 meetup 有許多來自交大的學生，針對課程的疑問以及專案開發討論交流。我們也充分利用 meetup 時間，討論了之前舉辦的 sciwork 2023 和將於 12 月舉辦的 Taipei Scisprint，同時深入探討了活動流程和官網資訊發布流程的自動化想法。
+We are making good progress with the participating projects. Participants with
+modmesh successfully installed the code on Windows, showing the capability to
+deploy on multiple platforms. uTensor has completed a Python wrapper for the
+C++ runtime using pybind11, which already compiles and works on matrix
+multiplication.
 
-12 月的 Taipei Scisprint 聚集了許多科技愛好者。其中有 5 位新朋友是首次參加 sciwork 活動。這次活動是久違地在新竹以外的地方舉辦，感謝 RockLeon 在新地點的精心安排，使得 Scisprint 活動順利進行。各個專案也都有新的進度。
+PyLiteracy fixed a case problem and a logic bug in the Atlas project, and added
+a new demo program. pydoc-zhtw has started translating many new documents,
+including pathlib, pickletools, copyreg, io, and base64. We also have started
+to build Weblate, an open source translation platform to help more people get
+involved in translation.
 
-modmesh 在環境安裝上取得了許多進展。即便是在 Windows 系統上，新成員們也可以成功安裝了 modmesh，展示了 modmesh 在跨平台使用上的穩定性。同時，uTensor 則使用 pybind11 完成了 C++ runtime 的 Python 封裝，已經實現了編譯和執行矩陣乘法的功能。在 PyLiteracy 這方面，他們成功修正了先前大小寫問題，同時修正了 Atlas 專案中的邏輯錯誤，並新增了示範程式。最後，pydoc-zhtw 開啟許多新文件的翻譯，包括 pathlib、pickletools、copyreg、io、base64，同時開始架設開源翻譯平台 Weblate，以協助更多人參與翻譯工作。
+This scisprint is also the beginning of the promotional plan for sciwork events
+in 2024, including discussion of images and scheduling. Our efforts over the
+past year made the preparation for the event smoother. We are also constantly
+thinking about ways to further improve the experience of the event and the
+website. There will be more and better events in the new year.
 
-這次 Scisprint 也是 2024 年 sciwork 活動宣傳計劃的開端，包括討論宣傳圖片和宣傳計畫。在過去一年的努力中，sciwork 的志工團隊努力使活動的準備更順暢，也繼續思索如何進一步改進活動和官網的體驗，期待在 2024 年有更多、更好的活動。
+You can check the event photos at https://www.flickr.com/photos/sciwork/albums.
 
-English
-=======
+.. raw:: html
 
-In December 2023, sciwork hosted two event series, the weekly meetup and the monthly Scisprint.
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+            gap: 10px;                             /* Optional gap between grid items */
+            height: 100%;                         /* Adjust the height as needed */
+        }
 
-A lot of students from National Yang Ming Chiao Tung University joined the December meetups to discuss the courses they took and project development. We did preparational work for sciwork 2023 conference and the December Taipei Scisprint. We also discussed how to automate the flow for organizing sciwork events and the website deployment.
+        .grid-item {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
 
-It has been a while since the last time we held an event outside Taipei.  It is encouraging that the December Taipei Scisprint attracted five new friends. It’s the first time RockLeon hosted a scisprint, and he did an excellent job at the new venue.
-
-We are making good progress with the participating projects. Participants with modmesh successfully installed the code on Windows, showing the capability to deploy on multiple platforms. uTensor has completed a Python wrapper for the C++ runtime using pybind11, which already compiles and works on matrix multiplication.
-
-PyLiteracy fixed a case problem and a logic bug in the Atlas project, and added a new demo program. pydoc-zhtw has started translating many new documents, including pathlib, pickletools, copyreg, io, and base64. We also have started to build Weblate, an open source translation platform to help more people get involved in translation.
-
-This Scisprint is also the beginning of the promotional plan for sciwork events in 2024, including discussion of images and scheduling. Our efforts over the past year made the preparation for the event smoother. We are also constantly thinking about ways to further improve the experience of the event and the website. There will be more and better events in the new year.
-
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <div class="grid-container">
+        <div class="grid-item">
+            <a data-flickr-embed="true" data-header="true" data-context="true" href="https://www.flickr.com/photos/sciwork/53441062517/in/album-72177720313810281/" title="DSC06829"><img src="https://live.staticflickr.com/65535/53441062517_71bcc9abf6_k.jpg" width="1920" height="1080" alt="DSC06829"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <span>Group Photo</span>
+        </div>
+        <div class="grid-item">
+            <a data-flickr-embed="true" data-header="true" data-context="true" href="https://www.flickr.com/photos/sciwork/53440981957/in/album-72177720313810281/" title="DSC06746.JPG"><img src="https://live.staticflickr.com/65535/53440981957_d0b6fe000e_k.jpg" width="1920" height="1080" alt="DSC06746.JPG"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <span>Coding and Discussion</span>
+        </div>
+    </div>
