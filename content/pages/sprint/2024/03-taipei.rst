@@ -1,27 +1,27 @@
 ===========================================
-(Tentative) Scisprint 2024 March in Hsinchu
+(Tentative) Scisprint 2024 March in Taipei
 ===========================================
 
-:date: 2024-12-24 21:58
-:url: sprint/2024/03-hsinchu
-:save_as: sprint/2024/03-hsinchu.html
+:date: 2024-01-23 21:40
+:url: sprint/2024/03-taipei
+:save_as: sprint/2024/03-taipei.html
 
 Date
 -----
 
-* Date: 23rd March, Saturday, 2024
-* Time: 10:00 -- 17:00 (7 hours)
+* Date: 30th March, Saturday, 2024
+* Time: 10:30 -- 17:30 (7 hours)
 
 |
 
 Agneda 
 -------
 
-* 10:00-10:30 Arrival and Seating (Confirmation of registration information)
+* 10:30-11:00 Arrival and Seating (Confirmation of registration information)
 
-* 10:30-11:00 Project Introduction 
+* 11:00-11:30 Project Introduction 
 
-* 11:00-12:00 Coding Session 1
+* 11:30-12:00 Coding Session 1
 
 * 12:00-13:20 Lunch Break & Group Discussion 1
 
@@ -33,9 +33,9 @@ Agneda
 
 * 15:20-15:30 Group Discussion 3
 
-* 15:30-16:30 Final Sprint
+* 15:30-17:00 Final Sprint
 
-* 16:30-17:00 Project Summary & Closing
+* 17:00-17:30 Project Summary & Closing
 
 |
 
@@ -67,29 +67,24 @@ in scisprint. Refer to `project list <#project-list>`__ below for more details.
 Project List
 +++++++++++++
 
-TBD
+TBC
 
 Sign Up
 ------------
 
 TBD
 
-.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202311-hsinchu>`__.
+.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202403-taipei>`__.
 
 Venue
 -----
 
-`前沿理論及計算研究中心 (國立清華大學第三綜合大樓 A 區 5 樓) <https://goo.gl/maps/EH2wWtkLQ8qLWd669>`__.
-
-`Center for Theory and Computation (Rm. P518, 3rd General Building, National Tsing Hua University) <https://goo.gl/maps/4i2K2XvJqw2J42pv5>`__.
+`言文字 Emoji Cafe & Bar｜咖啡 x 茶 x 酒 x 空間 <https://maps.app.goo.gl/HkaVDuMbkMD19rV68>`__.
 
 .. raw:: html
 
   <div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28976.98152829823!2d120.96353258312313!3d24.79125198152699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468360c81cfffe3%3A0xd7d529328f01b825!2z5ZyL56uL5riF6I-v5aSn5a2456ys5LiJ57ac5ZCI5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1662888048158!5m2!1szh-TW!2stw" 
-      style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;"
-      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.651233729541!2d121.51146087638504!3d25.045907377808593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9378b031537%3A0x58be1ee17fe5fa49!2z6KiA5paH5a2XIEVtb2ppIENhZmUgJiBCYXLvvZzlkpbllaEgeCDojLYgeCDphZIgeCDnqbrplpM!5e0!3m2!1szh-TW!2stw!4v1701829181925!5m2!1szh-TW!2stw" width="600" height="450"  style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 |
