@@ -40,22 +40,14 @@ the power of CI/CD and cutting-edge IT skills to enhance the Sciwork event exper
 
 We are currently studying the use of the Discord API to send messages or publish Discord events.
 
-leetcode study group
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-We will focus on the daily problem. In addition to solving the problem, we will also explore how to improve the 
-answer. We discuss the leetcode problem in the `leetcode channel <https://discordapp.com/channels/730297880140578906/1175806975179763732>`__.
-
-Whether you are a beginner or a master, you are welcome to join us!
-
 |
 
 Sign up
 ------------
 
-.. The meetup is free. Please register on `discord event
-.. <https://discordapp.com/channels/730297880140578906/1007075707400237067/1191739414817280143>`__.
-.. Click the green check mark to participate the meetup.
+The meetup is free. Please register on `discord event
+<https://discord.com/channels/730297880140578906/1007075707400237067/1200158978634678393>`__.
+Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
 All recent sciwork event are at the top of the left sidebar.
