@@ -21,17 +21,17 @@ Agneda
 
 * 10:00 - 10:10 opening
 
-* 10:20 - 10:50 talk 1: topic
+* 10:20 - 10:50 talk 1: modmesh development: GUI for 1D Euler solution and devenv
 
 * 10:50 - 11:10 break
 
-* 11:10 - 11:40 talk 2: topic
+* 11:10 - 11:40 talk 2: How does sciwork implement web development in CI/CD way?
 
 * 11:40 - 11:50 group photo
 
 * 11:50 - 13:30 lunch
 
-* 13:30 - 16:30 track1: tutorial
+* 13:30 - 16:30 track1: tutorial: feature engineering
 
 * 13:30 - 14:45 track2: coding sprint first half
 
@@ -55,12 +55,32 @@ employers who have problems to be solved.
 Technical Talks
 ------------------
 
-TBD
+Talks 1 : modmesh development: GUI for 1D Euler solution and devenv
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Tutorial 
-------------------
+modmesh is a toolkit for solving partial differential equations and visulizing the numerical results.
+We'll show how we use a hybrid architecture (C++ and Python) for computational software. We will also share 
+the experience of how we carry out data visualisation and GUI development.
 
-TBD
+Talks 2 : How does sciwork implement web development in CI/CD way?
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+In this presentation we'll share the infrastructure of the sciwork web development. Discover why we 
+choose Netlify as our development platform, explore the seamless integration with Github and demonstrate 
+an efficient workflow for our project.
+
+Tutorial feature engineering
+------------------------------
+
+Feature engineering is an essential step in building data models. It involves the capacity 
+to understand domain knowledge and project requirements, as there's no one-size-fits-all approach. 
+The focus is not on the validity of the model, but on repetitive analysis and targeted feature 
+engineering to meet business requirements. This provides a deeper understanding of the principles and 
+techniques involved in feature engineering.
+
+The tutorial focuses on constructing predictive models for data. It provides a step-by-step guide on 
+error analysis and demonstrates how to repetitive perform feature engineering based on the analysis 
+results. This enables a gradual refinement and optimization of the model's validity in prediction and interpretation.
 
 Coding Sprint
 ------------------
