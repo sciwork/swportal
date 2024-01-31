@@ -1,5 +1,5 @@
 ==============================================
-(Tentative) Scisprint 2024 February in Hsinchu
+Scisprint 2024 February in Hsinchu
 ==============================================
 
 :date: 2024-12-24 21:57
@@ -67,14 +67,53 @@ in scisprint. Refer to `project list <#project-list>`__ below for more details.
 Project List
 +++++++++++++
 
-TBD
+modmesh
+^^^^^^^^^
+
+- **Related Subjects:** Python, C++, PDE
+- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
+
+modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
+both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation 
+results to give you a better understanding of your PDE solution. modmesh also supports mesh visualization, 
+currently in the Gmsh mesh file format. We have recently made efforts to improve the modmesh UI/UX.
+
+The design allows it to run on Windows, Linux, and MacOS. Everyone can use or contribute to modmesh.
+
+uTensor
+^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/uTensor/uTensor>`__
+- **Project Contact:** Dboy(discord: @dboyliao#1295)
+
+uTensor is an extremely lightweight machine learning inference framework built on C++11. It simplifies model 
+deployment by seamlessly converting TensorFlow-trained models into efficient C++ files that can be used to infer 
+on the embedding device and integrate with optimized libraries such as CMSIS-NN by ARM with ease. Compared with 
+the binary files, C++ source code will provide greater flexibility to modify the trained model for the embedding engineers. 
+
+We provide the defaults for tensors, operators, and memory allocation. Just like the booming development of 
+machine learning, we are also actively developing the above functions. Welcome to join us.
+
+sciwork portal
+^^^^^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/sciwork/swportal>`__
+- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester), Wuxian (discord: @5x9527)
+
+Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican 
+with tailwindCSS, and deployed by Netfliy. We create the promotional pages for meetup and sprint events. Our 
+team also maintains the sciwork conference page - conf.sciwork.dev.
+
+We have always been actively trying to provide users a better web browsing experience, including information 
+presentation and visual experience. Welcome to join us if you are interested in website maintence.
 
 Sign Up
 ------------
 
 TBD
 
-.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202311-hsinchu>`__.
+.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202402-hsinchu>`__.
 
 Venue
 -----
