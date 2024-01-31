@@ -40,6 +40,14 @@ the power of CI/CD and cutting-edge IT skills to enhance the Sciwork event exper
 
 We are currently studying the use of the Discord API to send messages or publish Discord events.
 
+Prepare February Scisprint
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+Additionally, we will discuss the following items to prepare February scisprint.
+
+* Task arrangement for volunteers
+* Promotion plan for February scisprint
+
 |
 
 Sign up
