@@ -43,7 +43,7 @@ We are currently studying the use of the Discord API to send messages or publish
 Prepare February Scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-Additionally, we will discuss the following items to prepare February scisprint.
+Additionally, we will discuss the following items to prepare `February scisprint <https://sciwork.dev/sprint/2024/02-hsinchu>`__.
 
 * Task arrangement for volunteers
 * Promotion plan for February scisprint
