@@ -2,7 +2,7 @@
 Scisprint 2024 February in Hsinchu
 ==============================================
 
-:date: 2024-12-24 21:57
+:date: 2024-01-31 21:57
 :url: sprint/2024/02-hsinchu
 :save_as: sprint/2024/02-hsinchu.html
 
@@ -108,12 +108,51 @@ team also maintains the sciwork conference page - conf.sciwork.dev.
 We have always been actively trying to provide users a better web browsing experience, including information 
 presentation and visual experience. Welcome to join us if you are interested in website maintence.
 
+Career Conversation
+--------------------
+
+Career conversation provides a chance to have relaxed discussions with experienced software 
+industry professionals. If you have career-related questions or seek guidance, you are welcome to 
+sign up for this opportunity. Hope to help you gain self-awareness, determine your career direction, 
+and set goals effectively.
+
+To `register <#sign-up>`__ for a career conversation, please purchase the **Dining Ticket + Career 
+conversation** ticket for this event. In the registration form, remember to select **I want to join the 
+career conversation** and kindly fill up some relevant questions to give us an initial 
+understanding of your background.
+
+Career conversation QAs
++++++++++++++++++++++++++++++
+
+ | Q: How is it conducted? 
+ | A: It will be a one-on-one conversation, lasting for 30 minutes. There are four time slots for it: 11:00-11:30, 11:30-12:00, 13:30-14:00, and 14:00-14:30. 
+
+|
+
+ | Q: Who can sign up?
+ | A: Anyone who wants to talk about career-related matters is welcome to sign up.
+
+|
+
+ | Q: What preparations are needed before the conversation? 
+ | A: You only need to assist in filling out the relevant questions in the registration form. Just come with a relaxed and open mindset on the day of the event.
+
+|
+
+Career Conversation Agneda
++++++++++++++++++++++++++++
+
+* 11:00-11:30 Career Conversation 1
+* 11:30-12:00 Career Conversation 2
+* 13:30-14:00 Career Conversation 3
+* 14:00-14:30 Career Conversation 4
+
+There are 4 time slot for the career conversation. Participants will be assigned into a specific time slot for the career conversation.
+
 Sign Up
 ------------
 
-TBD
-
-.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202402-hsinchu>`__.
+Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202402-hsinchu>`__.
 
 Venue
 -----
