@@ -125,7 +125,7 @@ Career conversation QAs
 +++++++++++++++++++++++++++++
 
  | Q: How is it conducted? 
- | A: It will be a one-on-one conversation, lasting for 30 minutes. There are four time slots for it: 11:00-11:30; 11:30-12:00; 13:30-14:00, and 14:00-14:30. 
+ | A: It will be a one-on-one conversation, lasting for 30 minutes. There are four time slots for it: 11:00-11:30, 11:30-12:00, 13:30-14:00, and 14:00-14:30. 
 
 |
 
@@ -143,9 +143,9 @@ Career Conversation Agneda
 +++++++++++++++++++++++++++
 
 * 11:00-11:30 Career Conversation 1
-* 13:30-14:00 Career Conversation 2
-* 14:00-14:30 Career Conversation 3
-* 14:30-15:00 Career Conversation 4
+* 11:30-12:00 Career Conversation 2
+* 13:30-14:00 Career Conversation 3
+* 14:00-14:30 Career Conversation 4
 
 There are 4 time slot for the career conversation. Participants will be assigned into a specific time slot for the career conversation.
 
