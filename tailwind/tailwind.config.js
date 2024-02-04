@@ -1,6 +1,6 @@
 module.exports = {
   prefix: '',
-  content: ['./theme/templates/*.html'],
+  content: ['./theme/templates/*.html', './content/**/*.{md,rst}'],
   important: false,
   separator: ':',
   theme: {
