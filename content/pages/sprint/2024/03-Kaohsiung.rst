@@ -1,6 +1,6 @@
-===========================================
-(Tentative) Seminar 2024 March in Kaohsiung
-===========================================
+===============================
+Seminar 2024 March in Kaohsiung
+===============================
 
 :date: 2024-01-19 23:15
 :url: sprint/2024/03-Kaohsiung-Seminar
@@ -78,7 +78,12 @@ Program
         <div class="evt-title">Visualization that balances performance and flexibility for scientific computing</div>
         <div>by Chun-Hsu Lai</div>
         <div>
-          TBD
+          Visualization and performance are crucial in scientific computing.
+          However, GUI development requires highly flexible code, while
+          performance-oriented code needs specific tuning that may sacrifice
+          flexibility. In this talk, we will demonstrate how to use a hybrid
+          architecture (C++ and Python) that balances performance and
+          flexibility in developing visualization applications.
         </div>
      </div>
    </div>
@@ -94,7 +99,10 @@ Program
         <div class="evt-title">How does sciwork implement web development in CI/CD way?</div>
         <div>by Chester Cheng</div>
         <div>
-          TBD
+          In this presentation we'll share the infrastructure of the sciwork
+          web development. Discover why we choose Netlify as our development
+          platform, explore the seamless integration with Github and
+          demonstrate an efficient workflow for our project.
         </div>
      </div>
    </div>

@@ -25,7 +25,7 @@ Scisprint 2024
 * `(Tentative) Scisprint 2024 March in Taipei
   <{filename}2024/03-taipei.rst>`__
 
-* `(Tentative) Seminar 2024 March in Kaohsiung
+* `Seminar 2024 March in Kaohsiung
   <{filename}2024/03-Kaohsiung.rst>`__
 
 * `Scisprint 2024 February in Hsinchu
