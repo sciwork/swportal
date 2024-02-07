@@ -108,6 +108,16 @@ team also maintains the sciwork conference page - conf.sciwork.dev.
 We have always been actively trying to provide users a better web browsing experience, including information 
 presentation and visual experience. Welcome to join us if you are interested in website maintence.
 
+pyLiteracy
+^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
+
+Mandarin grammar parser based on syntactical context. By analyzing and simplifying the structures of correct 
+usages into code instructions, provide a linguistics-based model to accomplish efficient Mandarin grammar 
+checking tasks with minimal resources.
+
 Career Conversation
 --------------------
 
