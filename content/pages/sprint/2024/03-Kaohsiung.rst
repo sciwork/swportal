@@ -10,7 +10,7 @@ About the Seminar
 -----------------
 
 * Date: 9th March, Saturday, 2024
-* Time: 10:00 - 17:00 (7 hours)
+* Time: 9:30 - 17:00
 
 sciwork seminar is a one-day event to include technical talks, tutorials, and coding activities.
 The event is designed to include all angles for those who are interested in developing robust software
@@ -175,18 +175,57 @@ in scisprint. Refer to `project list <#project-list>`__ below for more details.
 Project List
 ************
 
-TBD
+modmesh
+^^^^^^^^^
+
+- **Related Subjects:** Python, C++, PDE
+- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
+
+modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
+both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation 
+results to give you a better understanding of your PDE solution. modmesh also supports mesh visualization, 
+currently in the Gmsh mesh file format. We have recently made efforts to improve the modmesh UI/UX.
+
+The design allows it to run on Windows, Linux, and MacOS. Everyone can use or contribute to modmesh.
+
+sciwork portal
+^^^^^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/sciwork/swportal>`__
+- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester), Wuxian (discord: @5x9527)
+
+Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican 
+with tailwindCSS, and deployed by Netfliy. We create the promotional pages for meetup and sprint events. Our 
+team also maintains the sciwork conference page - conf.sciwork.dev.
+
+We have always been actively trying to provide users a better web browsing experience, including information 
+presentation and visual experience. Welcome to join us if you are interested in website maintence.
 
 Sign Up
 ------------
 
-TBD
+Please sign up at `kktix <https://sciwork.kktix.cc/events/sciworkseminar-202403>`__.
 
 
 Venue
 -----
 
-Somewhere in Kaohsiung
+`DAKUO高雄市數位內容創意中心 (高雄市鹽埕區七賢三路123號2樓、3樓) <https://maps.app.goo.gl/JpbgNP16NYCjDuDK6>`__.
+
+`Digital Art Kaohsiung United Office (80341, Kaohsiung City, Yancheng District, Qixian 3rd Rd, 123號2樓、3樓) <https://maps.app.goo.gl/sLJjduknJ78h3Kkk9>`__.
+
+You can find the detailed `transportation information <https://dakuo.koda.net.tw/location.html>`__ on the official website of the event venue.
+
+.. raw:: html
+
+  <div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.7251315542417!2d120.28132745181185!3d22.62673727803034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e04713bde87e7%3A0x7f6642f4b4de6ca4!2zREFLVU_pq5jpm4TluILmlbjkvY3lhaflrrnlibXmhI_kuK3lv4M!5e0!3m2!1szh-TW!2stw!4v1707903215072!5m2!1szh-TW!2stw" 
+    style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+  
 
 Contact us
 ----------
