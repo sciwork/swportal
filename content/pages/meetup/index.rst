@@ -9,6 +9,9 @@ meetup
 meetup 2024
 ==============
 
+* `PyDoc Meetup 2024 March 10th at GoFreight Office
+  <{filename}2024/0310-pydoc.rst>`__
+
 * `Meetup 2024 February 21st at NYCU
   <{filename}2024/0221-nycu.rst>`__
 
