@@ -22,3 +22,10 @@ report
 =================
 
 The event has concluded, and we appreciate everyone who participated! Feel free to review the report `here </conference/2023/report.html>`__!
+
+CFD workshop Hsinchu 2024 March
+================================
+
+The `CFD Workshop 2024 in March <{filename}03-workshop.rst>`__ is a seminar focusing on scientific computing, engineering computation, and software 
+engineering. The event will take place at the Engineering Building 3 at NYCU. If you are interested 
+in the aforementioned fields, come and join us!
