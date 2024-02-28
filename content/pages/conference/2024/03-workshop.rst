@@ -3,8 +3,8 @@ CFD workshop Hsinchu 2024 March
 ===============================
 
 :date: 2024-02-28 9:41
-:url: sprint/2024/03-workshop
-:save_as: sprint/2024/03-workshop.html
+:url: workshop/2024/03-workshop
+:save_as: workshop/2024/03-workshop.html
 
 Date
 ----
