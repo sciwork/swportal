@@ -17,28 +17,30 @@ Date
 Agneda 
 ------
 
-* 08:30 - 08:50	check-in
+* 08:30 - 08:50	Check-in
 
-* 09:00 - 10:20	topic: the space-time CESE method
+* 09:00 - 10:20	Topic: the space-time CESE method
 
-* 10:30 - 11:50	topic: unstructured meshes of mixed elements
+* 10:30 - 11:50	Topic: unstructured meshes of mixed elements
 
-* 11:50 - 13:00	lunch
+* 11:50 - 13:00	Lunch
 
-* 13:00 - 14:20	topic: HPC buffer management
+* 13:00 - 14:20	Topic: HPC buffer management
 
-* 14:30 - 15:50	topic: python and pybind11
+* 14:30 - 15:50	Topic: Python and pybind11
 
-* 16:00 - 17:20	topic: python for architecture
+* 16:00 - 17:20	Topic: Python for architecture
 
-* 17:20 - 17:40	conclusion and discussions
+* 17:20 - 17:40	Conclusion and discussions
 
 |
 
 About the workshop
 ------------------
 
-Software development involves more than just writing code to obtain results; it also requires clear requirements and
+**Speaker:** Yung-Yu Chen (https://yyc.solvcon.net/)
+
+Software development involves more than just writing code to obtain results, it also requires clear requirements and
 consistency, scalability, and maintainability of behavior. Depending on different requirements, the software development
 process varies. These skills and concepts fall within the realm of software engineering and are applicable to various
 numerical computing software, including Computational Fluid Dynamics (CFD).
@@ -95,6 +97,6 @@ Contact us
 ----------
 
 * sciwork: https://sciwork.dev/
-* Discord: https://discord.gg/6MAkFrD
-* Email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
+* discord: https://discord.gg/6MAkFrD
+* email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
 * flickr: https://www.flickr.com/photos/sciwork/albums
