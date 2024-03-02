@@ -38,6 +38,10 @@ Agneda
 About the workshop
 ------------------
 
+We will invite professionals in numerical computing or software engineering relevant field to share their development
+experiences, facilitate discussions and exchanges among people in related fields, reduce the entry barriers to these fields, and
+establish active communities.
+
 Advanced CFD software development
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
