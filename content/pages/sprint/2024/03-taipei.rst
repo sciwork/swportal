@@ -1,5 +1,5 @@
 ===========================================
-(Tentative) Scisprint 2024 March in Taipei
+Scisprint 2024 March in Taipei
 ===========================================
 
 :date: 2024-01-23 21:40
@@ -67,14 +67,84 @@ in scisprint. Refer to `project list <#project-list>`__ below for more details.
 Project List
 +++++++++++++
 
-TBC
+modmesh
+^^^^^^^^^
+
+- **Related Subjects:** Python, C++, PDE
+- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
+
+modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
+both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation 
+results to give you a better understanding of your PDE solution. modmesh also supports mesh visualization, 
+currently in the Gmsh mesh file format. We have recently made efforts to improve the modmesh UI/UX.
+
+The design allows it to run on Windows, Linux, and MacOS. Everyone can use or contribute to modmesh.
+
+uTensor
+^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/uTensor/uTensor>`__
+- **Project Contact:** Dboy(discord: @dboyliao#1295)
+
+uTensor is an extremely lightweight machine learning inference framework built on C++11. It simplifies model 
+deployment by seamlessly converting TensorFlow-trained models into efficient C++ files that can be used to infer 
+on the embedding device and integrate with optimized libraries such as CMSIS-NN by ARM with ease. Compared with 
+the binary files, C++ source code will provide greater flexibility to modify the trained model for the embedding engineers. 
+
+We provide the defaults for tensors, operators, and memory allocation. Just like the booming development of 
+machine learning, we are also actively developing the above functions. Welcome to join us.
+
+sciwork portal
+^^^^^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/sciwork/swportal>`__
+- **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester), Wuxian (discord: @5x9527)
+
+Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican 
+with tailwindCSS, and deployed by Netfliy. We create the promotional pages for meetup and sprint events. Our 
+team also maintains the sciwork conference page - conf.sciwork.dev.
+
+We have always been actively trying to provide users a better web browsing experience, including information 
+presentation and visual experience. Welcome to join us if you are interested in website maintence.
+
+pydoccht
+^^^^^^^^^
+
+- **Project Link:** `Github <https://github.com/python/python-docs-zh-tw>`__
+- **Project Contact:** Matt Wang (@mattwang44), Josix (@Josix#3800)
+
+Our primary mission is to make Python's official documentation accessible to the Traditional Chinese audience by providing accurate and comprehensive translations. 
+Whether you are a seasoned Python developer or a language expert, 
+we welcome individuals who are enthusiastic about Python and passionate about making knowledge accessible to all.
+
+
+pyLiteracy
+^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
+
+Mandarin grammar parser based on syntactical context. By analyzing and simplifying the structures of correct 
+usages into code instructions, provide a linguistics-based model to accomplish efficient Mandarin grammar 
+checking tasks with minimal resources.
+
+Commitizen-Tools
+^^^^^^^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/commitizen-tools/commitizen>`__
+- Project Contact: Wei Lee (discord: @clleew#6749)
+
+
+Commitizen-tools allows teams to effectively implement version control that conforms to the specified rules. 
+It uses interactive forms to create commit messages that meet conventional commits rules. It also bumps versions automatically using Semantic Versioning and generates a changelog using Keep a Changelog.
+
+In addition, you can also customize your own rules to suit your team. Commitizen-tools is a widely used tool in many communities. We still have a lot of issues to fix and develop. Welcome to join us.
 
 Sign Up
 ------------
 
-TBD
-
-.. Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202403-taipei>`__.
+Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202403-taipei>`__.
 
 Venue
 -----
@@ -93,6 +163,6 @@ Contact us
 ----------
 
 * sciwork: https://sciwork.dev/
-* Discord: https://discord.gg/6MAkFrD
-* Email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
+* discord: https://discord.gg/6MAkFrD
+* email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
 * flickr: https://www.flickr.com/photos/sciwork/albums

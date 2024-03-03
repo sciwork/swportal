@@ -1,6 +1,6 @@
-===============================
-CFD workshop Hsinchu 2024 March
-===============================
+====================================================
+Advanced CFD software development Hsinchu 2024 March
+====================================================
 
 :date: 2024-02-28 9:41
 :url: workshop/2024/03-workshop
@@ -37,6 +37,8 @@ Agneda
 
 About the workshop
 ------------------
+
+**Topic:** Advanced CFD software development
 
 **Speaker:** Yung-Yu Chen (https://yyc.solvcon.net/)
 
