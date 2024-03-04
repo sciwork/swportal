@@ -9,16 +9,16 @@ meetup
 meetup 2024
 ==============
 
-* `Meetup 2024 March 27st at NYCU
+* `Meetup 2024 March 27th at NYCU
   <{filename}2024/0327-nycu.rst>`__
 
-* `Meetup 2024 March 20st at NYCU
+* `Meetup 2024 March 20th at NYCU
   <{filename}2024/0320-nycu.rst>`__
 
-* `Meetup 2024 March 13st at NYCU
+* `Meetup 2024 March 13th at NYCU
   <{filename}2024/0313-nycu.rst>`__
 
-* `Meetup 2024 March 6st at NYCU
+* `Meetup 2024 March 6th at NYCU
   <{filename}2024/0306-nycu.rst>`__
 
 * `PyDoc Meetup 2024 March 10th at GoFreight Office
