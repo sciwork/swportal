@@ -1,5 +1,5 @@
 ========================================
-Meetup 2024 March 13st in NYCU
+Meetup 2024 March 13th in NYCU
 ========================================
 
 :date: 2024-03-01 22:27
@@ -9,7 +9,7 @@ Meetup 2024 March 13st in NYCU
 Date
 -----
 
-* Date: March 13st, 2024
+* Date: March 13th, 2024
 * Time: 18:30 -- 21:30 (3 hours)
 
 |
@@ -27,12 +27,12 @@ There will be many different subjects discussed at the same time.
 Subjects
 ------------------
 
-Sciwork activity process automation discussion
+sciwork activity process automation discussion
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Meetup events are important within the Sciwork community, serving as hubs for discussions and knowledges sharing. 
+Meetup events are important within the sciwork community, serving as hubs for discussions and knowledges sharing. 
 We are excited to announce a special meetup where we'll delve into the realm of process automation, leveraging 
-the power of CI/CD and cutting-edge IT skills to enhance the Sciwork event experience. The works are divided into : 
+the power of CI/CD and cutting-edge IT skills to enhance the sciwork event experience. The works are divided into : 
 
 1. Decide the format of the meetup page.
 2. Create the sesh event with api or other method.
