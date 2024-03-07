@@ -7,7 +7,7 @@
     <div class="flex flex-row flex-wrap -mx-2">
       {% for article in articles_page.object_list %}
         <div class="w-full sm:w-full md:w-1/2 mb-4 px-2">
-          <div class="max-w-4xl px-10 my-4 py-6 bg-white rounded-lg shadow-md">
+          <div class="max-w-4xl flex flex-col h-full px-10 my-4 py-6 bg-white rounded-lg shadow-md">
             <div class="flex justify-between items-center">
               <span class="font-light text-gray-600">{{ article.date.strftime("%d %b %Y") }}</span>
             </div>
@@ -21,6 +21,8 @@
                 {{ article.summary }}
               </div>
             </div>
+
+            <div class="flex-1"></div> <!-- Added this flex box to grow and fill the available space -->
 
             <div class="flex justify-between items-center mt-4">
               <a class="text-blue-600 hover:underline" href="{{ article.url }}">Read more</a>
