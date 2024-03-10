@@ -9,18 +9,17 @@ sciwork January 2024 review: weekly meetup and Hsinchu scisprint
 Weekly Meetup
 -------------
 In the January meetup, Yung-Yu introduced the CESE method, which is utilized in
-the modmesh project to solve the fluid dynamics problem. This provided modmesh
+the `modmesh project <https://github.com/solvcon/modmesh>`__ to solve the fluid dynamics problem. This provided modmesh
 members with a deeper understanding of using numerical methods to solve the partial
 differential equations. Meanwhile, Ming-Jie delved into researching the CESE method.
-In addition, Kuan-Wei Chiu and Chun-Shih, former students of the nsd course
-students, joined the modmesh team and actively contributed to solve CI-related issues
-and offering valuable assistance to the project's progress.
+In addition, Kuan-Wei Chiu and Chun-Shih joined the modmesh team and actively contributed
+to solve CI-related issues and offering valuable assistance to the project's progress.
 
 Hsinchu Scisprint
 -----------------
 We also have a series of developments at January scisprint.
-Li Xuan created new promotional pictures to improve the promotional effect on social media.
-Li Yuan-Heng joined the uTensor team and successfully advanced the progress of Python binding.
+We have new promotional pictures to improve the promotional effect on social media.
+New member joined the uTensor team and successfully advanced the progress of Python binding.
 pyLiteracy developed a new GUI interface that effectively highlights grammar errors in articles, and
 meng joined the pyLiteracy team to learn how to check the grammar errors with the pyLiteracy project.
 Furthermore, modmesh enhanced drawing capabilities for more effective mesh visualization. The swportal
