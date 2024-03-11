@@ -18,7 +18,7 @@ to solve CI-related issues and offering valuable assistance to the project's pro
 Hsinchu Scisprint
 -----------------
 We also have a series of developments at January scisprint.
-We have new promotional pictures to improve the promotional effect on social media.
+Li-Hsuan created new promotional pictures to improve the promotional effect on social media.
 New member joined the uTensor team and successfully advanced the progress of Python binding.
 pyLiteracy developed a new GUI interface that effectively highlights grammar errors in articles, and
 meng joined the pyLiteracy team to learn how to check the grammar errors with the pyLiteracy project.
