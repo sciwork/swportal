@@ -1,0 +1,67 @@
+================================================================
+sciwork January 2024 review: weekly meetup and Hsinchu scisprint
+================================================================
+
+:date: 2024-03-04
+:author: Ming-Jie Kuo
+:category: blog
+
+Weekly Meetup
+-------------
+In the January meetup, Yung-Yu introduced the CESE method, which is utilized in
+the `modmesh project <https://github.com/solvcon/modmesh>`__ to solve the fluid dynamics problem. This provided modmesh
+members with a deeper understanding of using numerical methods to solve the partial
+differential equations. Meanwhile, Ming-Jie delved into researching the CESE method.
+In addition, Kuan-Wei Chiu and Chun-Shih joined the modmesh team and actively contributed
+to solve CI-related issues and offering valuable assistance to the project's progress.
+
+Hsinchu Scisprint
+-----------------
+We also have a series of developments at January scisprint.
+Li-Hsuan created new promotional pictures to improve the promotional effect on social media.
+New member joined the uTensor team and successfully advanced the progress of Python binding.
+pyLiteracy developed a new GUI interface that effectively highlights grammar errors in articles, and
+meng joined the pyLiteracy team to learn how to check the grammar errors with the pyLiteracy project.
+Furthermore, modmesh enhanced drawing capabilities for more effective mesh visualization. The swportal
+team archived and organized the sciwork 2023 website during January scisprint to preserve essential
+information from the event.
+
+
+The February meetup frequency will be reduced due to school holidays. However, ongoing
+development for each project will continue. We are prepared to welcome new students to
+join our community.
+
+You can check the event photos at https://www.flickr.com/photos/sciwork/albums.
+
+.. raw:: html
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+            gap: 10px;                             /* Optional gap between grid items */
+            height: 100%;                         /* Adjust the height as needed */
+        }
+
+        .grid-item {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <div class="grid-container">
+        <div class="grid-item">
+            <a data-flickr-embed="true" data-header="true" data-context="true" href="https://www.flickr.com/photos/sciwork/53566496223/in/album-72177720315213806/" title="IMG_1100"><img src="https://live.staticflickr.com/65535/53566496223_d949a3125a_z.jpg" width="640" height="480" alt="IMG_1100"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <span>Group Photo</span>
+        </div>
+        <div class="grid-item">
+            <a data-flickr-embed="true" data-header="true" data-context="true" href="https://www.flickr.com/photos/sciwork/53565451187/in/album-72177720315213806/" title="IMG_1107"><img src="https://live.staticflickr.com/65535/53565451187_5d32fdedf7_z.jpg" width="640" height="480" alt="IMG_1107"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <span>Coding and Discussion</span>
+        </div>
+    </div>
