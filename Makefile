@@ -65,7 +65,7 @@ css:
 
 
 purgecss:
-	$(NPX) purgecss --config $(PURGECSSCONF) --css $(CSSFILE) -o output/theme/css
+	$(NPX) purgecss@5.0.0 --config $(PURGECSSCONF) --css $(CSSFILE) -o output/theme/css
 
 
 .PHONY: html help clean regenerate devserver deploy css purgecss
