@@ -1,0 +1,102 @@
+========================================
+Meetup 2024 April 24th in NYCU
+========================================
+
+:date: 2024-04-02 01:10
+:url: meetup/2024/0424-nycu
+:save_as: meetup/2024/0424-nycu.html
+
+Date
+-----
+
+* Date: April 24th, 2024
+* Time: 18:30 -- 21:30 (3 hours)
+
+|
+
+Agenda
+--------
+
+There will be many different subjects discussed at the same time.
+
+* 18:30-19:30 Free discussion
+* 19:30-21:30 Subjects discussion
+
+|
+
+Subjects
+------------------
+
+sciwork activity process automation discussion
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Meetup events are important within the sciwork community, serving as hubs for discussions and knowledges sharing. 
+We are excited to announce a special meetup where we'll delve into the realm of process automation, leveraging 
+the power of CI/CD and cutting-edge IT skills to enhance the sciwork event experience. The works are divided into : 
+
+1. Decide the format of the meetup page.
+2. Create the sesh event with api or other method.
+3. Create the GitHub action to create the meetup page automatically.
+
+We are currently using TextFSM to parse the format of meetup page.
+
+Prepare April Scisprint
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+Additionally, we will discuss the following items to prepare `April scisprint <https://sciwork.dev/sprint/2024/04-hsinchu>`__.
+
+* Task arrangement for volunteers
+* Promotion plan for April scisprint
+
+|
+
+Sign up
+------------
+
+The meetup is free. Please register on 
+`discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1224406034316005497>`__. 
+Click the green check mark to participate the meetup.
+
+If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
+All recent sciwork event are at the top of the left sidebar.
+
+|
+
+About Meetup
+------------
+
+Meetup is an event providing space for people to work on open source
+projects together. We welcome any subjects that may interest the attendees,
+and especially encourage code for science, engineering, and technology, which
+demand more critical discussions than other applications of computer
+programming.
+
+We would like to provide a supportive and friendly environment for all
+attendees to support more developers to join in the open-source communities.
+
+To join the meetup, please bring your laptop and `sign up <#sign-up>`__. Please
+`contact us <#contact-us>`__ if you have any questions.
+
+|
+
+Venue
+-----
+
+`國立陽明交通大學 工程四館 1 樓 103 室 (Room 103, Engineering Building 4, NYCU)
+<https://maps.app.goo.gl/TnPxoUts3ki1PTc3A>`__.s
+
+.. raw:: html
+
+  <div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1522.9666436130776!2d120.99617862731081!3d24.787044462570815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468360f99028df7%3A0x642392a8d294e075!2z5ZyL56uL6Zm95piO5Lqk6YCa5aSn5a24IOW3peeoi-Wbm-mkqA!5e0!3m2!1szh-TW!2stw!4v1711992333177!5m2!1szh-TW!2stw"
+      style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+Contact us
+----------
+
+* sciwork: https://sciwork.dev/
+* discord: https://discord.gg/6MAkFrD
+* email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
+* flickr: https://www.flickr.com/photos/sciwork/albums
