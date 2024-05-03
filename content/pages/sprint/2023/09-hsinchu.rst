@@ -14,7 +14,7 @@ Date
 
 |
 
-Agneda 
+Agenda 
 -------
 
 * 10:00-10:30 Arrival and Seating (Confirmation of registration information)
@@ -159,7 +159,7 @@ conversation <#sign-up>`__, please purchase the **Dining Ticket + Career convers
 for this event. On the registration form, select **'I want to join the career conversation'** 
 and kindly fill up some relevant questions to give us an initial understanding of your background.
 
-Career Conversation Agneda
+Career Conversation Agenda
 +++++++++++++++++++++++++++
 
 * 11:00-11:30 Career Conversation 1

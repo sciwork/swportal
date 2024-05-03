@@ -14,7 +14,7 @@ Date
 
 |
 
-Agneda 
+Agenda 
 ------
 
 * 08:30 - 08:50	Check-in
