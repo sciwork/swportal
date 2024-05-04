@@ -39,22 +39,22 @@ Agenda
 
 |
 
-About the Scisprint
+About the scisprint
 ----------------------
 
 To join the sprint, please bring your laptop and `sign up <#sign-up>`__.  You are also 
 very welcome to bring your project. Please `contact us <#contact-us>`__ if you have any 
 questions.
 
-Scisprint, hosted by the sciwork community, is a monthly coding sprint. It would like to 
-facilitate discussions and exchanges among people in the fields of science, numerical 
+Scisprint, hosted by the sciwork community, is a monthly coding sprint. It is a place to 
+facilitate discussions and exchange information among people in the fields of science, numerical 
 computation, and engineering. Participants, regardless of experience level, can gain valuable 
-development insights in this event.
-
-.. This event includes a `hacking session <#hacking-session>`__ and `career conversation <#career-conversation>`__.
+development insights in this event. 
 
 We would like to provide a supportive and friendly environment for all attendees to support more developers
 to join in the open-source communities. 
+
+This event includes a `hacking session <#hacking-session>`__ and `career conversation <#career-conversation>`__.
 
 Hacking Session
 ------------------
@@ -108,6 +108,39 @@ team also maintains the sciwork conference page - conf.sciwork.dev.
 We have always been actively trying to provide users a better web browsing experience, including information 
 presentation and visual experience. Welcome to join us if you are interested in website maintence.
 
+Career Conversation
+--------------------
+
+Career conversation provides a chance to have relaxed discussions with experienced professionals from software 
+industry. If you have any career-related concerns you would like to explore, you are welcome to 
+sign up for this opportunity. Our goal is to assist you in gaining self-awareness, defining your career path, 
+and setting goals effectively.
+
+To `register <#sign-up>`__ for a career conversation, please purchase the **Dining Ticket + Career 
+conversation** ticket for this event. In the registration form, remember to select **I want to join the 
+career conversation** and kindly fill up some relevant questions to give us an initial 
+understanding of your background.
+
+Career conversation QAs
++++++++++++++++++++++++++++++
+
+ | Q: How is it conducted? 
+ | A: It is an individual 30-minutes career conversation. There are 4 time slots: 
+  11:00-11:30, 11:30-12:00, 13:30-14:00, and 14:00-14:30. Participants will be assigned to a specific 
+  time slot for their one-on-one career conversation.
+
+|
+
+ | Q: Who can sign up?
+ | A: Anyone who wants to talk about career-related topics is welcome to sign up.
+
+|
+
+ | Q: What preparations are needed before the conversation? 
+ | A: You only need to assist in filling out the relevant questions in the registration form. 
+      Just come with a relaxed and open mindset on the day of the event.
+
+|
 
 Sign Up
 ------------
