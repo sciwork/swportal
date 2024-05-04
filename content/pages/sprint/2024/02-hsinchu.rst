@@ -14,7 +14,7 @@ Date
 
 |
 
-Agneda 
+Agenda 
 -------
 
 * 10:00-10:30 Arrival and Seating (Confirmation of registration information)
@@ -149,7 +149,7 @@ Career conversation QAs
 
 |
 
-Career Conversation Agneda
+Career Conversation Agenda
 +++++++++++++++++++++++++++
 
 * 11:00-11:30 Career Conversation 1

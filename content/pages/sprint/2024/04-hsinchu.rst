@@ -14,7 +14,7 @@ Date
 
 |
 
-Agneda 
+Agenda 
 -------
 
 * 10:00-10:30 Arrival and Seating (Confirmation of registration information)
