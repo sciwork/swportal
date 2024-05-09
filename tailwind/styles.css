@@ -18,6 +18,10 @@ h4 { @apply text-3xl; }
 h5 { @apply text-2xl; }
 h6 { @apply text-xl;  }
 
+table{
+  @apply table-auto border-collapse border;
+}
+
 h1:hover .headerlink,
 h2:hover .headerlink,
 h3:hover .headerlink,
@@ -50,3 +54,5 @@ p { @apply my-4; }
 /* purgecss end ignore */
 
 @tailwind utilities;
+
+
