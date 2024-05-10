@@ -108,6 +108,20 @@ team also maintains the sciwork conference page - conf.sciwork.dev.
 We have always been actively trying to provide users a better web browsing experience, including information 
 presentation and visual experience. Welcome to join us if you are interested in website maintence.
 
+pyLiteracy
+^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
+
+pyLiteracy is a linguistics-based Mandarin grammar checker built primarily with Python. Unlike how current 
+mainstream large-language models, human natural language operates under a hierarchical framework rather 
+than a linear-structured network. Moreover, the task of grammar checking focuses on the relation between 
+words rather than the stochasticity between tokens. 
+
+Therefore, we aim to encode the primary phrase structures of Mandarin in order to achieve efficient Mandarin 
+grammar checking with minimal resources in a fashion that best echoes a human being.
+
 Career Conversation
 --------------------
 
