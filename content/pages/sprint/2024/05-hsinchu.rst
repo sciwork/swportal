@@ -108,18 +108,42 @@ team also maintains the sciwork conference page - conf.sciwork.dev.
 We have always been actively trying to provide users a better web browsing experience, including information 
 presentation and visual experience. Welcome to join us if you are interested in website maintence.
 
+pyLiteracy
+^^^^^^^^^^^
+
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
+
+pyLiteracy is a linguistics-based Mandarin grammar checker built primarily with Python. Unlike how current 
+mainstream large-language models, human natural language operates under a hierarchical framework rather 
+than a linear-structured network. Moreover, the task of grammar checking focuses on the relation between 
+words rather than the stochasticity between tokens. 
+
+Therefore, we aim to encode the primary phrase structures of Mandarin in order to achieve efficient Mandarin 
+grammar checking with minimal resources in a fashion that best echoes a human being.
+
 Career Conversation
 --------------------
 
 Career conversation provides a chance to have relaxed discussions with experienced professionals from software 
-industry. If you have any career-related concerns you would like to explore, you are welcome to 
-sign up for this opportunity. Our goal is to assist you in gaining self-awareness, defining your career path, 
-and setting goals effectively.
+industry. This time, we invite an experenced developer as `mentor <#Mentor-/-Steve-Chan>`__ to share his insights with
+you. If you have any career-related concerns you would like to explore, you are welcome to sign up for 
+this opportunity. Our goal is to assist you in gaining self-awareness, defining your career path, and setting goals 
+effectively. 
 
-To `register <#sign-up>`__ for a career conversation, please purchase the **Dining Ticket + Career 
+To `register <#sign-up>`__ for a career conversation, please purchase the **Ticket + Career 
 conversation** ticket for this event. In the registration form, remember to select **I want to join the 
 career conversation** and kindly fill up some relevant questions to give us an initial 
 understanding of your background.
+
+Mentor / Steve Chan
+--------------------
+
+Steve is a developer with extensive experience in the field of networking, having been involved 
+in the development of firmware and Network Operating Systems (SONiC) for networking equipment. 
+Currently, he leads a team, responsible for the development of Network switch CHIP SDK. 
+He primarily handles SDK architecture, QoS functionality, TM functionality, and Telemetry functionality. 
+Additionally, he is in charge of the design and planning of DevOps-related processes.
 
 Career conversation QAs
 +++++++++++++++++++++++++++++
