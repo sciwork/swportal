@@ -126,14 +126,24 @@ Career Conversation
 --------------------
 
 Career conversation provides a chance to have relaxed discussions with experienced professionals from software 
-industry. If you have any career-related concerns you would like to explore, you are welcome to 
-sign up for this opportunity. Our goal is to assist you in gaining self-awareness, defining your career path, 
-and setting goals effectively.
+industry. This time, we invite an experenced developer as `mentor <#Mentor-/-Steve-Chan>`__ to share his insights with
+you. If you have any career-related concerns you would like to explore, you are welcome to sign up for 
+this opportunity. Our goal is to assist you in gaining self-awareness, defining your career path, and setting goals 
+effectively. 
 
-To `register <#sign-up>`__ for a career conversation, please purchase the **Dining Ticket + Career 
+To `register <#sign-up>`__ for a career conversation, please purchase the **Ticket + Career 
 conversation** ticket for this event. In the registration form, remember to select **I want to join the 
 career conversation** and kindly fill up some relevant questions to give us an initial 
 understanding of your background.
+
+Mentor / Steve Chan
+--------------------
+
+Steve is a developer with extensive experience in the field of networking, having been involved 
+in the development of firmware and Network Operating Systems (SONiC) for networking equipment. 
+Currently, he leads a team, responsible for the development of Network switch CHIP SDK. 
+He primarily handles SDK architecture, QoS functionality, TM functionality, and Telemetry functionality. 
+Additionally, he is in charge of the design and planning of DevOps-related processes.
 
 Career conversation QAs
 +++++++++++++++++++++++++++++
