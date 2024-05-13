@@ -19,19 +19,19 @@ both software and hardware perspectives.
 
 March Workshop
 --------------
-Sciwork organized a new event called Advanced CFD software development workshop in March. Chun-Hsu and
+sciwork organized a new event called Advanced CFD software development workshop in March. Chun-Hsu and
 many sciwork volunteers have been preparing for this workshop since February. Yung-Yu introduced the
 numerical method space-time CESE method, unstructured mesh with mixed elements, and many important
 software engineering techniques to make participants understand how to write the programs to get correct
 results with high-performance and maintainable numerical software through the modmesh project.
 
-Mesh has always been an important issue in numerical software that is easier ignored. While preparing for
+Mesh has always been an important issue in numerical software that is easily ignored. While preparing for
 this workshop, modmesh contributors make a lot of effort to finish plotting the unstructured mesh with
 mixed elements. The participants can see a more concrete mesh, which is pretty important for the development
-of numerical software development.
+of numerical software.
 
-After this workshop many participants discussed on the discord channels to continue to learn about the numerical
-software modmesh. Some participants joined the March scisprint to learn more about the numerical software. sciwork
+After this workshop, many participants discussed on the discord channels to continue to learn about the modmesh.
+Some participants joined the March scisprint to learn more about the modmesh. sciwork
 will continue to organize more events to enable more people who are interested in numerical software to write
 programs and share ideas together.
 
@@ -41,7 +41,7 @@ Two scisprint events were held in February and March, one in Hsinchu in February
 After the CFD workshop in March, the scisprint in March welcomed many new partners. Everyone started to discuss
 and develop projects of their own interest, and some people came to communicate with each other about their lives and works.
 
-After the CFD workshop in March, modmesh welcomed many new friends. While building modmesh with the new friends, modmesh
+Many new friends joined modmesh. While building modmesh with the new friends, modmesh
 contributors have been reviewing the original building process on the windows computers and tried to make an automatic
 process to build modmesh with one command. On the other hand, some contributors developed a feature about mesh viewers
 to make modmesh to display more complex mesh structures.
