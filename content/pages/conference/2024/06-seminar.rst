@@ -17,13 +17,23 @@ Date
 Talks in seminar
 ----------------
 
-* Visualization that balances performance and flexibility for scientific computing by **Chun-Hsu Lai**
-* How does sciwork implement web development in CI/CD way? by **Chester**
-* Cytnx Development Update by **高英哲** and **陳柏中** 
-* Python Documentation Translation by **Matt Wang** and **Li-Hung Wang**
-* Refine data structure and algorithm implementation in the Linux kernel for improved performance by **Kuan-Wei Chiu**
-* Qt and OpenGL Talk by **NCHC (TBC)**
-* [TBC] by **Quentin**
+
+Confirmed with topics
+"""""""""""""""""""""
+* Visualization that balances performance and flexibility for scientific computing 
+    * Speaker: **Chun-Hsu Lai**
+* How does sciwork implement web development in CI/CD way? 
+    - Speaker: **Chester**
+* Challenges of putting tensor networks on a computer: Cytnx as an example 
+    - Speaker: **Dr. Pochung Chen** and **Dr. Ying-Jer Kao**
+
+|
+
+Accepted with topics unconfirmed
+""""""""""""""""""""""""""""""""
+* Speaker: **Matt Wang** and **Li-Hung Wang**
+* Speaker: **Kuan-Wei Chiu**
+* Speaker: **Quentin**
 
 |
 
