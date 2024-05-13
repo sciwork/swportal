@@ -14,6 +14,20 @@ Date
 
 |
 
+Talks in seminar
+----------------
+
+* Visualization that balances performance and flexibility for scientific computing by **Chun-Hsu Lai**
+* How does sciwork implement web development in CI/CD way? by **Chester**
+* Cytnx Development Update by **高英哲** and **陳柏中** 
+* Python Documentation Translation by **Matt Wang** and **Li-Hung Wang**
+* Refine data structure and algorithm implementation in the Linux kernel for improved performance by **Kuan-Wei Chiu**
+* Qt and OpenGL Talk by **NCHC (TBC)**
+* [TBC] by **Quentin**
+
+|
+
+
 Agenda 
 ------
 
@@ -26,9 +40,9 @@ Agenda
 +----------------+--------------------+
 | 10:00 – 10:10  | Opening Remark     |
 +----------------+--------------------+
-| 10:20 – 10:50  | Talk #1            |
+| 10:20 – 10:50  | Talk #1 : TBD      |
 +----------------+--------------------+
-| 10:50 – 11:20  | Talk #2            |
+| 10:50 – 11:20  | Talk #2 : TBD      |
 +----------------+--------------------+
 | 11:20 – 11:30  | Photo Time!        |
 +----------------+--------------------+
@@ -41,15 +55,15 @@ Agenda
 +----------------+----------------------------------+---------------------------+------------------------------------+
 | Time           | Talk Track (Room *****)          | Code Track (Room *****)   | Tutorial (Room *****)              |
 +================+==================================+===========================+====================================+
-| 13:00 – 14:30  | - 13:00 – 13:30 Talk #3          |  Sprint Session 1         |  Session 1                         | 
-|                | - 13:30 – 14:00 Talk #4          |                           |                                    | 
-|                | - 14:00 – 14:30 Talk #5          |                           |                                    | 
+| 13:00 – 14:30  | - 13:00 – 13:30 Talk #3: TBD     |  Sprint Session 1         |  Session 1                         | 
+|                | - 13:30 – 14:00 Talk #4: TBD     |                           |                                    | 
+|                | - 14:00 – 14:30 Talk #5: TBD     |                           |                                    | 
 +----------------+----------------------------------+---------------------------+------------------------------------+
 | 14:30 – 15:00  | Refreshment                                                                                       | 
 +----------------+----------------------------------+---------------------------+------------------------------------+
-| 15:00 – 16:30  | - 15:00 – 15:30 Talk #6          |  Sprint Session 2         |  Session 2                         | 
-|                | - 13:30 – 14:00 Talk #7          |                           |                                    | 
-|                | - 14:00 – 14:30 Talk #8          |                           |                                    | 
+| 15:00 – 16:30  | - 15:00 – 15:30 Talk #6: TBD     |  Sprint Session 2         |  Session 2                         | 
+|                | - 13:30 – 14:00 Talk #7: TBD     |                           |                                    | 
+|                | - 14:00 – 14:30 Talk #8: TBD     |                           |                                    | 
 +----------------+----------------------------------+---------------------------+------------------------------------+
 | 16:30 – 17:00  | Conclusion and Discussions                                                                        | 
 +----------------+----------------------------------+---------------------------+------------------------------------+
