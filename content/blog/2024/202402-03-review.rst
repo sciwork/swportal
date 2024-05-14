@@ -1,0 +1,112 @@
+==================================================================
+sciwork February and March 2024 review: CFD workshop and scisprint
+==================================================================
+
+:date: 2024-05-12
+:author: Ming-Jie Kuo
+:category: blog
+
+Weekly Meetup
+-------------
+During the meetup events in February and March, modmesh contributors made the installation process
+of modmesh on windows computers smoother and fixed many CI related issues, while some contributors
+developed many plotting related features to make the presentation of the mesh more flexible.
+
+In addition to project development, there were also many people having questions about their work.
+Some people asked about the difficulties they encountered when working on the Vue.js project and
+auto-streaming databases, and some people asked how to improve the performance of LLM models from
+both software and hardware perspectives.
+
+March Workshop
+--------------
+sciwork organized a new event called Advanced CFD software development workshop in March. Chun-Hsu and
+many sciwork volunteers have been preparing for this workshop since February. Yung-Yu introduced the
+numerical method space-time CESE method, unstructured mesh with mixed elements, and many important
+software engineering techniques to make participants understand how to write the programs to get correct
+results with high-performance and maintainable numerical software through the modmesh project.
+
+Mesh has always been an important issue in numerical software that is easily ignored. While preparing for
+this workshop, modmesh contributors make a lot of effort to finish plotting the unstructured mesh with
+mixed elements. The participants can see a more concrete mesh, which is pretty important for the development
+of numerical software.
+
+After this workshop, many participants discussed on the discord channels to continue to learn about the modmesh.
+Some participants joined the March scisprint to learn more about the modmesh. sciwork
+will continue to organize more events to enable more people who are interested in numerical software to write
+programs and share ideas together.
+
+February and March Scisprint
+----------------------------
+Two scisprint events were held in February and March, one in Hsinchu in February and one in Taipei in March.
+After the CFD workshop in March, the scisprint in March welcomed many new partners. Everyone started to discuss
+and develop projects of their own interest, and some people came to communicate with each other about their lives and works.
+
+Many new friends joined modmesh. While building modmesh with the new friends, modmesh
+contributors have been reviewing the original building process on the windows computers and tried to make an automatic
+process to build modmesh with one command. On the other hand, some contributors developed a feature about mesh viewers
+to make modmesh to display more complex mesh structures.
+
+Swportal has started the project of automating meetup page generation. Currently, they have finished setting up GitHub
+action and parsing some meetup page information. They will continue to look for ways to automate the generation of discord
+sesh events. They also tried to adopt the COSCUP Volunteer Systeem to manage sciwork volunteers.
+
+In addition to continuing to complete the grammatical error checking feature, pyLiteracy had adjust the rules of syntax
+tree parser, a tool for visualizing nonlinear binary trees in natural languages, to correct a bug caused by the unclear
+distinction between adjectives complements and modifiers in verb phrases, and tested it against similar cases. They also
+found that modifiers in other types of phrases can have similar problems in the phrases-right case.
+
+The development of uTensor on python binding has made great progress. We have completed the memory allocation part and
+integrated python wrapper into uTensor's CI process. They also can test uTensor's C++ runtime with pytest.
+
+In addition to introducing the translation process with new partners and continuing to push forward the progress of
+translation, pydoc-zhtw contributor also solved many difficulties in translations together. They identified the translation
+names of seven uncertain translations. At the same time, they discussed the translation process for new partners and
+encouraged them to review PRs together, so that they could understand the problems that may arise in the translation and
+resolve them.
+
+Finally, the commitzen-tools project came to the scisprint event after a long time. Many people were very curious about
+this project. The contributors not only introduced the project to the participants, but also reviewed many PRs and closed
+many issues through discussions among the contributors.
+
+sciwork organized a lot of events in February and March. More and more volunteers joined in the preparation of sciwork's
+events. We are also very happy to see the growth of many projects during this period. We look forward to the next events.
+
+
+You can check the event photos at https://www.flickr.com/photos/sciwork/albums.
+
+.. raw:: html
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+            gap: 10px;                             /* Optional gap between grid items */
+            height: 100%;                         /* Adjust the height as needed */
+        }
+
+        .grid-item {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <div class="grid-container">
+        <div class="grid-item">
+            <a data-flickr-embed="true" data-header="true" data-context="true" href="https://www.flickr.com/photos/sciwork/53622539048/in/album-72177720315830793/" title="IMG_9720"><img src="https://live.staticflickr.com/65535/53622539048_b0515668be_z.jpg" width="640" height="480" alt="IMG_9720"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <span>CFD workshop</span>
+        </div>
+        <div class="grid-item">
+            <a data-flickr-embed="true" data-header="true" data-context="true" href="https://www.flickr.com/photos/sciwork/53571182478/in/album-72177720315259785/" title="IMG_1338"><img src="https://live.staticflickr.com/65535/53571182478_fbbc2a6edd_z.jpg" width="640" height="480" alt="IMG_1338"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <span>February scisprint</span>
+        </div>
+        <div class="grid-item">
+            <a data-flickr-embed="true" data-header="true" data-context="true" href="https://www.flickr.com/photos/sciwork/53622793515/in/album-72177720315840509/" title="DSC_0994"><img src="https://live.staticflickr.com/65535/53622793515_e782d26183_z.jpg" width="640" height="480" alt="DSC_0994"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <span>March scisprint</span>
+        </div>
+    </div>
