@@ -164,12 +164,38 @@ sup {
 */
 
 table {
-  text-indent: 0;
+  text-indent: 5;
   /* 1 */
   border-color: inherit;
   /* 2 */
   border-collapse: collapse;
   /* 3 */
+}
+
+th{
+  background-color:#f74848;
+  color:#ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+td{
+  background-color:#ffffff;
+  text-align:center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+tr:last-of-type{
+  border-bottom: 2px solid #f74848;
+}
+
+tr:nth-of-type(even) td{
+  background-color:#f3f3f3;
 }
 
 /*
