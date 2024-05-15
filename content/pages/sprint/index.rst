@@ -13,7 +13,7 @@ hosted by sciwork.
 Scisprint 2024
 ==============
 
-* `(Tentative) Scisprint 2024 June in Taipei
+* `Scisprint 2024 June in Taipei
   <{filename}2024/06-taipei.rst>`__
 
 * `Scisprint 2024 May in Hsinchu
