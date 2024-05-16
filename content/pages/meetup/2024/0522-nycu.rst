@@ -40,13 +40,14 @@ the power of CI/CD and cutting-edge IT skills to enhance the sciwork event exper
 
 We are currently using TextFSM to parse the format of meetup page.
 
-Prepare May Scisprint
+Prepare June Scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-Additionally, we will discuss the following items to prepare `May scisprint <https://sciwork.dev/sprint/2024/05-hsinchu>`__.
+Additionally, we will discuss the following items to prepare `June scisprint <https://sciwork.dev/sprint/2024/06-Taipei>`__
+and the upcoming events.
 
 * Task arrangement for volunteers
-* Promotion plan for May scisprint
+* Promotion plan for June scisprint
 
 |
 
@@ -54,7 +55,7 @@ Sign up
 ------------
 
 The meetup is free. 
-Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1234518963795529779>`__. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1240703927356362853>`__. 
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
