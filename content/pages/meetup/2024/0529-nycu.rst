@@ -40,13 +40,14 @@ the power of CI/CD and cutting-edge IT skills to enhance the sciwork event exper
 
 We are currently using TextFSM to parse the format of meetup page.
 
-Prepare May Scisprint
+Prepare June Scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-Additionally, we will discuss the following items to prepare `May scisprint <https://sciwork.dev/sprint/2024/05-hsinchu>`__.
+Additionally, we will discuss the following items to prepare `June scisprint <https://sciwork.dev/sprint/2024/06-Taipei>`__
+and the upcoming events.
 
 * Task arrangement for volunteers
-* Promotion plan for May scisprint
+* Promotion plan for June scisprint
 
 |
 
