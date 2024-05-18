@@ -91,7 +91,7 @@ About Tutorial
 Sign Up
 -------
 
-Please register at `kktix <https://sciwork.kktix.cc/events/cfdworkshop-2024-march>`__.
+Please register at `kktix <https://sciwork.kktix.cc/events/sciworkseminar-202406>`__.
 
 Venue
 -----
