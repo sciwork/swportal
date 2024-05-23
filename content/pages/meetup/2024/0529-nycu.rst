@@ -38,7 +38,8 @@ the power of CI/CD and cutting-edge IT skills to enhance the sciwork event exper
 2. Create the sesh event with api or other method.
 3. Create the GitHub action to create the meetup page automatically.
 
-We are currently using TextFSM to parse the format of meetup page.
+We had completed the TextFSM parser to parse the information on the meetup page and generate the new information of
+meetup page. Recently we are studying how to use API to create the discord event.
 
 Prepare June Scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++
@@ -55,7 +56,7 @@ Sign up
 ------------
 
 The meetup is free. 
-Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1234518963795529779>`__. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1243220492438077505>`__. 
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
