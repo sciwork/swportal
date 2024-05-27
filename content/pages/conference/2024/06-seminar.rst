@@ -6,6 +6,11 @@ sciwork seminar summer 2024
 :url: seminar/2024/06-seminar
 :save_as: seminar/2024/06-seminar.html
 
+
+Sign up via `kktix <https://sciwork.kktix.cc/events/sciworkseminar-202406>`__!
+------------------------------------------------------------------------------
+|
+
 Date
 ----
 
@@ -26,13 +31,14 @@ Confirmed with topics
     - Speaker: **Chester**
 * Challenges of putting tensor networks on a computer: Cytnx as an example 
     - Speaker: **Dr. Pochung Chen** and **Dr. Ying-Jer Kao**
+* Refining Data Structure & Algorithm Implementations in the Linux Kernel for Improved Performance
+    - Speaker: **Kuan-Wei Chiu**
 
 |
 
 Accepted with topics unconfirmed
 """"""""""""""""""""""""""""""""
-* Speaker: **Matt Wang** and **Li-Hung Wang**
-* Speaker: **Kuan-Wei Chiu**
+* Speaker: **Li-Hung Wang**
 * Speaker: **Quentin**
 
 |
@@ -88,8 +94,8 @@ About Tutorial
 **Speaker:** Teng-Lin Yu
 
 
-Sign Up
--------
+Sign Up Now!
+------------
 
 Please register at `kktix <https://sciwork.kktix.cc/events/sciworkseminar-202406>`__.
 
