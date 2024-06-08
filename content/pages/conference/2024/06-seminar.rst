@@ -104,7 +104,7 @@ Agenda
       <div>13:00 - 13:30<div class="evt-title">Refining Data Structure & Algorithm Implementations in the Linux Kernel for Improved Performance</div></div>
       <div class="evt-speaker">by Kuan-Wei Chiu</div>
       <hr/>
-      <div>13:30 - 14:00<div class="evt-title"> Topic TBC</div></div>
+      <div>13:30 - 14:00<div class="evt-title">Building a Profiler for Python + C++ App</div></div>
       <div class="evt-speaker">by Quentin </div>
       <hr/>
       <div>14:00 - 14:30<div class="evt-title">How does sciwork implement web development in CI/CD way?</div></div>
@@ -155,16 +155,13 @@ Date
 ----
 
 * Date: 22nd June, Saturday, 2024
-* Time: 8:30 -- 17:40
+* Time: 9:30 -- 17:00
 
 |
 
 Talks in seminar
 ----------------
 
-
-Confirmed with topics
-"""""""""""""""""""""
 * Visualization that balances performance and flexibility for scientific computing 
     * Speaker: **Chun-Hsu Lai**
 * How does sciwork implement web development in CI/CD way? 
@@ -173,14 +170,10 @@ Confirmed with topics
     - Speaker: **Dr. Pochung Chen** and **Dr. Ying-Jer Kao**
 * Refining Data Structure & Algorithm Implementations in the Linux Kernel for Improved Performance
     - Speaker: **Kuan-Wei Chiu**
+* Building a Profiler for Python + C++ App
+    - Speaker: **Quentin**
 * Translating Python Documentation- Bridging Languages and Communities
     - Speaker: **Li-Hung Wang**
-
-|
-
-Accepted with topics unconfirmed
-""""""""""""""""""""""""""""""""
-* Speaker: **Quentin**
 
 |
 
