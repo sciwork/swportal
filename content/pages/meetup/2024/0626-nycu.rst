@@ -39,7 +39,8 @@ the power of CI/CD and cutting-edge IT skills to enhance the sciwork event exper
 3. Create the GitHub action to create the meetup page automatically.
 
 We had completed the TextFSM parser to parse the information on the meetup page and generate the new information of
-meetup page. Recently we are studying how to use API to create the discord event.
+meetup page. We also successfully used the API to create the discord event. Recently we are studying how to use GitHub
+Action to create the PR.
 
 Prepare upcoming sciwork events
 ++++++++++++++++++++++++++++++++++++++++++++++++
@@ -56,7 +57,7 @@ Sign up
 ------------
 
 The meetup is free. 
-Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1245743347289690284>`__. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1250806708045877347>`__. 
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
