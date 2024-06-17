@@ -8,16 +8,8 @@ home
 .. raw:: html
     
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
-    <div class="flex flex-row flex-wra text-center">
-        <div class="md:w-1/2 w-full flex-col space-y-2 items-center">
-            <h3 class="text-lg">scisprint June Taipei</h3>
-            <div class="flex-row space-x-5">
-                <a href="/sprint/2024/06-taipei">Introduction</a>
-                &nbsp;|&nbsp;
-                <a href="https://sciwork.kktix.cc/events/scisprint-202406-taipei">Sign up on KKTIX </a>
-            </div>
-        </div>
-        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
+    <div class="flex flex-row flex-wrap text-center">
+        <div class="md:w-full w-full flex-col space-y-1 items-center">
             <h3 class="text-lg">sciwork seminar summer 2024</h3>
             <div class="flex-row space-x-5">
                 <a href="/seminar/2024/06-seminar">Introduction</a>
