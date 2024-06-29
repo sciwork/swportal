@@ -10,11 +10,11 @@ home
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
     <div class="flex flex-row flex-wrap text-center">
         <div class="md:w-full w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">sciwork seminar summer 2024</h3>
+            <h3 class="text-lg">scisprint Taipei July 2024</h3>
             <div class="flex-row space-x-5">
-                <a href="/seminar/2024/06-seminar">Introduction</a>
+                <a href="/sprint/2024/07-sprint">Introduction</a>
                 &nbsp;|&nbsp;
-                <a href="https://sciwork.kktix.cc/events/sciworkseminar-202406">Sign up on KKTIX </a>
+                <a href="https://sciwork.kktix.cc/events/scisprint-202407-taipei">Sign up on KKTIX </a>
             </div>
         </div>
     </div>
