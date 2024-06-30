@@ -152,6 +152,6 @@ Contact us
 ----------
 
 * sciwork: https://sciwork.dev/
-* Discord: https://discord.gg/6MAkFrD
-* Email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
+* discord: https://discord.gg/6MAkFrD
+* email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
 * flickr: https://www.flickr.com/photos/sciwork/albums

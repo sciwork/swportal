@@ -12,7 +12,7 @@ home
         <div class="md:w-full w-full flex-col space-y-1 items-center">
             <h3 class="text-lg">scisprint Taipei July 2024</h3>
             <div class="flex-row space-x-5">
-                <a href="/sprint/2024/07-sprint">Introduction</a>
+                <a href="/sprint/2024/07-taipei">Introduction</a>
                 &nbsp;|&nbsp;
                 <a href="https://sciwork.kktix.cc/events/scisprint-202407-taipei">Sign up on KKTIX </a>
             </div>
