@@ -57,7 +57,7 @@ Sign up
 ------------
 
 The meetup is free. 
-Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1256987718030721124>`__. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1259858398913237033>`__. 
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
