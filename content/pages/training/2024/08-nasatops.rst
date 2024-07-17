@@ -10,11 +10,16 @@ Sciwork + DUTC NASA Open Science Skills Training 2024 August
   :width: 1000
   :alt: NASA Open Science Skills Training 2024 August
 
-**Dates:** August 20th & 21st    
+**Register:** `Link <https://us02web.zoom.us/webinar/register/WN_kB4R-tFbSaeHWubpK-Jy6Q#/registration>`__ 
+---------------------------------------------------------------------------------------------------------
 
-**Time:** 9:00 am -- 12:00 pm GMT+8 (Taiwan Time)    
+|
 
-`Register <https://us02web.zoom.us/webinar/register/WN_kB4R-tFbSaeHWubpK-Jy6Q#/registration>`__ today to secure your place and earn a NASA-verified Open Science digital badge upon completion! 
+* **Dates:** August 20th & 21st, 2024
+* **Time:** 9:00 am -- 12:00 pm GMT+8 (Taiwan Time)
+* **Location:** Online (Zoom)
+
+**Register today to secure your place and earn a NASA-verified Open Science digital badge upon completion!**
 
 .. image:: ../../images/TOPS-LinkedIn-Badge.png
   :width: 400
