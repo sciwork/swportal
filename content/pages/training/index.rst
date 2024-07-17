@@ -6,10 +6,10 @@ Training
 :url: training
 :save_as: training/index.html
 
-NASA Open Science Skills Training 2024 August
-=============================================
+Sciwork + DUTC NASA Open Science Skills Training 2024 August
+============================================================
 
-`NASA Open Science Skills Training 2024 in August <{filename}2024/08-nasatops.rst>`__
+`Sciwork + DUTC NASA Open Science Skills Training 2024 August <{filename}2024/08-nasatops.rst>`__
 
 
 Advanced CFD software development Hsinchu 2024 March
