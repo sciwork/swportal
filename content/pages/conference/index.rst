@@ -11,13 +11,6 @@ sciwork seminar summer 2024
 
 `sciwork seminar summer 2024 <{filename}2024/06-seminar.rst>`__
 
-Advanced CFD software development Hsinchu 2024 March
-====================================================
-
-The `Advanced CFD software development 2024 in March <{filename}2024/03-workshop.rst>`__ is a workshop focusing on scientific computing, engineering computation, and software 
-engineering. The event will take place at the Engineering Building 3 at NYCU. If you are interested 
-in the aforementioned fields, come and join us!
-
 report of sciwork 2023
 ======================
 
