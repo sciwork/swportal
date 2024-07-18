@@ -20,6 +20,7 @@ MENUITEMS = (
     ('blog', 'blog'),
     ('sprint', 'sprint'),
     ('meetup', 'meetup'),
+    ('training', 'training'),
     ('conference', 'conference'),
     ('project', 'project'),
     ('about', 'about'),
