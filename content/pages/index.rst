@@ -21,6 +21,14 @@ home
                 <a href="/sprint/2024/08-taipei">Introduction</a>
             </div>
         </div>
+        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
+            <h3 class="text-lg">sciwork + DUTC NASA Open Science Skills Training 2024 August</h3>
+            <div class="flex-row space-x-5">
+                <a href="https://sciwork.dev/nasatops/2024/08-nasatops">Introduction</a>
+                &nbsp;|&nbsp;
+                <a href="https://us02web.zoom.us/webinar/register/WN_kB4R-tFbSaeHWubpK-Jy6Q#/registration">Sign up on Zoom </a>
+            </div>
+        </div>
     </div>
 
     <h2 class="text-2xl text-center mt-10">About sciwork</h2>
