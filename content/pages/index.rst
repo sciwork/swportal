@@ -9,10 +9,16 @@ home
     
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
     <div class="flex flex-row flex-wrap text-center">
-        <div class="md:w-full w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">scisprint Taipei July 2024</h3>
+        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
+            <h3 class="text-lg">scisprint 2024 August in COSCUP</h3>
             <div class="flex-row space-x-5">
-                <a href="/sprint/2024/07-taipei">Introduction</a>
+                <a href="/sprint/2024/08-coscup">Introduction</a>
+            </div>
+        </div>
+        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
+            <h3 class="text-lg">scisprint 2024 August in Taipei</h3>
+            <div class="flex-row space-x-5">
+                <a href="/sprint/2024/08-taipei">Introduction</a>
                 &nbsp;|&nbsp;
                 <a href="https://sciwork.kktix.cc/events/scisprint-202407-taipei">Sign up on KKTIX </a>
             </div>
