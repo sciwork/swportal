@@ -22,11 +22,11 @@ Agneda
 
 * 12:00-13:00 Career roundtable | Project coding session
 
-* 13:10-13:40 Tech sharing: Packet Party: Getting Down and Dirty with PcapPlusPlus
+* 13:10-13:40 Technical talk: `Packet Party: Getting Down and Dirty with PcapPlusPlus <#packet-party-getting-down-and-dirty-with-pcapplusplus>`__
 
-* 13:40-14:10 Tech sharing: A High-Efficiency Natural Selection Simulator with Pybind11
+* 13:40-14:10 Technical talk: `A High-Efficiency Natural Selection Simulator with Pybind11 <#a-high-efficiency-natural-selection-simulator-with-pybind11>`__
 
-* 14:40-14:50 Tech sharing: Explore Practical Scientific Applications of Open-Source Large Language Models: RAG Knowledge Management and LLM Servitization Methods
+* 14:40-14:50 Technical talk: `Explore Practical Scientific Applications of Open-Source Large Language Models: RAG Knowledge Management and LLM Servitization Methods <#explore-practical-scientific-applications-of-open-source-large-language-models-rag-knowledge-management-and-llm-servitization-methods>`__
 
 * 14:50-15:00 Break
 
@@ -185,8 +185,8 @@ A High-Efficiency Natural Selection Simulator with Pybind11
 
 |
 
-探索開源大型語言模型的科學實務應用: RAG 知識管理和 LLM 服務化的作法
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Explore Practical Scientific Applications of Open-Source Large Language Models: RAG Knowledge Management and LLM Servitization Methods 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 - **Speaker**: 劉育維 Simon Liu
 - **About speaker**:
