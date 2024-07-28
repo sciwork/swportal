@@ -19,8 +19,6 @@ home
             <h3 class="text-lg">scisprint 2024 August in Taipei</h3>
             <div class="flex-row space-x-5">
                 <a href="/sprint/2024/08-taipei">Introduction</a>
-                &nbsp;|&nbsp;
-                <a href="https://sciwork.kktix.cc/events/scisprint-202407-taipei">Sign up on KKTIX </a>
             </div>
         </div>
     </div>

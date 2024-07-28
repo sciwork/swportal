@@ -1,5 +1,5 @@
 ===========================================
-(Tentative) Scisprint 2024 August in Taipei
+Scisprint 2024 August in Taipei
 ===========================================
 
 :date: 2024-06-29 16:00
