@@ -16,6 +16,9 @@ Scisprint 2024
 * `(Tentative) Scisprint 2024 August in Taipei
   <{filename}2024/08-taipei.rst>`__
 
+* `Scisprint 2024 August in COSCUP
+  <{filename}2024/08-coscup.rst>`__
+
 * `Scisprint 2024 July in Taipei
   <{filename}2024/07-taipei.rst>`__
 
