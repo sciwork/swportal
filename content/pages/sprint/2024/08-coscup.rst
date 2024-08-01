@@ -20,7 +20,7 @@ Agneda
 
 * 11:30-12:00 Project introduction
 
-* 12:00-13:00 Career roundtable | Project coding session
+* 12:00-13:00 `Career roundtable <#career-roundtable>`__ | Project coding session
 
 * 13:10-13:40 Technical talk: `Packet Party: Getting Down and Dirty with PcapPlusPlus <#packet-party-getting-down-and-dirty-with-pcapplusplus>`__
 
@@ -144,10 +144,18 @@ In addition, you can also customize your own rules to suit your team. Commitizen
 Career Roundtable
 ----------------------
 
-Career Roundtable is to have a relaxed discussions with experienced software professionals. 
+Career roundtable is to have a relaxed discussions with experienced software professionals. 
 At this time, we invited many professional software engineers as our mentor. 
 If you have career-related questions or seek for some guidances, do not miss out this chance!
  
+.. raw:: html
+
+    <div class="flex flex-row flex-wrap">
+        <img width="50%" alt="masters for career roundtable in coscup" src="../../images/coscup-CareerRoundtable-1.jpeg" >
+        <img width="50%"  alt="masters for career roundtable in coscup" src="../../images/coscup-CareerRoundtable-2.jpeg" >
+    </div>
+
+
 Technical Talks
 -------------------
 
