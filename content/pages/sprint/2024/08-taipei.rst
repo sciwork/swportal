@@ -2,7 +2,7 @@
 Scisprint 2024 August in Taipei
 ===========================================
 
-:date: 2024-06-29 16:00
+:date: 2024-08-09 22:00
 :url: sprint/2024/08-taipei
 :save_as: sprint/2024/08-taipei.html
 
@@ -119,32 +119,10 @@ Whether you are a seasoned Python developer or a language expert,
 we welcome individuals who are enthusiastic about Python and passionate about making knowledge accessible to all.
 
 
-pyLiteracy
-^^^^^^^^^^^
-
-- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
-- **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
-
-Mandarin grammar parser based on syntactical context. By analyzing and simplifying the structures of correct 
-usages into code instructions, provide a linguistics-based model to accomplish efficient Mandarin grammar 
-checking tasks with minimal resources.
-
-Commitizen-Tools
-^^^^^^^^^^^^^^^^^
-
-- **Project Link:** `GitHub <https://github.com/commitizen-tools/commitizen>`__
-- Project Contact: Wei Lee (discord: @clleew#6749)
-
-
-Commitizen-tools allows teams to effectively implement version control that conforms to the specified rules. 
-It uses interactive forms to create commit messages that meet conventional commits rules. It also bumps versions automatically using Semantic Versioning and generates a changelog using Keep a Changelog.
-
-In addition, you can also customize your own rules to suit your team. Commitizen-tools is a widely used tool in many communities. We still have a lot of issues to fix and develop. Welcome to join us.
-
 Sign Up
 ------------
 
-TBD
+Please register at `kktix <https://sciwork.kktix.cc/events/scisprint-202408-taipei>`__.
 
 Venue
 -----
