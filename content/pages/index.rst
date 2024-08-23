@@ -10,24 +10,16 @@ home
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
     <div class="flex flex-row flex-wrap text-center">
         <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">scisprint 2024 August in COSCUP</h3>
-            <div class="flex-row space-x-5">
-                <a href="/sprint/2024/08-coscup">Introduction</a>
-            </div>
-        </div>
-        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">scisprint 2024 August in Taipei</h3>
-            <div class="flex-row space-x-5">
-                <a href="/sprint/2024/08-taipei">Introduction</a>
-            </div>
-        </div>
-        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">sciwork + DUTC NASA Open Science Skills Training 2024 August</h3>
-            <div class="flex-row space-x-5">
-                <a href="https://sciwork.dev/nasatops/2024/08-nasatops">Introduction</a>
+            <h3 class="text-lg">scisprint 2024 September in Hsinchu</h3>
+            <div class="flex-col space-x-5">
+                <a href="/sprint/2024/09-Hsinchu">Introduction</a>
                 &nbsp;|&nbsp;
-                <a href="https://us02web.zoom.us/webinar/register/WN_kB4R-tFbSaeHWubpK-Jy6Q#/registration">Sign up on Zoom </a>
+                <a href="https://sciwork.kktix.cc/events/scisprint-202409-hsinchu">Sign Up on KKTIX</a>
             </div>
+        </div>
+        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
+            <h3 class="text-lg">scisprint 2024 September in Tapei</h3>
+            <div><p> Coming Soon! </p></div>
         </div>
     </div>
 
