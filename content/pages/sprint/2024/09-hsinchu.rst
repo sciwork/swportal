@@ -122,6 +122,21 @@ words rather than the stochasticity between tokens.
 Therefore, we aim to encode the primary phrase structures of Mandarin in order to achieve efficient Mandarin 
 grammar checking with minimal resources in a fashion that best echoes a human being.
 
+Cytnx
+^^^^^^
+
+- **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
+- **Project Contact:** Lin Chang Teng (discord: @jeffry1829#0568), Ke Hsu (discord: @kjjjjjjjjj1104#5128)
+
+Cytnx (pronounced as sci-tens) is a tensor network library designed for classical/quantum physics simulations. 
+It supports C++ and Python with almost identical interface and syntax, such that users can effortlessly switch 
+between the two languages. Aiming at a quick learning process for new users of tensor network algorithms, the 
+interfaces resemble the popular scientific libraries such as numpy, Scipy, and PyTorch. Symmetries present in 
+physical systems can be easily defined and implemented in tensors. 
+
+In addition, we provide a useful class called Network that allows users to store large tensor networks and perform the contractions in an optimal 
+order that can be automatically computed. There are still many physics applications and GPU support backend 
+being developed. Welcome to join us to contribute to Cytnx.
 
 Sign Up
 ------------
