@@ -18,7 +18,7 @@ home
             </div>
         </div>
         <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">scisprint 2024 September in Tapei</h3>
+            <h3 class="text-lg">scisprint 2024 September in Taipei</h3>
             <div><p> Coming Soon! </p></div>
         </div>
     </div>
