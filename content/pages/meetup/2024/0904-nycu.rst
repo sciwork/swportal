@@ -1,15 +1,15 @@
 ========================================
-Meetup 2024 August 28th in NYCU
+Meetup 2024 September 4th in NYCU
 ========================================
 
-:date: 2024-08-26 14:13
-:url: meetup/2024/0828-nycu
-:save_as: meetup/2024/0828-nycu.html
+:date: 2024-08-27 15:58
+:url: meetup/2024/0904-nycu
+:save_as: meetup/2024/0904-nycu.html
 
 Date
 -----
 
-* Date: August 28th, 2024
+* Date: September 4th, 2024
 * Time: 18:30 -- 21:30 (3 hours)
 
 |
@@ -19,8 +19,16 @@ Agenda
 
 There will be many different subjects discussed at the same time.
 
-* 18:30-19:30 Free discussion
-* 19:30-21:30 Subjects discussion
++-----------------+--------------------------+-------------------------------+------------------------------------+
+| Timetable       | Topic 1                  | Topic 2                       | Topic 3                            |
++=================+==========================+===============================+====================================+
+| 18:30 ~ 19:30   | Free Chat                                                                                     |
++-----------------+--------------------------+-------------------------------+------------------------------------+
+| 19:30 ~ 21:00   | Free Chat                | Modmesh Basic Training        | Modmesh Development Discussion     |
++-----------------+--------------------------+-------------------------------+------------------------------------+
+| 21:00 ~ 21:30   | Free Chat                                                                                     |
++-----------------+--------------------------+-------------------------------+------------------------------------+
+
 
 |
 
@@ -31,39 +39,35 @@ modmesh development discussion
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 In this Meetup, `Chun-Shih <https://github.com/ThreeMonth03?tab=followers>`__ 
-will lead the discussion on the `modmesh project <https://github.com/solvcon/modmesh>`__. 
+will lead the discussion about `issue343 <https://github.com/solvcon/modmesh/issues/343>`__ 
+in the `modmesh project <https://github.com/solvcon/modmesh>`__. 
+
 Through participating in the modmesh project discussion, you can develop the following skills:
 
 * Learn how to communicate and contribute to open-source projects.
-* Get familiar with package management and script writing in the development environment, 
-  such as Qt6 and PySide.
+* Learn the concept of reentrant function.
 * Learn to write modern C++, Python, and unit tests.
 
-Additionally, this project is very beginner-friendly. 
-For those who have participated fewer than 4 times, 
-we have prepared a series of modmesh development tutorials, which include:
+
+modmesh basic training
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If you are interested in the `modmesh project <https://github.com/solvcon/modmesh>`__, 
+but you are not familiar with the project, 
+we also have a basic training session for you. 
+
+In this session, `Chun-Shih <https://github.com/ThreeMonth03?tab=followers>`__ 
+will lead the a basic training for modmesh project, and you can learn the following skills:
 
 1. Setting up and demonstrating modmesh.
 2. Basics of Git and GitHub.
 3. Writing Pybind11 and Unittest.
 4. Fundamentals of CMake, GNU Make, and GitHub Workflow.
 
-Leetcode practice discussion
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-In this Meetup, `Kuan-Wei <https://github.com/visitorckw>`__ will lead the LeetCode study group. 
-During the LeetCode discussions, we won't just focus on solving problems; 
-there will be more in-depth technical discussions and communication practice, 
-along with training on writing clean code. 
-Through this activity, we aim to develop the following skills:
-
-* A strong foundation in data structures and algorithms,
-  enabling quick solutions to basic problems and follow-up questions.
-* The ability to clearly express and present clean code,
-  making algorithms easy to understand and maintain.
-
-Prepare upcoming sciwork events
+Free Chat
 ++++++++++++++++++++++++++++++++++++++++++++++++
+
+In this session, we could discuss any topic you are interested in.
 
 Additionally, we will discuss the following items to prepare the upcoming events.
 
@@ -76,7 +80,7 @@ Sign up
 ------------
 
 The meetup is free. 
-Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1277532036042719262>`__. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1279083158738042996>`__. 
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
