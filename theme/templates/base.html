@@ -6,7 +6,7 @@
 
   <meta charset="utf-8"/>
 
-  <!-- Let browser know website is optimized for mobile -->
+ <!-- Let browser know website is optimized for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <!-- Icon -->
@@ -79,73 +79,63 @@
 </main>
 
 
-<footer class="bg-blue-900 text-white">
-  <div class="container mx-auto max-w-6xl px-5 py-2 mt-4 mb-4" >
-    <div class="flex flex-wrap justify-between">
-      <div class="flex items-start">
-        <img class="inline h-12 w-12 mr-8 mt-3" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/android-chrome-192x192.png"/>
-        <h2>sciwork</h2>
-    </div>
+  <footer class="bg-blue-900 text-white">
+    <div class="container mx-auto max-w-screen-xl px-2 py-4 mt-4 mb-4">
+      <div class="grid grid-cols-1 justify-center sm:text-left sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        <div class="flex sm:items-start">
+          <img class="inline h-12 w-12 mr-8 mt-3" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/android-chrome-192x192.png"/>
+          <h2>sciwork</h2>
+        </div>
 
-      <div class="flex flex-col">
-        <h3 class="text-red-800 mb-2">activity</h3>
-        <div class="pl-2">
-          <a href='' class="block text-white no-underline">meetup</a>
-          <a href='' class="block text-white no-underline">sprint</a>
-          <a href='' class="block text-white no-underline">seminar</a>
-          <a href='' class="block text-white no-underline">conference</a>
+        <div class="flex flex-col">
+          <h3 class="text-red-800 mb-2">activity</h3>
+          <div class="pl-2">
+            <a href='{{ SITEURL }}/meetup' class="block text-white no-underline">meetup</a>
+            <a href='{{ SITEURL }}/sprint' class="block text-white no-underline">sprint</a>
+            <a href='{{ SITEURL }}/conference' class="block text-white no-underline">conference & seminar</a>
+          </div>
+          <h3 class="text-red-800 mt-1 mb-1">about</h3>
+          <div class="pl-2">
+            <a href='{{ SITEURL }}/about#organizers' class="block text-white no-underline">organizers</a>
+          </div>
         </div>
-        <h3 class="text-red-800 mt-1 mb-1">about</h3>
-        <div class="pl-2">
-          <a href='' class="block text-white no-underline">organizers</a>
-        </div>
-      </div>
 
-      
-      <div class="flex flex-col">
-        <h3 class="text-red-800 text-lg font-semibold">project</h3>
-        <div class="pl-2">
-          <a href='' class="block text-white no-underline">modmesh</a>
-          <a href='' class="block text-white no-underline">pydoc</a>
-          <a href='' class="block text-white no-underline">portal</a>
-          <a href='' class="block text-white no-underline">pyLiteracy</a>
-          <a href='' class="block text-white no-underline">uTensor</a>
-          <a href='' class="block text-white no-underline">Cytnx</a>
-          <a href='' class="block text-white no-underline">Commitizen-tools</a>
+        <div class="flex flex-col">
+          <h3 class="text-red-800 text-lg font-semibold">project</h3>
+          <div class="pl-2">
+            <a href='{{ SITEURL }}/project#modmesh' class="block text-white no-underline">modmesh</a>
+            <a href='{{ SITEURL }}/project#python-official-documents-translation-zh-tw' class="block text-white no-underline">Python Docs Translation</a>
+            <a href='{{ SITEURL }}/project#sciwork-portal' class="block text-white no-underline">sciwork portal</a>
+            <a href='{{ SITEURL }}/project#pyliteracy' class="block text-white no-underline">pyLiteracy</a>
+            <a href='{{ SITEURL }}/project#utensor' class="block text-white no-underline">uTensor</a>
+            <a href='{{ SITEURL }}/project#cytnx' class="block text-white no-underline">Cytnx</a>
+            <a href='{{ SITEURL }}/project#commitizen-tools' class="block text-white no-underline">Commitizen-Tools</a>
+          </div>
         </div>
-      </div>
-    
-      <div class="flex flex-col">
-        <h3 class="text-red-800 text-lg font-semibold">contact us</h3>
-        <div class="pl-2">
-          <a href="mailto:contact@sciwork.dev" class="block text-white no-underline">
-            <i class="far fa-envelope mr-2"></i>contact@sciwork.dev
-          </a>
-          <a href="https://github.com/sciwork/swportal" class="block text-white no-underline">
-            <i class="fab fa-github mr-2"></i>https://github.com/sciwork/swportal
-          </a>   
-        </div>
-       
-        <div class="flex flex-row gap-4 mt-4">
-          <div class="flex items-center justify-center py-4 px-6 rounded-lg h-full w-full " style="border: 2px solid white; margin-right: 1rem;">
-            <a href="#" class="flex flex-col items-center px-2 justify-center text-white no-underline h-full">
-              <span class="mb-4">Join us on Discord!</span>
-              <i class="fab fa-discord" style="font-size: 3rem;"></i>
+
+        <div class="flex flex-col">
+          <h3 class="text-red-800 text-lg font-semibold">contact us</h3>
+          <div class="pl-2">
+            <a href="mailto:contact@sciwork.dev" class="block text-white no-underline">
+              <i class="far fa-envelope mr-2"></i>contact@sciwork.dev
             </a>
-          </div>
-
-          <div class="flex flex-col items-center justify-center py-4 px-6 rounded-lg h-full w-full" style="border: 2px solid white;">
-            <span class="mb-4">Subscribe newsletters!</span>
-            <div class="flex w-full px-2">
-              <input type="text" placeholder="" class="rounded-l-md focus:outline-none text-black flex-grow px-2">
-              <button class="bg-red-800 text-white px-2 rounded-r-md">→</button>
-            </div>
+            <a href="https://github.com/sciwork/swportal" class="block text-white no-underline">
+              <i class="fab fa-github mr-2"></i>github.com/sciwork/swportal
+            </a>   
+            <div class="flex flex-row gap-4 mt-4">
+              <div class="flex items-center justify-center py-4 px-6 rounded-lg h-full w-full " style="border: 2px solid white; margin-right: 1rem;">
+                <a href="https://discord.gg/6MAkFrD" class="flex flex-col items-center px-2 justify-center text-white no-underline h-full">
+                  <span class="mb-4">Join us on Discord!</span>
+                  <i class="fab fa-discord" style="font-size: 3rem;"></i>
+                </a>
+              </div>
           </div>
         </div>
-      </div>    
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
+
 </body>
 
 <script>
