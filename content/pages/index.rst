@@ -10,16 +10,16 @@ home
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
     <div class="flex flex-row flex-wrap text-center">
         <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">scisprint 2024 September in Hsinchu</h3>
-            <div class="flex-col space-x-5">
-                <a href="/sprint/2024/09-Hsinchu">Introduction</a>
-                &nbsp;|&nbsp;
-                <a href="https://sciwork.kktix.cc/events/scisprint-202409-hsinchu">Sign Up on KKTIX</a>
-            </div>
-        </div>
-        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
             <h3 class="text-lg">scisprint 2024 September in Taipei</h3>
             <div><p> Coming Soon! </p></div>
+        </div>
+        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
+            <h3 class="text-lg">scisprint 2024 October in Hsinchu</h3>
+            <div><p> Coming Soon! </p></div>
+            <div class="flex-col space-x-5">
+                <a href="/sprint/2024/10-Hsinchu">Introduction</a>
+                &nbsp;&nbsp;
+            </div>
         </div>
     </div>
 
