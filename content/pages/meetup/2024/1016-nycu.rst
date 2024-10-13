@@ -2,7 +2,7 @@
 Meetup 2024 October 16th in NYCU
 ========================================
 
-:date: 2024-10-13 14:46
+:date: 2024-10-14 07:09
 :url: meetup/2024/1016-nycu
 :save_as: meetup/2024/1016-nycu.html
 
