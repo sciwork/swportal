@@ -2,7 +2,7 @@
 Meetup 2024 October 16th in NYCU
 ========================================
 
-:date: 2024-10-14 07:09
+:date: 2024-10-15 00:11
 :url: meetup/2024/1016-nycu
 :save_as: meetup/2024/1016-nycu.html
 
@@ -30,6 +30,8 @@ There will be many different subjects discussed at the same time.
 |                 |                          | 2. Prototype profiler object serialization using JSON | 2. homework assistance                       |
 |                 |                          | 3. Build modmesh                                      | 3. term project (PolygonDust) progress       |
 |                 |                          | 4. Make a simple PR for modmesh                       |    sharing By Han-Xuan Huang.                |
+|                 |                          |                                                       | 4. term project (pybezier) progress          |
+|                 |                          |                                                       |    sharing by Wei-Syuan Teng.                |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
 | 21:00 ~ 21:30   | free chat                                                                                                                       |                            
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
