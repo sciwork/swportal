@@ -8,15 +8,11 @@ home
 .. raw:: html
     
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
-    <div class="flex flex-row flex-wrap text-center">
-        <div class="md:w-1/2 w-full flex-col space-y-1 items-center">
-            <h3 class="text-lg">scisprint 2024 October in Hsinchu</h3>
+    <div class="flex flex-row flex-wrap text-center items-center justify-center">
+        <div class="md:w-1/2 w-full flex-col space-y-1">
+            <h3 class="text-lg">scisprint 2024 November in Hsinchu</h3>
             <div class="flex-col space-x-5">
-                <a href="/sprint/2024/10-Hsinchu">Introduction</a>
-                &nbsp;&nbsp;
-            </div>
-            <div class="flex-col space-x-5">
-                <a href="https://sciwork.kktix.cc/events/scisprint-202410-hsinchu">KKTIX</a>
+                <a href="/sprint/2024/11-Hsinchu">Introduction</a>
                 &nbsp;&nbsp;
             </div>
         </div>

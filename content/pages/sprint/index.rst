@@ -13,6 +13,9 @@ hosted by sciwork.
 Scisprint 2024
 ==============
 
+* `Scisprint 2024 November in Hsinchu
+  <{filename}2024/11-hsinchu.rst>`__
+
 * `Scisprint 2024 October in Hsinchu
   <{filename}2024/10-hsinchu.rst>`__
 
