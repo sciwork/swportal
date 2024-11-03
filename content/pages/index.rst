@@ -6,7 +6,7 @@ home
 :save_as: index.html
 
 .. raw:: html
-    
+
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
     <div class="flex flex-row flex-wrap text-center items-center justify-center">
         <div class="md:w-1/2 w-full flex-col space-y-1">
@@ -20,8 +20,7 @@ home
 
     <h2 class="text-2xl text-center mt-10">About sciwork</h2>
 
-
-The sciwork is a community for researchers and engineers to share and discuss
+sciwork is a community for researchers and engineers to share and discuss
 computer code for scientific, numerical, and engineering work.  We believe in
 the power of openness, and use open source as a means to advance software
 development for computational sciences.
