@@ -75,7 +75,7 @@ Humble Data
 We thank all the participants, including sponsors, volunteers, and contributors.
 We especially appreciate NYCU CS department for their help for the venue.
 The conference also went with the `Humble Data <https://humbledata.org>`__ workshop.
-The full list of the program is available at https://conf.sciwork.dev/program.
+The full list of the program is available at https://conf.sciwork.dev/2023/program.
 
 
 Scientific Programming
