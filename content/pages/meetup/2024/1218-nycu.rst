@@ -26,17 +26,17 @@ There will be many different subjects discussed at the same time.
 |                 |                                                                                                                                 |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:30 ~ 20:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
+| 19:30 ~ 20:00   | opening talk, sciwork and development:                                                                                          |
+|                 | Introduce the sciwork.                                                                                                          |
+|                 |                                                                                                                                 |
++-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
+| 20:00 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
 |                 |                          |                                                       |                                              |
 |                 |                          | 1. Use Bezier curve to fit NACA 4-digit airfoil       | 1. The random generator of the building.     |
 |                 |                          | 2. Prototype profiler object serialization using JSON | 2. The algorithm of the road building.       |
 |                 |                          | 3. Design the sort() and reorder() in SimpleArray     | 3. The calculation of the traffic flow.      |
 |                 |                          | 4. Build modmesh                                      |                                              |
 |                 |                          | 5. Make a simple PR for modmesh                       |                                              |
-|                 |                          |                                                       |                                              |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 20:00 ~ 21:00   | free chat                | modmesh discussion and training                       | nsd homework assistance                      |
-|                 |                          |                                                       |                                              |
 |                 |                          |                                                       |                                              |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
 | 21:00 ~ 21:30   | free chat                                                                                                                       |
@@ -49,6 +49,13 @@ There will be many different subjects discussed at the same time.
 
 Subjects
 ------------------
+
+opening talk - sciwork and development:
+++++++++++++++++++++++++++++++++++++++++++++
+
+Introduce the community that facilitate growth 
+through code development 
+for scientific, numerical, and engineering applications.
 
 modmesh discussion and training
 +++++++++++++++++++++++++++++++++++++
