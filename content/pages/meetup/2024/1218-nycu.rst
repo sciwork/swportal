@@ -30,7 +30,11 @@ There will be many different subjects discussed at the same time.
 |                 | Introduce the sciwork.                                                                                                          |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 20:00 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
+| 20:10 ~ 20:20   | sharing: Fit shapes using one or more Bézier curves (by Jenny)                                                                  |
+|                 |                                                                                                                                 |
+|                 |                                                                                                                                 |
++-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
+| 20:20 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
 |                 |                          |                                                       |                                              |
 |                 |                          | 1. Use Bezier curve to fit NACA 4-digit airfoil       | 1. The random generator of the building.     |
 |                 |                          | 2. Prototype profiler object serialization using JSON | 2. The algorithm of the road building.       |
@@ -56,6 +60,11 @@ opening talk - sciwork and development:
 Introduce the community that facilitate growth 
 through code development 
 for scientific, numerical, and engineering applications.
+
+Fit shapes using one or more Bézier curves
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+In this sharing, Jenny will share her progress on Bezier curve work. 
 
 modmesh discussion and training
 +++++++++++++++++++++++++++++++++++++
