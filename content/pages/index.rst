@@ -7,21 +7,6 @@ home
 
 .. raw:: html
 
-    <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
-    <div class="flex flex-row flex-wrap text-center items-center justify-center">
-        <div class="md:w-1/2 w-full flex flex-row flex-wrap justify-center space-y-1">
-            <h3 class="text-lg">sciwork conference 2024 in NTU Physics</h3>
-            <div class="flex-col space-x-5">
-                <a href="/conference/index.html#sciwork_2024">Introduction</a>
-                &nbsp;&nbsp;
-            </div>
-            <div class="flex-col space-x-5">
-                <a href="https://conf.sciwork.dev/">Conference website</a>
-                &nbsp;&nbsp;
-            </div>
-        </div>
-    </div>
-
     <h2 class="text-2xl text-center mt-10">About sciwork</h2>
 
 sciwork is a community for researchers and engineers to share and discuss
