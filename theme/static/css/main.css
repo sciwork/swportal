@@ -192,6 +192,18 @@ td {
   vertical-align: top;
 }
 
+.docutils td {
+  text-align: center;
+}
+
+.docutils td > .first {
+  text-align: center;
+}
+
+.docutils td > p, ol, li {
+  text-align: left;
+}
+
 td {
   border-bottom: solid #cccccc;
   border-right: solid #cccccc;
