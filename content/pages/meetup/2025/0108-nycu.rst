@@ -37,8 +37,14 @@ There will be many different subjects discussed at the same time.
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
 | 20:00 ~ 20:15   | Moving to K8s: A journey of modernizing small scale services                                                                    |
 |                 |                                                                                                                                 |
-|                 | Chester will introduce how we're planning to modernize sciwork's infrastructure using K8s.                                      |
+|                 | While K8s is often used for large scale deployments,                                                                            |
+|                 | Chester will introduce how we're planning to modernize sciwork's infrastructure using K8s for managing small scale services.    |
 |                 |                                                                                                                                 |
+|                 | In this meetup, we'll discuss:                                                                                                  |
+|                 |                                                                                                                                 |
+|                 | 1. Why we chose K8s for our lightweight services                                                                                |
+|                 | 2. Practical considerations for small scale K8s deployment                                                                      |
+|                 | 3. Our migration plan                                                                                                           |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
 | 20:15 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
