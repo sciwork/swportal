@@ -192,15 +192,15 @@ td {
   vertical-align: top;
 }
 
-.docutil > td {
+.docutils > td {
   text-align: center;
 }
 
-.docutil >td > .first {
+.docutils >td > .first {
   text-align: center;
 }
 
-.docutil > td > p, ol, li {
+.docutils > td > p, ol, li {
   text-align: left;
 }
 
