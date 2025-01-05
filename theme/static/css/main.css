@@ -193,6 +193,16 @@ td {
 }
 
 td {
+  text-align: center;
+}
+
+td > p,
+ol,
+li {
+  text-align: left;
+}
+
+td {
   border-bottom: solid #cccccc;
   border-right: solid #cccccc;
 }
