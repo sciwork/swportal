@@ -35,6 +35,25 @@ There will be many different subjects discussed at the same time.
 |                 |                          | 5. Make a simple PR for modmesh                       |                                              |
 |                 |                          |                                                       |                                              |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
+| 20:00 ~ 20:15   | Infrastructure monitoring/alerting system:                                                                                      |
+|                 |                                                                                                                                 |
+|                 | It is crucial to ensure that every machine and GPU is fully utilized for our experiments.                                       |
+|                 | Jason will share how they set up a real time monitoring and alerting system. He will share the following subjects:              |
+|                 |                                                                                                                                 |
+|                 | 1. How to set up the monitoring system in their lab: Grafana, Prometheus, PushProx, and Ansible.                                |
+|                 | 2. Design a dashboard to monitor all servers in one view.                                                                       |
+|                 | 3. Set up alerting to detect downtime before users notice it.                                                                   |
+|                 |                                                                                                                                 |
++-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
+| 20:15 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
+|                 |                          |                                                       |                                              |
+|                 |                          | 1. Use Bezier curve to fit NACA 4-digit airfoil       | 1. The random generator of the building.     |
+|                 |                          | 2. Prototype profiler object serialization using JSON | 2. The algorithm of the road building.       |
+|                 |                          | 3. Design the sort() and reorder() in SimpleArray     | 3. The calculation of the traffic flow.      |
+|                 |                          | 4. Build modmesh                                      |                                              |
+|                 |                          | 5. Make a simple PR for modmesh                       |                                              |
+|                 |                          |                                                       |                                              |
++-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
 | 21:00 ~ 21:30   | free chat                                                                                                                       |
 |                 |                                                                                                                                 |
 |                 |                                                                                                                                 |
