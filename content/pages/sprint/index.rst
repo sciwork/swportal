@@ -10,6 +10,12 @@ Sciwork hosts coding sprints for open-source projects for scientific,
 numerical, and engineering applications.  This page lists the sprints that
 hosted by sciwork.
 
+Scisprint 2025
+==============
+
+* `Scisprint 2025 February in Hsinchu
+  <{filename}2025/02-hsinchu.rst>`__
+
 Scisprint 2024
 ==============
 
