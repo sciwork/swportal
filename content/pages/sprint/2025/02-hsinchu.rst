@@ -29,9 +29,9 @@ Agenda
 
 * 14:20-14:30 Group Discussion 2
 
-* 14:30-15:20 Coding Session 3
+* 14:30-15:00 Technical sharing: scientific programming to develop code of the space-time conservation element and solution element (CESE) method in Python and C++
 
-* 15:20-15:30 Group Discussion 3
+* 15:00-15:30 Group Discussion 3
 
 * 15:30-16:30 Final Sprint
 
@@ -39,14 +39,14 @@ Agenda
 
 |
 
-About the Scisprint
+About the scisprint
 ----------------------
 
 To join the sprint, please bring your laptop and `sign up <#sign-up>`__.  You are also 
 very welcome to bring your project. Please `contact us <#contact-us>`__ if you have any 
 questions.
 
-Scisprint, hosted by the sciwork community, is a monthly coding sprint. It would like to 
+scisprint, hosted by the sciwork community, is a monthly coding sprint. It would like to 
 facilitate discussions and exchanges among people in the fields of science, numerical 
 computation, and engineering. Participants, regardless of experience level, can gain valuable 
 development insights in this event.
@@ -55,6 +55,22 @@ development insights in this event.
 
 We would like to provide a supportive and friendly environment for all attendees to support more developers
 to join in the open-source communities. 
+
+Technical sharing
+-------------------
+
+scientific programming to develop code of the space-time conservation element and solution element (CESE) method in Python and C++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Venue: At the largest room in NTHU CTC**
+
+Scientific programming solves problems in the physical world. It is the most effective to learn the required knowledge in both
+computer and science by developing the code and equations from ground up. Take time-accurate simulation of non-linear fluid dynamics
+for example, it calls for a numerical method, a mesh data structure, and an array library for fast processing. Python and array are the
+key to provide an easy-to-use user interface and facilitate collaboration between programmers and engineers. The architecture is general
+for many applications, and will be demonstrated by a code of the space-time conservation element and solution element (CESE) method with
+unstructured meshes of mixed elements. I will discuss the use of Python and C++ in the code and what we will further develop.
+
 
 Hacking Session
 ------------------
@@ -65,7 +81,7 @@ numerical computation, and engineering. You are also encouraged to share your ow
 in scisprint. Refer to `project list <#project-list>`__ below for more details.
 
 Project List
-+++++++++++++
+---------------
 
 modmesh
 ^^^^^^^^^
@@ -101,7 +117,7 @@ sciwork portal
 - **Project Link:** `GitHub <https://github.com/sciwork/swportal>`__
 - **Project Contact:** Chester (discord: @chester), Wuxian (discord: @5x9527), Steve Chen (discord: @Steve Chen)
 
-Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican 
+sciwork Portal is a project for maintaining our official website - sciwork.dev, which was built by Pelican 
 with tailwindCSS, and deployed by Netfliy. We create the promotional pages for meetup and sprint events. Our 
 team also maintains the sciwork conference page - conf.sciwork.dev.
 
