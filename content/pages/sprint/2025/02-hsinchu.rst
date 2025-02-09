@@ -71,7 +71,6 @@ key to provide an easy-to-use user interface and facilitate collaboration betwee
 for many applications, and will be demonstrated by a code of the space-time conservation element and solution element (CESE) method with
 unstructured meshes of mixed elements. I will discuss the use of Python and C++ in the code and what we will further develop.
 
-
 Hacking Session
 ------------------
 
