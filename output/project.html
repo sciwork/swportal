@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>sciwork - project</title>
+
+  <meta charset="utf-8"/>
+
+  <!-- Let browser know website is optimized for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Icon -->
+  <link rel="shortcut icon" href="/theme/images/icons/favicon.ico">
+  <link rel="icon" type="image/png" href="/theme/images/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/theme/images/icons/favicon-32x32.png" sizes="32x32">
+
+  <!-- Import FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+  <!-- Customize CSS -->
+  <link rel="stylesheet" href="/theme/css/main.css"/>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="project">
+  <meta name="description" content="modmesh Python C++ PDE Repository Link: GitHub Leader: Yung-Yu Chen modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation results to give you a better understanding of your …">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/project">
+  <meta property="og:title" content="project">
+  <meta property="og:description" content="modmesh Python C++ PDE Repository Link: GitHub Leader: Yung-Yu Chen modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation results to give you a better understanding of your …">
+  <meta property="og:image" content="/theme/images/sciworkbkg.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="/project">
+  <meta property="twitter:title" content="project">
+  <meta property="twitter:description" content="modmesh Python C++ PDE Repository Link: GitHub Leader: Yung-Yu Chen modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation results to give you a better understanding of your …">
+  <meta property="twitter:image" content="/theme/images/sciworkbkg.png">
+
+</head>
+
+<body class="flex flex-col min-h-screen items-stretch justify-between">
+
+<header class="flex justify-center items-center grow-0">
+  <nav id="header" class="fixed w-full z-30 top-0">
+    <div class="container mx-auto max-w-full flex flex-wrap items-center justify-between px-5 py-2">
+      <div class="h-[72px]">
+        <a id="brand_logo" class="hidden flex md:flex lg:flex justify-center items-center no-underline hover:no-underline" href="/">
+          <img class="inline h-10 w-10 mr-2 mt-1" src="/theme/images/android-chrome-192x192.png"/>
+          <h2 class="text-white">sciwork</h2>
+        </a>
+      </div>
+
+      <div class="block lg:hidden">
+        <button id="nav_toggle" class="flex items-center p-1 hover:text-red-800 text-white">
+          <style type="text/css">
+            #nav_icon.open span:nth-child(1) {
+              transform: translateY(0.5rem) rotate(45deg);
+            }
+
+            #nav_icon.open span:nth-child(3) {
+              transform: translateY(-0.5rem) rotate(-45deg);
+            }
+
+            #nav_icon.open span:nth-child(2) {
+              transform: scale(0);
+            }
+          </style>
+          <div id="nav_icon" class="w-6">
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+          <div>
+        </button>
+      </div>
+
+      <div id="nav_content" class="flex-grow w-full h-screen lg:h-full lg:flex lg:w-auto hidden">
+        <hr class="border-b border-gray-100 opacity-25 mt-4 py-0"/>
+
+        <ul class="list-reset h-auto lg:flex justify-end flex-1 items-center text-right lg:text-2xl text-3xl" style="font-family: 'Yanone Kaffeesatz'">
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/" class="text-white no-underline hover:text-red-600">home</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/blog" class="text-white no-underline hover:text-red-600">blog</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/sprint" class="text-white no-underline hover:text-red-600">sprint</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/meetup" class="text-white no-underline hover:text-red-600">meetup</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/training" class="text-white no-underline hover:text-red-600">training</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/conference" class="text-white no-underline hover:text-red-600">conference</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/project" class="text-white no-underline hover:text-red-600">project</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/about" class="text-white no-underline hover:text-red-600">about</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="container mx-auto max-w-full">
+  <div class="w-full text-center justify-center items-center relative flex flex-col h-full">
+    <div class="py-10">
+      <h2 class="mx-10 mt-12 text-white border-b-2 rounded-sm border-red-700">project</h2>
+    </div>
+  <canvas id="cover-bg" class="absolute left-0 object-cover w-full h-full" style="z-index: -9999"></canvas>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var c = document.getElementById("cover-bg");
+  var ctx = c.getContext("2d");
+
+  // canvas settings
+  var min_width = 1920;
+  var font_size = 12;
+  char_list = ["𝜕", "𝛼", "𝜀", "𝜉", "𝜂", "𝜋", "𝜌", "𝜙", ""]
+  var drops = [];
+  c.height = c.parentElement.clientHeight;
+  c.width = window.innerWidth > min_width ? window.innerWidth : min_width;
+  for(var i = 0; i < c.width / font_size * 2; i++) {
+    drops[i] = 0;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = "#0f0";
+    ctx.font = font_size + "px monospace";
+
+    for (var i = 0; i < drops.length; i++) {
+      var text = char_list[Math.floor(Math.random() * char_list.length)];
+      ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+      if (drops[i] * font_size > c.height && Math.random() > 0.99) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  for (var i = 0; i < Math.floor(c.height / font_size) * 4; i++) {
+    draw();
+  }
+  setInterval(draw, 300);
+</script></header>
+
+<main class="grow">
+  <!-- <div class="container mx-auto max-w-full">
+  <div class="w-full text-center justify-center items-center relative flex flex-col h-full">
+    <div class="py-10">
+      <h2 class="mx-10 mt-12 text-white border-b-2 rounded-sm border-red-700">project</h2>
+    </div>
+  <canvas id="cover-bg" class="absolute left-0 object-cover w-full h-full" style="z-index: -9999"></canvas>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var c = document.getElementById("cover-bg");
+  var ctx = c.getContext("2d");
+
+  // canvas settings
+  var min_width = 1920;
+  var font_size = 12;
+  char_list = ["𝜕", "𝛼", "𝜀", "𝜉", "𝜂", "𝜋", "𝜌", "𝜙", ""]
+  var drops = [];
+  c.height = c.parentElement.clientHeight;
+  c.width = window.innerWidth > min_width ? window.innerWidth : min_width;
+  for(var i = 0; i < c.width / font_size * 2; i++) {
+    drops[i] = 0;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = "#0f0";
+    ctx.font = font_size + "px monospace";
+
+    for (var i = 0; i < drops.length; i++) {
+      var text = char_list[Math.floor(Math.random() * char_list.length)];
+      ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+      if (drops[i] * font_size > c.height && Math.random() > 0.99) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  for (var i = 0; i < Math.floor(c.height / font_size) * 4; i++) {
+    draw();
+  }
+  setInterval(draw, 300);
+</script> -->
+
+  <div class="container mx-auto max-w-6xl p-10 text-gray-800">
+    
+    <div class="section" id="modmesh">
+<h2>modmesh<a class="headerlink" href="#modmesh" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<p>
+    <span class="px-2">
+        <i class="fas fa-tags"></i>
+        Python
+    </span>
+    <span class="px-2">
+        <i class="fas fa-tags"></i>
+        C++
+    </span>
+    <span class="px-2">
+        <i class="fas fa-tags"></i>
+        PDE
+    </span>
+</p><ul class="simple">
+<li><strong>Repository Link:</strong> <a class="reference external" href="https://github.com/solvcon/modmesh">GitHub</a></li>
+<li><strong>Leader:</strong> <a class="reference external" href="https://twitter.com/yungyuc">Yung-Yu Chen</a></li>
+</ul>
+<p>modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of
+both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation
+results to give you a better understanding of your PDE solution. modmesh also supports mesh visualization,
+currently in the Gmsh mesh file format. We have recently made efforts to improve the modmesh UI/UX.</p>
+<p>The design allows it to run on Windows, Linux, and MacOS. Everyone can use or contribute to modmesh.</p>
+</div>
+<div class="section" id="python-official-documents-translation-zh-tw">
+<h2>Python Official Documents Translation (zh_TW)<a class="headerlink" href="#python-official-documents-translation-zh-tw" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<p>
+    <span class="px-2">
+        <i class="fas fa-tags"></i>
+        Python
+    </span>
+    <span class="px-2">
+        <i class="fas fa-tags"></i>
+        Translation
+    </span>
+    <span class="px-2">
+        <i class="fas fa-tags"></i>
+        Translator Toolkit
+    </span>
+</p><ul class="simple">
+<li><strong>Repository Link:</strong> <a class="reference external" href="https://github.com/python/python-docs-zh-tw">GitHub</a></li>
+<li><strong>Leader:</strong> <a class="reference external" href="https://github.com/mattwang44">Matt Wang</a> &amp; <a class="reference external" href="https://github.com/josix">Josix Wang</a></li>
+</ul>
+<p>We are a passionate and dedicated volunteer group committed to bridging the language gap in the Python community.
+Our primary mission is to make Python's official documentation accessible to the Traditional Chinese audience by
+providing accurate and comprehensive translations. Whether you are a seasoned Python developer or a language expert,
+we welcome individuals who are enthusiastic about Python and passionate about making knowledge accessible to all.
+Come join us in our monthly meetups where we share insights, discuss translation challenges, and build a collaborative
+community together!</p>
+</div>
+<div class="section" id="sciwork-portal">
+<h2>sciwork portal<a class="headerlink" href="#sciwork-portal" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/sciwork/swportal">GitHub</a></li>
+<li><strong>Project Contact:</strong> Aya yu (discord: &#64;tN#6722), Chester (discord: &#64;chester), Wuxian (discord: &#64;5x9527)</li>
+</ul>
+<p>Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican
+with tailwindCSS, and deployed by Netfliy. We create the promotional pages for meetup and sprint events. Our
+team also maintains the sciwork conference page - conf.sciwork.dev.</p>
+<p>We have always been actively trying to provide users a better web browsing experience, including information
+presentation and visual experience. Welcome to join us if you are interested in website maintence.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="pyliteracy">
+<h2>pyLiteracy<a class="headerlink" href="#pyliteracy" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser">GitHub</a></li>
+<li><strong>Project Contact:</strong> Jonathan Chen (discord: &#64;陳畯田), PeterWolf (discord: &#64;PeterWolf#1422)</li>
+</ul>
+<p>Common errors such as the misuse of synonyms and homophones are prevalent for both native and
+non-native Taiwan Mandarin users. This issue is indirectly attributed to the fact that large language
+models (LLMs) trained on data primarily sourced from the internet struggle to play a reliable role in
+Mandarin grammar checking tasks. Moreover, the token-by-token and linear training process of the LLMs
+cannot provide valid knowledge based on a thorough understanding of the non-linear structure of human
+language. However, from a linguistic perspective, training a model solely based on a mass amount of data
+is not the most direct solution. In reality, such errors are directly related to the non-linear structures
+of word classes and phrase structures. By analyzing and simplifying the structures of correct usages into
+code instructions, a linguistics-based model can effectively grasp the use of language in a manner similar
+to human native speakers. This enables the model to accomplish efficient Mandarin grammar checking tasks
+with minimal resources.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="utensor">
+<h2>uTensor<a class="headerlink" href="#utensor" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/uTensor/uTensor">GitHub</a></li>
+<li><strong>Project Contact:</strong> Dboy(discord: &#64;dboyliao#1295)</li>
+</ul>
+<p>uTensor is an extremely lightweight machine learning inference framework built on C++11. It simplifies model
+deployment by seamlessly converting TensorFlow-trained models into efficient C++ files that can be used to infer
+on the embedding device and integrate with optimized libraries such as CMSIS-NN by ARM with ease. Compared with
+the binary files, C++ source code will provide greater flexibility to modify the trained model for the embedding engineers.</p>
+<p>We provide the defaults for tensors, operators, and memory allocation. Just like the booming development of
+machine learning, we are also actively developing the above functions. Welcome to join us.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="cytnx">
+<h2>Cytnx<a class="headerlink" href="#cytnx" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/Cytnx-dev/Cytnx">GitHub</a></li>
+<li><strong>Project Contact:</strong> Lin Chang Teng (discord: &#64;jeffry1829#0568), Ke Hsu (discord: &#64;kjjjjjjjjj1104#5128)</li>
+</ul>
+<p>Cytnx (pronounced as sci-tens) is a tensor network library designed for classical/quantum physics simulations.
+It supports C++ and Python with almost identical interface and syntax, such that users can effortlessly switch
+between the two languages. Aiming at a quick learning process for new users of tensor network algorithms, the
+interfaces resemble the popular scientific libraries such as numpy, Scipy, and PyTorch. Symmetries present in
+physical systems can be easily defined and implemented in tensors. In addition, we provide a useful class called
+Network that allows users to store large tensor networks and perform the contractions in an optimal order that
+can be automatically computed.</p>
+<p>There are still many physics applications and GPU support backend being developed. Welcome to join us to contribute
+to Cytnx.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="commitizen-tools">
+<h2>Commitizen-Tools<a class="headerlink" href="#commitizen-tools" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/commitizen-tools/commitizen">GitHub</a></li>
+<li><strong>Project Contact:</strong> Wei Lee (discord: &#64;clleew#6749)</li>
+</ul>
+<p>Commitizen-tools allows teams to effectively implement version control that conforms to the specified rules.
+It uses interactive forms to create commit messages that meet conventional commits rules. It also bumps versions
+automatically using Semantic Versioning and generates a changelog using Keep a Changelog.</p>
+<p>In addition, you can also customize your own rules to suit your team. Commitizen-tools is a widely used tool in
+many communities. We still have a lot of issues to fix and develop. Welcome to join us.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>You can join the Discord group to discuss the project.</strong></p>
+<ul class="simple">
+<li>Discord: <a class="reference external" href="https://discord.gg/6MAkFrD">https://discord.gg/6MAkFrD</a></li>
+</ul>
+</div>
+
+  </div>
+</main>
+
+<footer class="items-center bg-gray-800 text-white grow">
+  <div class="container mx-auto max-w-6xl px-5 py-2">
+    <h3>contact us</h3>
+    <div class="py-4 text-xl">
+    <a class="fa-stack" target="_blank" href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fab fa-twitter fa-stack-1x text-gray-800" style="padding: 0.1rem 0 0 0.1rem"></i>
+    </a>
+    <a class="fa-stack" target="_blank" href="mailto: contact@sciwork.dev">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fas fa-envelope fa-stack-1x grey-text text-gray-800"></i>
+    </a>
+    <a class="fa-stack" target="_blank" href="https://github.com/sciwork/swportal">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fab fa-github fa-stack-1x grey-text text-gray-800"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="bg-gray-900">
+    <div class="container mx-auto max-w-6xl px-5 py-2">
+      the website is powered by
+      <a class="text-white" target="_blank" href="https://getpelican.com">Pelican</a>
+      and
+      <a class="text-white" target="_blank" href="https://python.org">Python</a>.
+    </div>
+  </div>
+</footer>
+</body>
+
+<script>
+  var header = document.getElementById('header')
+  var header_bg = 'rgba(0, 0, 0, 0.9)';
+  var brand_logo = document.getElementById('brand_logo');
+  var nav_content = document.getElementById('nav_content');
+  var nav_toggle = document.getElementById('nav_toggle');
+  var nav_icon = document.getElementById('nav_icon');
+  var cover_bg = document.getElementById('cover-bg');
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+    if (typeof(cover_bg) == 'undefined' || cover_bg == null) {
+      header.style.backgroundColor = header_bg;
+    }
+  });
+
+  document.addEventListener('scroll', function() {
+    if (typeof(cover_bg) != 'undefined' && cover_bg != null) {
+      if (window.scrollY > 10) {
+        header.style.backgroundColor = header_bg;
+      } else {
+        header.style.backgroundColor = '';
+      }
+    }
+  });
+
+  document.onclick = function(e) {
+    var target = (e && e.target) || (event && event.srcElement);
+
+    if (!checkParent(target, nav_content)) {
+      if (checkParent(target, nav_toggle)) {
+        if (nav_content.classList.contains('hidden')) {
+          nav_icon.classList.add('open');
+          nav_content.classList.remove('hidden');
+          brand_logo.classList.remove('hidden');
+          header.style.backgroundColor = header_bg;
+          document.body.classList.add('overflow-hidden');
+        } else {
+          nav_icon.classList.remove('open');
+          nav_content.classList.add('hidden');
+          brand_logo.classList.add('hidden');
+          document.body.classList.remove('overflow-hidden');
+          if (typeof(cover_bg) != 'undefined' && cover_bg != null && window.scrollY <= 10) {
+            header.style.backgroundColor = '';
+          }
+        }
+      }
+    }
+  }
+
+  function checkParent(t, elm) {
+    while (t.parentNode) {
+      if ( t == elm ) {
+        return true;
+      }
+      t = t.parentNode;
+    }
+    return false;
+  }
+</script>
+
+</html>

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>sciwork - Scisprint 2024 August in COSCUP</title>
+
+  <meta charset="utf-8"/>
+
+  <!-- Let browser know website is optimized for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Icon -->
+  <link rel="shortcut icon" href="/theme/images/icons/favicon.ico">
+  <link rel="icon" type="image/png" href="/theme/images/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/theme/images/icons/favicon-32x32.png" sizes="32x32">
+
+  <!-- Import FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+  <!-- Customize CSS -->
+  <link rel="stylesheet" href="/theme/css/main.css"/>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Scisprint 2024 August in COSCUP">
+  <meta name="description" content="Date Date: 3rd August, Saturday, 2024 Time: 11:30 -- 16:00 Agneda 11:20-11:30 Opening 11:30-12:00 Project introduction 12:00-13:00 Career roundtable | Project coding session 13:10-13:40 Technical talk: Packet Party: Getting Down and Dirty with PcapPlusPlus 13:40-14:10 Technical talk: A High-Efficiency Natural …">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/sprint/2024/08-coscup">
+  <meta property="og:title" content="Scisprint 2024 August in COSCUP">
+  <meta property="og:description" content="Date Date: 3rd August, Saturday, 2024 Time: 11:30 -- 16:00 Agneda 11:20-11:30 Opening 11:30-12:00 Project introduction 12:00-13:00 Career roundtable | Project coding session 13:10-13:40 Technical talk: Packet Party: Getting Down and Dirty with PcapPlusPlus 13:40-14:10 Technical talk: A High-Efficiency Natural …">
+  <meta property="og:image" content="/theme/images/sciworkbkg.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="/sprint/2024/08-coscup">
+  <meta property="twitter:title" content="Scisprint 2024 August in COSCUP">
+  <meta property="twitter:description" content="Date Date: 3rd August, Saturday, 2024 Time: 11:30 -- 16:00 Agneda 11:20-11:30 Opening 11:30-12:00 Project introduction 12:00-13:00 Career roundtable | Project coding session 13:10-13:40 Technical talk: Packet Party: Getting Down and Dirty with PcapPlusPlus 13:40-14:10 Technical talk: A High-Efficiency Natural …">
+  <meta property="twitter:image" content="/theme/images/sciworkbkg.png">
+
+</head>
+
+<body class="flex flex-col min-h-screen items-stretch justify-between">
+
+<header class="flex justify-center items-center grow-0">
+  <nav id="header" class="fixed w-full z-30 top-0">
+    <div class="container mx-auto max-w-full flex flex-wrap items-center justify-between px-5 py-2">
+      <div class="h-[72px]">
+        <a id="brand_logo" class="hidden flex md:flex lg:flex justify-center items-center no-underline hover:no-underline" href="/">
+          <img class="inline h-10 w-10 mr-2 mt-1" src="/theme/images/android-chrome-192x192.png"/>
+          <h2 class="text-white">sciwork</h2>
+        </a>
+      </div>
+
+      <div class="block lg:hidden">
+        <button id="nav_toggle" class="flex items-center p-1 hover:text-red-800 text-white">
+          <style type="text/css">
+            #nav_icon.open span:nth-child(1) {
+              transform: translateY(0.5rem) rotate(45deg);
+            }
+
+            #nav_icon.open span:nth-child(3) {
+              transform: translateY(-0.5rem) rotate(-45deg);
+            }
+
+            #nav_icon.open span:nth-child(2) {
+              transform: scale(0);
+            }
+          </style>
+          <div id="nav_icon" class="w-6">
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+          <div>
+        </button>
+      </div>
+
+      <div id="nav_content" class="flex-grow w-full h-screen lg:h-full lg:flex lg:w-auto hidden">
+        <hr class="border-b border-gray-100 opacity-25 mt-4 py-0"/>
+
+        <ul class="list-reset h-auto lg:flex justify-end flex-1 items-center text-right lg:text-2xl text-3xl" style="font-family: 'Yanone Kaffeesatz'">
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/" class="text-white no-underline hover:text-red-600">home</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/blog" class="text-white no-underline hover:text-red-600">blog</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/sprint" class="text-white no-underline hover:text-red-600">sprint</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/meetup" class="text-white no-underline hover:text-red-600">meetup</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/training" class="text-white no-underline hover:text-red-600">training</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/conference" class="text-white no-underline hover:text-red-600">conference</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/project" class="text-white no-underline hover:text-red-600">project</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/about" class="text-white no-underline hover:text-red-600">about</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="container mx-auto max-w-full">
+  <div class="w-full text-center justify-center items-center relative flex flex-col h-full">
+    <div class="py-10">
+      <h2 class="mx-10 mt-12 text-white border-b-2 rounded-sm border-red-700">Scisprint 2024 August in COSCUP</h2>
+    </div>
+  <canvas id="cover-bg" class="absolute left-0 object-cover w-full h-full" style="z-index: -9999"></canvas>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var c = document.getElementById("cover-bg");
+  var ctx = c.getContext("2d");
+
+  // canvas settings
+  var min_width = 1920;
+  var font_size = 12;
+  char_list = ["𝜕", "𝛼", "𝜀", "𝜉", "𝜂", "𝜋", "𝜌", "𝜙", ""]
+  var drops = [];
+  c.height = c.parentElement.clientHeight;
+  c.width = window.innerWidth > min_width ? window.innerWidth : min_width;
+  for(var i = 0; i < c.width / font_size * 2; i++) {
+    drops[i] = 0;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = "#0f0";
+    ctx.font = font_size + "px monospace";
+
+    for (var i = 0; i < drops.length; i++) {
+      var text = char_list[Math.floor(Math.random() * char_list.length)];
+      ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+      if (drops[i] * font_size > c.height && Math.random() > 0.99) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  for (var i = 0; i < Math.floor(c.height / font_size) * 4; i++) {
+    draw();
+  }
+  setInterval(draw, 300);
+</script></header>
+
+<main class="grow">
+  <!-- <div class="container mx-auto max-w-full">
+  <div class="w-full text-center justify-center items-center relative flex flex-col h-full">
+    <div class="py-10">
+      <h2 class="mx-10 mt-12 text-white border-b-2 rounded-sm border-red-700">Scisprint 2024 August in COSCUP</h2>
+    </div>
+  <canvas id="cover-bg" class="absolute left-0 object-cover w-full h-full" style="z-index: -9999"></canvas>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var c = document.getElementById("cover-bg");
+  var ctx = c.getContext("2d");
+
+  // canvas settings
+  var min_width = 1920;
+  var font_size = 12;
+  char_list = ["𝜕", "𝛼", "𝜀", "𝜉", "𝜂", "𝜋", "𝜌", "𝜙", ""]
+  var drops = [];
+  c.height = c.parentElement.clientHeight;
+  c.width = window.innerWidth > min_width ? window.innerWidth : min_width;
+  for(var i = 0; i < c.width / font_size * 2; i++) {
+    drops[i] = 0;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = "#0f0";
+    ctx.font = font_size + "px monospace";
+
+    for (var i = 0; i < drops.length; i++) {
+      var text = char_list[Math.floor(Math.random() * char_list.length)];
+      ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+      if (drops[i] * font_size > c.height && Math.random() > 0.99) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  for (var i = 0; i < Math.floor(c.height / font_size) * 4; i++) {
+    draw();
+  }
+  setInterval(draw, 300);
+</script> -->
+
+  <div class="container mx-auto max-w-6xl p-10 text-gray-800">
+    
+    <div class="section" id="date">
+<h2>Date<a class="headerlink" href="#date" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li>Date: 3rd August, Saturday, 2024</li>
+<li>Time: 11:30 -- 16:00</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="agneda">
+<h2>Agneda<a class="headerlink" href="#agneda" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li>11:20-11:30 Opening</li>
+<li>11:30-12:00 Project introduction</li>
+<li>12:00-13:00 <a class="reference external" href="#career-roundtable">Career roundtable</a> | Project coding session</li>
+<li>13:10-13:40 Technical talk: <a class="reference external" href="#packet-party-getting-down-and-dirty-with-pcapplusplus">Packet Party: Getting Down and Dirty with PcapPlusPlus</a></li>
+<li>13:40-14:10 Technical talk: <a class="reference external" href="#a-high-efficiency-natural-selection-simulator-with-pybind11">A High-Efficiency Natural Selection Simulator with Pybind11</a></li>
+<li>14:40-14:50 Technical talk: <a class="reference external" href="#explore-practical-scientific-applications-of-open-source-large-language-models-rag-knowledge-management-and-llm-servitization-methods">Explore Practical Scientific Applications of Open-Source Large Language Models: RAG Knowledge Management and LLM Servitization Methods</a></li>
+<li>14:50-15:00 Break</li>
+<li>15:00-15:45 Project coding session</li>
+<li>15:45-15:55 Project sharing</li>
+<li>15:55-16:00 Closing</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="about-scisprint-coscup">
+<h2>About scisprint &#64; COSCUP<a class="headerlink" href="#about-scisprint-coscup" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<p>We will host a scisprint in <a class="reference external" href="https://coscup.org/2024/zh-TW/">COSCUP</a>. In this event, it will include
+a <a class="reference external" href="#hacking-session">hacking session</a>, <a class="reference external" href="#career-roundtable">career roundtable</a> and
+<a class="reference external" href="#technical-talks">technical talks</a>.</p>
+<p>To join the sprint, please bring your laptop. You are also very welcome to bring your project.
+Please <a class="reference external" href="#contact-us">contact us</a> if you have any questions.</p>
+<p>Scisprint, hosted by the sciwork community, is a monthly coding sprint. It would like to
+facilitate discussions and exchanges among people in the fields of science, numerical
+computation, and engineering. Participants, regardless of experience level, can gain valuable
+development insights in this event.</p>
+<p>We would like to provide a supportive and friendly environment for all attendees to support more developers
+to join in the open-source communities.</p>
+</div>
+<div class="section" id="hacking-session">
+<h2>Hacking Session<a class="headerlink" href="#hacking-session" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<p>It aims to encourage collaboration and interaction among developers through project
+participation. The projects cover various fields, including but not limited to science,
+numerical computation, and engineering. You are also encouraged to share your own projects
+in scisprint. Refer to <a class="reference external" href="#project-list">project list</a> below for more details.</p>
+<div class="section" id="project-list">
+<h3>Project List<a class="headerlink" href="#project-list" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<div class="section" id="modmesh">
+<h4>modmesh<a class="headerlink" href="#modmesh" title="Permalink to this headline"><i class="fa fa-link"></i></a></h4>
+<ul class="simple">
+<li><strong>Related Subjects:</strong> Python, C++, PDE</li>
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/solvcon/modmesh">Github</a></li>
+<li><strong>Project Contact:</strong> Yung-Yu Chen (discord: &#64;yyc#7718)</li>
+</ul>
+<p>modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of
+both programming languages for efficient PDE solving. We use Qt and Python to visualize the computation
+results to give you a better understanding of your PDE solution. modmesh also supports mesh visualization,
+currently in the Gmsh mesh file format. We have recently made efforts to improve the modmesh UI/UX.</p>
+<p>The design allows it to run on Windows, Linux, and MacOS. Everyone can use or contribute to modmesh.</p>
+</div>
+<div class="section" id="utensor">
+<h4>uTensor<a class="headerlink" href="#utensor" title="Permalink to this headline"><i class="fa fa-link"></i></a></h4>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/uTensor/uTensor">GitHub</a></li>
+<li><strong>Project Contact:</strong> Dboy(discord: &#64;dboyliao#1295)</li>
+</ul>
+<p>uTensor is an extremely lightweight machine learning inference framework built on C++11. It simplifies model
+deployment by seamlessly converting TensorFlow-trained models into efficient C++ files that can be used to infer
+on the embedding device and integrate with optimized libraries such as CMSIS-NN by ARM with ease. Compared with
+the binary files, C++ source code will provide greater flexibility to modify the trained model for the embedding engineers.</p>
+<p>We provide the defaults for tensors, operators, and memory allocation. Just like the booming development of
+machine learning, we are also actively developing the above functions. Welcome to join us.</p>
+</div>
+<div class="section" id="sciwork-portal">
+<h4>sciwork portal<a class="headerlink" href="#sciwork-portal" title="Permalink to this headline"><i class="fa fa-link"></i></a></h4>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/sciwork/swportal">GitHub</a></li>
+<li><strong>Project Contact:</strong> Aya yu (discord: &#64;tN#6722), Chester (discord: &#64;chester), Wuxian (discord: &#64;5x9527)</li>
+</ul>
+<p>Sciwork Portal is a project for maintaining our official website - Sciwork.dev, which was built by Pelican
+with tailwindCSS, and deployed by Netfliy. We create the promotional pages for meetup and sprint events. Our
+team also maintains the sciwork conference page - conf.sciwork.dev.</p>
+<p>We have always been actively trying to provide users a better web browsing experience, including information
+presentation and visual experience. Welcome to join us if you are interested in website maintence.</p>
+</div>
+<div class="section" id="pydoccht">
+<h4>pydoccht<a class="headerlink" href="#pydoccht" title="Permalink to this headline"><i class="fa fa-link"></i></a></h4>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/python/python-docs-zh-tw">Github</a></li>
+<li><strong>Project Contact:</strong> Matt Wang (&#64;mattwang44), Josix (&#64;Josix#3800)</li>
+</ul>
+<p>Our primary mission is to make Python's official documentation accessible to the Traditional Chinese audience by providing accurate and comprehensive translations.
+Whether you are a seasoned Python developer or a language expert,
+we welcome individuals who are enthusiastic about Python and passionate about making knowledge accessible to all.</p>
+</div>
+<div class="section" id="pyliteracy">
+<h4>pyLiteracy<a class="headerlink" href="#pyliteracy" title="Permalink to this headline"><i class="fa fa-link"></i></a></h4>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser">GitHub</a></li>
+<li><strong>Project Contact:</strong> Jonathan Chen (discord: &#64;陳畯田), PeterWolf (discord: &#64;PeterWolf#1422)</li>
+</ul>
+<p>Mandarin grammar parser based on syntactical context. By analyzing and simplifying the structures of correct
+usages into code instructions, provide a linguistics-based model to accomplish efficient Mandarin grammar
+checking tasks with minimal resources.</p>
+</div>
+<div class="section" id="commitizen-tools">
+<h4>Commitizen-Tools<a class="headerlink" href="#commitizen-tools" title="Permalink to this headline"><i class="fa fa-link"></i></a></h4>
+<ul class="simple">
+<li><strong>Project Link:</strong> <a class="reference external" href="https://github.com/commitizen-tools/commitizen">GitHub</a></li>
+<li>Project Contact: Wei Lee (discord: &#64;clleew#6749)</li>
+</ul>
+<p>Commitizen-tools allows teams to effectively implement version control that conforms to the specified rules.
+It uses interactive forms to create commit messages that meet conventional commits rules. It also bumps versions automatically using Semantic Versioning and generates a changelog using Keep a Changelog.</p>
+<p>In addition, you can also customize your own rules to suit your team. Commitizen-tools is a widely used tool in many communities. We still have a lot of issues to fix and develop. Welcome to join us.</p>
+</div>
+</div>
+</div>
+<div class="section" id="career-roundtable">
+<h2>Career Roundtable<a class="headerlink" href="#career-roundtable" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<p>Career roundtable is to have a relaxed discussions with experienced software professionals.
+At this time, we invited many professional software engineers as our mentor.
+If you have career-related questions or seek for some guidances, do not miss out this chance!</p>
+<div class="flex flex-row flex-wrap">
+    <img width="50%" alt="masters for career roundtable in coscup" src="../../images/coscup-CareerRoundtable-1.jpeg" >
+    <img width="50%"  alt="masters for career roundtable in coscup" src="../../images/coscup-CareerRoundtable-2.jpeg" >
+</div></div>
+<div class="section" id="technical-talks">
+<h2>Technical Talks<a class="headerlink" href="#technical-talks" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<div class="section" id="packet-party-getting-down-and-dirty-with-pcapplusplus">
+<h3>Packet Party: Getting Down and Dirty with PcapPlusPlus<a class="headerlink" href="#packet-party-getting-down-and-dirty-with-pcapplusplus" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<ul class="simple">
+<li><strong>Speaker</strong>: Anchi Liu</li>
+<li><dl class="first docutils">
+<dt><strong>About speaker</strong>:</dt>
+<dd>Liu works as a software engineer in Mujin, Inc., Tokyo, Japan. He uses &#64;tigercosmos as the
+name in the open-source world, and his Chinese nickname is “微中子.” He holds an M.S. degree in Computer Science
+from National Yang Ming Chiao Tung University (NYCU) in 2022, Taiwan. He got a B.S. degree in
+Bio-Industrial Mechatronics Engineering from National Taiwan University (NTU) in 2019.</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Abstract</strong>:</dt>
+<dd>PcapPlusPlus is a cross-platform C++ library capable of packet interception, parsing, and construction.
+Additionally, it offers a range of functionalities such as implementing various network protocols, supporting
+DPDK, and providing simplified packet filtering. The presentation will cover the principles of PcapPlusPlus
+and libpcap, the speaker’s contributions to PcapPlusPlus, and some cases studies.</dd>
+</dl>
+</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="a-high-efficiency-natural-selection-simulator-with-pybind11">
+<h3>A High-Efficiency Natural Selection Simulator with Pybind11<a class="headerlink" href="#a-high-efficiency-natural-selection-simulator-with-pybind11" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<ul class="simple">
+<li><strong>Speaker</strong>: YJack</li>
+<li><dl class="first docutils">
+<dt><strong>About speaker</strong>:</dt>
+<dd>我是 YJ，不活躍於各大論壇，組織過最大的東西是跟朋友的讀書會。但是我還是在學校、競賽、專案的過程還是學會了很多東西。
+所以不管對於我個人或是專案有各種問題都可以來找我聊聊或是討論喔！</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Abstract</strong>:</dt>
+<dd>This presentation introduces SimEvo, a natural selection simulator with a core engine implemented in C++
+for functionality and algorithms, and a simple Python interface provided via Pybind11. SimEvo allows users
+to simulate ecosystems where organisms react, interact, and reproduce based on genetic traits. I will
+showcase the project architecture, explaining how computationally intensive parts are handled in C++ and
+how the main APIs are ported to Python, enabling users to easily customize different scenarios through
+scripting.</dd>
+</dl>
+</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="explore-practical-scientific-applications-of-open-source-large-language-models-rag-knowledge-management-and-llm-servitization-methods">
+<h3>Explore Practical Scientific Applications of Open-Source Large Language Models: RAG Knowledge Management and LLM Servitization Methods<a class="headerlink" href="#explore-practical-scientific-applications-of-open-source-large-language-models-rag-knowledge-management-and-llm-servitization-methods" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<ul>
+<li><p class="first"><strong>Speaker</strong>: 劉育維 Simon Liu</p>
+</li>
+<li><dl class="first docutils">
+<dt><strong>About speaker</strong>:</dt>
+<dd><p class="first last">大家好，我是 Simon 劉育維，過去曾擔任過電信業的資深工程師 和 在軟體業擔任 MLOps 客戶技術成功工程師，
+幫助各大知名企業進行機器學習、深度學習、大型語言模型等人工智慧議題進行人工智慧架構規劃的討論，目前在 Medium 上已經公開超過 70
+篇技術文章，我希望能夠嘗試使用 AI 做應用，幫助客戶用 AI 解決痛點。</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Abstract</strong>:</dt>
+<dd><p class="first">自 2022 年底起，隨著 AI 技術的快速進展，大型語言模型（LLMs）已成為業界與學術界矚目的焦點。本次演講，
+我將以最淺顯的方式，引領大家深入了解大型語言模型在實務應用中的關鍵技術與策略，涵蓋 RAG（Retrieval-Augmented Generation）
+知識管理、LLM 的服務化，以及模型微調（Fine-Tune）這三大領域，在此次演講，我將帶來深入RAG 知識管理和 LLM 服務化，
+讓大家能夠以最快的速度，了解如何導入 LLM 應用。</p>
+<p>首先，我們將探討 RAG 如何藉由結合檢索（Retrieval）與生成（Generation）技術，提升 LLMs 的專業知識理解能力，
+使模型能有效處理大量資料並提供更精準的解答。隨後，我們將分析將 LLM 轉化為服務（LLM as a service）的重要性，
+探討如何將這些強大的模型轉化為便於接入與使用的服務，使更多企業與開發者得以運用這些尖端技術進行創新與問題解決。</p>
+<p class="last">透過上面兩個維度的深入剖析，聽眾將以最易理解的方式入門 LLMs 的核心知識，為後續深入探索 LLMs 應用提供堅實的基礎，
+進而為未來技術創新與應用開拓更廣闊的視野。</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="venue">
+<h2>Venue<a class="headerlink" href="#venue" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<p><a class="reference external" href="https://maps.app.goo.gl/EmJSv27Qrs8zp4EVA">NTUST TR Building Room TR513 (國立臺灣科技大學研揚大樓 513 教室)</a>.</p>
+<div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14462.247118839012!2d121.5427259!3d25.0150024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa23fdb8fd51%3A0xf6126da2dfe50537!2sNTUST%20TR%20Building!5e0!3m2!1sen!2stw!4v1721822569889!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="contact-us">
+<h2>Contact us<a class="headerlink" href="#contact-us" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<ul class="simple">
+<li>sciwork: <a class="reference external" href="https://sciwork.dev/">https://sciwork.dev/</a></li>
+<li>discord: <a class="reference external" href="https://discord.gg/6MAkFrD">https://discord.gg/6MAkFrD</a></li>
+<li>email: <a class="reference external" href="mailto:contact&#64;sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint">contact&#64;sciwork.dev (subject: I want to lead a project in scisprint)</a></li>
+<li>flickr: <a class="reference external" href="https://www.flickr.com/photos/sciwork/albums">https://www.flickr.com/photos/sciwork/albums</a></li>
+</ul>
+</div>
+
+  </div>
+</main>
+
+<footer class="items-center bg-gray-800 text-white grow">
+  <div class="container mx-auto max-w-6xl px-5 py-2">
+    <h3>contact us</h3>
+    <div class="py-4 text-xl">
+    <a class="fa-stack" target="_blank" href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fab fa-twitter fa-stack-1x text-gray-800" style="padding: 0.1rem 0 0 0.1rem"></i>
+    </a>
+    <a class="fa-stack" target="_blank" href="mailto: contact@sciwork.dev">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fas fa-envelope fa-stack-1x grey-text text-gray-800"></i>
+    </a>
+    <a class="fa-stack" target="_blank" href="https://github.com/sciwork/swportal">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fab fa-github fa-stack-1x grey-text text-gray-800"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="bg-gray-900">
+    <div class="container mx-auto max-w-6xl px-5 py-2">
+      the website is powered by
+      <a class="text-white" target="_blank" href="https://getpelican.com">Pelican</a>
+      and
+      <a class="text-white" target="_blank" href="https://python.org">Python</a>.
+    </div>
+  </div>
+</footer>
+</body>
+
+<script>
+  var header = document.getElementById('header')
+  var header_bg = 'rgba(0, 0, 0, 0.9)';
+  var brand_logo = document.getElementById('brand_logo');
+  var nav_content = document.getElementById('nav_content');
+  var nav_toggle = document.getElementById('nav_toggle');
+  var nav_icon = document.getElementById('nav_icon');
+  var cover_bg = document.getElementById('cover-bg');
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+    if (typeof(cover_bg) == 'undefined' || cover_bg == null) {
+      header.style.backgroundColor = header_bg;
+    }
+  });
+
+  document.addEventListener('scroll', function() {
+    if (typeof(cover_bg) != 'undefined' && cover_bg != null) {
+      if (window.scrollY > 10) {
+        header.style.backgroundColor = header_bg;
+      } else {
+        header.style.backgroundColor = '';
+      }
+    }
+  });
+
+  document.onclick = function(e) {
+    var target = (e && e.target) || (event && event.srcElement);
+
+    if (!checkParent(target, nav_content)) {
+      if (checkParent(target, nav_toggle)) {
+        if (nav_content.classList.contains('hidden')) {
+          nav_icon.classList.add('open');
+          nav_content.classList.remove('hidden');
+          brand_logo.classList.remove('hidden');
+          header.style.backgroundColor = header_bg;
+          document.body.classList.add('overflow-hidden');
+        } else {
+          nav_icon.classList.remove('open');
+          nav_content.classList.add('hidden');
+          brand_logo.classList.add('hidden');
+          document.body.classList.remove('overflow-hidden');
+          if (typeof(cover_bg) != 'undefined' && cover_bg != null && window.scrollY <= 10) {
+            header.style.backgroundColor = '';
+          }
+        }
+      }
+    }
+  }
+
+  function checkParent(t, elm) {
+    while (t.parentNode) {
+      if ( t == elm ) {
+        return true;
+      }
+      t = t.parentNode;
+    }
+    return false;
+  }
+</script>
+
+</html>

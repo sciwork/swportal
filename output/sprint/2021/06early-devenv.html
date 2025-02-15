@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>sciwork - Scisprint 2021 Early of June: solvcon devenv</title>
+
+  <meta charset="utf-8"/>
+
+  <!-- Let browser know website is optimized for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Icon -->
+  <link rel="shortcut icon" href="/theme/images/icons/favicon.ico">
+  <link rel="icon" type="image/png" href="/theme/images/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/theme/images/icons/favicon-32x32.png" sizes="32x32">
+
+  <!-- Import FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+  <!-- Customize CSS -->
+  <link rel="stylesheet" href="/theme/css/main.css"/>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Scisprint 2021 Early of June: solvcon devenv">
+  <meta name="description" content="Scisprint 2021 Early of June: solvcon devenv We cordially invite you to join the short sprint for the development environment for solvcon projects. solvcon is a host of projects focusing on numerically solving the governing equations of transient phenomena. The development environment, i.e., devenv (see the github page), is …">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/sprint/2021/06early-devenv">
+  <meta property="og:title" content="Scisprint 2021 Early of June: solvcon devenv">
+  <meta property="og:description" content="Scisprint 2021 Early of June: solvcon devenv We cordially invite you to join the short sprint for the development environment for solvcon projects. solvcon is a host of projects focusing on numerically solving the governing equations of transient phenomena. The development environment, i.e., devenv (see the github page), is …">
+  <meta property="og:image" content="/theme/images/sciworkbkg.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="/sprint/2021/06early-devenv">
+  <meta property="twitter:title" content="Scisprint 2021 Early of June: solvcon devenv">
+  <meta property="twitter:description" content="Scisprint 2021 Early of June: solvcon devenv We cordially invite you to join the short sprint for the development environment for solvcon projects. solvcon is a host of projects focusing on numerically solving the governing equations of transient phenomena. The development environment, i.e., devenv (see the github page), is …">
+  <meta property="twitter:image" content="/theme/images/sciworkbkg.png">
+
+</head>
+
+<body class="flex flex-col min-h-screen items-stretch justify-between">
+
+<header class="flex justify-center items-center grow-0">
+  <nav id="header" class="fixed w-full z-30 top-0">
+    <div class="container mx-auto max-w-full flex flex-wrap items-center justify-between px-5 py-2">
+      <div class="h-[72px]">
+        <a id="brand_logo" class="hidden flex md:flex lg:flex justify-center items-center no-underline hover:no-underline" href="/">
+          <img class="inline h-10 w-10 mr-2 mt-1" src="/theme/images/android-chrome-192x192.png"/>
+          <h2 class="text-white">sciwork</h2>
+        </a>
+      </div>
+
+      <div class="block lg:hidden">
+        <button id="nav_toggle" class="flex items-center p-1 hover:text-red-800 text-white">
+          <style type="text/css">
+            #nav_icon.open span:nth-child(1) {
+              transform: translateY(0.5rem) rotate(45deg);
+            }
+
+            #nav_icon.open span:nth-child(3) {
+              transform: translateY(-0.5rem) rotate(-45deg);
+            }
+
+            #nav_icon.open span:nth-child(2) {
+              transform: scale(0);
+            }
+          </style>
+          <div id="nav_icon" class="w-6">
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+            <span class="bg-white rounded block ease-in-out duration-200" style="height: 0.1rem; margin: 0.4rem 0"></span>
+          <div>
+        </button>
+      </div>
+
+      <div id="nav_content" class="flex-grow w-full h-screen lg:h-full lg:flex lg:w-auto hidden">
+        <hr class="border-b border-gray-100 opacity-25 mt-4 py-0"/>
+
+        <ul class="list-reset h-auto lg:flex justify-end flex-1 items-center text-right lg:text-2xl text-3xl" style="font-family: 'Yanone Kaffeesatz'">
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/" class="text-white no-underline hover:text-red-600">home</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/blog" class="text-white no-underline hover:text-red-600">blog</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/sprint" class="text-white no-underline hover:text-red-600">sprint</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/meetup" class="text-white no-underline hover:text-red-600">meetup</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/training" class="text-white no-underline hover:text-red-600">training</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/conference" class="text-white no-underline hover:text-red-600">conference</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/project" class="text-white no-underline hover:text-red-600">project</a>
+            </li>
+            <li class="list-none lg:mr-4 mx-8 lg:py-0 py-2">
+              <a href="/about" class="text-white no-underline hover:text-red-600">about</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="container mx-auto max-w-full">
+  <div class="w-full text-center justify-center items-center relative flex flex-col h-full">
+    <div class="py-10">
+      <h2 class="mx-10 mt-12 text-white border-b-2 rounded-sm border-red-700">Scisprint 2021 Early of June: solvcon devenv</h2>
+    </div>
+  <canvas id="cover-bg" class="absolute left-0 object-cover w-full h-full" style="z-index: -9999"></canvas>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var c = document.getElementById("cover-bg");
+  var ctx = c.getContext("2d");
+
+  // canvas settings
+  var min_width = 1920;
+  var font_size = 12;
+  char_list = ["𝜕", "𝛼", "𝜀", "𝜉", "𝜂", "𝜋", "𝜌", "𝜙", ""]
+  var drops = [];
+  c.height = c.parentElement.clientHeight;
+  c.width = window.innerWidth > min_width ? window.innerWidth : min_width;
+  for(var i = 0; i < c.width / font_size * 2; i++) {
+    drops[i] = 0;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = "#0f0";
+    ctx.font = font_size + "px monospace";
+
+    for (var i = 0; i < drops.length; i++) {
+      var text = char_list[Math.floor(Math.random() * char_list.length)];
+      ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+      if (drops[i] * font_size > c.height && Math.random() > 0.99) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  for (var i = 0; i < Math.floor(c.height / font_size) * 4; i++) {
+    draw();
+  }
+  setInterval(draw, 300);
+</script></header>
+
+<main class="grow">
+  <!-- <div class="container mx-auto max-w-full">
+  <div class="w-full text-center justify-center items-center relative flex flex-col h-full">
+    <div class="py-10">
+      <h2 class="mx-10 mt-12 text-white border-b-2 rounded-sm border-red-700">Scisprint 2021 Early of June: solvcon devenv</h2>
+    </div>
+  <canvas id="cover-bg" class="absolute left-0 object-cover w-full h-full" style="z-index: -9999"></canvas>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var c = document.getElementById("cover-bg");
+  var ctx = c.getContext("2d");
+
+  // canvas settings
+  var min_width = 1920;
+  var font_size = 12;
+  char_list = ["𝜕", "𝛼", "𝜀", "𝜉", "𝜂", "𝜋", "𝜌", "𝜙", ""]
+  var drops = [];
+  c.height = c.parentElement.clientHeight;
+  c.width = window.innerWidth > min_width ? window.innerWidth : min_width;
+  for(var i = 0; i < c.width / font_size * 2; i++) {
+    drops[i] = 0;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = "#0f0";
+    ctx.font = font_size + "px monospace";
+
+    for (var i = 0; i < drops.length; i++) {
+      var text = char_list[Math.floor(Math.random() * char_list.length)];
+      ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+      if (drops[i] * font_size > c.height && Math.random() > 0.99) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  for (var i = 0; i < Math.floor(c.height / font_size) * 4; i++) {
+    draw();
+  }
+  setInterval(draw, 300);
+</script> -->
+
+  <div class="container mx-auto max-w-6xl p-10 text-gray-800">
+    
+    <div class="section" id="scisprint-2021-early-of-june-solvcon-devenv-1">
+<h2>Scisprint 2021 Early of June: solvcon devenv<a class="headerlink" href="#scisprint-2021-early-of-june-solvcon-devenv-1" title="Permalink to this headline"><i class="fa fa-link"></i></a></h2>
+<p>We cordially invite you to join the short sprint for the development
+environment for <a class="reference external" href="https://solvcon.net/">solvcon</a> projects.  <a class="reference external" href="https://solvcon.net/">solvcon</a> is a host
+of projects focusing on numerically solving the governing equations of
+transient phenomena.</p>
+<p>The development environment, i.e., devenv (see <a class="reference external" href="https://github.com/solvcon/devenv">the github page</a>), is also a solvcon project, but has a
+much broader scope that includes the infrastructure for developing code for
+numerical calculations, which are the foundation of computational sciences and
+mathematics.  The real-world applications, including physics, mechanics,
+semiconductor, finance, machine learning, etc., will be built with it.</p>
+<p>Numerical calculations require writing high-performance code.  The complex
+implementations call for tremendous amount of code to be written and it is not
+possible to do it all by a single team.  External dependencies are necessary.
+However, because of the requirements of accuracy and performance, the
+dependencies are usually at the source level.  Building dependencies from
+source is the norm.  The project devenv is made to help the source-level
+dependency management and alignment for the runtime among developers.</p>
+<div class="section" id="registration">
+<h3>Registration<a class="headerlink" href="#registration" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<p>Please join <a class="reference external" href="https://gather.town/app/yLTe8mBDb8pogMOX/sciwork">gather.town</a> on the day of sprint !!</p>
+</div>
+<div class="section" id="date-time">
+<h3>Date &amp; time<a class="headerlink" href="#date-time" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<p>05th June, Saturday, 2021, 15:00 -- 17:00</p>
+</div>
+<div class="section" id="agenda">
+<h3>Agenda<a class="headerlink" href="#agenda" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<ul class="simple">
+<li><strong>15:00 -- 15:30</strong>: Opening, introduction for devenv and solvcon</li>
+<li><strong>15:30 -- 16:30</strong>: Let's build solvcon with devenv</li>
+<li><strong>16:30 -- 17:00</strong>: Discussion</li>
+</ul>
+</div>
+<div class="section" id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<p>We will need you to have a laptop or a VM running either MacOS or Linux.  At
+the moment the project does not yet support Windows.</p>
+<p>This time we hold the sprint on the <a class="reference external" href="https://gather.town/app/yLTe8mBDb8pogMOX/sciwork">gather.town</a>
+and suggest to use laptop or personal computer instead of mobile device
+such like iPad or iPhone etc...</p>
+<!-- Sponsors -->
+<!-- - - - - - - - - -->
+</div>
+<div class="section" id="venue">
+<h3>Venue<a class="headerlink" href="#venue" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<p>At <a class="reference external" href="https://gather.town/app/yLTe8mBDb8pogMOX/sciwork">gather.town</a>, sciwork</p>
+</div>
+<div class="section" id="contact-us">
+<h3>Contact us<a class="headerlink" href="#contact-us" title="Permalink to this headline"><i class="fa fa-link"></i></a></h3>
+<ul class="simple">
+<li>Discord: <a class="reference external" href="https://discord.gg/P9U7PFv">https://discord.gg/P9U7PFv</a></li>
+<li>Twitter: <a class="reference external" href="https://twitter.com/sciwork">&#64;sciwork</a></li>
+<li>Github discussion: <a class="reference external" href="https://github.com/solvcon/devenv/discussions">https://github.com/solvcon/devenv/discussions</a></li>
+</ul>
+</div>
+</div>
+
+  </div>
+</main>
+
+<footer class="items-center bg-gray-800 text-white grow">
+  <div class="container mx-auto max-w-6xl px-5 py-2">
+    <h3>contact us</h3>
+    <div class="py-4 text-xl">
+    <a class="fa-stack" target="_blank" href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fab fa-twitter fa-stack-1x text-gray-800" style="padding: 0.1rem 0 0 0.1rem"></i>
+    </a>
+    <a class="fa-stack" target="_blank" href="mailto: contact@sciwork.dev">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fas fa-envelope fa-stack-1x grey-text text-gray-800"></i>
+    </a>
+    <a class="fa-stack" target="_blank" href="https://github.com/sciwork/swportal">
+      <i class="fas fa-circle fa-stack-2x text-white"></i>
+      <i class="fab fa-github fa-stack-1x grey-text text-gray-800"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="bg-gray-900">
+    <div class="container mx-auto max-w-6xl px-5 py-2">
+      the website is powered by
+      <a class="text-white" target="_blank" href="https://getpelican.com">Pelican</a>
+      and
+      <a class="text-white" target="_blank" href="https://python.org">Python</a>.
+    </div>
+  </div>
+</footer>
+</body>
+
+<script>
+  var header = document.getElementById('header')
+  var header_bg = 'rgba(0, 0, 0, 0.9)';
+  var brand_logo = document.getElementById('brand_logo');
+  var nav_content = document.getElementById('nav_content');
+  var nav_toggle = document.getElementById('nav_toggle');
+  var nav_icon = document.getElementById('nav_icon');
+  var cover_bg = document.getElementById('cover-bg');
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+    if (typeof(cover_bg) == 'undefined' || cover_bg == null) {
+      header.style.backgroundColor = header_bg;
+    }
+  });
+
+  document.addEventListener('scroll', function() {
+    if (typeof(cover_bg) != 'undefined' && cover_bg != null) {
+      if (window.scrollY > 10) {
+        header.style.backgroundColor = header_bg;
+      } else {
+        header.style.backgroundColor = '';
+      }
+    }
+  });
+
+  document.onclick = function(e) {
+    var target = (e && e.target) || (event && event.srcElement);
+
+    if (!checkParent(target, nav_content)) {
+      if (checkParent(target, nav_toggle)) {
+        if (nav_content.classList.contains('hidden')) {
+          nav_icon.classList.add('open');
+          nav_content.classList.remove('hidden');
+          brand_logo.classList.remove('hidden');
+          header.style.backgroundColor = header_bg;
+          document.body.classList.add('overflow-hidden');
+        } else {
+          nav_icon.classList.remove('open');
+          nav_content.classList.add('hidden');
+          brand_logo.classList.add('hidden');
+          document.body.classList.remove('overflow-hidden');
+          if (typeof(cover_bg) != 'undefined' && cover_bg != null && window.scrollY <= 10) {
+            header.style.backgroundColor = '';
+          }
+        }
+      }
+    }
+  }
+
+  function checkParent(t, elm) {
+    while (t.parentNode) {
+      if ( t == elm ) {
+        return true;
+      }
+      t = t.parentNode;
+    }
+    return false;
+  }
+</script>
+
+</html>
