@@ -1,0 +1,26 @@
+{
+  "trailingComma": "all",
+  "singleQuote": false,
+  "arrowParens": "always",
+  "semi": true,
+  "importOrder": [
+    "next/(.*)$",
+    "^react$",
+    "^react-dom$",
+    "^@fortawesome/(.*)$",
+    "^@/configurations/(.*)$",
+    "^@/components/(.*)$",
+    "^@/contents/(.*)$",
+    "^@/contexts/(.*)$",
+    "^@/models/(.*)$",
+    "^@/utils/(.*)$",
+    "^@/assets/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSortSpecifiers": true,
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "pluginSearchDirs": false
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_icon.open span:nth-child(1) {
+  transform: translateY(0.5rem) rotate(45deg);
+}
+
+.nav_icon.open span:nth-child(3) {
+  transform: translateY(-0.5rem) rotate(-45deg);
+}
+
+.nav_icon.open span:nth-child(2) {
+  transform: scale(0);
+}
+
+.nav_icon .bar {
+  height: 0.1rem;
+  margin: 0.4rem 0;
+}
