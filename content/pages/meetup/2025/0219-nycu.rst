@@ -26,25 +26,19 @@ There will be many different subjects discussed at the same time.
 |                 |                                                                                                                                 |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:30 ~ 20:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
-|                 |                          |                                                       |                                              |
-|                 |                          | 1. Use Bezier curve to fit NACA 4-digit airfoil       | 1. The random generator of the building.     |
-|                 |                          | 2. Prototype profiler object serialization using JSON | 2. The algorithm of the road building.       |
-|                 |                          | 3. Design  reorder() in DataFrame                     | 3. The calculation of the traffic flow.      |
-|                 |                          | 4. Build modmesh                                      |                                              |
-|                 |                          | 5. Make a simple PR for modmesh                       |                                              |
-|                 |                          |                                                       |                                              |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 20:00 ~ 20:30   | Short talks: Develop experiences on modmesh                                                                                     |
+| 19:30 ~ 19:40   | Short talks: Status update: Array for time series anaylsis *by Chun-Hsu*                                                        |
 |                 |                                                                                                                                 |
-|                 | In this meetup, 2 contributors of modmesh will share their experiences and progress in this short talk section.                 |
-|                 | The topics are:                                                                                                                 |
-|                 |                                                                                                                                 |
-|                 | 1. Use CESE Method to solve Burgers’ Equation *by Gene*                                                                         | 
-|                 | 2. Sorting implementation of array container *by Sam*                                                                           |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 20:30 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
+| 19:40 ~ 19:50   | Short talks: Sorting implementation of array container *by Sam*                                                                 |
+|                 |                                                                                                                                 |
+|                 |                                                                                                                                 |
++-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
+| 19:50 ~ 20:00   | Short talks: Use CESE Method to solve Burgers’ Equation *by Gene*                                                               |
+|                 |                                                                                                                                 |
+|                 |                                                                                                                                 |
++-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
+| 20:00 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
 |                 |                          |                                                       |                                              |
 |                 |                          | 1. Use Bezier curve to fit NACA 4-digit airfoil       | 1. The random generator of the building.     |
 |                 |                          | 2. Prototype profiler object serialization using JSON | 2. The algorithm of the road building.       |
@@ -103,21 +97,19 @@ In this session, we will discuss the prototype of the simulator, including:
 2. The algorithm of the road building.
 3. The calculation of the traffic flow.
 
-Short talks: Develop experiences on modmesh                                                                                    
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                                                                                                                               
-In this section, Gene and Sam will give talks about their development experiences and progress in modmesh. 
-                                                                                                                               
-1. Use CESE Method to solve Burgers’ Equation *by Gene*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Solve the Burgers’ equation, known as scalar non-linear equation, by using space-time conservation element and solution element (CESE) method. 
-With plotting numerical and analytical results in graphs simultaneously at each time step, it is easier to verify the correctness. 
+Short talks: Status update: Array for time series anaylsis *by `Chun-Hsu <https://github.com/j8xixo12>`__*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-2. Sorting implementation of array container *by Sam*                                                                          
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-`SimpleArray`, the major array container implemented and used in modmesh, are used for various applications. 
+Short talk: Sorting implementation of array container *by `Sam <https://github.com/KHLee529>`__*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+`SimpleArray`, the major array container implemented and used in modmesh, are used for various applications.
 In order to use `SimpleArray` as the container of data for time series analysis, sorting are required to keep data in correct order.
 Sam will share his current progress on developing sort related functionalities for `SimpleArray` and the future plan.
+
+Short talk: Use CESE Method to solve Burgers’ Equation *by `Gene <https://github.com/Gene0315>`__*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Solve the Burgers’ equation, known as scalar non-linear equation, by using space-time conservation element and solution element (CESE) method.
+With plotting numerical and analytical results in graphs simultaneously at each time step, it is easier to verify the correctness.
 
 free chat
 ++++++++++++++++++++++++++++++++++++++++++++++++
