@@ -26,15 +26,15 @@ There will be many different subjects discussed at the same time.
 |                 |                                                                                                                                 |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:30 ~ 19:40   | Short talks: Status update: Array for time series anaylsis *by Chun-Hsu*                                                        |
+| 19:30 ~ 19:40   | Short talk: Status update: Array for time series anaylsis *by Chun-Hsu*                                                         |
 |                 |                                                                                                                                 |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:40 ~ 19:50   | Short talks: Sorting implementation of array container *by Sam*                                                                 |
+| 19:40 ~ 19:50   | Short talk: Sorting implementation of array container *by Sam*                                                                  |
 |                 |                                                                                                                                 |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:50 ~ 20:00   | Short talks: Use CESE Method to solve Burgers’ Equation *by Gene*                                                               |
+| 19:50 ~ 20:00   | Short talk: Use CESE Method to solve Burgers’ Equation *by Gene*                                                                |
 |                 |                                                                                                                                 |
 |                 |                                                                                                                                 |
 +-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
@@ -97,19 +97,28 @@ In this session, we will discuss the prototype of the simulator, including:
 2. The algorithm of the road building.
 3. The calculation of the traffic flow.
 
-Short talks: Status update: Array for time series anaylsis *by `Chun-Hsu <https://github.com/j8xixo12>`__*
+Short talk: Status update: Array for time series anaylsis *by* |Chun-Hsu|_
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Short talk: Sorting implementation of array container *by `Sam <https://github.com/KHLee529>`__*
+.. _Chun-Hsu: https://github.com/j8xixo12
+.. |Chun-Hsu| replace:: *Chun-Hsu* 
+
+Short talk: Sorting implementation of array container *by* |Sam|_
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 `SimpleArray`, the major array container implemented and used in modmesh, are used for various applications.
 In order to use `SimpleArray` as the container of data for time series analysis, sorting are required to keep data in correct order.
 Sam will share his current progress on developing sort related functionalities for `SimpleArray` and the future plan.
 
-Short talk: Use CESE Method to solve Burgers’ Equation *by `Gene <https://github.com/Gene0315>`__*
+.. _Sam: https://github.com/KHLee529
+.. |Sam| replace:: *Sam* 
+
+Short talk: Use CESE Method to solve Burgers’ Equation *by* |Gene|_
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Solve the Burgers’ equation, known as scalar non-linear equation, by using space-time conservation element and solution element (CESE) method.
 With plotting numerical and analytical results in graphs simultaneously at each time step, it is easier to verify the correctness.
+
+.. _Gene: https://github.com/Gene0315
+.. |Gene| replace:: *Gene* 
 
 free chat
 ++++++++++++++++++++++++++++++++++++++++++++++++
