@@ -38,7 +38,7 @@ const Header: React.FC = () => {
   const toggleMenu = () => setOpened(!opened);
   return (
     <header>
-      <nav className="fixed top-0 z-30 w-full">
+      <nav className="fixed top-0 z-30 w-full bg-black">
         <div className="flex flex-wrap items-center justify-between px-5 py-2">
           <div>
             <div className="hidden items-center gap-2 md:flex">
@@ -47,7 +47,7 @@ const Header: React.FC = () => {
                 src={iconImg}
                 alt="sciwork icon"
               />
-              <div className="font-yk text-bold text-5xl text-white">
+              <div className="text-bold font-yk text-5xl text-white">
                 sciwork
               </div>
             </div>
