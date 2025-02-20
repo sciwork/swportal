@@ -15,9 +15,10 @@ const NavLink = ({
   return (
     <NextLink
       className={clsx(
-        "font-yk mx-8 py-2 text-3xl text-white no-underline hover:text-red-600 lg:mr-4 lg:py-0 lg:text-2xl",
+        "mx-8 py-2 font-yk text-3xl no-underline hover:text-red-600 lg:mr-4 lg:py-0 lg:text-2xl",
         className,
-        { "text-red-600": pathname === href },
+        { "active:text-red-600": pathname === href },
+        { "text-white": pathname !== href },
       )}
       href={href}
     >
