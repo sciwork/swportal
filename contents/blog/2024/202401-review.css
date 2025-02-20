@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  gap: 10px; /* Optional gap between grid items */
+  height: 100%; /* Adjust the height as needed */
+}
+
+.grid-item {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
