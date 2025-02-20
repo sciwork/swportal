@@ -1,5 +1,7 @@
+import Content from "@/contents/index.mdx";
+
 const Home: React.FC = () => {
-  return "this is index page";
+  return <Content />;
 };
 
 export default Home;

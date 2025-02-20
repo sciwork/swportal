@@ -1,8 +1,9 @@
 import clsx from "clsx";
 import type { Viewport } from "next";
 import { Inter, Yanone_Kaffeesatz } from "next/font/google";
-import Header from "@/components/Header";
+import Container from "@/components/Container";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -77,7 +78,7 @@ export default function RootLayout({
         )}
       >
         <Header />
-        <main className="tw-grow text-gray-900">{children}</main>
+        <Container as="main">{children}</Container>
         <Footer />
       </body>
     </html>
