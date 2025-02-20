@@ -1,9 +1,11 @@
+import typography from "@tailwindcss/typography";
 import type { Config } from "tailwindcss";
 
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./contents/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   important: false,
@@ -732,5 +734,5 @@ export default {
     transitionDelay: ["responsive"],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [typography],
 } satisfies Config;
