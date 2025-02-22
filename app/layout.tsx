@@ -36,11 +36,19 @@ export async function generateMetadata() {
       siteName: "sciwork",
       locale: "en_US",
       type: "website",
+      images: [
+        {
+          url: "/sciworkbkg.png",
+          width: 1024,
+          height: 512,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: "sciwork",
       description: "science, code, and open source.",
+      images: ["/sciworkbkg.png"],
     },
     icons: {
       icon: [
