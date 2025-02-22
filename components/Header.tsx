@@ -35,7 +35,14 @@ const MenuButton = ({
 
 const Header: React.FC = () => {
   const [opened, setOpened] = useState(false);
-  const toggleMenu = () => setOpened(!opened);
+  const onToggleMenu = () => setOpened(!opened);
+  const onNavLinkClick = (e: React.MouseEvent) => {
+    const el = e.target as HTMLAnchorElement;
+    if (!el.href) return;
+
+    onToggleMenu();
+  };
+
   return (
     <header>
       <nav className="fixed top-0 z-30 w-full bg-black">
@@ -54,7 +61,7 @@ const Header: React.FC = () => {
           </div>
           <MenuButton
             className="block lg:hidden"
-            onClick={toggleMenu}
+            onClick={onToggleMenu}
             opened={opened}
           />
           <div
@@ -62,6 +69,7 @@ const Header: React.FC = () => {
               "flex-grow h-screen w-full flex-col lg:flex lg:h-auto lg:w-auto lg:flex-row",
               { hidden: !opened, flex: opened },
             )}
+            onClick={onNavLinkClick}
           >
             <hr className="border-b mt-4 border-gray-100 py-0 opacity-25" />
             <NavLink href="/">home</NavLink>
