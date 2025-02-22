@@ -1,49 +1,53 @@
-import fs from "fs";
+import { readFileSync } from "fs";
+import { globby } from "globby";
+import matter from "gray-matter";
 import { Metadata, ResolvingMetadata } from "next";
 import path from "path";
 import Content from "@/components/Content";
 
 const dirName = "contents";
 
-export const buildCollection = (collection: string) => {
-  const generateStaticParams = () => {
-    const dirPath = path.join(dirName, collection);
-    const files = fs.readdirSync(dirPath);
-    const params = files
-      .filter((file) => {
-        const fpath = path.join(dirPath, file);
-        const stats = fs.statSync(fpath);
+type ParamType = {
+  year: string;
+  article: string;
+};
 
-        return stats.isDirectory();
-      })
-      .flatMap((dir) => {
-        const dirPath = path.join(dirName, collection, dir);
-        const files = fs.readdirSync(dirPath);
-        return files
-          .filter((file) => file.endsWith(".mdx"))
-          .map((file) => {
-            return {
-              year: dir,
-              article: file.replace(".mdx", ""),
-            };
-          });
-      });
+export const buildCollection = (collection: string) => {
+  const generateStaticParams = async (): Promise<ParamType[]> => {
+    const dirPath = path.join(dirName, collection);
+    const filePaths = await globby([dirPath], {
+      expandDirectories: { extensions: ["mdx"] },
+    });
+    const params = filePaths.map((filePath) => {
+      // extract year and article from filePath
+      const [year, article] = filePath.split("/").slice(-2);
+
+      return {
+        year,
+        article: article?.replace(".mdx", ""),
+      };
+    });
 
     return params;
   };
 
   const generateMetadata = async (
-    { params }: { params: Promise<{ article: string }> },
+    { params }: { params: Promise<ParamType> },
     parent: ResolvingMetadata,
   ): Promise<Metadata> => {
     // read route params
-    const { article } = await params;
+    const { year, article } = await params;
 
     // optionally access and extend (rather than replace) parent metadata
     const previousImages = (await parent).openGraph?.images || [];
 
+    // get mdx metadata
+    const filePath = path.join(dirName, collection, year, `${article}.mdx`);
+    const fileContent = readFileSync(filePath, "utf8");
+    const { data: frontmatter } = matter(fileContent);
+
     return {
-      title: article,
+      title: frontmatter.title,
       openGraph: {
         images: [...previousImages],
       },
@@ -57,7 +61,9 @@ export const buildCollection = (collection: string) => {
   }) => {
     const { year, article } = await params;
 
-    return <Content filePath={`${collection}/${year}/${article}.mdx`} />;
+    return (
+      <Content filePath={`${dirName}/${collection}/${year}/${article}.mdx`} />
+    );
   };
 
   return {

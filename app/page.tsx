@@ -1,7 +1,7 @@
-import Content from "@/contents/index.mdx";
+import Content from "@/components/Content";
 
 const Home: React.FC = () => {
-  return <Content />;
+  return <Content filePath="contents/index.mdx" />;
 };
 
 export default Home;
