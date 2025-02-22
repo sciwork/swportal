@@ -5,7 +5,7 @@ import { Metadata, ResolvingMetadata } from "next";
 import path from "path";
 import Content from "@/components/Content";
 
-const dirName = "contents";
+const DIR_NAME = "contents";
 
 type ParamType = {
   year: string;
@@ -14,19 +14,26 @@ type ParamType = {
 
 export const buildCollection = (collection: string) => {
   const generateStaticParams = async (): Promise<ParamType[]> => {
-    const dirPath = path.join(dirName, collection);
+    const dirPath = path.join(DIR_NAME, collection);
     const filePaths = await globby([dirPath], {
       expandDirectories: { extensions: ["mdx"] },
     });
-    const params = filePaths.map((filePath) => {
-      // extract year and article from filePath
-      const [year, article] = filePath.split("/").slice(-2);
+    const params = filePaths
+      .map((filePath) => {
+        // extract year and article from filePath
+        const [year, article] = filePath.split("/").slice(-2);
 
-      return {
-        year,
-        article: article?.replace(".mdx", ""),
-      };
-    });
+        // work around for ${collection}/index.mdx case
+        if (year === collection && article === "index.mdx") {
+          return null;
+        }
+
+        return {
+          year,
+          article: article?.replace(".mdx", ""),
+        };
+      })
+      .filter((p) => p !== null);
 
     return params;
   };
@@ -42,7 +49,7 @@ export const buildCollection = (collection: string) => {
     const previousImages = (await parent).openGraph?.images || [];
 
     // get mdx metadata
-    const filePath = path.join(dirName, collection, year, `${article}.mdx`);
+    const filePath = path.join(DIR_NAME, collection, year, `${article}.mdx`);
     const fileContent = readFileSync(filePath, "utf8");
     const { data: frontmatter } = matter(fileContent);
 
@@ -62,7 +69,7 @@ export const buildCollection = (collection: string) => {
     const { year, article } = await params;
 
     return (
-      <Content filePath={`${dirName}/${collection}/${year}/${article}.mdx`} />
+      <Content filePath={`${DIR_NAME}/${collection}/${year}/${article}.mdx`} />
     );
   };
 
