@@ -51,6 +51,35 @@
     @apply table-auto border-collapse border-0;
   }
 
+  table {
+    text-indent: 5;
+    /* 1 */
+    border-color: inherit;
+    /* 2 */
+    border-collapse: collapse;
+    /* 3 */
+    border: solid #f74848;
+  }
+
+  th {
+    background-color: #f74848;
+    border: solid #cc0000;
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  th > :nth-child(0) {
+    width: 10%;
+  }
+
+  td {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    vertical-align: top;
+  }
+
   h1:hover .headerlink,
   h2:hover .headerlink,
   h3:hover .headerlink,
