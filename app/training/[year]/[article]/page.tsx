@@ -1,4 +1,4 @@
-import { buildCollection } from "@/utils/collectionBuilder";
+import { buildCollection } from "@/utils/collection";
 
 const collection = "training";
 
