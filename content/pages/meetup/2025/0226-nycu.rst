@@ -19,38 +19,102 @@ Agenda
 
 There will be many different subjects discussed at the same time.
 
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| Timetable       | Topic 1                  | Topic 2                                               | Topic 3                                      |
-+=================+==========================+=======================================================+==============================================+
-| 18:30 ~ 19:30   | free chat                                                                                                                       |
-|                 |                                                                                                                                 |
-|                 |                                                                                                                                 |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:30 ~ 19:40   | Progress update: Current progress on modmesh GUI *by Sean*                                                                      |
-|                 |                                                                                                                                 |
-|                 |                                                                                                                                 |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:40 ~ 19:50   | Progress update: Current progress on modmesh *by Vincent*                                                                       |
-|                 |                                                                                                                                 |
-|                 |                                                                                                                                 |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 19:50 ~ 20:00   | Short talk: Learning the algorithm from Leetcode *by Chun-Shih*                                                                 |
-|                 |                                                                                                                                 |
-|                 |                                                                                                                                 |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 20:00 ~ 21:00   | free chat                | modmesh discussion and training:                      | mini motorway simulator development:         |
-|                 |                          |                                                       |                                              |
-|                 |                          | 1. Use Bezier curve to fit NACA 4-digit airfoil       | 1. The random generator of the building.     |
-|                 |                          | 2. Prototype profiler object serialization using JSON | 2. The algorithm of the road building.       |
-|                 |                          | 3. Design  reorder() in DataFrame                     | 3. The calculation of the traffic flow.      |
-|                 |                          | 4. Build modmesh                                      |                                              |
-|                 |                          | 5. Make a simple PR for modmesh                       |                                              |
-|                 |                          |                                                       |                                              |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
-| 21:00 ~ 21:30   | free chat                                                                                                                       |
-|                 |                                                                                                                                 |
-|                 |                                                                                                                                 |
-+-----------------+--------------------------+-------------------------------------------------------+----------------------------------------------+
+.. raw:: html
+
+   <style>
+     .evt-time {
+       font-family: 'Yanone Kaffeesatz', arial, serif;
+       font-size: 1.1em;
+     }
+     @media (max-width: 1024px) {
+       .evt-time {
+         border-left: 2px solid #616161;
+         padding-left: 8px;
+         border-radius: 2px 0 0 2px;
+       }
+     }
+     .evt-title {
+       font-family: 'Yanone Kaffeesatz', arial, serif;
+       font-size: 1.4em;
+       margin-top: 0em;
+       margin-bottom: 0em;
+     }
+     .evt-speaker{
+       font-family: 'Yanone Kaffeesatz', arial, serif;
+       font-size: 1em;
+     }
+     .label {
+       border-radius: 2px;
+       font-size: 0.75em;
+       color: #ffffff;
+       line-height: 16px;
+       padding: 0 2px;
+       margin-right: 6px;
+     }
+     .tag1 { background: #5acc78; }
+     .tag2 { background: #2196f3; }
+     .tag1:before { content: "Progress update"; }
+     .tag2:before { content: "Talk"; }
+     hr{ margin-top: 0.3em; margin-bottom:0.3em; color:#c9c9c9;}
+   </style>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">18:30 - 19:30</div>
+    <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1"><span class="evt-time">19:30 - 19:40</span></div>
+    <div class="col-span-5 lg:col-span-4">
+      <span class="label tag1"></span>
+      <div class="evt-title">Current progress on modmesh GUI</div>
+      <div class="evt-speaker">by Sean</div>
+    </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1">
+      <span class="evt-time">19:40 - 19:50</span>
+    </div>
+    <div class="col-span-5 lg:col-span-4">
+      <span class="label tag1"></span>
+      <div class="evt-title">Current progress on modmesh</div>
+      <div class="evt-speaker">by Vincent</div>
+    </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1">
+      <span class="evt-time">19:50 - 20:00</span>
+    </div>
+    <div class="col-span-5 lg:col-span-4">
+      <span class="label tag2"></span>
+      <div class="evt-title">Learning the algorithm from Leetcode</div>
+      <div class="evt-speaker">by Chun-Shih</div>
+    </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1"><span class="evt-time">20:00 - 21:00</span></div>
+    <div class="col-span-5 lg:col-span-2">
+       <div class="evt-title">modmesh discussion and training</div>
+       <div>1. Use Bezier curve to fit NACA 4-digit airfoil</div>
+       <div>2. Prototype profiler object serialization using JSON</div>
+       <div>3. Design reorder() in DataFrame</div>
+       <div>4. Build modmesh</div>
+       <div>5. Make a simple PR for modmesh</div>
+    </div>
+    <div class="col-span-5 lg:col-span-2">
+       <div class="evt-title">mini motorway simulator development</div>
+       <div>1. The random generator of the building</div>
+       <div>2. The algorithm of the road building</div>
+       <div>3. The calculation of the traffic flow</div>
+    </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">21:00 - 21:30</div>
+    <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
+  </div>
 
 
 |
