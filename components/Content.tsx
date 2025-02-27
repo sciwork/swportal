@@ -1,24 +1,24 @@
-import { readFileSync } from "fs";
-import matter from "gray-matter";
-import { MDXRemote } from "next-mdx-remote/rsc";
-import remarkGfm from "remark-gfm";
+"use client";
+
+import dynamic from "next/dynamic";
 
 type ContentProps = {
   filePath: string;
 };
 
-const options = {
-  mdxOptions: {
-    remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
-  },
-};
-
 const Content = ({ filePath }: ContentProps) => {
-  const fileContent = readFileSync(filePath);
-  const { content } = matter(fileContent);
+  const LoadedContent: React.ElementType = dynamic(
+    () => {
+      // Wired behavior. If I include @/contents/ filePath,
+      // it will compile failed
+      return import(`@/contents/${filePath}`);
+    },
+    {
+      loading: () => <div>Loading...</div>,
+    },
+  );
 
-  return <MDXRemote source={content} options={options} />;
+  return <LoadedContent />;
 };
 
 export default Content;

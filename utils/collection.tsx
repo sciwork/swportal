@@ -139,9 +139,7 @@ export const buildCollection = (collection: string) => {
   }) => {
     const { year, article } = await params;
 
-    return (
-      <Content filePath={`${DIR_NAME}/${collection}/${year}/${article}.mdx`} />
-    );
+    return <Content filePath={`${collection}/${year}/${article}.mdx`} />;
   };
 
   return {
