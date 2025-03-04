@@ -53,7 +53,7 @@ There will be many different subjects discussed at the same time.
      }
      .tag1 { background: #5acc78; }
      .tag2 { background: #2196f3; }
-     .tag1:before { content: "Progress update"; }
+     .tag1:before { content: "Discussion"; }
      .tag2:before { content: "Talk"; }
      hr{ margin-top: 0.3em; margin-bottom:0.3em; color:#c9c9c9;}
    </style>
@@ -64,19 +64,29 @@ There will be many different subjects discussed at the same time.
   <hr/>
   <div class="grid grid-cols-5 p-1">
     <div class="col-span-5 lg:col-span-1"><span class="evt-time">19:30 - 21:00</span></div>
-    <div class="col-span-5 lg:col-span-2">
+    <div class="col-span-5 lg:col-span-4">
+      <div>
        <div class="evt-title">modmesh discussion and training</div>
        <div>1. Use Bezier curve to fit NACA 4-digit airfoil</div>
        <div>2. Prototype profiler object serialization using JSON</div>
        <div>3. Design reorder() in DataFrame</div>
        <div>4. Build modmesh</div>
        <div>5. Make a simple PR for modmesh</div>
-    </div>
-    <div class="col-span-5 lg:col-span-2">
-       <div class="evt-title">mini motorway simulator development</div>
-       <div>1. The random generator of the building</div>
-       <div>2. The algorithm of the road building</div>
-       <div>3. The calculation of the traffic flow</div>
+      </div>
+      <div>
+        <div class="evt-title">mini motorway simulator development</div>
+        <div>1. The random generator of the building</div>
+        <div>2. The algorithm of the road building</div>
+        <div>3. The calculation of the traffic flow</div>
+      </div>
+      <div>
+        <div class="evt-title">How PUI design?</div>
+        <div>1. How to design and define a declarative language interface for the user?</div>
+        <div>2. How to abstract the implementation details in PySide6?</div>
+        <div>3. How to make sure the interface is easy to use?</div>
+        <div>4. How to make a plan in the beginning of this project?</div>
+        <div>5. Is there any issues during the development?</div>
+      </div>
     </div>
   </div>
   <hr/>
@@ -129,6 +139,21 @@ In this session, we will discuss the prototype of the simulator, including:
 1. The random generator of the house and factory.
 2. The algorithm of the road building.
 3. The calculation of the traffic flow.
+
+How PUI Design?
++++++++++++++++++++++++++++++++++++++
+
+`PUI <https://github.com/buganini/PUI>`__ is a declarative language interface for the user
+to create a GUI. It is based on PySide6 and abstracts the implementation details. Just provide
+the clear and easy-to-use interface for the user.
+
+In this session, we will discuss the following topics:
+
+1. How to design and define a declarative language interface for the user?
+2. How to abstract the implementation details in PySide6?
+3. How to make sure the interface is easy to use?
+4. How to make a plan in the beginning of this project?
+5. Is there any issues during the development?
 
 free chat
 ++++++++++++++++++++++++++++++++++++++++++++++++
