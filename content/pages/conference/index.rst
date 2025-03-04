@@ -7,6 +7,11 @@ Conference
 :save_as: conference/index.html
 
 
+sciwork booth in SITCON 2025 
+============================
+Please refer to `sciwork booth in SITCON 2025  <{filename}2025/03-sitcon.rst>`__.
+
+
 sciwork 2024
 ===================
 
