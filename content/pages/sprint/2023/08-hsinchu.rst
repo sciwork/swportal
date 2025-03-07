@@ -95,7 +95,7 @@ modmesh
 Toolkit for solving partial differential equations and analysis of the results.
 
 - **Related Subjects:** Python, C++, PDE
-- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Link:** `GitHub <https://github.com/solvcon/modmesh>`__
 - **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
 
 |
@@ -106,7 +106,7 @@ pyLiteracy
 Mandarin LocativePeriodic-zai [在] and Repetitive-zai [再] parser based on syntactical 
 context. 
 
-- **Project Link:** `Github <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
 - **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
 
 |
@@ -117,7 +117,7 @@ sciwork portal
 Sciwork Portal is a project for maintaining our official website – Sciwork.dev, which was 
 built by Pelican with tailwindCSS, and deployed by Netfliy.
 
-- **Project Link:** `Github <https://github.com/sciwork/swportal>`__
+- **Project Link:** `GitHub <https://github.com/sciwork/swportal>`__
 - **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester)
 
 |

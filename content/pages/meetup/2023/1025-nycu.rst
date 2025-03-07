@@ -35,7 +35,7 @@ The sharing will provide an alternative top-down view towards the common grammar
 documents. Unlike the mainstream data-driven method, PyLiteracy does not require any pre-trained language models 
 while extracting the errors. 
 
-PyLiteracy Project Link: `Github <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+PyLiteracy Project Link: `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
 
 Meeting: prepare November scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++

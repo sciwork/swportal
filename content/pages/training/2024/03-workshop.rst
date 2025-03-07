@@ -64,7 +64,7 @@ modmesh
 ^^^^^^^^^
 
 - **Related Subjects:** Python, C++, PDE
-- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Link:** `GitHub <https://github.com/solvcon/modmesh>`__
 - **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
 
 modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
