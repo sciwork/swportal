@@ -73,7 +73,7 @@ modmesh
 Toolkit for solving partial differential equations and analysis of the results.
 
 - **Related Subjects:** Python, C++, PDE
-- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Link:** `GitHub <https://github.com/solvcon/modmesh>`__
 - **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
 
 |
@@ -84,7 +84,7 @@ sciwork portal
 Sciwork Portal is a project for maintaining our official website – Sciwork.dev, which was 
 built by Pelican with tailwindCSS, and deployed by Netfliy.
 
-- **Project Link:** `Github <https://github.com/sciwork/swportal>`__
+- **Project Link:** `GitHub <https://github.com/sciwork/swportal>`__
 - **Project Contact:** Aya yu (discord: @tN#6722), Chester (discord: @chester)
 
 |
@@ -95,7 +95,7 @@ pyLiteracy
 Mandarin LocativePeriodic-zai [在] and Repetitive-zai [再] parser based on syntactical 
 context. 
 
-- **Project Link:** `Github <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
+- **Project Link:** `GitHub <https://github.com/Chenct-jonathan/Loc_zai_and_Rep_zai_parser>`__
 - **Project Contact:** Jonathan Chen (discord: @陳畯田), PeterWolf (discord: @PeterWolf#1422)
 
 |
@@ -108,7 +108,7 @@ and optimized for Arm targets. It consists of a runtime library and an offline t
 most of the model translation work. This repo holds the core runtime and some example implementations 
 of operators, memory managers/schedulers, and more, and the size of the core runtime is only ~2KB!
 
-- **Project Link:** `Github <https://github.com/uTensor/uTensor>`__
+- **Project Link:** `GitHub <https://github.com/uTensor/uTensor>`__
 - **Project Contact:** Dboy(discord: @dboyliao#1295)
 
 
@@ -119,7 +119,7 @@ pydoccht
 
 The Traditional Chinese (zh_TW) translation project of the Python official documents.
 
-- **Project Link:** `Github <https://github.com/python/python-docs-zh-tw>`__
+- **Project Link:** `GitHub <https://github.com/python/python-docs-zh-tw>`__
 - **Project Contact:** Matt Wang (@mattwang44), Josix (@Josix#3800)
 
 |
@@ -134,7 +134,7 @@ other hand, it aims to provides many efficient methods to manipulate tensors, te
 algebra. All the critical calculation are come with CPU and GPU dedicated implementations to achieve 
 fully usage of computer resource.
 
-- **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
+- **Project Link:** `GitHub <https://github.com/Cytnx-dev/Cytnx>`__
 - **Project Contact:** Lin Chang Teng (discord: @jeffry1829#0568), Ke Hsu (discord: @kjjjjjjjjj1104#5128)
 
 |
