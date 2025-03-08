@@ -71,7 +71,7 @@ modmesh
 ^^^^^^^^^
 
 - **Related Subjects:** Python, C++, PDE
-- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Link:** `GitHub <https://github.com/solvcon/modmesh>`__
 - **Project Contact:** Yung-Yu Chen (discord: @yyc#7718)
 
 modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
@@ -111,7 +111,7 @@ presentation and visual experience. Welcome to join us if you are interested in 
 pydoccht
 ^^^^^^^^^
 
-- **Project Link:** `Github <https://github.com/python/python-docs-zh-tw>`__
+- **Project Link:** `GitHub <https://github.com/python/python-docs-zh-tw>`__
 - **Project Contact:** Matt Wang (@mattwang44), Josix (@Josix#3800)
 
 Our primary mission is to make Python's official documentation accessible to the Traditional Chinese audience by providing accurate and comprehensive translations. 

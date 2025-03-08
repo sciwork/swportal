@@ -71,7 +71,7 @@ modmesh
 ^^^^^^^^^
 
 - **Related Subjects:** Python, C++, PDE
-- **Project Link:** `Github <https://github.com/solvcon/modmesh>`__
+- **Project Link:** `GitHub <https://github.com/solvcon/modmesh>`__
 - **Project Contact:** Yung-Yu Chen (discord: @yyc#7718), Chun-Hsu (@Chun-Hsu#6296)
 
 modmesh seamlessly mixes C++ and Python through pybind11, allowing you to leverage the strengths of 
@@ -125,7 +125,7 @@ grammar checking with minimal resources in a fashion that best echoes a human be
 Cytnx
 ^^^^^^
 
-- **Project Link:** `Github <https://github.com/Cytnx-dev/Cytnx>`__
+- **Project Link:** `GitHub <https://github.com/Cytnx-dev/Cytnx>`__
 - **Project Contact:** Lin Chang Teng (discord: @jeffry1829#0568), Ke Hsu (discord: @kjjjjjjjjj1104#5128)
 
 Cytnx (pronounced as sci-tens) is a tensor network library designed for classical/quantum physics simulations. 

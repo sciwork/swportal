@@ -36,7 +36,7 @@ This sharing will start with what numerical analysis is and why we need it. And 
 the sciwork project "modmesh", this sharing will not contain any math formulas, only some 
 fancy figures!
 
-modmesh Project Link: `Github <https://github.com/solvcon/modmesh>`__
+modmesh Project Link: `GitHub <https://github.com/solvcon/modmesh>`__
 
 Preparational meeting for September scisprint
 ++++++++++++++++++++++++++++++++++++++++++++++++

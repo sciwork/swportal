@@ -85,7 +85,7 @@ Contact us
 
 * Discord: https://discord.gg/P9U7PFv
 * Twitter: `@sciwork <https://twitter.com/sciwork>`__
-* Github discussion: https://github.com/solvcon/devenv/discussions
+* GitHub discussion: https://github.com/solvcon/devenv/discussions
 
 Epilogue
 --------

@@ -78,4 +78,4 @@ Other
 
 * Discord: https://discord.gg/P9U7PFv
 * Twitter: `@sciwork <https://twitter.com/sciwork>`__
-* Github discussion: https://github.com/yungyuc/turgon/issues/31
+* GitHub discussion: https://github.com/yungyuc/turgon/issues/31
