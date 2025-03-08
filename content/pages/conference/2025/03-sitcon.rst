@@ -18,6 +18,27 @@ This year at SITCON, we have prepared:
 Whether you are an experienced developer passionate about open source or a student just starting your journey, 
 we welcome you to visit the Sciwork booth! 
 
+Besides, our community members will also give a talk at SITCON 2025, check out the details below:
+
+.. list-table::
+   :widths: 25 25 20 10
+   :header-rows: 1
+
+   * - Title
+     - Speaker
+     - Time
+     - Room
+   * - Python 的靈活！C++ 的速度！我全都要！pybind11 入門指南
+     - Jason Teng
+     - 14:45 -- 15:25
+     - R3
+   * - Linux 核心 Min Heap 實作：教科書與現實差異
+     - visitorckw
+     - 12:45 -- 13:25
+     - R2
+
+We look forward to seeing you at SITCON 2025!
+
 Date
 ----
 
