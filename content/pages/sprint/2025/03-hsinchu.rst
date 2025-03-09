@@ -65,7 +65,7 @@ numerical computation, and engineering. You are also encouraged to share your ow
 in scisprint. Refer to `project list <#project-list>`__ below for more details.
 
 Project List
-+++++++++++++
+------------
 
 modmesh
 ^^^^^^^^^
