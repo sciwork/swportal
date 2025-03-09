@@ -9,6 +9,9 @@ meetup
 meetup 2025
 ==============
 
+* `Meetup 2025 March 12th at NYCU
+  <{filename}2025/0312-nycu.rst>`__
+
 * `Meetup 2025 March 5th at NYCU
   <{filename}2025/0305-nycu.rst>`__
 
