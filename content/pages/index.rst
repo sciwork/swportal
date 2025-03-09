@@ -10,9 +10,9 @@ home
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
     <div class="flex flex-row flex-wrap text-center items-center justify-center">
         <div class="md:w-1/2 w-full flex flex-row flex-wrap justify-center space-y-1">
-            <h3 class="text-lg">sciwork 2025 February scisprint in NTHU CTC</h3>
+            <h3 class="text-lg">sciwork 2025 March scisprint in NTU Physics</h3>
             <div class="flex-col space-x-5">
-                <a href="/sprint/2025/02-hsinchu.html">scisprint page</a>
+                <a href="/sprint/2025/03-taipei.html">scisprint page</a>
                 &nbsp;&nbsp;
             </div>
         </div>
