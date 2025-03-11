@@ -62,9 +62,9 @@ There will be many different subjects discussed at the same time.
     <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
   </div>
   <hr/>
-  <div class="grid grid-cols-7 p-1">
-    <div class="col-span-7 lg:col-span-1"><span class="evt-time">19:30 - 21:00</span></div>
-    <div class="col-span-7 lg:col-span-2">
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1"><span class="evt-time">19:30 - 21:00</span></div>
+    <div class="col-span-5 lg:col-span-2">
        <div class="evt-title">modmesh discussion and training</div>
        <div>1. Use Bezier curve to fit NACA 4-digit airfoil</div>
        <div>2. Prototype profiler object serialization using JSON</div>
@@ -72,17 +72,22 @@ There will be many different subjects discussed at the same time.
        <div>4. Build modmesh</div>
        <div>5. Make a simple PR for modmesh</div>
     </div>
-    <div class="col-span-7 lg:col-span-2">
+    <div class="col-span-5 lg:col-span-2">
        <div class="evt-title">mini motorway simulator development</div>
        <div>1. The random generator of the building</div>
        <div>2. The algorithm of the road building</div>
        <div>3. The calculation of the traffic flow</div>
     </div>
-    <div class="col-span-7 lg:col-span-2">
+    <div class="col-span-5 lg:col-span-1"></div>
+    <div class="col-span-5 lg:col-span-2">
        <div class="evt-title">Discuss K8s ingress and certificate setup</div>
        <div>1. Automating SSL certificate management with cert-manager</div>
        <div>2. Configuring NGINX Ingress Controller for traffic routing.</div>
        <div>3. Deploying and managing these components using Helm charts.</div>
+    </div>
+    <div class="col-span-5 lg:col-span-2">
+       <div class="evt-title">Status update: Array for time series analysis</div>
+       <div>Arbitrary length FFT algorithm</div>
     </div>
   </div>
   <hr/>
@@ -148,6 +153,12 @@ We'll discuss:
 2. Configuring NGINX Ingress Controller for traffic routing.
 3. Deploying and managing these components using Helm charts.
 
+Status update: Array for time series analysis
++++++++++++++++++++++++++++++++++++++++++++++
+This session updates development status of time series analysis, mainly focus on fast
+fourie transform.
+
+Today's status update is **Arbitrary length FFT algorithm**.
 
 free chat
 ++++++++++++++++++++++++++++++++++++++++++++++++
