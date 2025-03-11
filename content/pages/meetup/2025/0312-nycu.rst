@@ -78,6 +78,17 @@ There will be many different subjects discussed at the same time.
        <div>2. The algorithm of the road building</div>
        <div>3. The calculation of the traffic flow</div>
     </div>
+    <div class="col-span-5 lg:col-span-1"></div>
+    <div class="col-span-5 lg:col-span-2">
+       <div class="evt-title">Discuss K8s ingress and certificate setup</div>
+       <div>1. Automating SSL certificate management with cert-manager</div>
+       <div>2. Configuring NGINX Ingress Controller for traffic routing.</div>
+       <div>3. Deploying and managing these components using Helm charts.</div>
+    </div>
+    <div class="col-span-5 lg:col-span-2">
+       <div class="evt-title">Status update: Array for time series analysis</div>
+       <div>Arbitrary length FFT algorithm</div>
+    </div>
   </div>
   <hr/>
   <div class="grid grid-cols-5 p-1">
@@ -129,6 +140,25 @@ In this session, we will discuss the prototype of the simulator, including:
 1. The random generator of the house and factory.
 2. The algorithm of the road building.
 3. The calculation of the traffic flow.
+
+
+Discuss K8s ingress and certificate setup
++++++++++++++++++++++++++++++++++++++++++
+This session explores a practical approach to setting up Ingress resources and
+automating SSL certificate management.
+
+We'll discuss:
+
+1. Automating SSL certificate management with cert-manager.
+2. Configuring NGINX Ingress Controller for traffic routing.
+3. Deploying and managing these components using Helm charts.
+
+Status update: Array for time series analysis
++++++++++++++++++++++++++++++++++++++++++++++
+This session updates development status of time series analysis, mainly focus on fast
+fourie transform.
+
+Today's status update is **Arbitrary length FFT algorithm**.
 
 free chat
 ++++++++++++++++++++++++++++++++++++++++++++++++
