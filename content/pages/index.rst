@@ -8,16 +8,77 @@ home
 .. raw:: html
 
     <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
-    <div class="flex flex-row flex-wrap text-center items-center justify-center">
-        <div class="md:w-1/2 w-full flex flex-row flex-wrap justify-center space-y-1">
-            <h3 class="text-lg">sciwork 2025 March scisprint in NTU Physics</h3>
-            <div class="flex-col space-x-5">
-                <a href="/sprint/2025/03-taipei.html">scisprint page</a>
-                &nbsp;&nbsp;
-            </div>
-        </div>
+        <div id="events-container" class="space-y-2">
     </div>
+     <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    const events = [      
+        { date: 'March 15, 2025 09:30:00', title: 'scisprint 2025 March in Taipei', type: 'Sprint', startTime: '09:30 AM', endTime: '05:00 PM', location: 'Department of Physics (National Taiwan University)', url: '/sprint/2025/03-taipei.html' },
+      { date: 'March 22, 2025 10:00:00', title: 'scisprint 2025 March in Hsinchu', type: 'Sprint', startTime: '10:00 AM', endTime: '05:00 PM', location: 'Center for Theory and Computation (National Tsing Hua University)', url: '/sprint/2025/03-taipei.html' },
+    ];
 
+    function renderEvents() {
+      const container = document.getElementById('events-container');
+      container.innerHTML = '';
+
+      events.forEach((event, index) => {
+        const eventDate = new Date(event.date);
+
+        const eventCard = document.createElement('a');
+        eventCard.href = event.url;
+        eventCard.className = 'flex shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300';
+
+        eventCard.innerHTML = `
+          <div class="bg-indigo-600 text-white flex flex-col items-center justify-center p-4 w-24 flex-shrink-0">
+            <span class="text-3xl font-bold">${eventDate.getDate()}</span>
+            <span class="text-xl">${eventDate.toLocaleString('default', { month: 'short' })}</span>
+          </div>
+          <div class="p-6 flex-1 transition duration-300" id="event-details-${index}">
+            <h2 class="text-xl font-semibold mb-2">${event.title} 
+              <span class="ml-2 inline-block px-2 py-1 text-xs uppercase font-semibold rounded bg-indigo-200 text-indigo-800">
+                ${event.type}
+              </span>
+            </h2>
+            <p class="text-gray-600"><i class="fas fa-map-marker px-1"></i> ${event.location}</p>
+            <p class="text-gray-600"><i class="fas fa-calendar px-1"></i>${event.startTime} - ${event.endTime}</p>
+            <div id="countdown-${index}" class="mt-2 text-indigo-600 font-semibold"></div>
+          </div>
+        `;
+
+        container.appendChild(eventCard);
+        countdown(event.date, `countdown-${index}`, eventCard);
+      });
+    }
+
+    function countdown(eventDate, elementId, eventCard) {
+      const element = document.getElementById(elementId);
+      const interval = setInterval(() => {
+        const now = new Date().getTime();
+        const distance = new Date(eventDate).getTime() - now;
+
+        if (distance < 0) {
+          clearInterval(interval);
+          element.innerHTML = 'Event has started!';
+          eventCard.classList.add('bg-gray-200');
+          return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        element.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+        if (days <= 3) {
+          eventCard.classList.add('bg-red-100');
+        } else {
+          eventCard.classList.add('bg-indigo-50');
+        }
+      }, 1000);
+    }
+    setTimeout(renderEvents, 0);
+  </script>
     <h2 class="text-2xl text-center mt-10">About sciwork</h2>
 
 sciwork is a community for researchers and engineers to share and discuss
