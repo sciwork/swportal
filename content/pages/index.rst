@@ -17,7 +17,15 @@ home
             </div>
         </div>
     </div>
-
+    <div class="flex flex-row flex-wrap text-center items-center justify-center">
+         <div class="md:w-1/2 w-full flex flex-row flex-wrap justify-center space-y-1">
+             <h3 class="text-lg">sciwork 2025 March scisprint in NTHU CTC</h3>
+             <div class="flex-col space-x-5">
+                 <a href="/sprint/2025/03-hsinchu.html">scisprint page</a>
+                 &nbsp;&nbsp;
+             </div>
+         </div>
+     </div>
     <h2 class="text-2xl text-center mt-10">About sciwork</h2>
 
 sciwork is a community for researchers and engineers to share and discuss
