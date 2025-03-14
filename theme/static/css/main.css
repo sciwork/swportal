@@ -1053,7 +1053,7 @@ p {
 }
 .bg-blue-900 {
   --tw-bg-opacity: 1;
-  background-color: #2D3748;
+  background-color: #2D3748 !important;
 }
 
 .object-cover {
