@@ -6,29 +6,11 @@ home
 :save_as: index.html
 
 .. raw:: html
-  <div class="max-w-3xl mx-auto">
-    <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
 
-    <div id="events-container" class="space-y-6"></div>
-  </div>
-    <div class="flex flex-row flex-wrap text-center items-center justify-center">
-        <div class="md:w-1/2 w-full flex flex-row flex-wrap justify-center space-y-1">
-            <h3 class="text-lg">sciwork 2025 March scisprint in NTU Physics</h3>
-            <div class="flex-col space-x-5">
-                <a href="/sprint/2025/03-taipei.html">scisprint page</a>
-                &nbsp;&nbsp;
-            </div>
-        </div>
+    <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
+        <div id="events-container" class="space-y-2">
     </div>
-    <div class="flex flex-row flex-wrap text-center items-center justify-center">
-         <div class="md:w-1/2 w-full flex flex-row flex-wrap justify-center space-y-1">
-             <h3 class="text-lg">sciwork 2025 March scisprint in NTHU CTC</h3>
-             <div class="flex-col space-x-5">
-                 <a href="/sprint/2025/03-hsinchu.html">scisprint page</a>
-                 &nbsp;&nbsp;
-             </div>
-         </div>
-     </div>
+     <script src="https://cdn.tailwindcss.com"></script>
   <script>
     const events = [      
         { date: 'March 15, 2025 09:30:00', title: 'Taipei', type: 'Sprint', startTime: '09:30 AM', endTime: '05:00 PM', location: 'Department of Physics (National Taiwan University)', url: '/sprint/2025/03-taipei.html' },
@@ -95,11 +77,10 @@ home
         }
       }, 1000);
     }
-
-    document.addEventListener('DOMContentLoaded', renderEvents);
+    setTimeout(renderEvents, 0);
   </script>
-  
     <h2 class="text-2xl text-center mt-10">About sciwork</h2>
+
 sciwork is a community for researchers and engineers to share and discuss
 computer code for scientific, numerical, and engineering work.  We believe in
 the power of openness, and use open source as a means to advance software
