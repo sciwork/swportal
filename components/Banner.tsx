@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import iconImg from "@/assets/android-chrome-512x512.png";
 
+const DEFAULT_TITLE = "science, code, and open source.";
 // canvas settings
 const MIN_WIDTH = 1920;
 const FONT_SIZE = 12;
@@ -36,6 +37,12 @@ const Banner: React.FC = () => {
   const ref = useRef<HTMLCanvasElement>(null);
   const pathname = usePathname();
   const isHomePage = pathname === "/";
+  const [title, setTitle] = useState(DEFAULT_TITLE);
+
+  useEffect(() => {
+    const title = document.title;
+    setTitle(title.replace("sciwork - ", ""));
+  }, [pathname, isHomePage]);
 
   useEffect(() => {
     const canvas = ref.current;
@@ -76,14 +83,14 @@ const Banner: React.FC = () => {
                 alt="sciwork icon"
               />
             </div>
-            <p className="font-yk py-10 text-3xl text-white md:text-4xl lg:text-5xl">
-              science, code, and open source.
+            <p className="py-10 font-yk text-3xl text-white md:text-4xl lg:text-5xl">
+              {DEFAULT_TITLE}
             </p>
           </>
         ) : (
           <div className="py-10">
             <h2 className="mx-10 mt-12 rounded-sm border-b-2 border-red-700 text-white">
-              1234
+              {title}
             </h2>
           </div>
         )}
