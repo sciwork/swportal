@@ -9,7 +9,7 @@ import iconImg from "@/assets/android-chrome-192x192.png";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="mt-auto flex flex-col bg-blue-900 text-white">
+    <footer className="bg-sciwork-footer mt-auto flex flex-col text-white">
       <div className="flex-grow container mx-auto my-4 px-2 py-4">
         <div className="grid grid-cols-1 justify-center gap-4 sm:grid-cols-2 sm:text-left lg:grid-cols-4">
           <div className="flex sm:items-start">

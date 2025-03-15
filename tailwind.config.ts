@@ -15,6 +15,9 @@ export default {
       fontFamily: {
         yk: ["var(--font-yanone-kaffeesatz)"],
       },
+      backgroundColor: {
+        "sciwork-footer": "#2D3748",
+      },
     },
   },
   plugins: [typography],
