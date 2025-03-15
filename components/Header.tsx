@@ -70,14 +70,15 @@ const Header: React.FC = () => {
     <header>
       <nav
         className={clsx(
-          "fixed top-0 z-30 w-full transition-colors duration-300 ease-in-out",
+          "transition fixed top-0 z-30 w-full duration-300 ease-in-out",
           {
-            "bg-black": showDarkBackground,
+            "bg-black": showDarkBackground || opened,
+            "bg-transparent": !showDarkBackground && !opened,
           },
         )}
       >
         <div className="flex flex-wrap items-center justify-between px-5 py-2">
-          <div id="header" className="flex-grow flex h-20">
+          <div id="header" className="flex-grow flex h-12 lg:h-20">
             <div className="hidden items-center gap-2 md:flex">
               <Image
                 className="mb-1 aspect-square w-10"
