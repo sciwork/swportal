@@ -72,7 +72,7 @@ const Banner: React.FC = () => {
   }, [ref]);
 
   return (
-    <div className="container mx-auto max-w-full">
+    <div id="banner" className="container mx-auto max-w-full">
       <div className="relative flex h-full w-full flex-col items-center justify-center text-center">
         {isHomePage ? (
           <>

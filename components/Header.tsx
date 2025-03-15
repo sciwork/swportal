@@ -2,10 +2,21 @@
 
 import clsx from "clsx";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Banner from "@/components/Banner";
 import NavLink from "@/components/NavLink";
 import iconImg from "@/assets/android-chrome-192x192.png";
+
+const isHeaderOverBanner = () => {
+  const headerEl = document.getElementById("header");
+  const bannerEl = document.getElementById("banner");
+
+  if (!headerEl || !bannerEl) return false;
+
+  console.log(window.scrollY, bannerEl.offsetHeight, headerEl.offsetHeight);
+
+  return window.scrollY >= headerEl.offsetHeight;
+};
 
 const MenuButton = ({
   className,
@@ -35,6 +46,8 @@ const MenuButton = ({
 
 const Header: React.FC = () => {
   const [opened, setOpened] = useState(false);
+  const [showDarkBackground, setShowDarkBackground] = useState(false);
+
   const onToggleMenu = () => setOpened(!opened);
   const onNavLinkClick = (e: React.MouseEvent) => {
     const el = e.target as HTMLAnchorElement;
@@ -43,11 +56,28 @@ const Header: React.FC = () => {
     onToggleMenu();
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowDarkBackground(isHeaderOverBanner());
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <header>
-      <nav className="fixed top-0 z-30 w-full bg-black">
+      <nav
+        className={clsx(
+          "fixed top-0 z-30 w-full transition-colors duration-300 ease-in-out",
+          {
+            "bg-black": showDarkBackground,
+          },
+        )}
+      >
         <div className="flex flex-wrap items-center justify-between px-5 py-2">
-          <div className="flex-grow flex h-20">
+          <div id="header" className="flex-grow flex h-20">
             <div className="hidden items-center gap-2 md:flex">
               <Image
                 className="mb-1 aspect-square w-10"
