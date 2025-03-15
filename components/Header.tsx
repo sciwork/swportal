@@ -47,7 +47,7 @@ const Header: React.FC = () => {
     <header>
       <nav className="fixed top-0 z-30 w-full bg-black">
         <div className="flex flex-wrap items-center justify-between px-5 py-2">
-          <div>
+          <div className="flex-grow flex h-20">
             <div className="hidden items-center gap-2 md:flex">
               <Image
                 className="mb-1 aspect-square w-10"
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
           />
           <div
             className={clsx(
-              "flex-grow h-screen w-full flex-col lg:flex lg:h-auto lg:w-auto lg:flex-row",
+              "h-screen w-full flex-col lg:flex lg:h-auto lg:w-auto lg:flex-row",
               { hidden: !opened, flex: opened },
             )}
             onClick={onNavLinkClick}
