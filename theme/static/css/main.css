@@ -1131,6 +1131,11 @@ p {
   text-align: right;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
 }

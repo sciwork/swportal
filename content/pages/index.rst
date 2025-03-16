@@ -60,7 +60,7 @@ home
         let countdownSpan = element.querySelector('.countdown-display');
         if (!countdownSpan) {
           countdownSpan = document.createElement('span');
-          countdownSpan.className = 'text-gray-700 mt-2';
+          countdownSpan.className = 'text-gray-700 text-sm mt-2';
           countdownSpan.id = `countdown-${index}`;
 
           // Add the countdown span after the time span
@@ -102,7 +102,7 @@ home
             const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            countdownElement.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+            countdownElement.textContent = `Starts in ${days}d ${hours}h ${minutes}m ${seconds}s`;
           }
         });
 
