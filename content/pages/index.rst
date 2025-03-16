@@ -7,78 +7,118 @@ home
 
 .. raw:: html
 
-    <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
-        <div id="events-container" class="space-y-2">
+    <div id="upcoming-events">
+        <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
+
+        <a href="/sprint/2025/03-taipei.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
+          <div class="flex w-24 flex-col items-center justify-center bg-red-800 py-4 text-white">
+            <span class="text-3xl">15</span>
+            <span class="text-xl">Mar</span>
+          </div>
+          <div class="flex flex-1 flex-col justify-center p-4">
+            <h4 class="text-gray-800">scisprint 2025 March in Taipei</h4>
+            <span class="text-gray-600"><i class="fa fa-map-marker mr-2"></i>Department of Physics (National Taiwan University)</span>
+            <span class="text-gray-600"><i class="fa fa-clock mr-2"></i>09:30 AM - 05:00 PM</span>
+          </div>
+        </a>
+        
+        <a href="/sprint/2025/03-hsinchu.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
+          <div class="flex w-24 flex-col items-center justify-center bg-red-800 py-4 text-white">
+            <span class="text-3xl">22</span>
+            <span class="text-xl">Mar</span>
+          </div>
+          <div class="flex flex-1 flex-col justify-center p-4">
+            <h4 class="text-gray-800">scisprint 2025 March in Hsinchu</h4>
+            <span class="text-gray-600"><i class="fa fa-map-marker mr-2"></i>Center for Theory and Computation (National Tsing Hua University)</span>
+            <span class="text-gray-600"><i class="fa fa-clock mr-2"></i>10:00 AM - 05:00 PM</span>
+          </div>
+        </a>
     </div>
-     <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    const events = [      
-        { date: 'March 15, 2025 09:30:00', title: 'scisprint 2025 March in Taipei', type: 'Sprint', startTime: '09:30 AM', endTime: '05:00 PM', location: 'Department of Physics (National Taiwan University)', url: '/sprint/2025/03-taipei.html' },
-      { date: 'March 22, 2025 10:00:00', title: 'scisprint 2025 March in Hsinchu', type: 'Sprint', startTime: '10:00 AM', endTime: '05:00 PM', location: 'Center for Theory and Computation (National Tsing Hua University)', url: '/sprint/2025/03-taipei.html' },
-    ];
 
-    function renderEvents() {
-      const container = document.getElementById('events-container');
-      container.innerHTML = '';
+    <script type="text/javascript">
+      // Find all event elements within upcoming-events
+      const upcomingEventsContainer = document.getElementById('upcoming-events');
+      const eventElements = document.querySelectorAll('#upcoming-events a');
 
-      events.forEach((event, index) => {
-        const eventDate = new Date(event.date);
+      // Initialize countdowns
+      eventElements.forEach((element, index) => {
+        // Find the datetime text from the event element
+        const dayEl = element.querySelector('div:first-child span:first-child');
+        const monthEl = element.querySelector('div:first-child span:last-child');
+        const timeEl = element.querySelector('i.fa-clock').parentNode;
 
-        const eventCard = document.createElement('a');
-        eventCard.href = event.url;
-        eventCard.className = 'flex shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300';
+        const month = monthEl.textContent.trim();
+        const day = dayEl.textContent.trim();
+        const currentYear = new Date().getFullYear();
+        const startTime = timeEl.textContent.trim().split('-')[0].trim();
+        const dateStr = `${month} ${day}, ${currentYear} ${startTime}`;
 
-        eventCard.innerHTML = `
-          <div class="bg-indigo-600 text-white flex flex-col items-center justify-center p-4 w-24 flex-shrink-0">
-            <span class="text-3xl font-bold">${eventDate.getDate()}</span>
-            <span class="text-xl">${eventDate.toLocaleString('default', { month: 'short' })}</span>
-          </div>
-          <div class="p-6 flex-1 transition duration-300" id="event-details-${index}">
-            <h2 class="text-xl font-semibold mb-2">${event.title} 
-              <span class="ml-2 inline-block px-2 py-1 text-xs uppercase font-semibold rounded bg-indigo-200 text-indigo-800">
-                ${event.type}
-              </span>
-            </h2>
-            <p class="text-gray-600"><i class="fas fa-map-marker px-1"></i> ${event.location}</p>
-            <p class="text-gray-600"><i class="fas fa-calendar px-1"></i>${event.startTime} - ${event.endTime}</p>
-            <div id="countdown-${index}" class="mt-2 text-indigo-600 font-semibold"></div>
-          </div>
-        `;
+        // Store the date in a data attribute for easy access
+        element.dataset.eventDate = dateStr;
 
-        container.appendChild(eventCard);
-        countdown(event.date, `countdown-${index}`, eventCard);
+        // Add a new span for countdown after the clock span if it doesn't exist
+        let countdownSpan = element.querySelector('.countdown-display');
+        if (!countdownSpan) {
+          countdownSpan = document.createElement('span');
+          countdownSpan.className = 'text-gray-700 mt-2';
+          countdownSpan.id = `countdown-${index}`;
+
+          // Add the countdown span after the time span
+          const parentDiv = timeEl.parentNode;
+          parentDiv.appendChild(countdownSpan);
+        }
       });
-    }
 
-    function countdown(eventDate, elementId, eventCard) {
-      const element = document.getElementById(elementId);
-      const interval = setInterval(() => {
-        const now = new Date().getTime();
-        const distance = new Date(eventDate).getTime() - now;
+      function updateCountdowns() {
+        const now = new Date();
+        let visibleEventsCount = 0;
 
-        if (distance < 0) {
-          clearInterval(interval);
-          element.innerHTML = 'Event has started!';
-          eventCard.classList.add('bg-gray-200');
-          return;
+        eventElements.forEach((element, index) => {
+          const countdownElement = document.getElementById(`countdown-${index}`);
+          if (!countdownElement) return;
+
+          // Get date from data attribute
+          const eventDateStr = element.dataset.eventDate;
+          if (!eventDateStr) return;
+
+          const eventDate = new Date(eventDateStr);
+          const distance = eventDate.getTime() - now.getTime();
+
+          if (distance < 0) {
+            if (eventDate.toDateString() === now.toDateString()) {
+              visibleEventsCount++;
+
+              // Event is today and has started
+              countdownElement.textContent = "Happening now!";
+            } else {
+              // Event is from a past day
+              element.style.display = 'none';
+            }
+          } else {
+            visibleEventsCount++;
+
+            // Format and display countdown
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            countdownElement.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+          }
+        });
+
+        // Hide the entire container if there are no upcoming events
+        if (visibleEventsCount === 0 && upcomingEventsContainer) {
+          upcomingEventsContainer.style.display = 'none';
         }
+      }
 
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Initial update
+      updateCountdowns();
 
-        element.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+      // Update every second
+      setInterval(updateCountdowns, 1000);
+    </script>
 
-        if (days <= 3) {
-          eventCard.classList.add('bg-red-100');
-        } else {
-          eventCard.classList.add('bg-indigo-50');
-        }
-      }, 1000);
-    }
-    setTimeout(renderEvents, 0);
-  </script>
     <h2 class="text-2xl text-center mt-10">About sciwork</h2>
 
 sciwork is a community for researchers and engineers to share and discuss
