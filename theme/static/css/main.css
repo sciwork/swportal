@@ -910,6 +910,10 @@ p {
   width: 1.5rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -1069,6 +1073,10 @@ p {
   padding: 0.25rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1121,6 +1129,11 @@ p {
 
 .text-right {
   text-align: right;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-3xl {
@@ -1286,4 +1299,8 @@ p {
   .lg\:text-5xl {
     font-size: 3rem;
   }
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
