@@ -22,11 +22,13 @@ const EMPTY_LIST = [
 ];
 
 export type FrontmatterType = {
-  date: string;
+  date: Date;
   title?: string;
   author?: string;
   url?: string;
   description?: string;
+  location?: string;
+  eventTime?: string;
 };
 
 export const read = async (filePath: string) => {
@@ -48,9 +50,10 @@ export const read = async (filePath: string) => {
     });
 
   frontmatter.description = frontmatter.description || plainText;
+  frontmatter.date = new Date(frontmatter.date);
 
   return {
-    frontmatter: frontmatter as FrontmatterType,
+    ...(frontmatter as FrontmatterType),
     content,
   };
 };

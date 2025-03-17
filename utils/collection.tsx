@@ -11,17 +11,17 @@ type ParamsType = {
   article: string;
 };
 
-type ArticleDataType = {
-  frontmatter: markdown.FrontmatterType;
+type ArticleDataType = markdown.FrontmatterType & {
   content: string;
 };
 
-type ArticleType = {
+export type ArticleType = {
+  collection: string;
   params: ParamsType;
   article: ArticleDataType;
 };
 
-class Collection {
+export class Collection {
   collection: string;
 
   constructor(collection: string) {
@@ -62,6 +62,7 @@ class Collection {
         );
 
         return {
+          collection: this.collection,
           params: {
             year,
             article: articleName,
@@ -76,8 +77,8 @@ class Collection {
         .filter((p) => p !== null)
         // sort articles by date descending, date format like 2024-03-01 22:27
         .sort((a, b) => {
-          const dateA = new Date(a.article.frontmatter.date);
-          const dateB = new Date(b.article.frontmatter.date);
+          const dateA = new Date(a.article.date);
+          const dateB = new Date(b.article.date);
 
           if (dateB > dateA) {
             return 1;
@@ -124,8 +125,8 @@ export const buildCollection = (collection: string) => {
     const articleData = await collectionData.getArticleData(year, article);
 
     return {
-      title: articleData.frontmatter.title,
-      description: articleData.frontmatter.description,
+      title: articleData.title,
+      description: articleData.description,
       openGraph: {
         images: [...previousImages],
       },
