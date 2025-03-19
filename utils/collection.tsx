@@ -40,10 +40,9 @@ export class Collection {
   }
 
   async listAll(): Promise<ArticleType[]> {
-    const dirPath = path.join(DIR_NAME, this.collection);
-    const filePaths = await globby([dirPath], {
-      expandDirectories: { extensions: ["mdx"] },
-    });
+    const dirPath = path.posix.join(DIR_NAME, this.collection);
+    const filePaths = await globby([`${dirPath}/**/*.mdx`]);
+
     const rawData = await Promise.all(
       filePaths.map(async (filePath) => {
         // extract year and article from filePath
