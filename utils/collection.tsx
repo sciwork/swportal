@@ -44,6 +44,9 @@ export class Collection {
   }
 
   async listAll(): Promise<ArticleType[]> {
+    const dirPath = path.posix.join(DIR_NAME, this.collection);
+    const filePaths = await globby([`${dirPath}/**/*.mdx`]);
+
     const dirPath = path.join(constants.CONTENT_DIR, this.collection);
     const filePaths = await globby([dirPath], {
       expandDirectories: { extensions: ["mdx"] },
