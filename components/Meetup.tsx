@@ -50,17 +50,7 @@ const EventCard = (props: { event: EventType }) => {
 
 const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
   return (
-    <table className="mb-5 w-full border-2 border-red-800">
-      <thead>
-        <tr>
-          <th>Timetable</th>
-          {Array(GetMaxEventCount(props.schedules))
-            .fill(1)
-            .map((value, index) => {
-              return <th key={`topic-${index}`}>Topic {`${index + 1}`}</th>;
-            })}
-        </tr>
-      </thead>
+    <table className="mb-5 w-full border-separate border-spacing-5 border-0">
       <tbody>
         {props.schedules.map((schedule, index) => {
           return (
@@ -68,7 +58,9 @@ const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
               className={`${index == props.schedules.length - 1 ? "" : "border-b-[1.5px]"}`}
               key={`${schedule.time}`}
             >
-              <td className="text-nowrap align-middle">{schedule.time}</td>
+              <td className="text-nowrap rounded align-middle text-xl font-bold">
+                {schedule.time}
+              </td>
               {schedule.events.map((event, index) => {
                 return (
                   <td
@@ -78,7 +70,7 @@ const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
                         : 1
                     }
                     key={`${schedule.time}-event-${index}`}
-                    className="border-l-[1.5px] border-l-[#cccccc] align-middle"
+                    className="rounded-xl border border-[#cccccc]"
                   >
                     <EventCard event={event} />
                   </td>
@@ -95,24 +87,19 @@ const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
 const VerticalTable = (props: { schedules: ScheduleType[] }) => {
   return (
     <table className="mb-5 w-full border-0">
-      <thead>
-        <tr>
-          <th>Topics</th>
-        </tr>
-      </thead>
       <tbody>
-        {props.schedules?.map((schedule) => {
+        {props.schedules?.map((schedule, index) => {
           return (
-            <tr className="border-b-[1.5px]" key={`${schedule.time}`}>
+            <tr key={`${schedule.time}`}>
               <td className="align-middle">
-                <p className="mt-0 text-center text-xl font-bold">
+                <p className="mb-8 mt-0 text-center text-xl font-bold">
                   {schedule.time}
                 </p>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-5">
                   {schedule.events.map((event, index) => {
                     return (
                       <div
-                        className="flex flex-row gap-3 rounded border border-[#cccccc] p-2 shadow-md"
+                        className="flex flex-row gap-3 rounded-xl border border-[#cccccc] p-2"
                         key={`${schedule.time}-event-${index}`}
                       >
                         <div className="w-full">
