@@ -35,7 +35,7 @@ const EventCard = (props: { event: EventType }) => {
 
   return (
     <div
-      className="w-full p-3 text-sm md:text-base"
+      className="w-full text-sm"
       onClick={() => setCollapsible(!collapsible)}
     >
       <p className="font-bold">{props.event.title}</p>
@@ -58,7 +58,7 @@ const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
               className={`${index == props.schedules.length - 1 ? "" : "border-b-[1.5px]"}`}
               key={`${schedule.time}`}
             >
-              <td className="text-nowrap rounded align-middle text-xl font-bold">
+              <td className="text-nowrap rounded p-0 align-middle text-xl font-bold">
                 {schedule.time}
               </td>
               {schedule.events.map((event, index) => {
