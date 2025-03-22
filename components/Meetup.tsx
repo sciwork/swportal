@@ -10,6 +10,13 @@ type ScheduleType = {
   events: EventType[];
 };
 
+const GetMaxEventCount = (schedules: ScheduleType[]) => {
+  const count = schedules.reduce((r: ScheduleType, s: ScheduleType) =>
+    r.events.length > s.events.length ? r : s,
+  ).events.length;
+  return count;
+};
+
 const EventCard = (props: { event: EventType }) => {
   const [collapsible, setCollapsible] = useState<boolean>(false);
   const Detail = () => {
@@ -45,9 +52,11 @@ const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
       <thead>
         <tr>
           <th>Timetable</th>
-          <th>Topic 1</th>
-          <th>Topic 2</th>
-          <th>Topic 3</th>
+          {Array(GetMaxEventCount(props.schedules))
+            .fill(1)
+            .map((value, index) => {
+              return <th key={`topic-${index}`}>Topic {`${index + 1}`}</th>;
+            })}
         </tr>
       </thead>
       <tbody>
@@ -57,11 +66,15 @@ const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
               className={`${index == props.schedules.length - 1 ? "" : "border-b-[1.5px]"}`}
               key={`${schedule.time}`}
             >
-              <td className="align-middle">{schedule.time}</td>
+              <td className="text-nowrap align-middle">{schedule.time}</td>
               {schedule.events.map((event, index) => {
                 return (
                   <td
-                    colSpan={schedule.events.length == 1 ? 3 : 1}
+                    colSpan={
+                      schedule.events.length == 1
+                        ? GetMaxEventCount(props.schedules)
+                        : 1
+                    }
                     key={`${schedule.time}-event-${index}`}
                     className="border-l-[1.5px] border-l-[#cccccc] align-middle"
                   >
@@ -79,7 +92,7 @@ const HorizontalTable = (props: { schedules: ScheduleType[] }) => {
 
 const VerticalTable = (props: { schedules: ScheduleType[] }) => {
   return (
-    <table className="mb-5 w-full border-2 border-red-800">
+    <table className="mb-5 w-full border-0">
       <thead>
         <tr>
           <th>Topics</th>
@@ -89,7 +102,8 @@ const VerticalTable = (props: { schedules: ScheduleType[] }) => {
         {props.schedules?.map((schedule) => {
           return (
             <tr className="border-b-[1.5px]" key={`${schedule.time}`}>
-              <td className="border-l-[1.5px] border-l-[#cccccc] align-middle">
+              <td className="align-middle">
+                <p className="mt-0 text-center font-bold">{schedule.time}</p>
                 <div className="flex flex-col gap-3">
                   {schedule.events.map((event, index) => {
                     return (
@@ -97,10 +111,7 @@ const VerticalTable = (props: { schedules: ScheduleType[] }) => {
                         className="flex flex-row gap-3 rounded border border-[#cccccc] p-2 shadow-md"
                         key={`${schedule.time}-event-${index}`}
                       >
-                        <p className="my-auto text-nowrap text-sm md:text-base">
-                          {schedule.time}
-                        </p>
-                        <div className="w-full border-l border-l-[#cccccc]">
+                        <div className="w-full">
                           <EventCard event={event}></EventCard>
                         </div>
                       </div>
@@ -119,10 +130,10 @@ const VerticalTable = (props: { schedules: ScheduleType[] }) => {
 export const Meetup = (props: { schedules: ScheduleType[] }) => {
   return (
     <>
-      <div className="hidden sm:block">
+      <div className="hidden lg:block">
         <HorizontalTable schedules={props.schedules} />
       </div>
-      <div className="blcok sm:hidden">
+      <div className="blcok lg:hidden">
         <VerticalTable schedules={props.schedules} />
       </div>
     </>
