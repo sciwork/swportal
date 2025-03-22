@@ -94,13 +94,13 @@ const VerticalTable = (props: { schedules: ScheduleType[] }) => {
                   {schedule.events.map((event, index) => {
                     return (
                       <div
-                        className="flex flex-row gap-3 rounded border p-2"
+                        className="flex flex-row gap-3 rounded border border-[#cccccc] p-2 shadow-md"
                         key={`${schedule.time}-event-${index}`}
                       >
                         <p className="my-auto text-nowrap text-sm md:text-base">
                           {schedule.time}
                         </p>
-                        <div className="w-full border-l border-l-[#eeeeee]">
+                        <div className="w-full border-l border-l-[#cccccc]">
                           <EventCard event={event}></EventCard>
                         </div>
                       </div>
