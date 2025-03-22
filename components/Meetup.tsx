@@ -2,7 +2,7 @@ import { useState } from "react";
 
 type EventType = {
   title: string;
-  descriptions?: string[];
+  description: string;
 };
 
 type ScheduleType = {
@@ -21,13 +21,15 @@ const EventCard = (props: { event: EventType }) => {
   const [collapsible, setCollapsible] = useState<boolean>(false);
   const Detail = () => {
     return (
-      <ol>
-        <>
-          {props.event.descriptions?.map((description, index) => {
-            return <li key={`descripton-${index}`}>{description}</li>;
-          })}
-        </>
-      </ol>
+      <div className="flex flex-col">
+        {props.event.description.split("\n").map((content, index) => {
+          return (
+            <p className="m-0 min-h-6" key={`descripton-${index}`}>
+              {content}
+            </p>
+          );
+        })}
+      </div>
     );
   };
 
@@ -36,8 +38,8 @@ const EventCard = (props: { event: EventType }) => {
       className="w-full p-3 text-sm md:text-base"
       onClick={() => setCollapsible(!collapsible)}
     >
-      <p>{props.event.title}</p>
-      {props.event.descriptions ? (
+      <p className="font-bold">{props.event.title}</p>
+      {props.event.description ? (
         <div className={`overflow-hidden p-3 text-left`}>
           <Detail />
         </div>
@@ -103,7 +105,9 @@ const VerticalTable = (props: { schedules: ScheduleType[] }) => {
           return (
             <tr className="border-b-[1.5px]" key={`${schedule.time}`}>
               <td className="align-middle">
-                <p className="mt-0 text-center font-bold">{schedule.time}</p>
+                <p className="mt-0 text-center text-xl font-bold">
+                  {schedule.time}
+                </p>
                 <div className="flex flex-col gap-3">
                   {schedule.events.map((event, index) => {
                     return (
