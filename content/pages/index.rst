@@ -35,7 +35,7 @@ home
         </a>
 
 
-        <a href="/meetup/2025/0326.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
+        <a href="/meetup/2025/0326-nycu.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
           <div class="flex w-24 flex-col items-center justify-center bg-red-800 py-4 text-white">
             <span class="text-3xl">26</span>
             <span class="text-xl">Mar</span>
