@@ -1,10 +1,9 @@
 import { globby } from "globby";
 import { Metadata, ResolvingMetadata } from "next";
 import path from "path";
-import Content from "@/components/Content";
+import constants from "@/configurations/constants";
+import { RawContent } from "@/components/Content";
 import * as markdown from "@/utils/markdown";
-
-const DIR_NAME = "contents";
 
 type ParamsType = {
   year: string;
@@ -33,14 +32,19 @@ export class Collection {
     year: string,
     article: string,
   ): Promise<ArticleDataType> {
-    const filePath = path.join(DIR_NAME, collection, year, `${article}.mdx`);
+    const filePath = path.join(
+      constants.CONTENT_DIR,
+      collection,
+      year,
+      `${article}.mdx`,
+    );
     const data = await markdown.read(filePath);
 
     return data;
   }
 
   async listAll(): Promise<ArticleType[]> {
-    const dirPath = path.join(DIR_NAME, this.collection);
+    const dirPath = path.join(constants.CONTENT_DIR, this.collection);
     const filePaths = await globby([dirPath], {
       expandDirectories: { extensions: ["mdx"] },
     });
@@ -139,8 +143,9 @@ export const buildCollection = (collection: string) => {
     params: Promise<{ year: string; article: string }>;
   }) => {
     const { year, article } = await params;
+    const articleData = await collectionData.getArticleData(year, article);
 
-    return <Content filePath={`${collection}/${year}/${article}.mdx`} />;
+    return <RawContent content={articleData.content} />;
   };
 
   return {
