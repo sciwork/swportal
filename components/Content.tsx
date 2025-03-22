@@ -3,10 +3,12 @@ import path from "path/posix";
 import remarkGfm from "remark-gfm";
 import constants from "@/configurations/constants";
 import Map from "@/components/Map";
+import TagIcon from "@/components/icons/TagIcon";
 import * as markdown from "@/utils/markdown";
 
 const components = {
   Map,
+  TagIcon,
 };
 
 const options = {
