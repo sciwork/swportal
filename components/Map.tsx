@@ -4,13 +4,15 @@ type MapProps = {
 
 const Map = ({ src }: MapProps) => {
   return (
-    <iframe
-      className="absolute left-0 top-0 h-full w-full border-0"
-      src={src}
-      allowFullScreen
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    />
+    <div className="relative aspect-video">
+      <iframe
+        className="absolute left-0 top-0 h-full w-full border-0"
+        src={src}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
   );
 };
 
