@@ -13,6 +13,9 @@ hosted by sciwork.
 Scisprint 2025
 ==============
 
+* `Scisprint 2025 April in Hsinchu
+  <{filename}2025/04-hsinchu.rst>`__
+
 * `Scisprint 2025 March in Hsinchu
   <{filename}2025/03-hsinchu.rst>`__
 
