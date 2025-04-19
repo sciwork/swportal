@@ -22,13 +22,13 @@ flow for contribution is:
 
 Before you start, make sure you have the following installed:
 
-1. ``node`` (v18.16.0). We recommend using `nvm <https://github.com/nvm-sh/nvm>`__ to manage your node versions. Once you have ``nvm`` installed, run ``nvm install v18.16.0`` to install node. Then use `avn <https://github.com/wbyoung/avn>`__ to automatically switch to the correct node version when you enter the project directory.
-2. ``yarn``
+1. ``node`` (v22.13.1). We recommend using `nvm <https://github.com/nvm-sh/nvm>`__ to manage your node versions. Once you have ``nvm`` installed, run ``nvm install v22.13.1`` to install node. Then use `avn <https://github.com/wbyoung/avn>`__ to automatically switch to the correct node version when you enter the project directory.
+2. ``pnpm``
 
 Install the necessary dependencies via:
 
 .. code-block:: bash
-  yarn install
+  pnpm install
 
 In the working copy root, run the following command for the local devserver:
 
