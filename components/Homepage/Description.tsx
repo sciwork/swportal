@@ -8,9 +8,6 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 
 import "./Hero.css"; // Import your CSS file for styles
 
-import Image from "next/image";
-import iconImg from "@/assets/android-chrome-512x512.png";
-
 gsap.registerPlugin(useGSAP, MotionPathPlugin, ScrollTrigger); // register the MotionPathPlugin
 
 // ------- Kudos to Osmo [https://osmo.supply/] ------- //
