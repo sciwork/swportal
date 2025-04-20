@@ -1,0 +1,152 @@
+/* ------- Osmo [https://osmo.supply/] ------- */
+/* Osmo UI: https://slater.app/10324/23333.css */
+
+.cloneable {
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.looping-words {
+    height: 2.7em;
+    padding-left: .1em;
+    padding-right: .1em;
+    font-size: 9vw;
+    line-height: .9;
+    position: relative;
+}
+
+.looping-words__list {
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-family: "Yanone Kaffeesatz", arial, serif;
+    white-space: nowrap;
+    flex-flow: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.looping-words__list.is--primary {
+    color: var(--color-primary);
+}
+
+.looping-words__list.is--gray {
+    color: var(--color-neutral-500);
+}
+
+.looping-words__fade {
+    /* @apply bg-gradient-to-b from-neutral-300 via-transparent to-neutral-300; */
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.looping-words__fade.is--radial {
+    background-image: radial-gradient(circle closest-side at 50% 50%, transparent 64%, var(--color-neutral-400) 93%);
+    width: 140%;
+    display: block;
+    left: -20%;
+}
+
+.looping-words__selector {
+    pointer-events: none;
+    width: 100%;
+    height: .9em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.looping-words__edge {
+    @apply border-t-[0.035em] border-l-[0.035em] border-red-400;
+    width: .125em;
+    height: .125em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.looping-words__edge.is--2 {
+    left: auto;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+.looping-words__edge.is--3 {
+    inset: auto 0 0 auto;
+    transform: rotate(180deg);
+}
+
+.looping-words__edge.is--4 {
+    top: auto;
+    bottom: 0;
+    transform: rotate(270deg);
+}
+
+.looping-words__containers {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.looping-words__p {
+    margin: 0;
+}
+
+.line {
+    width: 100%;
+    max-width: 800px;
+    height: 8px;
+    margin: 0 0 10px 0;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.panel p {
+    max-width: 80ch;
+    display: block;
+}
+
+.panel {
+    flex-direction: column;
+    font-size: 1.1em;
+}
+
+.panel h1 {
+    font-size: 1.8em;
+    color: white;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.panel.description {
+    padding-bottom: 60px;
+}
+
+.panel p,
+.panel li {
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 0.3em 0 1em 0;
+}
+
+.panel li {
+    margin: 0;
+}
