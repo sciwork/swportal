@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import type { Viewport } from "next";
 import { Inter, Yanone_Kaffeesatz } from "next/font/google";
-import Container from "@/components/Container";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import "./globals.css";
@@ -86,7 +85,7 @@ export default function RootLayout({
         )}
       >
         <Header />
-        <Container as="main">{children}</Container>
+        {children}
         <Footer />
       </body>
     </html>
