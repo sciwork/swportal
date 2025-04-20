@@ -2,6 +2,7 @@
 
 import clsx from "clsx";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Banner from "@/components/Banner";
 import NavLink from "@/components/NavLink";
@@ -45,6 +46,9 @@ const MenuButton = ({
 const Header: React.FC = () => {
   const [opened, setOpened] = useState(false);
   const [showDarkBackground, setShowDarkBackground] = useState(false);
+
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
 
   const onToggleMenu = () => setOpened(!opened);
   const onNavLinkClick = (e: React.MouseEvent) => {
@@ -112,7 +116,9 @@ const Header: React.FC = () => {
           </div>
         </div>
       </nav>
-      <Banner />
+      {isHomePage ? (
+        <></>
+      ) : (<Banner />)}
     </header>
   );
 };
