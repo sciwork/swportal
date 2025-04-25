@@ -23,13 +23,13 @@ home
         </a>
 
 
-        <a href="/meetup/2025/0423-nycu.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
+        <a href="/meetup/2025/0430-nycu.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
           <div class="flex w-24 flex-col items-center justify-center bg-red-800 py-4 text-white">
-            <span class="text-3xl">23</span>
+            <span class="text-3xl">30</span>
             <span class="text-xl">Apr</span>
           </div>
           <div class="flex flex-1 flex-col justify-center p-4">
-            <h4 class="text-gray-800">Meetup 2025 April 23rd in NYCU</h4>
+            <h4 class="text-gray-800">Meetup 2025 April 30th in NYCU</h4>
             <span class="text-gray-600"><i class="fa fa-map-marker mr-2"></i>Room 329, Engineering Building 3, NYCU</span>
             <span class="text-gray-600"><i class="fa fa-clock mr-2"></i>06:30 PM - 09:30 PM</span>
           </div>
