@@ -1,4 +1,4 @@
-YARN?=yarn
+PNPM?=pnpm
 PELICANOPTS=-t mytheme
 
 BASEDIR=$(CURDIR)
@@ -18,16 +18,16 @@ help:
 	@echo ''
 
 html:
-	OUTPUTDIR=$(OUTPUTDIR) SITEURL=$(SITEURL) $(YARN) build
+	OUTPUTDIR=$(OUTPUTDIR) SITEURL=$(SITEURL) $(PNPM) build
 
 clean:
 	[ ! -d $(OUTPUTDIR_PATH) ] || rm -rf $(OUTPUTDIR_PATH)
 
 serve:
-	SITEURL=$(SITEURL) $(YARN) start -p $(PORT)
+	SITEURL=$(SITEURL) $(PNPM) start -p $(PORT)
 
 devserver:
-	SITEURL=$(SITEURL) $(YARN) dev -p $(PORT)
+	SITEURL=$(SITEURL) $(PNPM) dev -p $(PORT)
 
 deploy: html
 
