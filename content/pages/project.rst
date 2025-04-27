@@ -157,3 +157,13 @@ many communities. We still have a lot of issues to fix and develop. Welcome to j
 **You can join the Discord group to discuss the project.**
 
 - Discord: https://discord.gg/6MAkFrD
+
+|
+
+CPython-contribution-tutorial
+------------------------------
+
+- **Project contact:** Leon (discord: @rockleon)
+
+CPython is the source code of Python. When developing with Python, have you ever had new ideas you'd like to contribute
+to CPython? We will guide everyone through learning how to contribute code to CPython.
