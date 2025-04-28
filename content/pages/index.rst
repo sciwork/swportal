@@ -10,19 +10,6 @@ home
     <div id="upcoming-events">
         <h2 class="text-2xl text-center mb-5">Upcoming Events</h2>
 
-        <a href="/sprint/2025/04-hsinchu.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
-          <div class="flex w-24 flex-col items-center justify-center bg-red-800 py-4 text-white">
-            <span class="text-3xl">19</span>
-            <span class="text-xl">Apr</span>
-          </div>
-          <div class="flex flex-1 flex-col justify-center p-4">
-            <h4 class="text-gray-800">scisprint 2025 April in Hsinchu</h4>
-            <span class="text-gray-600"><i class="fa fa-map-marker mr-2"></i>Center for Theory and Computation (National Tsing Hua University)</span>
-            <span class="text-gray-600"><i class="fa fa-clock mr-2"></i>10:00 AM - 05:00 PM</span>
-          </div>
-        </a>
-
-
         <a href="/meetup/2025/0430-nycu.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
           <div class="flex w-24 flex-col items-center justify-center bg-red-800 py-4 text-white">
             <span class="text-3xl">30</span>
@@ -32,6 +19,18 @@ home
             <h4 class="text-gray-800">Meetup 2025 April 30th in NYCU</h4>
             <span class="text-gray-600"><i class="fa fa-map-marker mr-2"></i>Room 329, Engineering Building 3, NYCU</span>
             <span class="text-gray-600"><i class="fa fa-clock mr-2"></i>06:30 PM - 09:30 PM</span>
+          </div>
+        </a>
+
+        <a href="/sprint/2025/05-hsinchu.html" class="flex w-full rounded-lg shadow-md no-underline overflow-hidden my-4">
+          <div class="flex w-24 flex-col items-center justify-center bg-red-800 py-4 text-white">
+            <span class="text-3xl">10</span>
+            <span class="text-xl">May</span>
+          </div>
+          <div class="flex flex-1 flex-col justify-center p-4">
+            <h4 class="text-gray-800">scisprint 2025 May in Hsinchu</h4>
+            <span class="text-gray-600"><i class="fa fa-map-marker mr-2"></i>Center for Theory and Computation (National Tsing Hua University)</span>
+            <span class="text-gray-600"><i class="fa fa-clock mr-2"></i>10:00 AM - 05:00 PM</span>
           </div>
         </a>
 
