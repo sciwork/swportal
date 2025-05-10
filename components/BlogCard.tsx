@@ -1,6 +1,6 @@
 import NextLink from "next/link";
 import { ArticleType } from "@/utils/collection";
-import "dayjs";
+import dayjs from "dayjs";
 
 type Props = {
   event: ArticleType;
@@ -48,7 +48,7 @@ const BlogCard = ({ event }: Props) => {
 };
 
 function formatDate(date: Date): string {
-  return date.toString("dd MMMM yyyy");
+  return dayjs(date).format("DD MMMM YYYY");
 }
 
 export default BlogCard;
