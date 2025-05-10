@@ -1,5 +1,6 @@
 import NextLink from "next/link";
 import { ArticleType } from "@/utils/collection";
+import "datejs";
 
 type Props = {
   event: ArticleType;
@@ -7,7 +8,6 @@ type Props = {
 
 const BlogCard = ({ event }: Props) => {
   const eventDate = event.article.date;
-
 
   return (
     <div className="w-full sm:w-full md:w-1/2 mb-4 px-2">
@@ -44,15 +44,11 @@ const BlogCard = ({ event }: Props) => {
       </div>
     </div>
   </div>
-
   );
 };
+
 function formatDate(date: Date): string {
-  return date.toLocaleDateString("en-GB", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  });
+  return date.toString("dd MMMM yyyy");
 }
 
 export default BlogCard;

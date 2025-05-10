@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import BlogCard from "@/components/BlogCard";
 import { ArticleType, Collection } from "@/utils/collection";
+import "datejs";
 
 type Props = {
   className?: string;
