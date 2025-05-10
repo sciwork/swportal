@@ -29,22 +29,22 @@
     font-family: "Yanone Kaffeesatz", arial, serif;
   }
   h1 {
-    @apply text-6xl;
+    @apply text-6xl mb-1 mt-4;
   }
   h2 {
-    @apply text-5xl;
+    @apply text-5xl mb-1 mt-4;
   }
   h3 {
-    @apply text-4xl;
+    @apply text-4xl mb-1 mt-4;
   }
   h4 {
-    @apply text-3xl;
+    @apply text-3xl mb-1 mt-4;
   }
   h5 {
-    @apply text-2xl;
+    @apply text-2xl mb-1 mt-4;
   }
   h6 {
-    @apply text-xl;
+    @apply text-xl mb-1 mt-4;
   }
 
   table {
@@ -102,7 +102,7 @@
 
   ol,
   ul {
-    padding-left: 1em;
+    margin: 1em 0 1em 2em;
   }
 
   ol {

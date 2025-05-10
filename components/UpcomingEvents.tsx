@@ -12,10 +12,6 @@ const UpcomingEvents = async ({ className }: Props) => {
   const upcomingEvents = sprints
     .slice(0, 2)
     .filter((event) => event.article.date > new Date());
-  console.log(
-    "upcomingEvents",
-    upcomingEvents.map((event) => event.article.title),
-  );
 
   if (upcomingEvents.length === 0) {
     return null;

@@ -13,8 +13,6 @@ const isHeaderOverBanner = () => {
 
   if (!headerEl || !bannerEl) return false;
 
-  console.log(window.scrollY, bannerEl.offsetHeight, headerEl.offsetHeight);
-
   return window.scrollY >= headerEl.offsetHeight;
 };
 
@@ -36,9 +34,9 @@ const MenuButton = ({
       onClick={onClick}
     >
       <div className={clsx("nav_icon w-6", { open: opened })}>
-        <span className="bar rounded block bg-white duration-200 ease-in-out" />
-        <span className="bar rounded block bg-white duration-200 ease-in-out" />
-        <span className="bar rounded block bg-white duration-200 ease-in-out" />
+        <span className="bar block rounded bg-white duration-200 ease-in-out" />
+        <span className="bar block rounded bg-white duration-200 ease-in-out" />
+        <span className="bar block rounded bg-white duration-200 ease-in-out" />
       </div>
     </button>
   );
@@ -70,7 +68,7 @@ const Header: React.FC = () => {
     <header>
       <nav
         className={clsx(
-          "transition fixed top-0 z-30 w-full duration-300 ease-in-out",
+          "fixed top-0 z-30 w-full transition duration-300 ease-in-out",
           {
             "bg-black": showDarkBackground || opened,
             "bg-transparent": !showDarkBackground && !opened,
@@ -78,7 +76,7 @@ const Header: React.FC = () => {
         )}
       >
         <div className="flex flex-wrap items-center justify-between px-5 py-2">
-          <div id="header" className="flex-grow flex h-12 lg:h-20">
+          <div id="header" className="flex h-12 flex-grow lg:h-20">
             <div className="hidden items-center gap-2 md:flex">
               <Image
                 className="mb-1 aspect-square w-10"
@@ -102,7 +100,7 @@ const Header: React.FC = () => {
             )}
             onClick={onNavLinkClick}
           >
-            <hr className="border-b mt-4 border-gray-100 py-0 opacity-25" />
+            <hr className="mt-4 border-b border-gray-100 py-0 opacity-25" />
             <NavLink href="/">home</NavLink>
             <NavLink href="/blog">blog</NavLink>
             <NavLink href="/sprint">sprint</NavLink>

@@ -1,24 +1,41 @@
-"use client";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import path from "path/posix";
+import remarkGfm from "remark-gfm";
+import constants from "@/configurations/constants";
+import Map from "@/components/Map";
+import TagIcon from "@/components/icons/TagIcon";
+import * as markdown from "@/utils/markdown";
 
-import dynamic from "next/dynamic";
+const components = {
+  Map,
+  TagIcon,
+};
+
+const options = {
+  mdxOptions: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [],
+  },
+};
+
+type RawContentProps = {
+  content: string;
+};
+
+export const RawContent = ({ content }: RawContentProps) => {
+  return (
+    <MDXRemote source={content} options={options} components={components} />
+  );
+};
 
 type ContentProps = {
   filePath: string;
 };
 
-const Content = ({ filePath }: ContentProps) => {
-  const LoadedContent: React.ElementType = dynamic(
-    () => {
-      // Wired behavior. If I include @/contents/ filePath,
-      // it will compile failed
-      return import(`@/contents/${filePath}`);
-    },
-    {
-      loading: () => <div>Loading...</div>,
-    },
-  );
+const Content = async ({ filePath }: ContentProps) => {
+  const data = await markdown.read(path.join(constants.CONTENT_DIR, filePath));
 
-  return <LoadedContent />;
+  return <RawContent content={data.content} />;
 };
 
 export default Content;
