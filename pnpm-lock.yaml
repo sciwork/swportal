@@ -66,6 +66,12 @@ importers:
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^5.2.2
         version: 5.2.2(prettier@3.5.0)
+      '@types/datejs':
+        specifier: ^0.0.36
+        version: 0.0.36
+      '@types/mdx':
+        specifier: ^2.0.13
+        version: 2.0.13
       '@types/node':
         specifier: ^20
         version: 20.17.17
@@ -472,6 +478,9 @@ packages:
 
   '@types/acorn@4.0.6':
     resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
+
+  '@types/datejs@0.0.36':
+    resolution: {integrity: sha512-06GcLxwERc6AqZ5N1gvWjqtWaoPR5lu3MK5hjD9ehwxGjJq8rJkvlq22mdVRowqlhrXKzm116FsONdgmHPDM0A==}
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -2729,6 +2738,8 @@ snapshots:
   '@types/acorn@4.0.6':
     dependencies:
       '@types/estree': 1.0.6
+
+  '@types/datejs@0.0.36': {}
 
   '@types/debug@4.1.12':
     dependencies:
