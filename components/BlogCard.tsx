@@ -1,6 +1,6 @@
 import NextLink from "next/link";
 import { ArticleType } from "@/utils/collection";
-import "datejs";
+import "dayjs";
 
 type Props = {
   event: ArticleType;
