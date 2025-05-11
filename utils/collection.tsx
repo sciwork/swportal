@@ -107,7 +107,15 @@ export class Collection {
   }
 }
 
-export const buildCollection = (collection: string) => {
+type BuildCollectionType = {
+  showAuthor?: boolean;
+  showDate?: boolean;
+};
+
+export const buildCollection = (
+  collection: string,
+  { showAuthor, showDate }: BuildCollectionType = {},
+) => {
   const collectionData = new Collection(collection);
   const generateStaticParams = async (): Promise<ParamsType[]> => {
     const articles = await collectionData.listAll();
@@ -145,7 +153,19 @@ export const buildCollection = (collection: string) => {
     const { year, article } = await params;
     const articleData = await collectionData.getArticleData(year, article);
 
-    return <RawContent content={articleData.content} />;
+    return (
+      <>
+        {showDate && (
+          <time className="text-gray-600">
+            {articleData.date.toLocaleDateString()}
+          </time>
+        )}
+        {showAuthor && (
+          <div className="italic text-gray-600">By {articleData.author}</div>
+        )}
+        <RawContent content={articleData.content} />
+      </>
+    );
   };
 
   return {

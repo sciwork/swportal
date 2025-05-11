@@ -4,7 +4,7 @@ import dayjs from "dayjs";
 const collection = "blog";
 
 const { generateStaticParams, generateMetadata, Page } =
-  buildCollection(collection);
+  buildCollection(collection, { showAuthor: true, showDate: true });
 
 const BlogPage = async({params,}:{params :Promise<{year:string ; article:string}>}) =>{
   const { year, article } = await params;
