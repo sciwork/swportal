@@ -4,6 +4,7 @@ import path from "path";
 import constants from "@/configurations/constants";
 import { RawContent } from "@/components/Content";
 import * as markdown from "@/utils/markdown";
+import dayjs from "dayjs";
 
 type ParamsType = {
   year: string;
@@ -157,7 +158,7 @@ export const buildCollection = (
       <>
         {showDate && (
           <time className="text-gray-600">
-            {articleData.date.toLocaleDateString()}
+            {dayjs(articleData.date).format("ddd DD MMM YYYY")}
           </time>
         )}
         {showAuthor && (
