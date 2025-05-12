@@ -1,7 +1,7 @@
-import Content from "@/components/Content";
+// import Content from "@/components/Content";
 import UpcomingEvents from "@/components/UpcomingEvents";
 import HomepageHero from "@/components/Homepage/Hero";
-import HomepageDescription from "@/components/Homepage/Description";
+// import HomepageDescription from "@/components/Homepage/Description";
 
 const Home: React.FC = () => {
   return (

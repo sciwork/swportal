@@ -26,7 +26,11 @@ const HomepageHero: React.FC = ({ className }: Props) => {
 
     useGSAP(() => {
         // GSAP animation for SVG
-        const wordList = document.querySelector('[data-looping-words-list]');
+        const wordList = document.querySelector('[data-looping-words-list]') as HTMLElement | null;
+        if (!wordList) {
+            console.error("Element with [data-looping-words-list] not found.");
+            return;
+        }
         const words = Array.from(wordList.children);
         const totalWords = words.length;
         const wordHeight = 100 / totalWords; // Offset as a percentage
@@ -57,7 +61,10 @@ const HomepageHero: React.FC = ({ className }: Props) => {
                         wordList.appendChild(wordList.children[0]);
                         currentIndex--;
                         gsap.set(wordList, { yPercent: -wordHeight * currentIndex });
-                        words.push(words.shift());
+                        const shiftedWord = words.shift();
+                        if (shiftedWord) {
+                            words.push(shiftedWord);
+                        }
                     }
                 }
             });
