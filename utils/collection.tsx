@@ -93,6 +93,24 @@ export class Collection {
     );
   }
 
+  async listByYear(): Promise<Map<string, ArticleType[]>> {
+    const articles = await this.listAll();
+    // group articles by year
+    const groupedArticles = articles.reduce(
+      (acc: Map<string, ArticleType[]>, article: ArticleType) => {
+        const year = article.params.year;
+        if (!acc.has(year)) {
+          acc.set(year, []);
+        }
+        acc.get(year)?.push(article);
+        return acc;
+      },
+      new Map<string, ArticleType[]>(),
+    );
+
+    return groupedArticles;
+  }
+
   async list(page: number = 1, size: number = 10) {
     const articles = await this.listAll();
     const start = (page - 1) * size;

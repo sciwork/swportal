@@ -5,13 +5,13 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Banner from "@/components/Banner";
 import NavLink from "@/components/NavLink";
+import { isDesktop } from "@/utils/device";
 import iconImg from "@/assets/android-chrome-192x192.png";
 
 const isHeaderOverBanner = () => {
   const headerEl = document.getElementById("header");
-  const bannerEl = document.getElementById("banner");
 
-  if (!headerEl || !bannerEl) return false;
+  if (!headerEl) return false;
 
   return window.scrollY >= headerEl.offsetHeight;
 };
@@ -46,7 +46,11 @@ const Header: React.FC = () => {
   const [opened, setOpened] = useState(false);
   const [showDarkBackground, setShowDarkBackground] = useState(false);
 
-  const onToggleMenu = () => setOpened(!opened);
+  const onToggleMenu = () => {
+    if (isDesktop()) return;
+
+    setOpened(!opened);
+  };
   const onNavLinkClick = (e: React.MouseEvent) => {
     const el = e.target as HTMLAnchorElement;
     if (!el.href) return;
