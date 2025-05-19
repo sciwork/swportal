@@ -63,7 +63,16 @@ There will be many different subjects discussed at the same time.
   </div>
   <hr/>
   <div class="grid grid-cols-5 p-1">
-    <div class="col-span-5 lg:col-span-1"><span class="evt-time">19:30 - 21:00</span></div>
+    <div class="col-span-5 lg:col-span-1 evt-time">19:30 - 20:00</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Preliminary Presentation by c1ydeh</div>
+      <div>In this section, Huang Han-Xuan (c1ydeh) will give a preliminary presentation of his slides for the 2025 Sciwork Seminar. </div>
+      <div>The topic is "Test Data Protection Battle: Exploring Security Issues in Project-Based Online Judge"</div>
+    </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1"><span class="evt-time">20:00 - 21:00</span></div>
     <div class="col-span-5 lg:col-span-2">
        <div class="evt-title">modmesh discussion and training</div>
        <div>1. Use Bezier curve to fit NACA 4-digit airfoil</div>
@@ -74,9 +83,8 @@ There will be many different subjects discussed at the same time.
     </div>
     <div class="col-span-5 lg:col-span-2">
        <div class="evt-title">RoAG development</div>
-       <div>1. Configure the LLM api service and prompt.</div>
-       <div>2. Develop the general format of the model.</div>
-       <div>3. Develop the render engine.</div>
+       <div>1. Develop the general format of the model.</div>
+       <div>2. Develop the render engine.</div>
     </div>
   </div>
   <hr/>
@@ -121,14 +129,13 @@ and you can learn part of the following skills.
 
 RoAG development
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-If you like the LLM and graphics,
+If you like the computer graphics,
 don't miss this session.
 
 In this session, we will discuss the following topic:  
 
-1. Configure the LLM api service and prompt.
-2. Develop the general format of the model.
-3. Develop the render engine.
+1. Develop the general format of the model.
+2. Develop the render engine.
 
 
 free chat
