@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_icon.open span:nth-child(1) {
+  transform: translateY(0.5rem) rotate(45deg);
+}
+
+.nav_icon.open span:nth-child(3) {
+  transform: translateY(-0.5rem) rotate(-45deg);
+}
+
+.nav_icon.open span:nth-child(2) {
+  transform: scale(0);
+}
+
+.nav_icon .bar {
+  height: 0.1rem;
+  margin: 0.4rem 0;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Yanone Kaffeesatz", arial, serif;
+  }
+  h1 {
+    @apply text-6xl mb-1 mt-4;
+  }
+  h2 {
+    @apply text-5xl mb-1 mt-4;
+  }
+  h3 {
+    @apply text-4xl mb-1 mt-4;
+  }
+  h4 {
+    @apply text-3xl mb-1 mt-4;
+  }
+  h5 {
+    @apply text-2xl mb-1 mt-4;
+  }
+  h6 {
+    @apply text-xl mb-1 mt-4;
+  }
+
+  table {
+    @apply table-auto border-collapse border-0;
+  }
+
+  table {
+    text-indent: 5;
+    /* 1 */
+    border-color: inherit;
+    /* 2 */
+    border-collapse: collapse;
+    /* 3 */
+    border: solid #f74848;
+  }
+
+  th {
+    background-color: #f74848;
+    border: solid #cc0000;
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  th > :nth-child(0) {
+    width: 10%;
+  }
+
+  td {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    vertical-align: top;
+  }
+
+  h1:hover .headerlink,
+  h2:hover .headerlink,
+  h3:hover .headerlink,
+  h4:hover .headerlink,
+  h5:hover .headerlink,
+  h6:hover .headerlink {
+    @apply visible;
+  }
+  .headerlink {
+    @apply invisible pl-1 text-lg no-underline;
+  }
+  :target {
+    padding-top: 88px;
+    margin-top: -88px;
+  }
+
+  a {
+    @apply text-red-600 underline;
+  }
+
+  ol,
+  ul {
+    margin: 1em 0 1em 2em;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  p {
+    @apply my-4;
+  }
+}

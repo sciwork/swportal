@@ -1,0 +1,70 @@
+.evt-time {
+  font-family: "Yanone Kaffeesatz", arial, serif;
+  font-size: 1.1em;
+}
+@media (max-width: 1024px) {
+  .evt-time {
+    border-left: 2px solid #616161;
+    padding-left: 8px;
+    border-radius: 2px 0 0 2px;
+  }
+}
+.evt-title {
+  font-family: "Yanone Kaffeesatz", arial, serif;
+  font-size: 1.4em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.evt-speaker {
+  font-family: "Yanone Kaffeesatz", arial, serif;
+  font-size: 1em;
+}
+.label {
+  border-radius: 2px;
+  font-size: 0.75em;
+  color: #ffffff;
+  line-height: 16px;
+  padding: 0 2px;
+  margin-right: 6px;
+}
+.room1 {
+  background: #fbc02d;
+}
+.room2 {
+  background: #2196f3;
+}
+.room3 {
+  background: #5acc78;
+}
+.talk {
+  background: #424242;
+}
+.tutorial {
+  background: #424242;
+}
+.sprint {
+  background: #424242;
+}
+.room1:before {
+  content: "Room 1";
+}
+.room2:before {
+  content: "Room 2";
+}
+.room3:before {
+  content: "Room 3";
+}
+.talk:before {
+  content: "Talk";
+}
+.tutorial:before {
+  content: "Tutorial";
+}
+.sprint:before {
+  content: "Sprint";
+}
+hr {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: #c9c9c9;
+}
