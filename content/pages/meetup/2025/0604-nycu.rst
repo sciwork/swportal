@@ -1,15 +1,15 @@
 ========================================
-Meetup 2025 May 28th in NYCU
+Meetup 2025 June 4th in NYCU
 ========================================
 
-:date: 2025-05-21 20:59
-:url: meetup/2025/0528-nycu
-:save_as: meetup/2025/0528-nycu.html
+:date: 2025-06-01 20:59
+:url: meetup/2025/0604-nycu
+:save_as: meetup/2025/0604-nycu.html
 
 Date
 -----
 
-* Date: May 28th, 2025
+* Date: June 4th, 2025
 * Time: 18:30 -- 21:30 (3 hours)
 
 |
@@ -146,7 +146,7 @@ Sign up
 ------------
 
 The meetup is free. 
-Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1374732465410674780>`__. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1378702073524125818>`__. 
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
