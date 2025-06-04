@@ -57,9 +57,29 @@ There will be many different subjects discussed at the same time.
      .tag2:before { content: "Talk"; }
      hr{ margin-top: 0.3em; margin-bottom:0.3em; color:#c9c9c9;}
    </style>
-   <div class="grid grid-cols-5 p-1">
-    <div class="col-span-5 lg:col-span-1 evt-time">18:30 - 20:00</div>
-    <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
+
+  <div class="grid grid-cols-5 p-1">
+  <div class="col-span-5 lg:col-span-1 evt-time">18:30 - 19:00</div>
+  <div class="col-span-5 lg:col-span-4">
+    <div class="evt-title">Discussion 1</div>
+    <div>Discuss with @threemonth for turning the work on modmesh into a December conference talk</div>
+  </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+  <div class="col-span-5 lg:col-span-1 evt-time">19:00 - 19:30</div>
+  <div class="col-span-5 lg:col-span-4">
+    <div class="evt-title">Discussion 2</div>
+    <div>Discuss with @c1ydeh for a coding topic for making a December conference talk</div>
+  </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+  <div class="col-span-5 lg:col-span-1 evt-time">19:00 - 19:30</div>
+  <div class="col-span-5 lg:col-span-4">
+    <div class="evt-title">Discussion 3</div>
+    <div>@Gene to expedite filing issues and discussions for improving the Burgers' solver along with its GUI.</div>
+  </div>
   </div>
   <hr/>
   <div class="grid grid-cols-5 p-1">
@@ -73,9 +93,8 @@ There will be many different subjects discussed at the same time.
        <div>5. Make a simple PR for modmesh</div>
     </div>
     <div class="col-span-5 lg:col-span-2">
-       <div class="evt-title">RoAG development</div>
-       <div>1. Develop the general format of the model.</div>
-       <div>2. Develop the render engine.</div>
+       <div class="evt-title">Review seminar slides</div>
+       <div>Review @KHLee seminar slides.</div>
     </div>
   </div>
   <hr/>
@@ -117,16 +136,6 @@ and you can learn part of the following skills.
 3. Writing Pybind11 and Unittest.
 4. Fundamentals of CMake, GNU Make, and GitHub Workflow.
 
-
-RoAG development
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-If you like the computer graphics,
-don't miss this session.
-
-In this session, we will discuss the following topic:  
-
-1. Develop the general format of the model.
-2. Develop the render engine.
 
 
 free chat
