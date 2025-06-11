@@ -58,8 +58,24 @@ There will be many different subjects discussed at the same time.
      hr{ margin-top: 0.3em; margin-bottom:0.3em; color:#c9c9c9;}
    </style>
    <div class="grid grid-cols-5 p-1">
-    <div class="col-span-5 lg:col-span-1 evt-time">18:30 - 20:00</div>
+    <div class="col-span-5 lg:col-span-1 evt-time">18:30 - 19:00</div>
     <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
+  </div>
+  <hr/>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">19:00 - 19:30</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Seminar Presentation Rehearsal 1</div>
+      <div>@Explorer will rehearse his presentation for seminar, titled "在系上管理運算資源的那檔事".</div>
+    </div>
+  </div>
+  <hr/>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">19:30 - 20:00</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Seminar Presentation Rehearsal 2</div>
+      <div>@KHLee529 will rehearse his presentation for seminar, titled "C++ template meta-programming: crafting a SIMD library".</div>
+    </div>
   </div>
   <hr/>
   <div class="grid grid-cols-5 p-1">
