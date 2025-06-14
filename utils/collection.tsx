@@ -123,14 +123,6 @@ export class Collection {
     const start = (page - 1) * size;
     return articles.slice(start, start + size);
   }
-
-  async getArticleData(
-    year: string,
-    article: string,
-  ): Promise<ArticleDataType> {
-    // Use the first collection for article data retrieval
-    return await Collection.getArticleData(this.collections[0], year, article);
-  }
 }
 
 type BuildCollectionType = {
@@ -160,7 +152,7 @@ export const buildCollection = (
     const previousImages = (await parent).openGraph?.images || [];
 
     // get mdx metadata
-    const articleData = await collectionData.getArticleData(year, article);
+    const articleData = await Collection.getArticleData(collection, year, article);
 
     return {
       title: articleData.title,
@@ -177,7 +169,7 @@ export const buildCollection = (
     params: Promise<{ year: string; article: string }>;
   }) => {
     const { year, article } = await params;
-    const articleData = await collectionData.getArticleData(year, article);
+    const articleData = await Collection.getArticleData(collection, year, article);
 
     return (
       <>
