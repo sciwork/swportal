@@ -1,0 +1,204 @@
+========================================
+Meetup 2025 June 18th in NYCU
+========================================
+
+:date: 2025-06-06 00:18
+:url: meetup/2025/0618-nycu
+:save_as: meetup/2025/0618-nycu.html
+
+Date
+-----
+
+* Date: June 18th, 2025
+* Time: 18:30 -- 21:30 (3 hours)
+
+|
+
+Agenda
+--------
+
+There will be many different subjects discussed at the same time.
+
+.. raw:: html
+
+   <style>
+     .evt-time {
+       font-family: 'Yanone Kaffeesatz', arial, serif;
+       font-size: 1.1em;
+     }
+     @media (max-width: 1024px) {
+       .evt-time {
+         border-left: 2px solid #616161;
+         padding-left: 8px;
+         border-radius: 2px 0 0 2px;
+       }
+     }
+     .evt-title {
+       font-family: 'Yanone Kaffeesatz', arial, serif;
+       font-size: 1.4em;
+       margin-top: 0em;
+       margin-bottom: 0em;
+     }
+     .evt-speaker{
+       font-family: 'Yanone Kaffeesatz', arial, serif;
+       font-size: 1em;
+     }
+     .label {
+       border-radius: 2px;
+       font-size: 0.75em;
+       color: #ffffff;
+       line-height: 16px;
+       padding: 0 2px;
+       margin-right: 6px;
+     }
+     .tag1 { background: #5acc78; }
+     .tag2 { background: #2196f3; }
+     .tag1:before { content: "Discussion"; }
+     .tag2:before { content: "Talk"; }
+     hr{ margin-top: 0.3em; margin-bottom:0.3em; color:#c9c9c9;}
+   </style>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">18:30 - 19:00</div>
+    <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
+  </div>
+  <hr/>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">19:00 - 19:30</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Discussing the workaround of Discontiguous Array Manipulation</div>
+      <div>@threemonth will discuss his workaround about discontiguous array manipulation in modmesh</div>
+    </div>
+  </div>
+  <hr/>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">19:30 - 20:00</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Discussing the workaround of Profiler</div>
+      <div>@c1ydeh will discuss his workaround about multiple function comparison in modmesh profiler.</div>
+    </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1"><span class="evt-time">20:00 - 21:00</span></div>
+    <div class="col-span-5 lg:col-span-2">
+       <div class="evt-title">modmesh discussion and training</div>
+       <div>1. Use Bezier curve to fit NACA 4-digit airfoil</div>
+       <div>2. Prototype profiler object serialization using JSON</div>
+       <div>3. Design operator in SimpleArray</div>
+       <div>4. Build modmesh</div>
+       <div>5. Make a simple PR for modmesh</div>
+    </div>
+  </div>
+  <hr/>
+  <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">20:00 - 21:30</div>
+    <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
+  </div>
+
+
+|
+
+Subjects
+------------------
+
+modmesh discussion and training
++++++++++++++++++++++++++++++++++++++
+
+discussion
+^^^^^^^^^^^^
+
+In the discussion session, 
+we will discuss the following topics simultaneously, 
+and you can choose the topic you are interested in.
+
+1. `Use Bezier curve to fit NACA 4-digit airfoil <https://github.com/solvcon/modmesh/issues/320>`__
+2. `Prototype profiler object serialization using JSON <https://github.com/solvcon/modmesh/issues/343>`__
+3. `Design the operator in SimpleArray <https://github.com/solvcon/modmesh/issues/514>`__ 
+4. `Design the Discontiguous Array Manipulation`
+5. `Multiple function comparison on profiler`
+
+training
+^^^^^^^^^^^^
+
+If you are interested in the `modmesh project <https://github.com/solvcon/modmesh>`__, 
+but you are not familiar with the project, 
+we also have a training session for you, 
+and you can learn part of the following skills.
+
+1. Setting up and demonstrating modmesh.
+2. Basics of Git and GitHub.
+3. Writing Pybind11 and Unittest.
+4. Fundamentals of CMake, GNU Make, and GitHub Workflow.
+
+free chat
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+In this session, you could discuss any topic you are interested in. 
+Additionally, we will discuss the following items to prepare the upcoming events.
+
+* Task arrangement for volunteers
+* Promotion plan for upcoming events, including scisprint and next meetup
+* The schedule of the projects
+
+
+|
+
+Sign up
+------------
+
+The meetup is free. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1380197488161460264>`__. 
+Click the green check mark to participate the meetup.
+
+If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
+All recent sciwork event are at the top of the left sidebar.
+
+|
+
+About Meetup
+------------
+
+Meetup is an event providing space for people to work on open source
+projects together. We welcome any subjects that may interest the attendees,
+and especially encourage code for science, engineering, and technology, which
+demand more critical discussions than other applications of computer
+programming.
+
+We would like to provide a supportive and friendly environment for all
+attendees to support more developers to join in the open-source communities.
+
+To join the meetup, please bring your laptop and `sign up <#sign-up>`__. Please
+`contact us <#contact-us>`__ if you have any questions.
+
+|
+
+Venue
+-----
+
+`NYCU EA101 工程一館共創基地 <https://property.ict.nycu.edu.tw/laboratory_ii.html?getId=11>`__
+
+| Address: EA101 No. 1001, University Road, Hsinchu 300, Taiwan
+|   地址: 新竹市東區大學路 1001 號 工程一館 101 室
+|
+
+.. raw:: html
+
+  <div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778.3748284774173!2d120.99697110565252!3d24.788344909261326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468360e33c425a5%3A0xbce6e64798b2e2d2!2z5bel56iL5LiA6aSo!5e0!3m2!1szh-TW!2stw!4v1650097596018!5m2!1szh-TW!2stw"
+      style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+      loading="lazy">
+    </iframe>
+  </div>
+
+
+Contact us
+----------
+
+* sciwork: https://sciwork.dev/
+* discord: https://discord.gg/6MAkFrD
+* email: `contact@sciwork.dev (subject: I want to lead a project in scisprint) <mailto:contact@sciwork.dev?subject=[sciwork]%20I%20want%20to%20lead%20a%20project%20in%20scisprint>`__
+* flickr: https://www.flickr.com/photos/sciwork/albums
