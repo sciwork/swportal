@@ -22,10 +22,10 @@ export type ArticleType = {
 };
 
 export class Collection {
-  collection: string;
+  collections: string[];
 
-  constructor(collection: string) {
-    this.collection = collection;
+  constructor(collections: string | string[]) {
+    this.collections = Array.isArray(collections) ? collections : [collections];
   }
 
   static async getArticleData(
@@ -45,53 +45,59 @@ export class Collection {
   }
 
   async listAll(): Promise<ArticleType[]> {
-    const dirPath = path.join(constants.CONTENT_DIR, this.collection);
-    const filePaths = await globby([dirPath], {
-      expandDirectories: { extensions: ["mdx"] },
-    });
-    const rawData = await Promise.all(
-      filePaths.map(async (filePath) => {
-        // extract year and article from filePath
-        const [year, article] = filePath.split("/").slice(-2);
-        const articleName = article.replace(".mdx", "");
+    // Get articles from all collections
+    const allArticles = await Promise.all(
+      this.collections.map(async (collection) => {
+        const dirPath = path.join(constants.CONTENT_DIR, collection);
+        const filePaths = await globby([dirPath], {
+          expandDirectories: { extensions: ["mdx"] },
+        });
 
-        // work around for ${collection}/index.mdx case
-        if (year === this.collection && article === "index.mdx") {
-          return null;
-        }
+        const rawData = await Promise.all(
+          filePaths.map(async (filePath) => {
+            // extract year and article from filePath
+            const [year, article] = filePath.split("/").slice(-2);
+            const articleName = article.replace(".mdx", "");
 
-        const articleData = await Collection.getArticleData(
-          this.collection,
-          year,
-          articleName,
+            // work around for ${collection}/index.mdx case
+            if (year === collection && article === "index.mdx") {
+              return null;
+            }
+
+            const articleData = await Collection.getArticleData(
+              collection,
+              year,
+              articleName,
+            );
+
+            return {
+              collection: collection,
+              params: {
+                year,
+                article: articleName,
+              },
+              article: articleData,
+            };
+          }),
         );
 
-        return {
-          collection: this.collection,
-          params: {
-            year,
-            article: articleName,
-          },
-          article: articleData,
-        };
-      }),
+        return rawData.filter((p) => p !== null);
+      })
     );
 
-    return (
-      rawData
-        .filter((p) => p !== null)
-        // sort articles by date descending, date format like 2024-03-01 22:27
-        .sort((a, b) => {
-          const dateA = DayUtils.from(a.article.date);
-          const dateB = DayUtils.from(b.article.date);
+    // Flatten and sort all articles by date descending
+    return allArticles
+      .flat()
+      .sort((a, b) => {
+        const dateA = DayUtils.from(a.article.date);
+        const dateB = DayUtils.from(b.article.date);
 
-          if (dateB.isAfter(dateA)) {
-            return 1;
-          }
+        if (dateB.isAfter(dateA)) {
+          return 1;
+        }
 
-          return -1;
-        })
-    );
+        return -1;
+      });
   }
 
   async listByYear(): Promise<Map<string, ArticleType[]>> {
@@ -122,7 +128,8 @@ export class Collection {
     year: string,
     article: string,
   ): Promise<ArticleDataType> {
-    return await Collection.getArticleData(this.collection, year, article);
+    // Use the first collection for article data retrieval
+    return await Collection.getArticleData(this.collections[0], year, article);
   }
 }
 
@@ -135,7 +142,7 @@ export const buildCollection = (
   collection: string,
   { showAuthor, showDate }: BuildCollectionType = {},
 ) => {
-  const collectionData = new Collection(collection);
+  const collectionData = new Collection([collection]);
   const generateStaticParams = async (): Promise<ParamsType[]> => {
     const articles = await collectionData.listAll();
 

@@ -3,12 +3,11 @@ import UpcomingEvents from "@/components/UpcomingEvents";
 import { Collection } from "@/utils/collection";
 
 const Home: React.FC = async () => {
-  const collection = new Collection("sprint");
-  const sprints = await collection.list();
+  const events = await new Collection(["sprint", "meetup"]).list();
 
   return (
     <>
-      <UpcomingEvents className="mb-10" events={sprints} />
+      <UpcomingEvents className="mb-10" events={events} />
       <Content filePath="index.mdx" />
     </>
   );
