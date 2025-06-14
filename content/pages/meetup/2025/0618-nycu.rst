@@ -91,7 +91,7 @@ There will be many different subjects discussed at the same time.
   </div>
   <hr/>
   <div class="grid grid-cols-5 p-1">
-    <div class="col-span-5 lg:col-span-1 evt-time">20:00 - 21:30</div>
+    <div class="col-span-5 lg:col-span-1 evt-time">21:00 - 21:30</div>
     <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
   </div>
 
