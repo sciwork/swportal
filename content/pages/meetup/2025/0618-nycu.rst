@@ -59,7 +59,10 @@ There will be many different subjects discussed at the same time.
    </style>
    <div class="grid grid-cols-5 p-1">
     <div class="col-span-5 lg:col-span-1 evt-time">18:30 - 19:00</div>
-    <div class="col-span-5 lg:col-span-4 evt-title">Free chat</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Discussion on future plan for accelerating array manipulation</div>
+      <div>@khlee529 will discuss his workaround about future plan for accelerating array manipulation in modmesh</div>
+    </div>
   </div>
   <hr/>
    <div class="grid grid-cols-5 p-1">
@@ -78,8 +81,16 @@ There will be many different subjects discussed at the same time.
     </div>
   </div>
   <hr/>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">20:00 - 20:20</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Discussing the workaround for searching specific elements</div>
+      <div>@pc_hsu would like to discuss his workaround about searching functions in Modmesh's SimpleArray</div>
+    </div>
+  </div>
+  <hr/>
   <div class="grid grid-cols-5 p-1">
-    <div class="col-span-5 lg:col-span-1"><span class="evt-time">20:00 - 21:00</span></div>
+    <div class="col-span-5 lg:col-span-1"><span class="evt-time">20:20 - 21:00</span></div>
     <div class="col-span-5 lg:col-span-2">
        <div class="evt-title">modmesh discussion and training</div>
        <div>1. Use Bezier curve to fit NACA 4-digit airfoil</div>
@@ -175,17 +186,17 @@ To join the meetup, please bring your laptop and `sign up <#sign-up>`__. Please
 Venue
 -----
 
-`NYCU EA101 工程一館共創基地 <https://property.ict.nycu.edu.tw/laboratory_ii.html?getId=11>`__
+`NYCU A209室 綜合一館 <https://www.nycu.edu.tw/userfiles/nycuch/files/20240507162223659.pdf>`__
 
-| Address: EA101 No. 1001, University Road, Hsinchu 300, Taiwan
-|   地址: 新竹市東區大學路 1001 號 工程一館 101 室
+| Address: A209 No. 1001, University Road, Hsinchu 300, Taiwan
+|   地址: 新竹市東區大學路 1001 號 綜合一館 209 室
 |
 
 .. raw:: html
 
   <div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778.3748284774173!2d120.99697110565252!3d24.788344909261326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468360e33c425a5%3A0xbce6e64798b2e2d2!2z5bel56iL5LiA6aSo!5e0!3m2!1szh-TW!2stw!4v1650097596018!5m2!1szh-TW!2stw"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d527.8575026025868!2d120.99712327467483!3d24.784590998822914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346836056b9289f5%3A0x7be0996c788ed7de!2z5ZyL56uL6Zm95piO5Lqk6YCa5aSn5a24IOe2nOWQiOS4gOmkqA!5e1!3m2!1szh-TW!2stw!4v1750072875073!5m2!1szh-TW!2stw"
       style="left:0; top:0; height:100%; width:100%; position:absolute; border:0;"
       allowfullscreen=""
       aria-hidden="false"
