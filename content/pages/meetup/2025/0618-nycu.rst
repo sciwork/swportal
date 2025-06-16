@@ -78,8 +78,16 @@ There will be many different subjects discussed at the same time.
     </div>
   </div>
   <hr/>
+   <div class="grid grid-cols-5 p-1">
+    <div class="col-span-5 lg:col-span-1 evt-time">20:00 - 20:20</div>
+    <div class="col-span-5 lg:col-span-4">
+      <div class="evt-title">Discussing the workaround for searching specific elements</div>
+      <div>@pc_hsu would like to discuss his workaround about searching functions in Modmesh's SimpleArray</div>
+    </div>
+  </div>
+  <hr/>
   <div class="grid grid-cols-5 p-1">
-    <div class="col-span-5 lg:col-span-1"><span class="evt-time">20:00 - 21:00</span></div>
+    <div class="col-span-5 lg:col-span-1"><span class="evt-time">20:20 - 21:00</span></div>
     <div class="col-span-5 lg:col-span-2">
        <div class="evt-title">modmesh discussion and training</div>
        <div>1. Use Bezier curve to fit NACA 4-digit airfoil</div>
