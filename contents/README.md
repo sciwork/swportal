@@ -2,27 +2,7 @@
 
 This guide explains how to add new meetup and sprint articles to the sciwork website. Follow these steps to ensure your content is properly formatted and successfully deployed.
 
-## 1. Fork and Checkout
-
-First, fork the repository and create a local branch following the [Commitizen](https://github.com/commitizen/cz-cli) format:
-
-```bash
-# Clone your forked repo (if you haven't already)
-git clone https://github.com/your-username/swportal.git
-cd swportal
-
-# Create a new branch with commitizen naming convention
-git checkout -b docs/0521-meetup
-```
-
-The branch name should follow the format: `type/description`, where common types include:
-
-- `docs`: For content additions or documentation changes
-- `feat`: For new features
-- `fix`: For bug fixes
-- `chore`: For maintenance tasks
-
-## 2. File Structure and Placement
+## 1. File Structure and Placement
 
 Place your MDX files in the appropriate directory according to this structure:
 
@@ -33,7 +13,7 @@ Place your MDX files in the appropriate directory according to this structure:
 - For sprints: `contents/sprint/YYYY/MM-location.mdx`
   - Example: `contents/sprint/2025/05-hsinchu.mdx`
 
-## 3. MDX File Format
+## 2. MDX File Format
 
 ### Frontmatter
 
@@ -107,50 +87,6 @@ To get the embed URL from Google Maps:
 2. Click "Share" and select "Embed a map"
 3. Copy the provided iframe src URL
 4. Use this URL in the Map component's `src` attribute
-
-## 4. Committing Your Changes
-
-After creating or editing your file, commit with a message following the Commitizen format:
-
-```bash
-# Add your changes
-git add .
-
-# Commit with a descriptive message
-git commit -m "docs: add the 5/21 meetup page"
-```
-
-Recommended commit formats:
-
-- `docs: add the MMDD meetup page`
-- `docs: add the MM sprint page`
-
-## 5. Creating a Pull Request
-
-Push your branch to your forked repository:
-
-```bash
-git push origin docs/0521-meetup
-```
-
-Then create a pull request:
-
-1. Go to your forked swportal GitHub repo
-2. Click "Pull requests" > "New pull request"
-3. You should see a message like "There isn't anything to compare"
-4. Set the base repository to the upstream `sciwork/swportal` and base branch to `develop`
-5. Set the head repository to your fork and the compare branch to your feature branch (e.g., `docs/0521-meetup`)
-6. Assign reviewers to review your PR
-7. Submit the pull request
-
-## 6. Review and Deployment Process
-
-After your PR is approved:
-
-1. A maintainer will merge your PR into the `develop` branch
-2. The maintainer will create a new PR named like "Publish: Add the 20250521 agenda"
-3. This PR will target `master` from `develop`
-4. When merged to `master`, the content will automatically deploy to [https://sciwork.dev/](https://sciwork.dev/)
 
 ## Example MDX Template
 
