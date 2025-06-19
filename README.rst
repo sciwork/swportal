@@ -88,13 +88,5 @@ If you want to fix bugs or typographical errors, create a branch named like
 Writing content
 ===============
 
-Pelican supports writing content in reStructuredText format (with a file ending
-in ``.rst``) or Markdown syntax (with a file ending in ``.md``, ``.markdown``,
-``.mkd``, or ``.mdown``).
-
-Scisprint
----------
-
-To add a new Scisprint event, save the pages into
-``content/pages/sprint/{date:%Y}`` directory,
-and the URL should be ``sprint/{date:%Y}/{slug}``.
+For detailed instructions on how to write and organize content for this website,
+please refer to `contents/README.md <contents/README.md>`__.
