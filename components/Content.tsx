@@ -1,6 +1,7 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import path from "path/posix";
 import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
 import constants from "@/configurations/constants";
 import AgendaTable from "@/components/AgendaTable";
 import Map from "@/components/Map";
@@ -16,7 +17,7 @@ const components = {
 const options = {
   mdxOptions: {
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
+    rehypePlugins: [rehypeSlug],
   },
 };
 
