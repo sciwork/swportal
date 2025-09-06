@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import NextLink from "next/link";
 import { ArticleType, Collection } from "@/utils/collection";
+import { ArticleCard } from "@/components/ArticleCard";
+import dayjs from "dayjs";
 
 export const metadata: Metadata = {
   title: "Meetup",
@@ -19,13 +21,17 @@ const Page: React.FC = async () => {
             <h3>Meetup {year}</h3>
             <ul>
               {articles.map((article: ArticleType) => (
-                <li key={article.article.title}>
-                  <NextLink
-                    href={`/meetup/${article.params.year}/${article.params.article}`}
-                  >
-                    {article.article.title}
-                  </NextLink>
-                </li>
+                <NextLink
+                  className="no-underline"
+                  key={`${article.params.year}/${article.params.article}`}
+                  href={`/meetup/${article.params.year}/${article.params.article}`}
+                >
+                  { /* Because the meetup time before 2025/06/11 is wrong. I decide to hide them. */ }
+                  <ArticleCard 
+                    article={article} 
+                    hideDate={dayjs(article.article.date).isBefore("2025-06-18")}
+                  ></ArticleCard>
+                </NextLink>
               ))}
             </ul>
           </div>
