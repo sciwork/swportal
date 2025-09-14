@@ -16,14 +16,14 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, hideDate = fa
         <div>
           <h5 className="m-0 text-black">{article.article.title}</h5>
         </div>
-        { article.article.location != undefined ? 
+        { article.article.location &&
             <div className="flex flex-row gap-1">
             <FontAwesomeIcon icon={faMapMarker} className="text-gray-500 w-5 my-auto"></FontAwesomeIcon>
             <p className="my-auto text-gray-500">{article.article.location}</p>
-            </div> : null
+            </div>
         }
         <div className="flex flex-row gap-1">
-          { hideDate ? null :
+          { !hideDate &&
             <>
               <FontAwesomeIcon icon={faClock} className="text-gray-500 w-5 my-auto"></FontAwesomeIcon>
               <p className="my-auto text-gray-500">{article.article.date.split(" ")[0]}</p>
