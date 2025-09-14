@@ -14,7 +14,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, hideDate = fa
       <FontAwesomeIcon icon={faCalendar} className="my-auto text-red-800" size="2xl"></FontAwesomeIcon>
       <div className="flex flex-col">
         <div>
-          <p className="text-lg m-0 text-black">{article.article.title}</p>
+          <h5 className="m-0 text-black">{article.article.title}</h5>
         </div>
         { article.article.location != undefined ? 
             <div className="flex flex-row gap-1">
