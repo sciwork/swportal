@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import NextLink from "next/link";
 import { ArticleType, Collection } from "@/utils/collection";
+import { ArticleCard } from "@/components/ArticleCard";
 
 export const metadata: Metadata = {
   title: "Sprint",
@@ -24,13 +25,13 @@ const Page: React.FC = async () => {
             <h3>Sprint {year}</h3>
             <ul>
               {articles.map((article: ArticleType) => (
-                <li key={article.article.title}>
-                  <NextLink
-                    href={`/sprint/${article.params.year}/${article.params.article}`}
-                  >
-                    {article.article.title}
-                  </NextLink>
-                </li>
+                <NextLink
+                  className="no-underline"
+                  key={`${article.params.year}/${article.params.article}`}
+                  href={`/sprint/${article.params.year}/${article.params.article}`}
+                >
+                  <ArticleCard article={article}></ArticleCard>
+                </NextLink>
               ))}
             </ul>
           </div>
