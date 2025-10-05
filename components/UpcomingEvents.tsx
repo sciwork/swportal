@@ -5,17 +5,28 @@ import EventCard from "@/components/EventCard";
 import { ArticleType } from "@/utils/collection";
 import { DayUtils } from "@/utils/date";
 
+const UPCOMING_EVENTS_SIZE = 4;
+
 type Props = {
   className?: string;
   events: ArticleType[];
 };
 
 const UpcomingEvents = ({ className, events }: Props) => {
-  const upcomingEvents = events.slice(0, 2).filter((event) => {
+  const currentDate = DayUtils.now();
+  const result: ArticleType[] = [];
+
+  for (const event of events) {
     const eventDate = DayUtils.from(event.article.date);
-    const currentDate = DayUtils.now();
-    return eventDate.isAfter(currentDate);
-  });
+    
+    if (eventDate.isAfter(currentDate)) {
+      result.push(event);
+    } else {
+      break;
+    }
+  }
+
+  const upcomingEvents = result.reverse().slice(0, UPCOMING_EVENTS_SIZE);
 
   if (upcomingEvents.length === 0) {
     return null;

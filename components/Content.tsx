@@ -6,12 +6,14 @@ import constants from "@/configurations/constants";
 import AgendaTable from "@/components/AgendaTable";
 import Map from "@/components/Map";
 import TagIcon from "@/components/icons/TagIcon";
+import RegistrationButton from "@/components/RegistrationButton";
 import * as markdown from "@/utils/markdown";
 
 const components = {
   Map,
   AgendaTable,
   TagIcon,
+  RegistrationButton,
 };
 
 const options = {
