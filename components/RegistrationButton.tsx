@@ -19,16 +19,7 @@ export default function RegistrationButton({
       className={className}
     >
       <button 
-        style={{
-          backgroundColor: "#3BA55D",
-          color: "white",
-          padding: "10px 20px",
-          border: "none",
-          borderRadius: "6px",
-          cursor: "pointer",
-          fontSize: "1rem",
-          fontWeight: "bold"
-        }}
+        className="bg-[#3BA55D] text-white px-5 py-2.5 border-0 rounded-md cursor-pointer text-base font-bold hover:bg-[#2d7a3f] transition-colors duration-200"
       >
         {text}
       </button>
