@@ -93,6 +93,18 @@ const Footer: React.FC = () => {
               >
                 Commitizen-Tools
               </Link>
+              <Link
+                href="/project#owlsense_any_place"
+                className="block text-white no-underline"
+              >
+                OwlSense_Any_Place
+              </Link>
+              <Link
+                href="/project#bbgo"
+                className="block text-white no-underline"
+              >
+                BBGO
+              </Link>
             </div>
           </div>
 
