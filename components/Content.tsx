@@ -17,6 +17,7 @@ const components = {
 };
 
 const options = {
+  disableImports: true,
   mdxOptions: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypeSlug],
