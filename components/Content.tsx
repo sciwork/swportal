@@ -1,4 +1,4 @@
-import { MDXRemote } from "next-mdx-remote/rsc";
+import { MDXRemote } from "next-mdx-remote-client/rsc";
 import path from "path/posix";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
@@ -17,6 +17,7 @@ const components = {
 };
 
 const options = {
+  disableImports: true,
   mdxOptions: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypeSlug],
