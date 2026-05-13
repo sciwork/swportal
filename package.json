@@ -20,7 +20,7 @@
     "glob": "10.5.0",
     "globby": "^14.1.0",
     "gray-matter": "^4.0.3",
-    "next": "16.2.3",
+    "next": "16.2.6",
     "next-mdx-remote-client": "^2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
