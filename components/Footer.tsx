@@ -52,10 +52,10 @@ const Footer: React.FC = () => {
             <h3 className="text-red-800">project</h3>
             <div className="pl-2">
               <Link
-                href="/project#modmesh"
+                href="/project#solvcon"
                 className="block text-white no-underline"
               >
-                modmesh
+                solvcon
               </Link>
               <Link
                 href="/project#python-official-documents-translation-zh-tw"
