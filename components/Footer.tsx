@@ -105,6 +105,12 @@ const Footer: React.FC = () => {
               >
                 BBGO
               </Link>
+              <Link
+                href="/project#rotorbench"
+                className="block text-white no-underline"
+              >
+                RotorBench
+              </Link>
             </div>
           </div>
 
