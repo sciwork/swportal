@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex flex-col">
-            <h3 className="text-red-800">contact us</h3>
+            <h3 id="contact-us" className="text-red-800">contact us</h3>
             <div className="pl-2">
               <Link
                 href="mailto:contact@sciwork.dev"
