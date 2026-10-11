@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import iconImg from "@/assets/android-chrome-512x512.png";
+import iconImg from "@/assets/android-chrome-512x512.webp";
 
 const DEFAULT_TITLE = "science, code, and open source.";
 // canvas settings
