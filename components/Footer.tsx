@@ -5,7 +5,7 @@ import Link from "next/link";
 import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import iconImg from "@/assets/android-chrome-192x192.png";
+import iconImg from "@/assets/android-chrome-192x192.webp";
 
 const Footer: React.FC = () => {
   return (

@@ -38,7 +38,7 @@ export async function generateMetadata() {
       type: "website",
       images: [
         {
-          url: "/sciworkbkg.png",
+          url: "/sciworkbkg.webp",
           width: 1024,
           height: 512,
         },
@@ -48,7 +48,7 @@ export async function generateMetadata() {
       card: "summary_large_image",
       title: "sciwork",
       description: "science, code, and open source.",
-      images: ["/sciworkbkg.png"],
+      images: ["/sciworkbkg.webp"],
     },
     icons: {
       icon: [
