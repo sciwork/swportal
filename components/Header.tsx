@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Banner from "@/components/Banner";
 import NavLink from "@/components/NavLink";
 import { isDesktop } from "@/utils/device";
-import iconImg from "@/assets/android-chrome-192x192.png";
+import iconImg from "@/assets/android-chrome-192x192.webp";
 
 const isHeaderOverBanner = () => {
   const headerEl = document.getElementById("header");

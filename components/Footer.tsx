@@ -5,7 +5,7 @@ import Link from "next/link";
 import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import iconImg from "@/assets/android-chrome-192x192.png";
+import iconImg from "@/assets/android-chrome-192x192.webp";
 
 const Footer: React.FC = () => {
   return (
@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex flex-col">
-            <h3 className="text-red-800">contact us</h3>
+            <h3 id="contact-us" className="text-red-800">contact us</h3>
             <div className="pl-2">
               <Link
                 href="mailto:contact@sciwork.dev"
